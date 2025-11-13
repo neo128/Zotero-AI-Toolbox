@@ -280,35 +280,70 @@ python scripts/watch_and_import_papers.py \
 
 ## sync_zotero_to_notion.py
 
-将 Zotero 条目同步至 Notion 数据库（去重、自动标签、字段映射按数据库属性自动适配）。
+将 Zotero 条目同步至 Notion 数据库（去重、自动标签、字段严格映射、可选豆包抽取补全）。
 
 环境变量：
 - `ZOTERO_USER_ID`, `ZOTERO_API_KEY`
 - `NOTION_API_KEY`, `NOTION_DATABASE_ID`
-- 可选 `UNPAYWALL_EMAIL`（通过 DOI 尝试补充 PDF 链接）
+- 可选 `UNPAYWALL_EMAIL`（通过 DOI 尝试补充开放 PDF 链接）
+- 可选 `ARK_API_KEY` / `ARK_BOT_MODEL`（启用 `--enrich-with-doubao` 时使用）
 
-示例：
+常用示例：
 ```bash
 source ./exp
 
-# 同步最近 30 天修改的条目到 Notion（不写入，先预览）
+# 预览（最近 30 天，跳过无标题条目，不写入）
 python scripts/sync_zotero_to_notion.py \
   --since-days 30 \
   --limit 200 \
   --tag-file ./tag.json \
+  --skip-untitled \
   --dry-run
 
-# 按集合同步，并写入 Notion
+# 按集合及其子集合递归同步，并使用豆包严格抽取补全字段
 python scripts/sync_zotero_to_notion.py \
   --collection-name "Embodied AI" \
+  --recursive \
   --limit 500 \
-  --tag-file ./tag.json
+  --tag-file ./tag.json \
+  --skip-untitled \
+  --enrich-with-doubao
 ```
 
-说明：
-- 自动识别 Notion 数据库中的属性（title/Authors/Year/Abstract/Tags/URL/DOI/Zotero Key/PDF），仅对存在的属性写入；建议在 Notion 数据库中创建这些属性。
-- 去重优先使用 "Zotero Key"（rich_text），若不存在则按标题完全匹配；若需要更稳妥的去重，请在数据库添加 "Zotero Key" 属性。
-- 标签来源于 `tag.json` 的 `sample_keywords`；支持多标签匹配并写入 Notion 的 multi_select。
+可用参数：
+- `--collection` / `--collection-name`：只同步该集合；可配合 `--recursive` 遍历其全部子集合。
+- `--tag`：只同步包含该标签的条目。
+- `--since-days`：仅处理最近 N 天修改的条目。
+- `--limit`：最大条目数（<=0 表示不限）。
+- `--tag-file`：自动标签的关键词来源（默认 `./tag.json`，合并到 Notion 的 Tags）。
+- `--skip-untitled`：跳过无法生成标题（无 title/shortTitle/venue+year/url/doi）的条目。
+- `--enrich-with-doubao`：启用豆包信息抽取（仅基于条目标题/摘要/AI 笔记，严格不编造）。
+- `--doubao-max-chars`：传给豆包的最大字符数（默认 4000）。
+- `--dry-run`：只打印与预览，不写入 Notion。
+- `--debug`：打印 Notion payload 与错误响应，便于定位 400。
+
+字段映射（按列名严格匹配，存在即写入）：
+- 必填：`Paper Title`（title）
+- 文本：`Abstract`、`AI Notes`、`Key Contributions`、`Limitations`、`My Notes`（rich_text）
+- 枚举/多选：`Authors`（multi_select）、`Tags`（multi_select）、`Research Area`（multi_select）、`Model Type`（multi_select）、`Robot Platform`（multi_select）、`Status`（select/multi_select 皆可）
+- 链接：`Project Page`、`Code`、`Video`（url）
+- 其他：`Venue`（select/multi_select/rich_text 皆可）、`Year`（number/select/rich_text）、`DOI`（url/rich_text）、`Zotero Key`（rich_text）
+
+豆包抽取（开启 `--enrich-with-doubao` 时）：
+- 仅从“标题 + 摘要 + AI Notes”中严格抽取以下字段；文本中没有就留空：
+  - `Key Contributions`（总结式文本）
+  - `Limitations`（总结式文本）
+  - `Robot Platform`（列表）
+  - `Model Type`（列表）
+  - `Research Area`（列表）
+- 不读取 PDF；不会编造；结果会经过字符清洗（移除 surrogates/控制字符）避免 Notion 400。
+
+去重策略：
+- 优先用 `Zotero Key`（rich_text）去重；不存在则回退为同名 Title。
+
+小贴士：
+- 建议在 Notion 数据库中按以上列名创建对应属性；不存在的属性会被跳过，不会报错。
+- `--recursive` 适合父集合只包含子集合、不含条目的场景。
 
 ## import_ris_folder.py
 
