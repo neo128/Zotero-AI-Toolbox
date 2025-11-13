@@ -44,6 +44,54 @@ r.raise_for_status(); print("Zotero OK")
 PY
 ```
 
+## 快速上手（推荐流程）
+
+按下面顺序跑一遍，可快速体验整套流程（建议先在小范围试跑）：
+
+1) 查看库结构（确认 Collection 名称）
+- `python scripts/list_zotero_collections.py --items 0`
+
+2) 从外部清单/README 生成 RIS 并导入（可选）
+- 生成 RIS：`python scripts/awesome_vla_to_ris.py --out ./awesome_vla_ris`
+- 批量导入（按文件夹）：`python scripts/import_ris_folder.py --dir ./awesome_vla_ris --dedupe-by-url`
+
+3) 去重合并（以带 PDF/Notes、最近修改为优先）
+- 预览：`python scripts/merge_zotero_duplicates.py --dry-run`
+- 指定集合：`python scripts/merge_zotero_duplicates.py --collection-name "Embodied AI" --limit 200`
+
+4) 生成并写回 AI 摘要（Notes）
+- 小范围试跑：
+  `python scripts/summarize_zotero_with_doubao.py --limit 20 --max-pages 80 --summary-dir ./summaries --insert-note`
+- 全库：
+  `python scripts/summarize_zotero_with_doubao.py --limit 0 --max-pages 100 --summary-dir ./summaries --insert-note`
+
+5) 补全缺失摘要（abstractNote）
+- 全库：`python scripts/enrich_zotero_abstracts.py`
+- 指定集合：`python scripts/enrich_zotero_abstracts.py --collection-name "Embodied AI" --limit 100`
+
+6) 追踪新论文并自动入库（按 tag.json 打分筛选）
+- 预览：
+  `python scripts/watch_and_import_papers.py --tags ./tag.json --since-days 14 --top-k 10 --min-score 0.3 --create-collections --dry-run`
+- 生成日志与报告：
+  `python scripts/watch_and_import_papers.py --tags ./tag.json --since-days 14 --top-k 10 --min-score 0.3 --create-collections --log-file logs/run.log --report-json reports/run.json`
+
+7) 同步到 Notion（可选，支持豆包严格抽取补全）
+- 预览：
+  `python scripts/sync_zotero_to_notion.py --since-days 30 --limit 200 --tag-file ./tag.json --skip-untitled --dry-run`
+- 指定集合并递归子集合、启用豆包抽取：
+  `python scripts/sync_zotero_to_notion.py --collection-name "Embodied AI" --recursive --limit 500 --tag-file ./tag.json --skip-untitled --enrich-with-doubao`
+
+提示：以上命令都依赖 `source ./exp`，并且建议先用较小的 `--limit` 或 `--dry-run` 进行试跑。
+
+## 命令速查（Cheat Sheet）
+
+- 列出集合树：`python scripts/list_zotero_collections.py --items 0`
+- 去重合并：`python scripts/merge_zotero_duplicates.py --dry-run`
+- 生成 AI 摘要（全库）：`python scripts/summarize_zotero_with_doubao.py --limit 0 --insert-note`
+- 补全缺失摘要：`python scripts/enrich_zotero_abstracts.py --limit 200`
+- 监控导入（按标签体系）：`python scripts/watch_and_import_papers.py --tags ./tag.json --since-days 14 --top-k 10 --min-score 0.3 --create-collections`
+- 同步到 Notion（递归集合）：`python scripts/sync_zotero_to_notion.py --collection-name "Embodied AI" --recursive --skip-untitled`
+
 ## import_embodied_ai_to_zotero.py
 
 从 HCPLab 的 Embodied_AI_Paper_List README 解析条目，输出 RIS 或直接写入 Zotero。
