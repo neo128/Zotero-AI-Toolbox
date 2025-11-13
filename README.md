@@ -2,6 +2,8 @@
 
 本仓库包含若干与 Zotero 集成的辅助脚本，主要用于批量导入、解析以及总结 Embodied AI 相关文献（RIS 导入、AI 摘要写回 Notes、批量清理等）。
 
+English version: see `README_EN.md`.
+
 ## 环境准备
 
 ```bash
