@@ -74,9 +74,9 @@ class ZoteroAPI:
         return out
 
     def iter_items(self, collection: Optional[str], tag: Optional[str], limit: int) -> Iterable[Dict[str, Any]]:
-        url = f"{self.base}/items"
+        url = f"{self.base}/items/top"
         if collection:
-            url = f"{self.base}/collections/{collection}/items"
+            url = f"{self.base}/collections/{collection}/items/top"
         params = {"format": "json", "include": "data", "limit": 100}
         if tag:
             params["tag"] = tag
@@ -92,6 +92,18 @@ class ZoteroAPI:
                         return
             url = parse_next_link(resp.headers.get("Link"))
             params = None
+
+    def fetch_children(self, parent_key: str) -> List[Dict[str, Any]]:
+        url = f"{self.base}/items/{parent_key}/children"
+        params = {"format": "json", "include": "data", "limit": 100}
+        out: List[Dict[str, Any]] = []
+        while url:
+            resp = self.session.get(url, params=params)
+            resp.raise_for_status()
+            out.extend([e.get("data", {}) for e in resp.json()])
+            url = parse_next_link(resp.headers.get("Link"))
+            params = None
+        return out
 
 
 class NotionAPI:
@@ -163,6 +175,7 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--limit", type=int, default=200, help="Max number of items to consider (<=0 means unlimited).")
     ap.add_argument("--tag-file", default="tag.json", help="Tag schema JSON path (for auto Tags).")
     ap.add_argument("--dry-run", action="store_true", help="Preview actions without writing to Notion.")
+    ap.add_argument("--skip-untitled", action="store_true", help="Skip items that have no usable title (after fallbacks).")
     return ap.parse_args()
 
 
@@ -207,45 +220,72 @@ def resolve_collection_key(zot: ZoteroAPI, name: Optional[str], key: Optional[st
     raise SystemExit(f"Collection named '{name}' not found.")
 
 
-def build_property_mapping(db: Dict[str, Any]) -> Dict[str, str]:
+def build_property_mapping(db: Dict[str, Any]) -> Dict[str, Dict[str, str]]:
     props = db.get("properties", {})
-    mapping: Dict[str, str] = {}
+    mapping: Dict[str, Dict[str, str]] = {}
     # title
     for pname, pdef in props.items():
         if pdef.get("type") == "title":
-            mapping["title"] = pname
+            mapping["title"] = {"name": pname, "type": "title"}
             break
-    mapping.setdefault("title", "Paper Title")
+    if "title" not in mapping:
+        mapping["title"] = {"name": "Paper Title", "type": "title"}
     # common fields
-    def find_prop(target_type: str, candidates: List[str]) -> Optional[str]:
+    def find_prop(target_type: Optional[str], candidates: List[str]) -> Optional[Tuple[str, str]]:
         for cname in candidates:
-            if cname in props and props[cname].get("type") == target_type:
-                return cname
-        # fallback: first prop with target_type
-        for pname, pdef in props.items():
-            if pdef.get("type") == target_type:
-                return pname
+            if cname in props:
+                ptype = props[cname].get("type")
+                if (target_type is None) or (ptype == target_type):
+                    return cname, ptype
+        if target_type is not None:
+            # fallback: first prop with target_type
+            for pname, pdef in props.items():
+                if pdef.get("type") == target_type:
+                    return pname, target_type
         return None
 
-    mapping_optional = {
+    mapping_optional: Dict[str, Optional[Tuple[str, str]]] = {
         "authors": find_prop("multi_select", ["Authors", "Author", "作者"]),
         "year": find_prop("number", ["Year", "年份"]),
         "abstract": find_prop("rich_text", ["Abstract", "摘要"]),
         "tags": find_prop("multi_select", ["Tags", "标签"]),
         "url": find_prop("url", ["URL", "Link"]),
-        "doi": find_prop("rich_text", ["DOI"]),
-        "zotero_key": find_prop("rich_text", ["Zotero Key"]),
+        "doi": find_prop(None, ["DOI"]),  # allow rich_text/url
+        "zotero_key": find_prop(None, ["Zotero Key"]),
         "pdf": find_prop("url", ["PDF", "PDF URL"]),
+        "venue": find_prop(None, ["Venue", "Publication", "Journal/Conference", "会议/期刊"]),
+        "ai_notes": find_prop("rich_text", ["AI Notes", "AI总结"]),
     }
     for k, v in mapping_optional.items():
         if v:
-            mapping[k] = v
+            mapping[k] = {"name": v[0], "type": v[1]}
     return mapping
 
 
-def make_properties(item: Dict[str, Any], mapping: Dict[str, str], labels: List[str], unpaywall_email: Optional[str]) -> Dict[str, Any]:
+def _derive_title(data: Dict[str, Any]) -> str:
+    title = (data.get("title") or "").strip()
+    if title:
+        return title
+    short = (data.get("shortTitle") or "").strip()
+    if short:
+        return short
+    venue = data.get("publicationTitle") or data.get("proceedingsTitle") or data.get("conferenceName")
+    year = (data.get("date") or data.get("year") or "")[:4]
+    combo = " ".join([s for s in [venue, year] if s])
+    if combo.strip():
+        return combo.strip()
+    url = (data.get("url") or "").strip()
+    if url:
+        return url
+    doi = (data.get("DOI") or data.get("doi") or "").strip()
+    if doi:
+        return doi
+    return "(untitled)"
+
+
+def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], labels: List[str], unpaywall_email: Optional[str], zot: ZoteroAPI) -> Dict[str, Any]:
     data = item.get("data", {})
-    title = data.get("title") or ""
+    title = _derive_title(data)
     authors = [c.get("lastName") or c.get("name") for c in data.get("creators") or [] if (c.get("lastName") or c.get("name"))]
     date = data.get("date") or data.get("year") or ""
     year = date[:4] if date else None
@@ -260,6 +300,29 @@ def make_properties(item: Dict[str, Any], mapping: Dict[str, str], labels: List[
         pdf_url = f"https://arxiv.org/pdf/{m.group(1)}.pdf"
     if not pdf_url and doi:
         pdf_url = fetch_unpaywall_pdf(doi, unpaywall_email)
+
+    # Venue inference from Zotero fields
+    venue = data.get("publicationTitle") or data.get("proceedingsTitle") or data.get("conferenceName") or data.get("series") or data.get("publisher") or ""
+
+    # Extract AI summary from child notes
+    ai_notes_text = ""
+    try:
+        children = zot.fetch_children(data.get("key") or item.get("key"))
+        for ch in children:
+            if ch.get("itemType") == "note":
+                note_html = ch.get("note") or ""
+                # heuristic markers we used elsewhere
+                if ("AI总结" in note_html) or ("豆包自动总结" in note_html) or ("AI Summary" in note_html):
+                    # strip basic HTML tags
+                    txt = re.sub(r"<[^>]+>", " ", note_html)
+                    ai_notes_text = re.sub(r"\s+", " ", txt).strip()
+                    break
+    except Exception:
+        pass
+
+    # Merge Zotero tag names with auto labels (optional)
+    zot_tags = [t.get("tag") for t in (data.get("tags") or []) if t.get("tag")]
+    all_labels = list({*labels, *zot_tags}) if labels or zot_tags else []
 
     props: Dict[str, Any] = {}
 
@@ -282,24 +345,55 @@ def make_properties(item: Dict[str, Any], mapping: Dict[str, str], labels: List[
             props[prop] = {"url": value}
 
     # required: title
-    set_title(mapping["title"], title)
+    set_title(mapping["title"]["name"], title)
     # optional fields
     if mapping.get("authors"):
-        set_multi_select(mapping["authors"], authors)
+        prop = mapping["authors"]["name"]
+        ptype = mapping["authors"]["type"]
+        if ptype == "multi_select":
+            set_multi_select(prop, authors)
+        elif ptype == "rich_text":
+            set_rich_text(prop, ", ".join(authors))
     if mapping.get("year"):
-        set_number(mapping["year"], int(year) if (year and year.isdigit()) else None)
+        prop = mapping["year"]["name"]
+        ptype = mapping["year"]["type"]
+        if ptype == "number":
+            set_number(prop, int(year) if (year and year.isdigit()) else None)
+        elif ptype == "rich_text":
+            set_rich_text(prop, year or "")
     if mapping.get("abstract"):
-        set_rich_text(mapping["abstract"], abstract)
+        set_rich_text(mapping["abstract"]["name"], abstract)
     if mapping.get("tags"):
-        set_multi_select(mapping["tags"], labels)
+        prop = mapping["tags"]["name"]
+        ptype = mapping["tags"]["type"]
+        if ptype == "multi_select":
+            set_multi_select(prop, all_labels)
+        elif ptype == "rich_text":
+            set_rich_text(prop, ", ".join(all_labels))
     if mapping.get("url"):
-        set_url(mapping["url"], url or None)
+        set_url(mapping["url"]["name"], url or None)
     if mapping.get("doi") and doi:
-        set_rich_text(mapping["doi"], doi)
+        prop = mapping["doi"]["name"]
+        ptype = mapping["doi"]["type"]
+        if ptype == "url":
+            set_url(prop, doi)
+        else:
+            set_rich_text(prop, doi)
     if mapping.get("zotero_key") and zot_key:
-        set_rich_text(mapping["zotero_key"], zot_key)
+        set_rich_text(mapping["zotero_key"]["name"], zot_key)
     if mapping.get("pdf") and pdf_url:
-        set_url(mapping["pdf"], pdf_url)
+        set_url(mapping["pdf"]["name"], pdf_url)
+    if mapping.get("venue") and venue:
+        prop = mapping["venue"]["name"]
+        ptype = mapping["venue"]["type"]
+        if ptype == "multi_select":
+            set_multi_select(prop, [venue])
+        elif ptype == "select":
+            props[prop] = {"select": {"name": venue}}
+        else:
+            set_rich_text(prop, venue)
+    if mapping.get("ai_notes") and ai_notes_text:
+        set_rich_text(mapping["ai_notes"]["name"], ai_notes_text)
 
     return props
 
@@ -325,8 +419,8 @@ def main() -> None:
     # Notion DB schema and property mapping
     db = notion.get_database()
     mapping = build_property_mapping(db)
-    title_prop = mapping.get("title", "Paper Title")
-    zotero_key_prop = mapping.get("zotero_key")  # may be None
+    title_prop = mapping.get("title", {"name": "Paper Title"})["name"]
+    zotero_key_prop = mapping.get("zotero_key", {}).get("name")  # may be None
 
     unpaywall_email = os.environ.get("UNPAYWALL_EMAIL")
 
@@ -354,11 +448,16 @@ def main() -> None:
                     pass
         scanned += 1
 
+        display_title = _derive_title(data)
+        if args.skip_untitled and display_title == "(untitled)":
+            print("[SKIP] Untitled item (no title/url/doi)")
+            continue
+
         title = data.get("title") or ""
         abstract = data.get("abstractNote") or ""
         labels = match_tags(title, abstract, key_to_keywords, key_to_label)
 
-        props = make_properties(entry, mapping, labels, unpaywall_email)
+        props = make_properties(entry, mapping, labels, unpaywall_email, zot)
 
         # Dedup & upsert
         page_id: Optional[str] = None
@@ -368,7 +467,7 @@ def main() -> None:
             except requests.HTTPError:
                 page_id = None
         if not page_id:
-            page_id = notion.query_by_title(title_prop, title)
+            page_id = notion.query_by_title(title_prop, display_title)
 
         if args.dry_run:
             action = "UPDATE" if page_id else "CREATE"
@@ -379,11 +478,11 @@ def main() -> None:
             if page_id:
                 notion.update_page(page_id, props)
                 updated += 1
-                print(f"[UPD] {title[:80]}")
+                print(f"[UPD] {display_title[:80]}")
             else:
                 notion.create_page(props)
                 created += 1
-                print(f"[ADD] {title[:80]}")
+                print(f"[ADD] {display_title[:80]}")
         except requests.HTTPError as exc:
             print(f"[ERR] Notion API error for '{title[:80]}': {exc}")
 
@@ -396,4 +495,3 @@ if __name__ == "__main__":
     except Exception as exc:
         print(f"[ERR] {exc}", file=sys.stderr)
         sys.exit(1)
-
