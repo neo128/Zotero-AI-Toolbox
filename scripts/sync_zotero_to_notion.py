@@ -146,23 +146,41 @@ class NotionAPI:
             return js["results"][0]["id"]
         return None
 
-    def create_page(self, props: Dict[str, Any]) -> str:
+    def create_page(self, props: Dict[str, Any], debug: bool = False) -> str:
         url = "https://api.notion.com/v1/pages"
         data = {"parent": {"database_id": self.database_id}, "properties": props}
         resp = self.session.post(url, json=data)
         if resp.status_code == 429:
             time.sleep(1.0)
             resp = self.session.post(url, json=data)
+        if resp.status_code >= 400:
+            try:
+                body = resp.json()
+            except Exception:
+                body = {"text": resp.text}
+            if debug:
+                print(f"[DEBUG] Notion create payload: {json.dumps(data)[:2000]}...")
+                print(f"[DEBUG] Notion create error: {json.dumps(body)[:2000]}...")
+            resp.raise_for_status()
         resp.raise_for_status()
         return resp.json()["id"]
 
-    def update_page(self, page_id: str, props: Dict[str, Any]) -> None:
+    def update_page(self, page_id: str, props: Dict[str, Any], debug: bool = False) -> None:
         url = f"https://api.notion.com/v1/pages/{page_id}"
         data = {"properties": props}
         resp = self.session.patch(url, json=data)
         if resp.status_code == 429:
             time.sleep(1.0)
             resp = self.session.patch(url, json=data)
+        if resp.status_code >= 400:
+            try:
+                body = resp.json()
+            except Exception:
+                body = {"text": resp.text}
+            if debug:
+                print(f"[DEBUG] Notion update payload: {json.dumps(data)[:2000]}...")
+                print(f"[DEBUG] Notion update error: {json.dumps(body)[:2000]}...")
+            resp.raise_for_status()
         resp.raise_for_status()
 
 
@@ -176,6 +194,9 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--tag-file", default="tag.json", help="Tag schema JSON path (for auto Tags).")
     ap.add_argument("--dry-run", action="store_true", help="Preview actions without writing to Notion.")
     ap.add_argument("--skip-untitled", action="store_true", help="Skip items that have no usable title (after fallbacks).")
+    ap.add_argument("--debug", action="store_true", help="Print debug info (property mapping, payload) on errors.")
+    ap.add_argument("--enrich-with-doubao", action="store_true", help="Use Doubao (ARK) to extract Key Contributions/Limitations and categorize fields strictly from title/abstract/notes.")
+    ap.add_argument("--doubao-max-chars", type=int, default=4000, help="Max characters to send to Doubao for extraction.")
     return ap.parse_args()
 
 
@@ -223,42 +244,43 @@ def resolve_collection_key(zot: ZoteroAPI, name: Optional[str], key: Optional[st
 def build_property_mapping(db: Dict[str, Any]) -> Dict[str, Dict[str, str]]:
     props = db.get("properties", {})
     mapping: Dict[str, Dict[str, str]] = {}
-    # title
-    for pname, pdef in props.items():
-        if pdef.get("type") == "title":
-            mapping["title"] = {"name": pname, "type": "title"}
-            break
-    if "title" not in mapping:
+    # 1) Title: prefer explicit 'Paper Title', otherwise first title prop
+    if "Paper Title" in props and props["Paper Title"].get("type") == "title":
         mapping["title"] = {"name": "Paper Title", "type": "title"}
-    # common fields
-    def find_prop(target_type: Optional[str], candidates: List[str]) -> Optional[Tuple[str, str]]:
-        for cname in candidates:
-            if cname in props:
-                ptype = props[cname].get("type")
-                if (target_type is None) or (ptype == target_type):
-                    return cname, ptype
-        if target_type is not None:
-            # fallback: first prop with target_type
-            for pname, pdef in props.items():
-                if pdef.get("type") == target_type:
-                    return pname, target_type
-        return None
-
-    mapping_optional: Dict[str, Optional[Tuple[str, str]]] = {
-        "authors": find_prop("multi_select", ["Authors", "Author", "作者"]),
-        "year": find_prop("number", ["Year", "年份"]),
-        "abstract": find_prop("rich_text", ["Abstract", "摘要"]),
-        "tags": find_prop("multi_select", ["Tags", "标签"]),
-        "url": find_prop("url", ["URL", "Link"]),
-        "doi": find_prop(None, ["DOI"]),  # allow rich_text/url
-        "zotero_key": find_prop(None, ["Zotero Key"]),
-        "pdf": find_prop("url", ["PDF", "PDF URL"]),
-        "venue": find_prop(None, ["Venue", "Publication", "Journal/Conference", "会议/期刊"]),
-        "ai_notes": find_prop("rich_text", ["AI Notes", "AI总结"]),
+    else:
+        for pname, pdef in props.items():
+            if pdef.get("type") == "title":
+                mapping["title"] = {"name": pname, "type": "title"}
+                break
+    # 2) Strict name-based mapping to避免类型回退导致错位
+    exact_candidates = {
+        "authors": ["Authors", "作者"],
+        "year": ["Year", "年份"],
+        "abstract": ["Abstract", "摘要"],
+        "tags": ["Tags", "标签"],
+        "venue": ["Venue"],
+        "ai_notes": ["AI Notes", "AI总结"],
+        "url_main": ["Project Page", "URL", "Link"],
+        "code": ["Code"],
+        "video": ["Video"],
+        "datasets": ["Datasets / Benchmarks"],
+        "key_contrib": ["Key Contributions"],
+        "limitations": ["Limitations"],
+        "research_area": ["Research Area"],
+        "model_type": ["Model Type"],
+        "robot_platform": ["Robot Platform"],
+        "my_notes": ["My Notes"],
+        "relevance": ["Relevance"],
+        "status": ["Status"],
+        "related_project": ["Related Project"],
+        "zotero_key": ["Zotero Key"],
+        "doi": ["DOI"],
     }
-    for k, v in mapping_optional.items():
-        if v:
-            mapping[k] = {"name": v[0], "type": v[1]}
+    for key, names in exact_candidates.items():
+        for name in names:
+            if name in props:
+                mapping[key] = {"name": name, "type": props[name].get("type")}
+                break
     return mapping
 
 
@@ -283,23 +305,130 @@ def _derive_title(data: Dict[str, Any]) -> str:
     return "(untitled)"
 
 
+def _sanitize_text(s: str) -> str:
+    if not s:
+        return ""
+    # remove surrogate code points and control chars Notion dislikes
+    s = re.sub(r"[\ud800-\udfff]", "", s)
+    s = s.replace("\x00", "")
+    try:
+        s = s.encode("utf-8", "ignore").decode("utf-8", "ignore")
+    except Exception:
+        pass
+    return s
+
+
+def extract_ai_notes_text(zot: ZoteroAPI, item: Dict[str, Any]) -> str:
+    data = item.get("data", {})
+    text = ""
+    try:
+        children = zot.fetch_children(data.get("key") or item.get("key"))
+        for ch in children:
+            if ch.get("itemType") == "note":
+                note_html = ch.get("note") or ""
+                if ("AI总结" in note_html) or ("豆包自动总结" in note_html) or ("AI Summary" in note_html):
+                    txt = re.sub(r"<[^>]+>", " ", note_html)
+                    text = _sanitize_text(re.sub(r"\s+", " ", txt).strip())
+                    break
+    except Exception:
+        pass
+    return text
+
+
+def doubao_client_from_env():
+    api_key = os.environ.get("ARK_API_KEY")
+    if not api_key:
+        return None
+    try:
+        from openai import OpenAI  # type: ignore
+    except Exception:
+        return None
+    return OpenAI(base_url="https://ark.cn-beijing.volces.com/api/v3/bots", api_key=api_key)
+
+
+def extract_fields_with_doubao(client, model: Optional[str], title: str, abstract: str, ai_notes: str, max_chars: int = 4000) -> Optional[Dict[str, Any]]:
+    source_text = (title + "\n\n" + abstract + "\n\n" + ai_notes)[: max_chars]
+    sys_prompt = (
+        "你是一个严格的信息抽取助手。仅从提供的文本中提取信息，不要编造，不要从常识推断。"
+        "没有明确出现的信息必须留空。返回 JSON，字段：key_contributions(string), limitations(string), robot_platform(string[]), model_type(string[]), research_area(string[])."
+    )
+    user_prompt = (
+        "【输入文本】\n" + source_text + "\n\n"
+        "【输出格式】仅输出 JSON：{\n  \"key_contributions\": string,\n  \"limitations\": string,\n  \"robot_platform\": string[],\n  \"model_type\": string[],\n  \"research_area\": string[]\n}"
+    )
+    try:
+        resp = client.chat.completions.create(
+            model=(model or os.environ.get("ARK_BOT_MODEL", "bot-20251111104927-mf7bx")),
+            messages=[{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}],
+            temperature=0.0,
+        )
+        text = resp.choices[0].message.content if resp.choices else ""
+        if not text:
+            return None
+        m = re.search(r"\{[\s\S]*\}", text)
+        obj = json.loads(m.group(0) if m else text)
+        if not isinstance(obj, dict):
+            return None
+        out: Dict[str, Any] = {}
+        out["key_contributions"] = _sanitize_text(obj.get("key_contributions") or "")
+        out["limitations"] = _sanitize_text(obj.get("limitations") or "")
+        def _norm_list(x):
+            if isinstance(x, list):
+                return [str(_sanitize_text(str(i))) for i in x if str(i).strip()]
+            if isinstance(x, str) and x.strip():
+                return [str(_sanitize_text(x))]
+            return []
+        out["robot_platform"] = _norm_list(obj.get("robot_platform"))
+        out["model_type"] = _norm_list(obj.get("model_type"))
+        out["research_area"] = _norm_list(obj.get("research_area"))
+        return out
+    except Exception:
+        return None
+
+
+def _set_prop_rich_text(props: Dict[str, Any], meta: Dict[str, str], value: str) -> None:
+    if not value:
+        return
+    name = meta["name"]
+    typ = meta["type"]
+    if typ == "rich_text":
+        props[name] = {"rich_text": [{"text": {"content": _sanitize_text(value)[:1999]}}]}
+    elif typ == "title":
+        props[name] = {"title": [{"text": {"content": _sanitize_text(value)[:1999]}}]}
+
+
+def _set_prop_list(props: Dict[str, Any], meta: Dict[str, str], values: List[str]) -> None:
+    if not values:
+        return
+    name = meta["name"]
+    typ = meta["type"]
+    if typ == "multi_select":
+        props[name] = {"multi_select": [{"name": v} for v in values if v]}
+    elif typ == "select":
+        props[name] = {"select": {"name": values[0]}}
+    elif typ == "rich_text":
+        props[name] = {"rich_text": [{"text": {"content": ", ".join(values)[:1999]}}]}
+
 def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], labels: List[str], unpaywall_email: Optional[str], zot: ZoteroAPI) -> Dict[str, Any]:
     data = item.get("data", {})
     title = _derive_title(data)
     authors = [c.get("lastName") or c.get("name") for c in data.get("creators") or [] if (c.get("lastName") or c.get("name"))]
     date = data.get("date") or data.get("year") or ""
     year = date[:4] if date else None
-    abstract = data.get("abstractNote") or ""
+    abstract = _sanitize_text(data.get("abstractNote") or "")
     url = data.get("url") or ""
     doi = data.get("DOI") or data.get("doi") or ""
     zot_key = data.get("key") or item.get("key") or ""
-    pdf_url = None
-    # arXiv PDF shortcut
-    m = re.search(r"arxiv\.org/(?:abs|pdf)/([A-Za-z0-9.\-]+)", url)
-    if m:
-        pdf_url = f"https://arxiv.org/pdf/{m.group(1)}.pdf"
-    if not pdf_url and doi:
-        pdf_url = fetch_unpaywall_pdf(doi, unpaywall_email)
+    # arXiv/links extraction for Code/Video/Project Page
+    github = None
+    video = None
+    # extract links from url/abstract
+    for m in re.finditer(r"https?://\S+", (url + "\n" + abstract)):
+        link = m.group(0).rstrip(").,;]")
+        if (not github) and ("github.com" in link.lower()):
+            github = link
+        if (not video) and ("youtube.com" in link.lower() or "youtu.be" in link.lower() or "bilibili.com" in link.lower()):
+            video = link
 
     # Venue inference from Zotero fields
     venue = data.get("publicationTitle") or data.get("proceedingsTitle") or data.get("conferenceName") or data.get("series") or data.get("publisher") or ""
@@ -315,7 +444,7 @@ def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], la
                 if ("AI总结" in note_html) or ("豆包自动总结" in note_html) or ("AI Summary" in note_html):
                     # strip basic HTML tags
                     txt = re.sub(r"<[^>]+>", " ", note_html)
-                    ai_notes_text = re.sub(r"\s+", " ", txt).strip()
+                    ai_notes_text = _sanitize_text(re.sub(r"\s+", " ", txt).strip())
                     break
     except Exception:
         pass
@@ -332,7 +461,8 @@ def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], la
     def set_rich_text(prop: str, value: str) -> None:
         if value is None:
             return
-        props[prop] = {"rich_text": [{"text": {"content": value}}]}
+        value = _sanitize_text(value)
+        props[prop] = {"rich_text": [{"text": {"content": value[:1999]}}]}
 
     def set_multi_select(prop: str, values: List[str]) -> None:
         props[prop] = {"multi_select": [{"name": v} for v in values if v]}
@@ -354,6 +484,9 @@ def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], la
             set_multi_select(prop, authors)
         elif ptype == "rich_text":
             set_rich_text(prop, ", ".join(authors))
+        elif ptype == "people":
+            # Cannot create arbitrary Notion users; skip safely
+            pass
     if mapping.get("year"):
         prop = mapping["year"]["name"]
         ptype = mapping["year"]["type"]
@@ -361,6 +494,9 @@ def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], la
             set_number(prop, int(year) if (year and year.isdigit()) else None)
         elif ptype == "rich_text":
             set_rich_text(prop, year or "")
+        elif ptype == "select":
+            if year:
+                props[prop] = {"select": {"name": year}}
     if mapping.get("abstract"):
         set_rich_text(mapping["abstract"]["name"], abstract)
     if mapping.get("tags"):
@@ -370,19 +506,35 @@ def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], la
             set_multi_select(prop, all_labels)
         elif ptype == "rich_text":
             set_rich_text(prop, ", ".join(all_labels))
-    if mapping.get("url"):
-        set_url(mapping["url"]["name"], url or None)
+        elif ptype == "select":
+            if all_labels:
+                props[prop] = {"select": {"name": all_labels[0]}}
+    # Project Page / URL
+    if mapping.get("url_main"):
+        set_url(mapping["url_main"]["name"], url or None)
     if mapping.get("doi") and doi:
         prop = mapping["doi"]["name"]
         ptype = mapping["doi"]["type"]
         if ptype == "url":
             set_url(prop, doi)
-        else:
+        elif ptype == "rich_text":
             set_rich_text(prop, doi)
+        else:
+            pass
     if mapping.get("zotero_key") and zot_key:
-        set_rich_text(mapping["zotero_key"]["name"], zot_key)
-    if mapping.get("pdf") and pdf_url:
-        set_url(mapping["pdf"]["name"], pdf_url)
+        zk_prop = mapping["zotero_key"]["name"]
+        zk_type = mapping["zotero_key"]["type"]
+        if zk_type == "rich_text":
+            set_rich_text(zk_prop, zot_key)
+        elif zk_type == "url":
+            set_url(zk_prop, zot_key)
+        elif zk_type == "title":
+            set_title(zk_prop, zot_key)
+    # Code / Video (best-effort extraction)
+    if mapping.get("code") and github:
+        set_url(mapping["code"]["name"], github)
+    if mapping.get("video") and video:
+        set_url(mapping["video"]["name"], video)
     if mapping.get("venue") and venue:
         prop = mapping["venue"]["name"]
         ptype = mapping["venue"]["type"]
@@ -390,8 +542,11 @@ def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], la
             set_multi_select(prop, [venue])
         elif ptype == "select":
             props[prop] = {"select": {"name": venue}}
-        else:
+        elif ptype == "rich_text":
             set_rich_text(prop, venue)
+        else:
+            # Venue shouldn't be a URL; avoid mis-mapping
+            pass
     if mapping.get("ai_notes") and ai_notes_text:
         set_rich_text(mapping["ai_notes"]["name"], ai_notes_text)
 
@@ -459,6 +614,27 @@ def main() -> None:
 
         props = make_properties(entry, mapping, labels, unpaywall_email, zot)
 
+        # Optional structured enrichment via Doubao, strictly from provided text
+        if args.enrich_with_doubao:
+            client = doubao_client_from_env()
+            if client is None:
+                if args.debug:
+                    print("[DEBUG] Doubao client not available; skip enrichment")
+            else:
+                ai_text = extract_ai_notes_text(zot, entry)
+                ex = extract_fields_with_doubao(client, os.environ.get("ARK_BOT_MODEL"), title, abstract, ai_text, args.doubao_max_chars)
+                if ex:
+                    if ex.get("key_contributions") and mapping.get("key_contrib"):
+                        _set_prop_rich_text(props, mapping["key_contrib"], ex["key_contributions"])
+                    if ex.get("limitations") and mapping.get("limitations"):
+                        _set_prop_rich_text(props, mapping["limitations"], ex["limitations"])
+                    if mapping.get("robot_platform"):
+                        _set_prop_list(props, mapping["robot_platform"], ex.get("robot_platform") or [])
+                    if mapping.get("model_type"):
+                        _set_prop_list(props, mapping["model_type"], ex.get("model_type") or [])
+                    if mapping.get("research_area"):
+                        _set_prop_list(props, mapping["research_area"], ex.get("research_area") or [])
+
         # Dedup & upsert
         page_id: Optional[str] = None
         if zotero_key_prop and (data.get("key") or entry.get("key")):
@@ -476,15 +652,20 @@ def main() -> None:
 
         try:
             if page_id:
-                notion.update_page(page_id, props)
+                notion.update_page(page_id, props, debug=args.debug)
                 updated += 1
                 print(f"[UPD] {display_title[:80]}")
             else:
-                notion.create_page(props)
+                notion.create_page(props, debug=args.debug)
                 created += 1
                 print(f"[ADD] {display_title[:80]}")
         except requests.HTTPError as exc:
-            print(f"[ERR] Notion API error for '{title[:80]}': {exc}")
+            print(f"[ERR] Notion API error for '{display_title[:80]}': {exc}")
+            if args.debug:
+                try:
+                    print(f"[DEBUG] Mapping used: {json.dumps(mapping)}")
+                except Exception:
+                    pass
 
     print(f"[INFO] Completed. Scanned={scanned} created={created} updated={updated}")
 
