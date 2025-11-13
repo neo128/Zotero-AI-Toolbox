@@ -92,6 +92,32 @@ PY
 - 监控导入（按标签体系）：`python scripts/watch_and_import_papers.py --tags ./tag.json --since-days 14 --top-k 10 --min-score 0.3 --create-collections`
 - 同步到 Notion（递归集合）：`python scripts/sync_zotero_to_notion.py --collection-name "Embodied AI" --recursive --skip-untitled`
 
+## 一键流水线（ai_toolbox_pipeline.sh）
+
+将常用步骤串联为“所见即所得”的流水线脚本，支持按需选择阶段、集合与 dry-run：
+
+```bash
+# 查看帮助
+scripts/ai_toolbox_pipeline.sh --help
+
+# 全流程（集合及其子集合），限 200 条
+scripts/ai_toolbox_pipeline.sh \
+  --all \
+  --collection-name "Embodied AI" \
+  --recursive \
+  --limit 200
+
+# 只预览“监控导入 + Notion 同步”，不写入
+scripts/ai_toolbox_pipeline.sh --watch-import --notion-sync --dry-run
+
+# 常用参数：
+# --dedupe / --summarize / --enrich-abstracts / --watch-import / --notion-sync / --all
+# --collection-name NAME  --recursive  --limit N  --dry-run
+# --summary-max-pages N   --summary-max-chars N   --summary-dir DIR
+# --watch-since-days N    --watch-top-k N        --watch-min-score F
+# --notion-skip-untitled  --notion-doubao
+```
+
 ## import_embodied_ai_to_zotero.py
 
 从 HCPLab 的 Embodied_AI_Paper_List README 解析条目，输出 RIS 或直接写入 Zotero。
