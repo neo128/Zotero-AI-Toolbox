@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import subprocess
 import sys
+import threading
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -22,13 +23,45 @@ def _script(repo_root: Path, filename: str) -> str:
 
 
 def _run_command(name: str, command: List[str], cwd: Path) -> StageRunResult:
-    """Execute the CLI for a given stage and raise immediately on failure so the pipeline stops."""
-    process = subprocess.run(command, cwd=str(cwd), capture_output=True, text=True)
+    """Execute the CLI for a given stage, streaming logs live and capturing them for the state dump."""
+
+    process = subprocess.Popen(
+        command,
+        cwd=str(cwd),
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        bufsize=1,
+    )
+
+    stdout_lines: List[str] = []
+    stderr_lines: List[str] = []
+
+    def _forward(pipe, collector: List[str], prefix: str) -> None:
+        assert pipe is not None
+        for line in iter(pipe.readline, ""):
+            collector.append(line)
+            sys.stdout.write(f"[{prefix}] {line}")
+            sys.stdout.flush()
+        pipe.close()
+
+    threads = [
+        threading.Thread(target=_forward, args=(process.stdout, stdout_lines, name), daemon=True),
+        threading.Thread(target=_forward, args=(process.stderr, stderr_lines, f"{name}-err"), daemon=True),
+    ]
+    for th in threads:
+        th.start()
+    process.wait()
+    for th in threads:
+        th.join()
+
+    stdout = "".join(stdout_lines)
+    stderr = "".join(stderr_lines)
     if process.returncode != 0:
         raise RuntimeError(
-            f"Stage '{name}' failed with exit code {process.returncode}.\nSTDOUT:\n{process.stdout}\nSTDERR:\n{process.stderr}"
+            f"Stage '{name}' failed with exit code {process.returncode}.\nSTDOUT:\n{stdout}\nSTDERR:\n{stderr}"
         )
-    return StageRunResult(name=name, command=command, stdout=process.stdout, stderr=process.stderr)
+    return StageRunResult(name=name, command=command, stdout=stdout, stderr=stderr)
 
 
 def _announce(stage: str, detail: str) -> None:

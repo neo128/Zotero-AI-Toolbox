@@ -63,7 +63,9 @@ def has_pdf_attachment(children: Iterable[Dict[str, Any]]) -> bool:
         if data.get("itemType") != "attachment":
             continue
         filename = (data.get("filename") or "").lower()
-        if data.get("contentType") == "application/pdf" or filename.endswith(".pdf"):
+        is_pdf = data.get("contentType") == "application/pdf" or filename.endswith(".pdf")
+        link_mode = (data.get("linkMode") or "").lower()
+        if is_pdf and link_mode in {"imported_file", "linked_file", "imported_url"}:
             return True
     return False
 
@@ -189,27 +191,27 @@ def main() -> None:
     new_items_path = Path(args.new_items_json)
     candidate_keys.extend(load_new_keys(new_items_path, cutoff))
 
-    if not candidate_keys:
-        for entry in zot.iter_top_items():
-            data = entry.get("data", {})
-            dm = parse_iso(data.get("dateAdded") or data.get("dateModified"))
-            if cutoff and dm and dm < cutoff:
-                continue
-            candidate_keys.append(entry.get("key"))
-            if args.limit and len(candidate_keys) >= args.limit:
-                break
-    else:
-        # de-duplicate while preserving order
-        seen: Set[str] = set()
-        deduped: List[str] = []
-        for key in candidate_keys:
-            if key in seen:
-                continue
-            seen.add(key)
-            deduped.append(key)
-        candidate_keys = deduped
-        if args.limit:
-            candidate_keys = candidate_keys[: args.limit]
+    # Always supplement with dateAdded/dateModified window so manual imports are included.
+    for entry in zot.iter_top_items():
+        data = entry.get("data", {})
+        dm = parse_iso(data.get("dateAdded") or data.get("dateModified"))
+        if cutoff and dm and dm < cutoff:
+            continue
+        candidate_keys.append(entry.get("key"))
+        if args.limit and len(candidate_keys) >= args.limit:
+            break
+
+    # de-duplicate while preserving order
+    seen: Set[str] = set()
+    deduped: List[str] = []
+    for key in candidate_keys:
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(key)
+    candidate_keys = deduped
+    if args.limit:
+        candidate_keys = candidate_keys[: args.limit]
 
     if not candidate_keys:
         print("[INFO] No items to process for PDF completion.")
@@ -228,6 +230,7 @@ def main() -> None:
             continue
         children = zot.fetch_children(key)
         if has_pdf_attachment(children):
+            print(f"[INFO] Item {key} already has PDF attachments; skipping.")
             continue
         sources = guess_pdf_sources(parent, unpaywall_email)
         if not sources:

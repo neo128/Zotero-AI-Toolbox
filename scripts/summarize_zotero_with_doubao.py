@@ -635,6 +635,8 @@ def main() -> None:
         else:
             parent_items = list(zotero_client.iter_items(collection=None, tag=args.tag, limit=fetch_limit))
 
+    print(f"[INFO] Fetched {len(parent_items)} Zotero items before time-window filtering.")
+
     if not parent_items:
         scope = []
         if args.tag:
@@ -658,6 +660,9 @@ def main() -> None:
                 continue
             filtered.append(parent)
         parent_items = filtered
+        print(
+            f"[INFO] {len(parent_items)} items remain after applying modified-since {args.modified_since_hours}h window."
+        )
     if not parent_items:
         print(f"[INFO] No Zotero items newer than the last {args.modified_since_hours} hours; nothing to do.")
         return
