@@ -27,11 +27,19 @@ import os
 import re
 import sys
 import time
+from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import requests
 
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from ai_utils import AIConfig, create_openai_client, resolve_ai_config
 from utils_sources import fetch_unpaywall_pdf
+
+DEFAULT_AI_MODEL = "bot-20251111104927-mf7bx"
 
 
 def ensure_env(name: str) -> str:
@@ -207,8 +215,16 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--dry-run", action="store_true", help="Preview actions without writing to Notion.")
     ap.add_argument("--skip-untitled", action="store_true", help="Skip items that have no usable title (after fallbacks).")
     ap.add_argument("--debug", action="store_true", help="Print debug info (property mapping, payload) on errors.")
-    ap.add_argument("--enrich-with-doubao", action="store_true", help="Use Doubao (ARK) to extract Key Contributions/Limitations and categorize fields strictly from title/abstract/notes.")
+    ap.add_argument(
+        "--enrich-with-doubao",
+        action="store_true",
+        help="Use an AI helper (Doubao/Qwen/OpenAI-compatible) to extract Key Contributions/Limitations strictly from title/abstract/notes.",
+    )
     ap.add_argument("--doubao-max-chars", type=int, default=4000, help="Max characters to send to Doubao for extraction.")
+    ap.add_argument("--ai-provider", help="AI provider used for enrichment (doubao, qwen, dashscope, openai, etc.).")
+    ap.add_argument("--ai-base-url", help="Override AI base URL for enrichment.")
+    ap.add_argument("--ai-api-key", help="Override AI API key for enrichment.")
+    ap.add_argument("--ai-model", help="Override AI model id for enrichment.")
     ap.add_argument("--recursive", action="store_true", help="When a collection is given, include items from all descendant sub-collections.")
     return ap.parse_args()
 
@@ -374,18 +390,28 @@ def extract_ai_notes_text(zot: ZoteroAPI, item: Dict[str, Any]) -> str:
     return text
 
 
-def doubao_client_from_env():
-    api_key = os.environ.get("ARK_API_KEY")
-    if not api_key:
+def build_ai_client(args: argparse.Namespace) -> Optional[Tuple[object, AIConfig]]:
+    try:
+        config = resolve_ai_config(args.ai_provider, args.ai_model, args.ai_base_url, args.ai_api_key, DEFAULT_AI_MODEL)
+    except SystemExit as exc:
+        print(f"[WARN] {exc}")
         return None
     try:
-        from openai import OpenAI  # type: ignore
-    except Exception:
+        client = create_openai_client(config)
+    except Exception as exc:
+        print(f"[WARN] Failed to initialize AI client: {exc}")
         return None
-    return OpenAI(base_url="https://ark.cn-beijing.volces.com/api/v3/bots", api_key=api_key)
+    return client, config
 
 
-def extract_fields_with_doubao(client, model: Optional[str], title: str, abstract: str, ai_notes: str, max_chars: int = 4000) -> Optional[Dict[str, Any]]:
+def extract_fields_with_ai(
+    client,
+    model: str,
+    title: str,
+    abstract: str,
+    ai_notes: str,
+    max_chars: int = 4000,
+) -> Optional[Dict[str, Any]]:
     source_text = (title + "\n\n" + abstract + "\n\n" + ai_notes)[: max_chars]
     sys_prompt = (
         "你是一个严格的信息抽取助手。仅从提供的文本中提取信息，不要编造，不要从常识推断。"
@@ -397,7 +423,7 @@ def extract_fields_with_doubao(client, model: Optional[str], title: str, abstrac
     )
     try:
         resp = client.chat.completions.create(
-            model=(model or os.environ.get("ARK_BOT_MODEL", "bot-20251111104927-mf7bx")),
+            model=model,
             messages=[{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}],
             temperature=0.0,
         )
@@ -619,6 +645,13 @@ def main() -> None:
 
     unpaywall_email = os.environ.get("UNPAYWALL_EMAIL")
 
+    ai_client = None
+    ai_config: Optional[AIConfig] = None
+    if args.enrich_with_doubao:
+        client_bundle = build_ai_client(args)
+        if client_bundle:
+            ai_client, ai_config = client_bundle
+
     # fetch and filter items
     scanned = 0
     created = 0
@@ -663,15 +696,14 @@ def main() -> None:
 
         props = make_properties(entry, mapping, labels, unpaywall_email, zot)
 
-        # Optional structured enrichment via Doubao, strictly from provided text
+        # Optional structured enrichment via AI, strictly from provided text
         if args.enrich_with_doubao:
-            client = doubao_client_from_env()
-            if client is None:
+            if not ai_client or not ai_config:
                 if args.debug:
-                    print("[DEBUG] Doubao client not available; skip enrichment")
+                    print("[DEBUG] AI enrichment client not available; skip enrichment")
             else:
                 ai_text = extract_ai_notes_text(zot, entry)
-                ex = extract_fields_with_doubao(client, os.environ.get("ARK_BOT_MODEL"), title, abstract, ai_text, args.doubao_max_chars)
+                ex = extract_fields_with_ai(ai_client, ai_config.model, title, abstract, ai_text, args.doubao_max_chars)
                 if ex:
                     if ex.get("key_contributions") and mapping.get("key_contrib"):
                         _set_prop_rich_text(props, mapping["key_contrib"], ex["key_contributions"])

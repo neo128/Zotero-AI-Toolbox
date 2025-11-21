@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
 """
-Zotero PDF → Doubao summary → Zotero note
-----------------------------------------
+Zotero PDF → AI summary (Doubao/Qwen/OpenAI-compatible) → Zotero note
+--------------------------------------------------------------------
 
 This script walks through Zotero items, finds local PDF attachments, extracts a
-text snippet, sends it to the Doubao (ByteDance Ark) Chat Completions API, and
-stores the returned summary back into Zotero as a child note.
+text snippet, sends it to an OpenAI-compatible chat API (Doubao by default, but
+Qwen/DashScope or any custom endpoint are supported), and stores the returned
+summary back into Zotero as a child note.
 
 Prerequisites:
   * `pip install requests pypdf openai`
   * Environment variables:
         ZOTERO_USER_ID       # required, numeric Zotero user id
         ZOTERO_API_KEY       # required, API key with write access
-        ARK_API_KEY          # required, Doubao API key
+        ARK_API_KEY          # required when provider=doubao
         ZOTERO_STORAGE_DIR   # optional, defaults to ~/Zotero/storage
         ARK_BOT_MODEL        # optional, defaults to bot-20251111104927-mf7bx
+        DASHSCOPE_API_KEY    # required when provider=qwen/dashscope
+        DASHSCOPE_MODEL      # optional, defaults to qwen3-max
 
 Example:
   python summarize_zotero_with_doubao.py --tag Awesome-VLA --limit 5 --max-pages 8
@@ -33,7 +36,12 @@ from pathlib import Path
 from typing import Any, Dict, Generator, Iterable, List, Optional, Tuple
 
 import requests
-from openai import OpenAI
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from ai_utils import AIConfig, create_openai_client, resolve_ai_config
 
 DEFAULT_BOT_MODEL = "bot-20251111104927-mf7bx"
 
@@ -240,19 +248,15 @@ def extract_pdf_text(path: Path, max_pages: int) -> str:
     return "\n\n".join(filter(None, texts))
 
 from textwrap import dedent
-from openai import OpenAI
 import re
 import time
 
-class DoubaoClient:
-    """专为 AI / AGI / 具身智能 / 机器人 论文精读设计的解读专家"""
+class AIChatClient:
+    """OpenAI-compatible chat client (Doubao/Qwen/others) used for summarization."""
 
-    def __init__(self, api_key: str, model: str, max_retries: int = 2) -> None:
-        self.client = OpenAI(
-            base_url="https://ark.cn-beijing.volces.com/api/v3/bots",
-            api_key=api_key,
-        )
-        self.model = model
+    def __init__(self, config: AIConfig, max_retries: int = 2) -> None:
+        self.client = create_openai_client(config)
+        self.model = config.model
         self.max_retries = max_retries
 
     # —— 文本截断与段落保持 ——
@@ -344,9 +348,9 @@ class DoubaoClient:
         out_limit = max(800, min(2000, max_chars // 2))
 
         system_msg = (
-            "你是豆包，由字节跳动开发的科研解读助手。"
+            "你是一名专注于 AI/AGI/具身智能/机器人领域的科研解读助手。"
             if (locale or "").lower() != "en"
-            else "You are Doubao, an AI research assistant specialized in AI/AGI/robotics paper analysis."
+            else "You are an AI research assistant specialized in AI/AGI/robotics paper analysis."
         )
         prompt = self._build_prompt(title, excerpt, locale, out_limit)
 
@@ -466,14 +470,14 @@ def parse_iso(value: Optional[str]) -> Optional[dt.datetime]:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Summarize Zotero PDFs via Doubao and attach notes or save locally.")
+    parser = argparse.ArgumentParser(description="Summarize Zotero PDFs via an OpenAI-compatible chat API and attach notes or save locally.")
     parser.add_argument("--tag", help="Only process items tagged with this string.")
     parser.add_argument("--collection", help="Only process items inside the specified collection key.")
     parser.add_argument("--collection-name", help="Lookup a Zotero collection by name and process its items.")
     parser.add_argument("--item-keys", help="Comma-separated list of specific Zotero item keys to process.")
     parser.add_argument("--limit", type=int, default=10, help="Maximum number of parent items to process (<=0 means no cap).")
     parser.add_argument("--max-pages", type=int, default=12, help="Max PDF pages to read per attachment (default: 12).")
-    parser.add_argument("--max-chars", type=int, default=12000, help="Max characters to send to Doubao (after extraction).")
+    parser.add_argument("--max-chars", type=int, default=12000, help="Max characters to send to the AI model (after extraction).")
     parser.add_argument("--note-tag", default="AI总结", help="Tag to add to the generated note.")
     parser.add_argument("--storage-dir", help="Override Zotero storage directory (defaults to ~/Zotero/storage).")
     parser.add_argument("--pdf-path", action="append", help="Process a standalone PDF path (repeat flag to add more).")
@@ -481,6 +485,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--summary-dir", help="When using --pdf-path/--storage-key, save summaries into this directory (defaults to stdout only).")
     parser.add_argument("--insert-note", action="store_true", help="Insert generated summaries back into Zotero notes when PDFs come from storage.")
     parser.add_argument("--model", help="Override Doubao bot model id (defaults to env ARK_BOT_MODEL or built-in).")
+    parser.add_argument("--ai-model", help="Override AI model id (alias for --model).")
+    parser.add_argument(
+        "--ai-provider",
+        help="AI provider to use (doubao, qwen, dashscope, openai, etc.). Defaults to Doubao unless AI_PROVIDER env is set.",
+    )
+    parser.add_argument("--ai-base-url", help="Override AI base URL (OpenAI-compatible endpoint).")
+    parser.add_argument("--ai-api-key", help="Override AI API key (falls back to env vars).")
     parser.add_argument("--force", action="store_true", help="Ignore existing AI总结/豆包总结笔记并重新生成。")
     parser.add_argument("--recursive", action="store_true", help="Include items in sub-collections when a collection is selected.")
     parser.add_argument(
@@ -495,16 +506,13 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
 
-    ark_key = ensure_env("ARK_API_KEY")
-    bot_model = args.model or os.environ.get("ARK_BOT_MODEL") or DEFAULT_BOT_MODEL
-    if not bot_model.startswith("bot-"):
-        print(f"[WARN] Model '{bot_model}' does not look like a Doubao bot id; falling back to {DEFAULT_BOT_MODEL}.")
-        bot_model = DEFAULT_BOT_MODEL
+    ai_model = args.ai_model or args.model
+    ai_config = resolve_ai_config(args.ai_provider, ai_model, args.ai_base_url, args.ai_api_key, DEFAULT_BOT_MODEL)
     storage_dir = Path(args.storage_dir or os.environ.get("ZOTERO_STORAGE_DIR", Path.home() / "Zotero" / "storage"))
     if not storage_dir.exists():
         raise SystemExit(f"Zotero storage directory not found: {storage_dir}")
 
-    doubao = DoubaoClient(ark_key, bot_model)
+    ai_client = AIChatClient(ai_config)
 
     local_pdfs: List[Tuple[str, Path]] = []
     if args.pdf_path:
@@ -592,7 +600,7 @@ def main() -> None:
             if not text:
                 print("    [WARN] Failed to extract text; skipping.")
                 continue
-            summary = doubao.summarize(title_hint, text, locale="zh", max_chars=args.max_chars)
+            summary = ai_client.summarize(title_hint, text, locale="zh", max_chars=args.max_chars)
             if summary_dir:
                 out_file = summary_dir / f"{pdf_path.stem}.summary.txt"
                 out_file.write_text(summary, encoding="utf-8")
@@ -711,7 +719,7 @@ def main() -> None:
             if not text:
                 print("    [WARN] Empty text extracted; skipping.")
                 continue
-            summary = doubao.summarize(title, text, locale="zh", max_chars=args.max_chars)
+            summary = ai_client.summarize(title, text, locale="zh", max_chars=args.max_chars)
             note_html = make_note_html(summary)
             zotero_client.create_note(note_parent_key, note_html, tags=[args.note_tag])
             print("    [OK] Note created.")

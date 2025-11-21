@@ -29,6 +29,7 @@ import requests
 from utils_sources import (
     fetch_arxiv_by_keywords,
     fetch_crossref_metadata,
+    fetch_hf_period,
     fetch_s2_metadata,
     fetch_unpaywall_pdf,
     normalize_authors,
@@ -177,6 +178,8 @@ class Candidate:
     score: float = 0.0
     tags: Set[str] = None  # type: ignore
     collections: Set[str] = None  # type: ignore
+    hf_score: float = 0.0
+    hf_timeframe: Optional[str] = None
 
     def identity(self) -> str:
         if self.doi:
@@ -192,6 +195,30 @@ class Candidate:
         if self.title and self.year:
             return f"ty:{normalize_title(self.title)}|{self.year}"
         return f"t:{normalize_title(self.title)}"
+
+
+HF_TIMEFRAME_WEIGHTS_DEFAULT = {"daily": 1.0, "weekly": 0.8, "monthly": 0.6}
+
+
+def normalize_hf_score(entry: Dict[str, Any], weight_map: Dict[str, float]) -> float:
+    base = entry.get("hf_score") or 0.0
+    try:
+        base = float(base)
+    except Exception:
+        base = 0.0
+    base = max(0.0, min(1.0, base))
+    multiplier = weight_map.get(entry.get("timeframe"), 1.0)
+    return max(0.0, min(1.0, base * multiplier))
+
+
+def hf_matches_keywords(entry: Dict[str, Any], keywords: List[str]) -> bool:
+    if not keywords:
+        return True
+    haystack = f"{entry.get('title') or ''} {entry.get('abstract') or ''}".lower()
+    for kw in keywords:
+        if kw and kw.lower() in haystack:
+            return True
+    return False
 
 
 def normalized_url(url: Optional[str]) -> Optional[str]:
@@ -344,7 +371,14 @@ def enrich_existing_entry(
     return True
 
 
-def compute_score(now: dt.datetime, cand: Candidate, max_days: int, cit: Optional[int], inf_cit: Optional[int]) -> float:
+def compute_score(
+    now: dt.datetime,
+    cand: Candidate,
+    max_days: int,
+    cit: Optional[int],
+    inf_cit: Optional[int],
+    hf_weight: float,
+) -> float:
     # Recency score: 1.0 when today, decays to 0 at max_days
     recency = 0.0
     max_days = max(max_days or 0, 1)
@@ -372,7 +406,9 @@ def compute_score(now: dt.datetime, cand: Candidate, max_days: int, cit: Optiona
     c1 = norm(cit, 200)
     c2 = norm(inf_cit, 50)
     # Weighted sum
-    return 0.5 * recency + 0.35 * c1 + 0.15 * c2
+    hf_component = max(0.0, min(1.0, cand.hf_score)) * max(0.0, hf_weight)
+    base = 0.5 * recency + 0.35 * c1 + 0.15 * c2 + hf_component
+    return min(1.0, base)
 
 
 def parse_args() -> argparse.Namespace:
@@ -393,6 +429,15 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--dry-run", action="store_true", help="Preview actions only.")
     ap.add_argument("--log-file", help="Write text log to this path.")
     ap.add_argument("--report-json", help="Write JSON report to this path.")
+    ap.add_argument("--no-hf-papers", action="store_true", help="Disable HuggingFace Papers trending integration.")
+    ap.add_argument("--hf-daily-limit", type=int, default=5, help="Number of daily trending papers to fetch from HuggingFace.")
+    ap.add_argument("--hf-weekly-limit", type=int, default=20, help="Number of weekly trending papers to fetch from HuggingFace.")
+    ap.add_argument("--hf-monthly-limit", type=int, default=50, help="Number of monthly trending papers to fetch from HuggingFace.")
+    ap.add_argument("--hf-weight", type=float, default=0.3, help="Weight contribution of HuggingFace trending scores in overall ranking.")
+    ap.add_argument("--hf-daily-weight", type=float, default=1.0, help="Relative weight multiplier for daily trending papers.")
+    ap.add_argument("--hf-weekly-weight", type=float, default=1.1, help="Relative weight multiplier for weekly trending papers.")
+    ap.add_argument("--hf-monthly-weight", type=float, default=1.2, help="Relative weight multiplier for monthly trending papers.")
+    ap.add_argument("--hf-override-limit", type=int, default=2, help="Always include up to N HF papers per tag even if score is below min-score.")
     return ap.parse_args()
 
 
@@ -435,10 +480,13 @@ def main() -> None:
             "create_collections": args.create_collections,
             "fill_missing": args.fill_missing,
             "dry_run": args.dry_run,
+            "use_hf_papers": not args.no_hf_papers,
+            "hf_weight": args.hf_weight,
         },
         "tags": {},
-        "summary": {"candidates": 0, "added": 0, "skipped": 0, "updated": 0},
+        "summary": {"candidates": 0, "added": 0, "skipped": 0, "updated": 0, "hf_candidates": 0, "hf_overrides": 0},
         "errors": [],
+        "hf_sources": {},
     }
     def log(line: str) -> None:
         print(line)
@@ -448,6 +496,40 @@ def main() -> None:
     log(
         f"[INFO] Started watch. since_hours={args.since_hours} (→ days={effective_days:.2f}) top_k={args.top_k} min_score={args.min_score}"
     )
+
+    hf_entries: List[Dict[str, Any]] = []
+    if not args.no_hf_papers:
+        today = dt.date.today()
+        iso_year, iso_week, _ = today.isocalendar()
+        identifiers = {
+            "daily": ("date", today.strftime("%Y-%m-%d")),
+            "weekly": ("week", f"{iso_year}-W{iso_week:02d}"),
+            "monthly": ("month", f"{today.year}-{today.month:02d}"),
+        }
+        hf_limits = {
+            "daily": args.hf_daily_limit,
+            "weekly": args.hf_weekly_limit,
+            "monthly": args.hf_monthly_limit,
+        }
+        hf_weight_map = {
+            "daily": args.hf_daily_weight,
+            "weekly": args.hf_weekly_weight,
+            "monthly": args.hf_monthly_weight,
+        }
+        for label, (period, ident) in identifiers.items():
+            limit = hf_limits.get(label, 0)
+            if limit <= 0:
+                continue
+            entries = fetch_hf_period(period, ident, label, limit)
+            if not entries:
+                continue
+            for entry in entries:
+                entry["hf_score"] = normalize_hf_score(entry, hf_weight_map)
+            hf_entries.extend(entries)
+            report["hf_sources"][label] = len(entries)
+            log(f"[HF] {label} fetched={len(entries)} from {period}/{ident}")
+        if not hf_entries:
+            log("[HF] No HuggingFace trending papers fetched; integration disabled for this run.")
 
     log("[INFO] Building library index for dedupe...")
     idx = build_library_index(zot)
@@ -463,7 +545,15 @@ def main() -> None:
         keywords = cfg.get("sample_keywords") or []
         if not keywords:
             continue
-        report["tags"][tag_key] = {"label": label, "candidates": 0, "added": 0, "skipped": 0, "updated": 0}
+        report["tags"][tag_key] = {
+            "label": label,
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0,
+        }
         log(f"[TAG] {tag_key} '{label}' keywords={len(keywords)}")
 
         # Fetch candidates from arXiv
@@ -486,6 +576,33 @@ def main() -> None:
                     collections={label},
                 )
             )
+
+        # Additional HuggingFace trending candidates
+        if hf_entries and keywords:
+            hf_matches = [entry for entry in hf_entries if hf_matches_keywords(entry, keywords)]
+            if hf_matches:
+                report["tags"][tag_key]["hf_candidates"] = len(hf_matches)
+                report["summary"]["hf_candidates"] += len(hf_matches)
+                log(f"[HF] {tag_key} matched {len(hf_matches)} trending papers.")
+            for item in hf_matches:
+                candidates.append(
+                    Candidate(
+                        title=item.get("title") or "",
+                        authors=item.get("authors") or [],
+                        date=item.get("date"),
+                        year=item.get("year"),
+                        url=item.get("url"),
+                        pdf_url=item.get("pdf_url"),
+                        doi=item.get("doi"),
+                        arxiv_id=item.get("arxiv_id"),
+                        abstract=item.get("abstract") or "",
+                        source="hf",
+                        tags={label},
+                        collections={label},
+                        hf_score=item.get("hf_score", 0.0),
+                        hf_timeframe=item.get("timeframe"),
+                    )
+                )
 
         # Enrich a limited slice with S2 / CrossRef to get citations / better abstracts.
         # This keeps the API cost bounded while still letting the scorer reason on richer metadata.
@@ -524,9 +641,25 @@ def main() -> None:
 
         # Score and select top-k
         for cand, cit, inf in enriched:
-            cand.score = compute_score(now, cand, args.since_days, cit, inf)
+            cand.score = compute_score(now, cand, effective_days, cit, inf, args.hf_weight)
         candidates_sorted = sorted([c for c, _, _ in enriched], key=lambda c: c.score, reverse=True)
         selected = [c for c in candidates_sorted if c.score >= args.min_score][: args.top_k]
+
+        hf_override_limit = max(0, args.hf_override_limit)
+        override_added = 0
+        if hf_override_limit:
+            for cand in candidates_sorted:
+                if override_added >= hf_override_limit:
+                    break
+                if cand.source != "hf" or cand in selected:
+                    continue
+                selected.append(cand)
+                override_added += 1
+                log(f"[HF-OVERRIDE] Added '{cand.title[:80]}' despite score={cand.score:.2f}")
+        if override_added:
+            report["tags"][tag_key]["hf_overrides"] = override_added
+            report["summary"]["hf_overrides"] += override_added
+
         report["tags"][tag_key]["candidates"] = len(candidates)
         log(f"[SCORE] tag={tag_key} total={len(candidates)} selected={len(selected)}")
 

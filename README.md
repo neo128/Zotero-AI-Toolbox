@@ -8,10 +8,10 @@ English version: see `README_EN.md`.
 
 | 路径 | 作用简述 |
 | --- | --- |
-| `scripts/watch_and_import_papers.py` | 根据 `tag.json` 关键词追踪新论文、打分筛选并写入 Zotero，可选填补重复条目的缺失字段。 |
+| `scripts/watch_and_import_papers.py` | 根据 `tag.json` 关键词 + HuggingFace Papers 趋势追踪新论文、打分筛选并写入 Zotero，可选填补重复条目的缺失字段。 |
 | `scripts/fetch_missing_pdfs.py` | 扫描最近新增的 Zotero 条目，自动下载/关联 PDF（arXiv/Unpaywall/直链）以补全本地库。 |
 | `scripts/merge_zotero_duplicates.py` | 扫描库内重复条目，保留最优版本并迁移附件/笔记后删除冗余。 |
-| `scripts/summarize_zotero_with_doubao.py` | 读取 Zotero PDF，通过豆包模型生成摘要，支持写回 Notes。 |
+| `scripts/summarize_zotero_with_doubao.py` | 读取 Zotero PDF，通过 AI 模型（豆包/Qwen/任何 OpenAI 兼容端点）生成摘要，支持写回 Notes。 |
 | `scripts/enrich_zotero_abstracts.py` | 对缺少 `abstractNote` 的条目调用 CrossRef/Semantic Scholar/arXiv 补充摘要。 |
 | `scripts/list_zotero_collections.py` | 枚举 Zotero Collection 及其树结构，可选列出子项。 |
 | `scripts/import_ris_folder.py` | 遍历文件夹中所有 RIS 文件并批量导入 Zotero。 |
@@ -20,7 +20,7 @@ English version: see `README_EN.md`.
 | `scripts/delete_collection_notes.py` | 清理指定集合下的 Notes。 |
 | `scripts/ai_toolbox_pipeline.sh` | Bash 版一键流水线，串联去重/摘要/补全/监控/同步等阶段。 |
 | `scripts/langchain_pipeline.py` | Python & LangChain 版本的自动化入口，可与 Agentflow 集成。 |
-| `scripts/sync_zotero_to_notion.py` | 将 Zotero 条目映射到 Notion 数据库，支持 Doubao 严格抽取。 |
+| `scripts/sync_zotero_to_notion.py` | 将 Zotero 条目映射到 Notion，支持 AI 严格抽取（豆包/Qwen/OpenAI 兼容）。 |
 | `paperflow/config.py` | LangChain 流水线配置数据类，集中管理各阶段参数。 |
 | `paperflow/stages.py` | 具体的子流程实现，负责编排并调用 scripts 下的 CLI。 |
 | `paperflow/pipeline.py` | 构建/运行 LangChain Runnable 链，输出 `PipelineState`。 |
@@ -48,6 +48,15 @@ export ZOTERO_API_KEY=你的APIKey          # 必需，具备写权限
 export ARK_API_KEY=豆包APIKey             # 必需
 export ZOTERO_STORAGE_DIR=~/Zotero/storage # 可选（默认路径如上）
 export ARK_BOT_MODEL=bot-xxxxxxxxxxxxxxx  # 可选，未设置会自动回退
+# 若需要切换至千问/Qwen（DashScope）或其它 OpenAI 兼容模型：
+# export AI_PROVIDER=qwen
+# export DASHSCOPE_API_KEY=你的DashScopeKey
+# export DASHSCOPE_MODEL=qwen3-max
+# 也可以指定任意 OpenAI 兼容端点：
+# export AI_PROVIDER=openai
+# export AI_API_KEY=sk-xxx
+# export AI_BASE_URL=https://api.openai.com/v1
+# export AI_MODEL=gpt-4o-mini
 
 # 4) 每次运行前加载（首次将 exp.example 复制为 exp 并填好变量）
 cp -n exp.example exp 2>/dev/null || true
@@ -95,6 +104,7 @@ PY
   `python scripts/summarize_zotero_with_doubao.py --limit 20 --max-pages 80 --summary-dir ./summaries --insert-note`
 - 全库：
   `python scripts/summarize_zotero_with_doubao.py --limit 0 --max-pages 100 --summary-dir ./summaries --insert-note`
+- AI 提供者可通过 `--ai-provider qwen --ai-model qwen3-max` 或上述环境变量来自定义（默认豆包）。
 
 5) 补全缺失摘要（abstractNote）
 - 全库：`python scripts/enrich_zotero_abstracts.py`
@@ -104,18 +114,21 @@ PY
 - 预览：
   `python scripts/watch_and_import_papers.py --tags ./tag.json --since-hours 24 --top-k 10 --min-score 0.3 --create-collections --dry-run`
 - 生成日志与报告：
+  `python scripts/watch_and_import_papers.py --tags ./tag.json --since-hours 24 --top-k 10 --min-score 0.3 --create-collections --log-file logs/run.log --report-json reports/run.json`
 - 补救已有条目：
   `--fill-missing` 会在命中重复时，把缺失的摘要/DOI/URL/年份补写回 Zotero，并把条目加入当前标签对应的 Collection + 标签。
+- HuggingFace Papers 趋势：默认会抓取每日/每周/每月的热门论文用于辅助打分，可通过 `--hf-*-limit` / `--hf-weight`（默认 0.3）调整，或用 `--no-hf-papers` 关闭。
 
 7) 自动补全 PDF（默认最近 24 小时）
 - 基于 watch 输出执行：`python scripts/fetch_missing_pdfs.py --since-hours 24 --new-items-json .data/new_items_watch.json`
 - 或直接按时间窗口扫描：`python scripts/fetch_missing_pdfs.py --since-hours 12 --limit 50`
 
-8) 同步到 Notion（可选，支持豆包严格抽取补全）
+8) 同步到 Notion（可选，支持 AI 严格抽取补全）
 - 预览：
   `python scripts/sync_zotero_to_notion.py --since-days 30 --limit 200 --tag-file ./tag.json --skip-untitled --dry-run`
 - 指定集合并递归子集合、启用豆包抽取：
   `python scripts/sync_zotero_to_notion.py --collection-name "Embodied AI" --recursive --limit 500 --tag-file ./tag.json --skip-untitled --enrich-with-doubao`
+  - 如需改用 Qwen/其它模型，可配合 `--ai-provider qwen --ai-model qwen3-max` 或相应环境变量。
 
 提示：以上命令都依赖 `source ./exp`，并且建议先用较小的 `--limit` 或 `--dry-run` 进行试跑。
 

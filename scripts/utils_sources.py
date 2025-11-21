@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import html
+import json
 import os
 import re
 from typing import Any, Dict, Iterable, List, Optional, Tuple
@@ -13,6 +14,8 @@ import xml.etree.ElementTree as ET
 
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
 ARXIV_NS = "{http://arxiv.org/schemas/atom}"
+HF_PAPERS_BASE = os.environ.get("HF_PAPERS_BASE", "https://huggingface.co/papers")
+HF_DATA_PROPS_PATTERN = re.compile(r'data-props="([^"]+)"')
 
 
 def strip_tags(text: Optional[str]) -> str:
@@ -208,3 +211,107 @@ def normalize_authors(authors: Iterable[str]) -> List[Dict[str, str]]:
     return creators
 
 
+def _extract_hf_payload(html_text: str) -> Optional[Dict[str, Any]]:
+    for raw in HF_DATA_PROPS_PATTERN.findall(html_text):
+        payload = html.unescape(raw)
+        if "papers" not in payload and "Papers" not in payload:
+            continue
+        try:
+            return json.loads(payload)
+        except json.JSONDecodeError:
+            continue
+    return None
+
+
+def _hf_fetch_urls(period: str, identifier: str) -> List[str]:
+    urls = [f"{HF_PAPERS_BASE}/{period}/{identifier}"]
+    if period == "date":
+        urls.append(f"{HF_PAPERS_BASE}?sort=trending&time=daily")
+    elif period == "week":
+        urls.append(f"{HF_PAPERS_BASE}?sort=trending&time=weekly")
+    elif period == "month":
+        urls.append(f"{HF_PAPERS_BASE}?sort=trending&time=monthly")
+    return urls
+
+
+def fetch_hf_period(period: str, identifier: str, label: str, limit: int) -> List[Dict[str, Any]]:
+    if limit <= 0:
+        return []
+    headers = {"User-Agent": "Zotero-Watch/0.1"}
+    data = None
+    for url in _hf_fetch_urls(period, identifier):
+        try:
+            resp = requests.get(url, headers=headers, timeout=20)
+            resp.raise_for_status()
+        except Exception:
+            continue
+        data = _extract_hf_payload(resp.text)
+        if data:
+            break
+    if not data:
+        return []
+    key_priority = {
+        "date": ["dailyPapers", "papers"],
+        "week": ["weeklyPapers", "papers", "dailyPapers"],
+        "month": ["monthlyPapers", "papers", "dailyPapers"],
+    }
+    papers_list = None
+    for key in key_priority.get(period, []):
+        papers_list = data.get(key)
+        if papers_list:
+            break
+    if not papers_list:
+        papers_list = data.get("papers")
+    if not papers_list:
+        return []
+    results: List[Dict[str, Any]] = []
+    for idx, item in enumerate(papers_list):
+        if len(results) >= limit:
+            break
+        paper = item.get("paper") or item
+        title = paper.get("title") or item.get("title") or ""
+        if not title:
+            continue
+        abstract = paper.get("summary") or item.get("summary") or ""
+        url = paper.get("projectPage") or item.get("projectPage") or paper.get("paperUrl") or item.get("paperUrl")
+        arxiv_id = paper.get("id") or paper.get("arxivId") or item.get("arxiv_id")
+        doi = paper.get("doi") or item.get("doi")
+        pdf_url = paper.get("pdfUrl") or item.get("pdf_url")
+        if not url and arxiv_id:
+            url = f"{HF_PAPERS_BASE.rstrip('/')}/paper/{arxiv_id}"
+        if not pdf_url and arxiv_id:
+            pdf_url = f"https://arxiv.org/pdf/{arxiv_id}.pdf"
+        published = paper.get("publishedAt") or item.get("publishedAt")
+        year = published[:4] if published else None
+        date_str = published[:10] if published else None
+        authors_raw = paper.get("authors") or item.get("authors") or []
+        authors: List[str] = []
+        if isinstance(authors_raw, list):
+            for entry in authors_raw:
+                if isinstance(entry, dict):
+                    name = entry.get("name")
+                else:
+                    name = str(entry)
+                if name:
+                    authors.append(name)
+        elif isinstance(authors_raw, str):
+            authors = [authors_raw]
+        rank = idx + 1
+        score = max(0.0, 1.0 - (rank / max(1, limit + 1)))
+        results.append(
+            {
+                "title": title,
+                "abstract": abstract,
+                "url": url,
+                "arxiv_id": arxiv_id,
+                "doi": doi,
+                "pdf_url": pdf_url,
+                "authors": authors,
+                "timeframe": label,
+                "rank": rank,
+                "hf_score": score,
+                "date": date_str,
+                "year": year,
+            }
+        )
+    return results

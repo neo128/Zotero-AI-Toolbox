@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,6 +25,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--logs-dir", default="logs", help="Directory for pipeline logs emitted by sub-scripts.")
     parser.add_argument("--reports-dir", default="reports", help="Directory for structured reports (watch stage).")
     parser.add_argument("--state-json", help="Optional path to dump aggregated pipeline metadata as JSON.")
+    parser.add_argument("--pipeline-log-dir", default="logs", help="Directory to store pipeline stdout/stderr logs.")
+    parser.add_argument("--pipeline-log-file", help="Explicit log file path (overrides --pipeline-log-dir).")
 
     # Stage toggles
     parser.add_argument("--skip-watch", action="store_true", help="Do not run watch/import stage.")
@@ -149,9 +152,42 @@ def main() -> None:
         if hasattr(stage, "tag"):
             setattr(stage, "tag", getattr(stage, "tag") or item_tag)
 
-    state = run_pipeline(cfg)
-    summary = state.as_dict()
-    print(json.dumps(summary, ensure_ascii=False, indent=2))
+    log_path: Path
+    if args.pipeline_log_file:
+        log_path = Path(args.pipeline_log_file)
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+    else:
+        log_dir = Path(args.pipeline_log_dir)
+        log_dir.mkdir(parents=True, exist_ok=True)
+        ts = datetime.now().strftime("langchain_pipeline_%Y%m%d_%H%M%S.log")
+        log_path = log_dir / ts
+
+    print(f"[PIPELINE] Log → {log_path}")
+
+    class _Tee:
+        def __init__(self, stream, log_file):
+            self.stream = stream
+            self.log_file = log_file
+
+        def write(self, data):
+            self.stream.write(data)
+            self.log_file.write(data)
+
+        def flush(self):
+            self.stream.flush()
+            self.log_file.flush()
+
+    original_stdout, original_stderr = sys.stdout, sys.stderr
+    with log_path.open("a", encoding="utf-8") as log_fh:
+        sys.stdout = _Tee(original_stdout, log_fh)
+        sys.stderr = _Tee(original_stderr, log_fh)
+        try:
+            state = run_pipeline(cfg)
+            summary = state.as_dict()
+            print(json.dumps(summary, ensure_ascii=False, indent=2))
+        finally:
+            sys.stdout = original_stdout
+            sys.stderr = original_stderr
 
     if args.state_json:
         path = Path(args.state_json)
