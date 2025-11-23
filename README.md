@@ -1,6 +1,6 @@
-# Zotero-AI-Toolbox
+# PaperPilot
 
-本仓库包含若干与 Zotero 集成的辅助脚本，主要用于批量导入、解析以及总结 Embodied AI 相关文献（RIS 导入、AI 摘要写回 Notes、批量清理等）。
+PaperPilot 提供一整套与 Zotero 集成的 AI 自动化工具链，用于追踪热门论文、批量导入/去重、补全摘要与 PDF、生成 AI 笔记，并同步到 Notion 等下游系统。
 
 English version & updates: see [`README_EN.md`](README_EN.md).
 
