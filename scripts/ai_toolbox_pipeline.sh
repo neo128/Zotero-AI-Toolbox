@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Zotero-AI-Toolbox one-click pipeline
+# PaperPilot one-click pipeline
 # Stages: dedupe -> summarize -> enrich_abstracts -> watch_import -> notion_sync
 
 usage() {
   cat <<'USAGE'
-Zotero-AI-Toolbox Pipeline
---------------------------
+PaperPilot Pipeline
+-------------------
 Runs selected stages end-to-end. Make sure you've `source ./exp` first.
 
 Usage:

@@ -1,6 +1,6 @@
-# Zotero-AI-Toolbox (English)
+# PaperPilot (English)
 
-Helper scripts that integrate with Zotero for importing, parsing, summarizing, deduplicating, and syncing research papers (focused on Embodied AI / Robotics but generally useful).
+PaperPilot is a suite of AI-powered helper scripts that integrate with Zotero for importing, parsing, summarizing, deduplicating, and syncing research papers (focused on Embodied AI / Robotics but generally useful).
 
 ## Setup
 
