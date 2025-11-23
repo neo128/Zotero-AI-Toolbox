@@ -35,11 +35,11 @@ def resolve_ai_config(
             raise SystemExit("Missing Doubao model id (set --ai-model or ARK_BOT_MODEL).")
         url = base_url or os.environ.get("ARK_BASE_URL") or DEFAULT_DOU_BAO_BASE_URL
     elif resolved_provider in {"qwen", "dashscope"}:
-        key = api_key or os.environ.get("DASHSCOPE_API_KEY")
+        key = api_key or os.environ.get("AI_API_KEY") or os.environ.get("DASHSCOPE_API_KEY")
         if not key:
-            raise SystemExit("Missing DASHSCOPE_API_KEY for Qwen provider.")
-        mdl = model or os.environ.get("DASHSCOPE_MODEL") or default_model or "qwen3-max"
-        url = base_url or os.environ.get("DASHSCOPE_BASE_URL") or DEFAULT_QWEN_BASE_URL
+            raise SystemExit("Missing AI_API_KEY/DASHSCOPE_API_KEY for Qwen provider.")
+        mdl = model or os.environ.get("DASHSCOPE_MODEL") or os.environ.get("AI_MODEL") or default_model or "qwen3-max"
+        url = base_url or os.environ.get("AI_BASE_URL") or os.environ.get("DASHSCOPE_BASE_URL") or DEFAULT_QWEN_BASE_URL
     else:
         key = api_key or os.environ.get("AI_API_KEY") or os.environ.get("OPENAI_API_KEY")
         if not key:
