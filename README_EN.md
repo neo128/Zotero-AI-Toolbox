@@ -118,13 +118,31 @@ Key flags:
 - Groups duplicates by DOI → URL → title/year; keeps item with attachments/notes/PDF priority and latest modified; re-parents unique children; merges tags/collections; deletes redundant parents. Use `--dry-run` to preview.
 
 ### summarize_zotero_with_doubao.py
-- Finds local PDFs, extracts text, asks Doubao for a Chinese Markdown summary, writes it as a Zotero child note. `--limit 0` means unlimited; `--insert-note` writes notes; supports `--collection-name/--recursive` or direct `--pdf-path`.
+- Walks Zotero items, finds local PDFs, extracts text, calls an OpenAI-compatible API (Doubao by default, Qwen/DashScope/OpenAI supported) for a Markdown summary, and optionally inserts a child note. `--limit 0` is now the default (no cap).
+- Scope selectors: `--collection-name/--collection`, `--tag`, `--item-keys`, `--pdf-path`, `--storage-key`, plus `--recursive` for nested collections.
+- Time window & scale: `--modified-since-hours` (24h default), `--limit`, `--max-pages`, `--max-chars`.
+- Output & behavior: `--summary-dir`, `--insert-note`, `--note-tag`, `--force`.
+- AI config: `--ai-provider`, `--ai-base-url`, `--ai-api-key`, `--ai-model/--model`; otherwise falls back to `AI_PROVIDER`, `ARK_API_KEY`, `AI_API_KEY`, etc.
+- Storage: `--storage-dir` overrides the default `~/Zotero/storage`.
 
 ### enrich_zotero_abstracts.py
 - For items missing `abstractNote`, tries URL-first (meta/arXiv/DOI), then CrossRef, then Semantic Scholar, then arXiv. Top-level items only; `--dry-run` previews updates.
 
 ### watch_and_import_papers.py
-- Uses `tag.json` keyword taxonomy. Fetches arXiv by keywords; optional enrichment via S2/CrossRef; scores by recency/citations; selects top-k per tag; dedupes by DOI/arXiv/URL/title+year; creates items (with tags/collections) and attaches an OA PDF link (arXiv/Unpaywall). Writes text logs and JSON reports.
+- Uses `tag.json` keyword taxonomy. Fetches arXiv by keywords plus HuggingFace Papers trending lists (daily/weekly/monthly URLs such as `https://huggingface.co/papers/date/YYYY-MM-DD`). Scores each candidate (recency + citations + HF weight), dedupes by DOI/arXiv/URL/title+year, creates Zotero items (with tags/collections) and attaches OA PDF links (arXiv/Unpaywall). Emits text logs and JSON reports.
+- Key arguments mirror the CLI defaults:
+  - `--tags ./tag.json`, `--since-hours 24` (preferred over `--since-days`), `--top-k`, `--min-score`.
+  - `--create-collections`, `--fill-missing`, `--dry-run`, `--log-file`, `--report-json`.
+  - HuggingFace controls: `--no-hf-papers`, `--hf-daily/weekly/monthly-limit` (5/20/50 by default), `--hf-weight` (0.3) plus `--hf-daily/weekly/monthly-weight` (1.0/1.1/1.2), and `--hf-override-limit` (default 2) to force-include top HF matches per tag (logs show `HF-OVERRIDE`).
+  - `--download-pdf` remains a placeholder; real downloading lives in `fetch_missing_pdfs.py`.
+
+### fetch_missing_pdfs.py
+- Ensures recently imported items have a local PDF attachment so downstream summaries/Notion sync work reliably.
+- Candidate selection: prefers `.data/new_items_watch.json` (produced by the watch script) filtered by `--since-hours`; if empty, walks `/items/top` within the same window. Keys are deduplicated and capped by `--limit` (`<=0` = unlimited).
+- PDF detection: fetches children and treats `attachment` items with `linkMode` imported_file / linked_file / imported_url and PDF MIME/suffix as “already has local PDF”. `linked_url` attachments are recorded only for reference.
+- Download strategy: `guess_pdf_sources()` tries (in order) direct `.pdf` URLs, arXiv IDs derived from URL/extra (→ `https://arxiv.org/pdf/<id>.pdf`), then Unpaywall (requires `UNPAYWALL_EMAIL`). Successful downloads land in `storage_dir/auto_pdfs/<key>/` and are attached as `linked_file` (tag `auto-pdf`).
+- Flags: `--since-hours`, `--limit`, `--new-items-json`, `--storage-dir`, `--dry-run`.
+- Requires `ZOTERO_USER_ID`, `ZOTERO_API_KEY`; `UNPAYWALL_EMAIL` improves hit rate.
 
 ### sync_zotero_to_notion.py
 - Syncs Zotero items to a Notion database with strict column-name mapping and optional Doubao extraction. Key flags:
@@ -152,6 +170,7 @@ Key flags:
 - `scripts/awesome_vla_to_ris.py` — build RIS from Awesome-VLA
 - `scripts/import_embodied_ai_to_zotero.py` — import list to RIS/Zotero via API
 - `scripts/summarize_zotero_with_doubao.py` — batch summaries → Notes (Markdown)
+- `scripts/fetch_missing_pdfs.py` — auto-download/link PDFs for recent items
 - `scripts/merge_zotero_duplicates.py` — merge duplicates safely
 - `scripts/list_zotero_collections.py` — print collection tree (markdown/text)
 - `scripts/enrich_zotero_abstracts.py` — fill missing abstracts

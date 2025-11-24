@@ -187,6 +187,14 @@ python scripts/langchain_pipeline.py \
 - `--tag-file` 共享 `tag.json` 体系用于打分筛选和 Notion 标签映射；`--collection-name/--collection-key` 会自动作用于除 watch 以外的阶段。
 - LangChain 会串联每个 stage 的 `RunnableLambda`，执行完成后会把日志/报告路径写入 JSON（通过 `--state-json` 导出），方便与其他 LangChain/Agentflow 继续衔接。
 - 该脚本内部直接调用各 Python 子脚本，保持与 CLI 版本完全一致的行为，仅提供自动化编排能力。
+- 默认阶段与脚本、关键参数：
+  1. **watch-import** → `scripts/watch_and_import_papers.py`（`--tags ./tag.json --since-hours 24 --top-k 10 --min-score 0.3 --create-collections` 等，同时继承 HF 配置）。
+  2. **fetch-pdfs** → `scripts/fetch_missing_pdfs.py`（`--since-hours 24 --new-items-json .data/new_items_watch.json`）。
+  3. **dedupe** → `scripts/merge_zotero_duplicates.py`（`--group-by auto --modified-since-hours 24`）。
+  4. **summaries** → `scripts/summarize_zotero_with_doubao.py`（`--limit 200 --max-pages 80 --max-chars 80000 --recursive --insert-note --modified-since-hours 24`，可通过 `--ai-provider/--ai-api-key` 指定模型）。
+  5. **abstracts** → `scripts/enrich_zotero_abstracts.py`（`--modified-since-hours 24`）。
+  6. **notion-sync** → `scripts/sync_zotero_to_notion.py`（`--limit 500 --tag-file ./tag.json --recursive --skip-untitled --enrich-with-doubao --since-hours 24`）。
+  - 所有阶段都遵循 `--skip-*`、`--*-since-hours`、`--collection-name` 等通用参数，pipeline CLI 的覆盖会直接传递给对应脚本。
 
 ## import_embodied_ai_to_zotero.py
 
@@ -273,8 +281,10 @@ python scripts/awesome_vla_to_ris.py --enrich-dblp --enrich-arxiv --out ./awesom
 - 选择范围：`--collection-name` / `--collection` / `--tag` / `--item-keys` / `--pdf-path` / `--storage-key`
 - 递归集合：`--recursive`（当集合下只有子集合时很有用）
 - 控制规模：`--limit`（0=不设上限）、`--max-pages`（读取 PDF 页数）、`--max-chars`（传给模型的字符上限）
+- 时间窗口：`--modified-since-hours`（默认 24，0 或 None 表示不过滤）
 - 输出控制：`--summary-dir`（本地保存）、`--insert-note`（写回 Zotero）、`--note-tag`（给 Note 打标签）、`--force`（忽略已有“AI总结/豆包自动总结”笔记，强制重写）
-- 环境/路径：`--storage-dir`（Zotero storage 路径）、`--model`（豆包 bot id，未给会自动回退）
+- AI 选择：`--ai-provider`（doubao/qwen/dashscope/openai/...）、`--ai-base-url`、`--ai-api-key`、`--ai-model`/`--model`（若不指定则读取 `AI_PROVIDER`、`ARK_API_KEY`、`AI_API_KEY` 等环境变量）
+- 环境/路径：`--storage-dir`（Zotero storage 路径，默认 `~/Zotero/storage`）
 
 显示优化：
 
@@ -417,10 +427,54 @@ python scripts/watch_and_import_papers.py \
 - 去重：优先使用 DOI → arXiv ID → 规范化 URL → 标题+年份；库内索引 + 本次运行去重。
 - 写入：创建父条目（`journalArticle`），写入标题/作者/日期/DOI/URL/摘要/标签/集合，并附上 PDF 链接（arXiv 或 Unpaywall）。
 - 日志：在 `logs/` 生成文本日志；在 `reports/` 生成 JSON 报告，包含候选/新增/跳过统计与错误信息。
+- HuggingFace Trending：默认同时抓取每日/每周/每月排行榜（`https://huggingface.co/papers/date/YYYY-MM-DD` / `.../week/YYYY-Wxx` / `.../month/YYYY-MM`），按 `--hf-weight` 与相应 period 权重混入评分；`--hf-override-limit` 可强制保留每个标签前 N 条 HF 结果并在日志中标记 “HF-OVERRIDE”。
+
+常用参数（与脚本保持一致）：
+- `--tags ./tag.json`：标签定义文件，默认即 `tag.json`。
+- `--since-hours 24`：时间窗口（小时），优先于 `--since-days`（后者仅为了兼容旧流程）。
+- `--top-k` / `--min-score`：控制每个标签保留的候选数量与得分阈值。
+- `--create-collections` / `--fill-missing` / `--dry-run`：分别对应自动建合集、回填已有条目缺失字段，以及仅预览。
+- `--log-file` / `--report-json`：重定向运行日志与 JSON 报告；留空则以时间戳命名。
+- `--no-hf-papers`：完全禁用 HuggingFace Trending 来源。
+- `--hf-daily-limit` / `--hf-weekly-limit` / `--hf-monthly-limit`：每个周期抓取数量（默认 5 / 20 / 50）。
+- `--hf-weight`：HF 影响力分值占比（默认 0.3），并可通过 `--hf-daily-weight` / `--hf-weekly-weight` / `--hf-monthly-weight` 对不同周期再加权（默认 1.0 / 1.1 / 1.2）。
+- `--hf-override-limit`：每个标签保底纳入的 HF 条目数量（默认 2），即便打分低于 `--min-score` 也会被选中并在日志中注明 “HF override”。
+- `--download-pdf`：为未来留的参数，目前仍以“链接”形式附加 PDF（下载逻辑集中在 `fetch_missing_pdfs.py`）。
 
 提示：
 - 建议设置 `UNPAYWALL_EMAIL` 以便通过 Unpaywall 获取开放获取 PDF 链接。
 - 大库环境可多次运行；若只想预览变更，可加 `--dry-run`。
+
+## fetch_missing_pdfs.py
+
+主要目标是：在 watch / 近期新增的条目里找到缺失 PDF 的 Zotero 项，然后自动下载并挂载本地附件，确保后续摘要/Notion 流水线有可用的 PDF。
+
+运行示例：
+
+```bash
+source ./exp
+# 优先使用 watch 结果（.data/new_items_watch.json），扫描过去 24 小时新增：
+python scripts/fetch_missing_pdfs.py --since-hours 24 --new-items-json .data/new_items_watch.json
+
+# 或直接按时间窗口遍历整个库：
+python scripts/fetch_missing_pdfs.py --since-hours 12 --limit 50
+```
+
+策略精要：
+- **候选来源**：优先读取 `.data/new_items_watch.json` 并按 `--since-hours` 过滤，若为空再回退遍历 `/items/top`（同样按时间过滤）；所有 key 合并去重后按 `--limit` 截断（`<=0` 表示不限）。
+- **判断是否缺 PDF**：通过 `fetch_children` 拉取附件，只有 `itemType=="attachment"` 且 `linkMode` 属于 imported_file/linked_file/imported_url 并带 PDF MIME/后缀才视为“已有本地 PDF”；存在 `linked_url` 时会记录远程链接供日志参考。
+- **下载策略**：`guess_pdf_sources()` 会优先选择 arXiv 直链（`https://arxiv.org/pdf/<id>.pdf`）、原始 URL 直链（以 `.pdf` 结尾）、以及配合 `UNPAYWALL_EMAIL` 调用 Unpaywall 获取开放获取 PDF。下载完成后落地到 `storage_dir/auto_pdfs/<key>/` 并通过 `create_linked_file()` 新建 `linked_file` 附件（标记 tag=`auto-pdf`）。
+- **Dry run**：加 `--dry-run` 时仅打印尝试顺序 ` [TRY] key ← label: url`，不会触碰磁盘或 Zotero。
+- **日志**：每个条目的处理结果都会输出 `[INFO] Item ... already has local PDF attachments` / `[OK] Linked local PDF for ...` 等提示，最终统计补全数量与剩余缺失数。
+
+常用参数：
+- `--since-hours 24`：候选时间窗口（小时）。
+- `--limit`：最多处理的父条目数量（0 表示不设上限）。
+- `--new-items-json .data/new_items_watch.json`：watch 阶段输出（可指定自定义路径或直接跳过该文件）。
+- `--storage-dir ~/Zotero/storage`：自定义 Zotero storage 根目录。
+- `--dry-run`：只打印，不下载/写入。
+
+必备环境变量：`ZOTERO_USER_ID`, `ZOTERO_API_KEY`，推荐设置 `UNPAYWALL_EMAIL` 以提高命中率。
 
 ## sync_zotero_to_notion.py
 

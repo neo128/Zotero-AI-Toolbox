@@ -475,7 +475,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--collection", help="Only process items inside the specified collection key.")
     parser.add_argument("--collection-name", help="Lookup a Zotero collection by name and process its items.")
     parser.add_argument("--item-keys", help="Comma-separated list of specific Zotero item keys to process.")
-    parser.add_argument("--limit", type=int, default=10, help="Maximum number of parent items to process (<=0 means no cap).")
+    parser.add_argument("--limit", type=int, default=0, help="Maximum number of parent items to process (<=0 means no cap).")
     parser.add_argument("--max-pages", type=int, default=12, help="Max PDF pages to read per attachment (default: 12).")
     parser.add_argument("--max-chars", type=int, default=12000, help="Max characters to send to the AI model (after extraction).")
     parser.add_argument("--note-tag", default="AI总结", help="Tag to add to the generated note.")
