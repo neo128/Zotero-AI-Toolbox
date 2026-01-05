@@ -1,0 +1,163 @@
+[INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2025-11-27
+[HF] weekly fetched=20 from week/2025-W48
+[HF] monthly fetched=50 from month/2025-11
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=76 arXiv=875 URL=1052 TY=1061
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[HF] embodied_ai matched 1 trending papers.
+[HF-OVERRIDE] Added 'Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simu' despite score=0.05
+[SCORE] tag=embodied_ai total=1 selected=1
+[COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[ADD] Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simu → embodied_ai｜具身智能 [KB3J3AMF]
+[ATTACH] PDF linked for KB3J3AMF
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=0 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[SCORE] tag=teleoperation total=1 selected=0
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[HF] robotic_navigation matched 5 trending papers.
+[HF-OVERRIDE] Added 'IterResearch: Rethinking Long-Horizon Agents via Markovian State
+  Reconstructio' despite score=0.13
+[HF-OVERRIDE] Added 'π_RL: Online RL Fine-tuning for Flow-based
+  Vision-Language-Action Models' despite score=0.06
+[SCORE] tag=robotic_navigation total=44 selected=4
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+  Reasoning Para (arxiv:2511.04570)
+[SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[SKIP] duplicate IterResearch: Rethinking Long-Horizon Agents via Markovian State
+  Reconstructio (arxiv:2511.07327)
+[SKIP] duplicate π_RL: Online RL Fine-tuning for Flow-based
+  Vision-Language-Action Models (arxiv:2510.25889)
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[HF] robotic_manipulation matched 5 trending papers.
+[HF-OVERRIDE] Added 'GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization' despite score=0.25
+[HF-OVERRIDE] Added 'GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization' despite score=0.16
+[SCORE] tag=robotic_manipulation total=22 selected=3
+[COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[SKIP] duplicate GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization (arxiv:2511.15705)
+[SKIP] duplicate GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization (arxiv:2511.15705)
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[HF] vision_language_model matched 12 trending papers.
+[HF-OVERRIDE] Added 'VIDEOP2R: Video Understanding from Perception to Reasoning' despite score=0.28
+[HF-OVERRIDE] Added 'VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+  Representatio' despite score=0.25
+[SCORE] tag=vision_language_model total=30 selected=4
+[COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+  Reasoning Para (arxiv:2511.04570)
+[SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[SKIP] duplicate VIDEOP2R: Video Understanding from Perception to Reasoning (arxiv:2511.11113)
+[SKIP] duplicate VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+  Representatio (arxiv:2511.02778)
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[HF] vision_language_action_model matched 2 trending papers.
+[HF-OVERRIDE] Added 'Don't Blind Your VLA: Aligning Visual Representations for OOD
+  Generalization' despite score=0.23
+[HF-OVERRIDE] Added 'π_RL: Online RL Fine-tuning for Flow-based
+  Vision-Language-Action Models' despite score=0.06
+[SCORE] tag=vision_language_action_model total=7 selected=2
+[COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[SKIP] duplicate Don't Blind Your VLA: Aligning Visual Representations for OOD
+  Generalization (doi:10.48550/arxiv.2510.25616)
+[SKIP] duplicate π_RL: Online RL Fine-tuning for Flow-based
+  Vision-Language-Action Models (arxiv:2510.25889)
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[HF] large_language_model matched 32 trending papers.
+[HF-OVERRIDE] Added 'GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Alg' despite score=0.30
+[HF-OVERRIDE] Added 'VIDEOP2R: Video Understanding from Perception to Reasoning' despite score=0.28
+[SCORE] tag=large_language_model total=65 selected=8
+[COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[SKIP] duplicate MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents v (arxiv:2511.11793)
+[SKIP] duplicate General Agentic Memory Via Deep Research (arxiv:2511.18423)
+[SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+  Reasoning Para (arxiv:2511.04570)
+[SKIP] duplicate General Agentic Memory Via Deep Research (arxiv:2511.18423)
+[SKIP] duplicate Souper-Model: How Simple Arithmetic Unlocks State-of-the-Art LLM Performance (arxiv:2511.13254)
+[SKIP] duplicate P1: Mastering Physics Olympiads with Reinforcement Learning (arxiv:2511.13612)
+[SKIP] duplicate GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Alg (arxiv:2511.17592)
+[SKIP] duplicate VIDEOP2R: Video Understanding from Perception to Reasoning (arxiv:2511.11113)
+[TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[HF] foundation_model matched 4 trending papers.
+[HF-OVERRIDE] Added 'MedSAM3: Delving into Segment Anything with Medical Concepts' despite score=0.14
+[HF-OVERRIDE] Added 'Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simu' despite score=0.05
+[SCORE] tag=foundation_model total=4 selected=3
+[COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[SKIP] duplicate Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation (arxiv:2511.14993)
+[SKIP] duplicate MedSAM3: Delving into Segment Anything with Medical Concepts (arxiv:2511.19046)
+[SKIP] duplicate Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simu (arxiv:2511.20714)
+[TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[SCORE] tag=dexterous_hand total=0 selected=0
+[TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[SCORE] tag=humanoid_robot total=0 selected=0
+[TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[SCORE] tag=quadruped_robot total=0 selected=0
+[TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[SCORE] tag=robotic_arm total=0 selected=0
+[TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[HF] reinforcement_learning matched 47 trending papers.
+[HF-OVERRIDE] Added 'GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Alg' despite score=0.30
+[HF-OVERRIDE] Added 'One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter' despite score=0.29
+[SCORE] tag=reinforcement_learning total=47 selected=10
+[COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[SKIP] duplicate Diffusion Language Models are Super Data Learners (arxiv:2511.03276)
+[SKIP] duplicate MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents v (arxiv:2511.11793)
+[SKIP] duplicate General Agentic Memory Via Deep Research (arxiv:2511.18423)
+[SKIP] duplicate Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation (arxiv:2511.14993)
+[SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[SKIP] duplicate General Agentic Memory Via Deep Research (arxiv:2511.18423)
+[SKIP] duplicate P1: Mastering Physics Olympiads with Reinforcement Learning (arxiv:2511.13612)
+[SKIP] duplicate Tiny Model, Big Logic: Diversity-Driven Optimization Elicits Large-Model
+  Reaso (arxiv:2511.06221)
+[SKIP] duplicate GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Alg (arxiv:2511.17592)
+[SKIP] duplicate One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter (arxiv:2511.10629)
+[TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[SCORE] tag=imitation_learning total=0 selected=0
+[TAG] world_model 'world_model｜世界模型' keywords=4
+[HF] world_model matched 2 trending papers.
+[HF-OVERRIDE] Added 'PAN: A World Model for General, Interactable, and Long-Horizon World Simulation' despite score=0.11
+[HF-OVERRIDE] Added 'Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simu' despite score=0.05
+[SCORE] tag=world_model total=2 selected=2
+[COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[SKIP] duplicate PAN: A World Model for General, Interactable, and Long-Horizon World Simulation (arxiv:2511.09057)
+[SKIP] duplicate Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simu (arxiv:2511.20714)
+[TAG] simulator 'simulator｜仿真平台' keywords=5
+[HF] simulator matched 1 trending papers.
+[HF-OVERRIDE] Added 'Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simu' despite score=0.05
+[SCORE] tag=simulator total=1 selected=1
+[COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[SKIP] duplicate Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simu (arxiv:2511.20714)
+[TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[SCORE] tag=motion_planning total=0 selected=0
+[TAG] task_planning 'task_planning｜任务规划' keywords=4
+[HF] task_planning matched 2 trending papers.
+[HF-OVERRIDE] Added 'Grounding Computer Use Agents on Human Demonstrations' despite score=0.26
+[HF-OVERRIDE] Added 'Part-X-MLLM: Part-aware 3D Multimodal Large Language Model' despite score=0.08
+[SCORE] tag=task_planning total=2 selected=2
+[COL] ensured collection 'task_planning｜任务规划' → IDXJKRDJ
+[SKIP] duplicate Grounding Computer Use Agents on Human Demonstrations (arxiv:2511.07332)
+[SKIP] duplicate Part-X-MLLM: Part-aware 3D Multimodal Large Language Model (arxiv:2511.13647)
+[TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[SCORE] tag=code_based_task_planning total=0 selected=0
+[TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[SCORE] tag=language_based_task_planning total=0 selected=0
+[TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[SCORE] tag=end_to_end_task_planning total=0 selected=0
+[TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[SCORE] tag=grounded_task_planning total=0 selected=0
+[TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[SCORE] tag=transformer_policy total=0 selected=0
+[TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[SCORE] tag=diffusion_policy total=0 selected=0
+[TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[SCORE] tag=3d_vision total=0 selected=0
+[TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[SCORE] tag=point_based_action total=0 selected=0
+[TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[SCORE] tag=chain_of_thought total=0 selected=0
+[INFO] Recorded 1 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[INFO] Done. Summary: {"candidates": 1, "added": 1, "skipped": 39, "updated": 0, "hf_candidates": 113, "hf_overrides": 20}

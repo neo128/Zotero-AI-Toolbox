@@ -1,0 +1,40 @@
+TY  - ELEC
+TI  - MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations
+T2  - MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations
+PB  - MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations
+UR  - https://arxiv.org/abs/2310.17596
+KW  - Scalable Data Sources
+KW  - Middle Layer: Synthetic and Simulation Data
+KW  - MimicGen
+ER  - 
+
+TY  - ELEC
+TI  - RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots
+T2  - RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots
+PB  - RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots
+UR  - https://arxiv.org/abs/2406.02523
+KW  - Scalable Data Sources
+KW  - Middle Layer: Synthetic and Simulation Data
+KW  - RoboCase
+ER  - 
+
+TY  - ELEC
+TI  - DexMimicGen: Automated Data Generation for  Bimanual Dexterous Manipulation via Imitation Learning
+T2  - DexMimicGen: Automated Data Generation for  Bimanual Dexterous Manipulation via Imitation Learning
+PB  - DexMimicGen: Automated Data Generation for  Bimanual Dexterous Manipulation via Imitation Learning
+UR  - https://arxiv.org/abs/2410.24185
+KW  - Scalable Data Sources
+KW  - Middle Layer: Synthetic and Simulation Data
+KW  - DexMimicGen
+ER  - 
+
+TY  - ELEC
+TI  - AgiBot DigitalWorld
+T2  - AgiBot DigitalWorld
+PB  - AgiBot DigitalWorld
+UR  - https://agibot-digitalworld.com/
+KW  - Scalable Data Sources
+KW  - Middle Layer: Synthetic and Simulation Data
+KW  - AgiBot DigitalWorld
+ER  - 
+

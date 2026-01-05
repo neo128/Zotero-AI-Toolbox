@@ -1,0 +1,40 @@
+[INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[HF] daily fetched=10 from date/2025-11-21
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=73 arXiv=864 URL=1023 TY=1032
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[HF] embodied_ai matched 1 trending papers.
+[SCORE] tag=embodied_ai total=1 selected=0
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=0 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[SCORE] tag=teleoperation total=0 selected=0
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[HF] robotic_navigation matched 1 trending papers.
+[SCORE] tag=robotic_navigation total=50 selected=0
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[HF] robotic_manipulation matched 1 trending papers.
+[SCORE] tag=robotic_manipulation total=18 selected=0
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[HF] vision_language_model matched 2 trending papers.
+[SCORE] tag=vision_language_model total=22 selected=0
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[HF] vision_language_action_model matched 1 trending papers.
+[SCORE] tag=vision_language_action_model total=8 selected=0
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[HF] large_language_model matched 1 trending papers.
+[SCORE] tag=large_language_model total=38 selected=0
+[TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[HF] foundation_model matched 2 trending papers.
+[SCORE] tag=foundation_model total=2 selected=0
+[TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[SCORE] tag=dexterous_hand total=0 selected=0
+[TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[SCORE] tag=humanoid_robot total=2 selected=0
+[TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[SCORE] tag=quadruped_robot total=0 selected=0
+[TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[SCORE] tag=robotic_arm total=0 selected=0
+[TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4

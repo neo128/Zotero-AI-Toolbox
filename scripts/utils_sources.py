@@ -135,7 +135,9 @@ def fetch_arxiv_by_keywords(keywords: List[str], since_days: int, max_results: i
 def fetch_s2_metadata(kind: str, identifier: str) -> Dict[str, Any]:
     paper_id = f"{kind}:{identifier}"
     url = f"https://api.semanticscholar.org/graph/v1/paper/{paper_id}"
-    params = {"fields": "title,year,externalIds,citationCount,influentialCitationCount,authors,abstract"}
+    params = {
+        "fields": "title,venue,publicationTypes,year,externalIds,citationCount,influentialCitationCount,authors,abstract",
+    }
     try:
         resp = requests.get(url, params=params, timeout=20, headers={"User-Agent": "Zotero-Watch/0.1"})
         if resp.status_code == 429:
@@ -148,10 +150,12 @@ def fetch_s2_metadata(kind: str, identifier: str) -> Dict[str, Any]:
     data = resp.json() or {}
     out: Dict[str, Any] = {
         "title": data.get("title"),
+        "venue": data.get("venue"),
         "year": data.get("year"),
         "citationCount": data.get("citationCount"),
         "influentialCitationCount": data.get("influentialCitationCount"),
         "abstract": strip_tags(data.get("abstract")),
+        "types": data.get("publicationTypes"),
     }
     ext = data.get("externalIds") or {}
     out["doi"] = ext.get("DOI") or ext.get("doi")
@@ -174,16 +178,38 @@ def fetch_crossref_metadata(doi: str) -> Dict[str, Any]:
             authors.append(name)
     abstract = strip_tags(msg.get("abstract")) if msg.get("abstract") else None
     year = None
+    date_str = None
     if msg.get("issued", {}).get("date-parts"):
         try:
-            year = msg["issued"]["date-parts"][0][0]
+            parts = msg["issued"]["date-parts"][0]
+            if parts:
+                year = parts[0]
+                date_str = "-".join(str(p) for p in parts)
         except Exception:
             pass
+    container = None
+    containers = msg.get("container-title") or []
+    if containers:
+        container = containers[0]
+    publisher = msg.get("publisher")
+    cr_type = msg.get("type")
+    volume = msg.get("volume")
+    issue = msg.get("issue")
+    pages = msg.get("page")
+    url = msg.get("URL")
     return {
         "title": title_list[0] if title_list else None,
         "authors": authors,
         "abstract": abstract,
         "year": year,
+        "date": date_str,
+        "container": container,
+        "publisher": publisher,
+        "type": cr_type,
+        "volume": volume,
+        "issue": issue,
+        "pages": pages,
+        "url": url,
     }
 
 

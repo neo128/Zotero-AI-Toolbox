@@ -1,0 +1,75 @@
+[INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2025-11-21
+[HF] weekly fetched=20 from week/2025-W47
+[HF] monthly fetched=50 from month/2025-11
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=76 arXiv=864 URL=1046 TY=1055
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[HF] embodied_ai matched 3 trending papers.
+[HF-OVERRIDE] Added 'PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image' despite score=0.08
+[HF-OVERRIDE] Added 'LEGO-Eval: Towards Fine-Grained Evaluation on Synthesizing 3D Embodied
+  Environ' despite score=0.04
+[SCORE] tag=embodied_ai total=3 selected=2
+[COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[SKIP] duplicate PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image (arxiv:2511.13648)
+[SKIP] duplicate LEGO-Eval: Towards Fine-Grained Evaluation on Synthesizing 3D Embodied
+  Environ (arxiv:2511.03001)
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=0 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[SCORE] tag=teleoperation total=0 selected=0
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[HF] robotic_navigation matched 5 trending papers.
+[HF-OVERRIDE] Added 'IterResearch: Rethinking Long-Horizon Agents via Markovian State
+  Reconstructio' despite score=0.18
+[HF-OVERRIDE] Added 'π_RL: Online RL Fine-tuning for Flow-based
+  Vision-Language-Action Models' despite score=0.13
+[SCORE] tag=robotic_navigation total=49 selected=4
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+  Reasoning Para (arxiv:2511.04570)
+[SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[SKIP] duplicate IterResearch: Rethinking Long-Horizon Agents via Markovian State
+  Reconstructio (arxiv:2511.07327)
+[SKIP] duplicate π_RL: Online RL Fine-tuning for Flow-based
+  Vision-Language-Action Models (arxiv:2510.25889)
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[HF] robotic_manipulation matched 3 trending papers.
+[HF-OVERRIDE] Added 'ThinkMorph: Emergent Properties in Multimodal Interleaved
+  Chain-of-Thought Rea' despite score=0.21
+[HF-OVERRIDE] Added 'Time-to-Move: Training-Free Motion Controlled Video Generation via Dual-Clock De' despite score=0.11
+[SCORE] tag=robotic_manipulation total=17 selected=3
+[COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[SKIP] duplicate ThinkMorph: Emergent Properties in Multimodal Interleaved
+  Chain-of-Thought Rea (doi:10.48550/arxiv.2510.27492)
+[SKIP] duplicate Time-to-Move: Training-Free Motion Controlled Video Generation via Dual-Clock De (arxiv:2511.08633)
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[HF] vision_language_model matched 20 trending papers.
+[HF-OVERRIDE] Added 'VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+  Representatio' despite score=0.29
+[HF-OVERRIDE] Added 'VIDEOP2R: Video Understanding from Perception to Reasoning' despite score=0.28
+[SCORE] tag=vision_language_model total=35 selected=4
+[COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+  Reasoning Para (arxiv:2511.04570)
+[SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[SKIP] duplicate VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+  Representatio (arxiv:2511.02778)
+[SKIP] duplicate VIDEOP2R: Video Understanding from Perception to Reasoning (arxiv:2511.11113)
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[HF] vision_language_action_model matched 4 trending papers.
+[HF-OVERRIDE] Added 'Don't Blind Your VLA: Aligning Visual Representations for OOD
+  Generalization' despite score=0.24
+[HF-OVERRIDE] Added 'π_RL: Online RL Fine-tuning for Flow-based
+  Vision-Language-Action Models' despite score=0.13
+[SCORE] tag=vision_language_action_model total=8 selected=2
+[COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[SKIP] duplicate Don't Blind Your VLA: Aligning Visual Representations for OOD
+  Generalization (doi:10.48550/arxiv.2510.25616)
+[SKIP] duplicate π_RL: Online RL Fine-tuning for Flow-based
+  Vision-Language-Action Models (arxiv:2510.25889)
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[HF] large_language_model matched 32 trending papers.

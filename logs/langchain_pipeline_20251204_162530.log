@@ -1,0 +1,1632 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-12-04
+[watch-import] [HF] weekly fetched=20 from week/2025-W49
+[watch-import] [HF] monthly fetched=50 from month/2025-12
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=86 arXiv=1038 URL=1267 TY=1228
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [HF] embodied_ai matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'CaptionQA: Is Your Caption as Useful as the Image Itself?' despite score=0.14
+[watch-import] [HF-OVERRIDE] Added 'DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso' despite score=0.08
+[watch-import] [SCORE] tag=embodied_ai total=2 selected=2
+[watch-import] [COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[watch-import] [SKIP] duplicate CaptionQA: Is Your Caption as Useful as the Image Itself? (arxiv:2511.21025)
+[watch-import] [SKIP] duplicate DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso (arxiv:2511.22134)
+[watch-import] [TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[watch-import] [HF] embodied_surveys matched 5 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Deep Research: A Systematic Survey' despite score=0.27
+[watch-import] [HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.26
+[watch-import] [SCORE] tag=embodied_surveys total=36 selected=2
+[watch-import] [COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[watch-import] [ADD] Deep Research: A Systematic Survey → embodied_surveys｜具身智能综述 [GA4M5X4M]
+[watch-import] [ATTACH] PDF linked for GA4M5X4M
+[watch-import] [SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=1 selected=0
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [SCORE] tag=teleoperation total=1 selected=0
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 1 trending papers.
+[watch-import] [SCORE] tag=robotic_navigation total=51 selected=0
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [HF] robotic_manipulation matched 6 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.26
+[watch-import] [HF-OVERRIDE] Added 'Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin' despite score=0.20
+[watch-import] [SCORE] tag=robotic_manipulation total=20 selected=2
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[watch-import] [ADD] Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin → robotic_manipulation｜机器人操作 [VB4TRKGT]
+[watch-import] [ATTACH] PDF linked for VB4TRKGT
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 15 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Qwen3-VL Technical Report' despite score=0.27
+[watch-import] [HF-OVERRIDE] Added 'What about gravity in video generation? Post-Training Newton's Laws with Verifia' despite score=0.25
+[watch-import] [SCORE] tag=vision_language_model total=28 selected=3
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [ADD] Qwen3-VL Technical Report → vision_language_model｜视觉语言模型 [6BDTI2IK]
+[watch-import] [ATTACH] PDF linked for 6BDTI2IK
+[watch-import] [SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[watch-import] [SKIP] duplicate What about gravity in video generation? Post-Training Newton's Laws with Verifia (arxiv:2512.00425)
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [HF] vision_language_action_model matched 4 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'GR-RL: Going Dexterous and Precise for Long-Horizon Robotic Manipulation' despite score=0.09
+[watch-import] [HF-OVERRIDE] Added 'VLASH: Real-Time VLAs via Future-State-Aware Asynchronous Inference' despite score=0.08
+[watch-import] [SCORE] tag=vision_language_action_model total=7 selected=2
+[watch-import] [COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[watch-import] [ADD] GR-RL: Going Dexterous and Precise for Long-Horizon Robotic Manipulation → vision_language_action_model｜视觉语言动作模型 [S8KR8CJU]
+[watch-import] [ATTACH] PDF linked for S8KR8CJU
+[watch-import] [SKIP] duplicate VLASH: Real-Time VLAs via Future-State-Aware Asynchronous Inference (arxiv:2512.01031)
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 31 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models' despite score=0.28
+[watch-import] [HF-OVERRIDE] Added 'ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration' despite score=0.24
+[watch-import] [SCORE] tag=large_language_model total=70 selected=3
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[watch-import] [ADD] ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration → large_language_model｜大语言模型 [SA53X4BU]
+[watch-import] [ATTACH] PDF linked for SA53X4BU
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 8 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu' despite score=0.27
+[watch-import] [HF-OVERRIDE] Added 'LFM2 Technical Report' despite score=0.18
+[watch-import] [SCORE] tag=foundation_model total=8 selected=5
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[watch-import] [SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[watch-import] [SKIP] duplicate LFM2 Technical Report (arxiv:2511.23404)
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [SCORE] tag=dexterous_hand total=0 selected=0
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [SCORE] tag=humanoid_robot total=1 selected=0
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 48 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'Qwen3-VL Technical Report' despite score=0.30
+[watch-import] [SCORE] tag=reinforcement_learning total=62 selected=10
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling (arxiv:2511.20785)
+[watch-import] [SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[watch-import] [SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[watch-import] [SKIP] duplicate ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration (arxiv:2511.21689)
+[watch-import] [SKIP] duplicate Stabilizing Reinforcement Learning with LLMs: Formulation and Practices (arxiv:2512.01374)
+[watch-import] [SKIP] duplicate DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning (arxiv:2511.22570)
+[watch-import] [SKIP] duplicate LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling (arxiv:2511.20785)
+[watch-import] [SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [SCORE] tag=imitation_learning total=0 selected=0
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [HF] world_model matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Envision: Benchmarking Unified Understanding & Generation for Causal World Proce' despite score=0.25
+[watch-import] [HF-OVERRIDE] Added 'InternVideo-Next: Towards General Video Foundation Models without Video-Text Sup' despite score=0.01
+[watch-import] [SCORE] tag=world_model total=3 selected=3
+[watch-import] [COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[watch-import] [SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[watch-import] [SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[watch-import] [SKIP] duplicate InternVideo-Next: Towards General Video Foundation Models without Video-Text Sup (arxiv:2512.01342)
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [HF] simulator matched 1 trending papers.
+[watch-import] [SCORE] tag=simulator total=51 selected=0
+[watch-import] [TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[watch-import] [SCORE] tag=motion_planning total=0 selected=0
+[watch-import] [TAG] task_planning 'task_planning｜任务规划' keywords=4
+[watch-import] [SCORE] tag=task_planning total=5 selected=0
+[watch-import] [TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[watch-import] [SCORE] tag=code_based_task_planning total=0 selected=0
+[watch-import] [TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[watch-import] [SCORE] tag=language_based_task_planning total=0 selected=0
+[watch-import] [TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[watch-import] [SCORE] tag=end_to_end_task_planning total=0 selected=0
+[watch-import] [TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[watch-import] [SCORE] tag=grounded_task_planning total=0 selected=0
+[watch-import] [TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[watch-import] [SCORE] tag=transformer_policy total=0 selected=0
+[watch-import] [TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[watch-import] [SCORE] tag=diffusion_policy total=0 selected=0
+[watch-import] [TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[watch-import] [SCORE] tag=3d_vision total=0 selected=0
+[watch-import] [TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[watch-import] [SCORE] tag=point_based_action total=0 selected=0
+[watch-import] [TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[watch-import] [SCORE] tag=chain_of_thought total=0 selected=0
+[watch-import] [INFO] Recorded 5 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[watch-import] [INFO] Done. Summary: {"candidates": 5, "added": 5, "skipped": 27, "updated": 0, "hf_candidates": 124, "hf_overrides": 18}
+[watch-import] [INFO] Report → /Users/neoone/code/Zotero/reports/watch_20251204_162530.json
+[PIPELINE] ✓ watch completed
+[PIPELINE] → pdf: since_hours=24.0 limit=∞
+[fetch-pdfs] [TRY] GA4M5X4M ← existing attachment link: https://arxiv.org/pdf/2512.02038.pdf
+[fetch-pdfs] [OK] Linked local PDF for GA4M5X4M
+[fetch-pdfs] [TRY] VB4TRKGT ← existing attachment link: https://arxiv.org/pdf/2512.02395.pdf
+[fetch-pdfs] [OK] Linked local PDF for VB4TRKGT
+[fetch-pdfs] [TRY] 6BDTI2IK ← existing attachment link: https://arxiv.org/pdf/2511.21631.pdf
+[fetch-pdfs] [OK] Linked local PDF for 6BDTI2IK
+[fetch-pdfs] [TRY] S8KR8CJU ← existing attachment link: https://arxiv.org/pdf/2512.01801.pdf
+[fetch-pdfs] [OK] Linked local PDF for S8KR8CJU
+[fetch-pdfs] [TRY] SA53X4BU ← existing attachment link: https://arxiv.org/pdf/2511.21689.pdf
+[fetch-pdfs] [OK] Linked local PDF for SA53X4BU
+[fetch-pdfs] [INFO] Item TSH3R5E7 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 4NCHDQ4J already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item WM24TASP already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item SRZWWI4N already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 5K6DXHU6 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item JEAVA3C2 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item BU585UFM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 2GSTXM9T already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item J5MQHSH3 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item IESDBKP7 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item IEZ7IK83 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item ISAZ83F9 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item IUSBWVB6 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 9BQGT6AF already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item J53FDE4T already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item CPB4VGHB already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VGHGF2EF already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item BWDNFIFA already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 8TIZHQND already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item CRSNTJQZ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item NP64JEI8 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 9VEGZEDW already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item K4J968Z6 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 8H3NTDAF already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item XZGCDRC2 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] No PDF sources found for Veo 3
+[fetch-pdfs] [INFO] No PDF sources found for Genie 2: A large-scale foundation world model
+[fetch-pdfs] [INFO] No PDF sources found for Video generation models as world simulators
+[fetch-pdfs] [INFO] Item T4IETM7C already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item H8TR6DJ8 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item ERAPJ3M4 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item KVMPV7I8 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item QFXKMECX already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VSU3N5X9 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 5M6JABS7 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item ISD6RV3B already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item ANXSA3P5 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item EES6IT4J already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item BFKEXISV already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item H9CN9VMJ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item USUX228W already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item RH5J92Q4 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item ZFZVPH65 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item D8DFINBM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VBAPZ2JR already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item NH44FCUA already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item IHFZ29FA already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item I3QEQWF2 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 2WC5CQ3T already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item A4MPNNTE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item XK6484ER already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item FQIXPNJ9 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item SRHDURDC already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] No PDF sources found for 2022.11. [[🌍 Website](https://github.com/Stability-AI/StableDiffusion)]
+[fetch-pdfs] [INFO] Item 2SQB58GD already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item TMGHG93H already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item N8JTHKMM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item JNXJ4NF2 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item GNS3ZMIQ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item KZDQSNXK already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VVNHDUQB already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item A6QPDEAN already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item EQRCCG8K already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item UIHDVUQH already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 7PCFNDW4 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item JZP7KTS4 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 7IXFCWD8 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item IUWRP2NM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 46QH9DUX already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 8PSHMUR2 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item S26Z2N69 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VSZXWQX2 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item G23DZ3BZ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item BN9SC79Q already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item P3X6SH6P already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 8NGUBVJ3 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item W2IAXERT already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] No PDF sources found for AgiBot DigitalWorld
+[fetch-pdfs] [INFO] Item 6MA3ZHWQ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item EF2XM9PP already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 836HGVXE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item J6C89BMP already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item FBNG2WKN already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item NP6MDWXM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 6JKHCQKE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item Z2WTP276 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item GF54FD63 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item X5N3A2BM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item Z85SSHFV already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item N7T5W69G already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item DXE2NGGE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 2CT2JQI4 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item W7HH7M4Q already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 6ZF92KX2 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item QEG3F95D already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item JTABKACF already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item IX7XIKZN already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item ZRZ7P9AQ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item HNK5PGGT already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item H5Q92HB7 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VUZG4X3N already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item R664XZUT already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item X6WJK9RP already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item PM7SNG56 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item PCFVXMGJ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item D4FCDCUS already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item M5W7IQ6A already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item D4AAHCE9 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 2E26JWFN already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item DMXFQE8R already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item FKFVJGJJ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 5FCFQ5U9 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 59BPWAAM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item S4Q983DR already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 8M9SEZD7 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item NTRUHJU7 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item I9ASFHXM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item TDWGAECW already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] No PDF sources found for 2024.05. [[🌍 Website](https://www.anthropic.com/news/claude-4)]
+[fetch-pdfs] [INFO] No PDF sources found for 2025.04. [[🌍 Website](https://deepmind.google/models/gemini/flash/)]
+[fetch-pdfs] [INFO] Item 6TJT2BQG already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item R98ZN8XD already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 8JEGRCM6 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item ZIZ9XHSK already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] No PDF sources found for 2025.03. [[🌍 Website](https://deepmind.google/models/gemini/pro/)]
+[fetch-pdfs] [INFO] No PDF sources found for 2025.02. [[🌍 Website](https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/)]
+[fetch-pdfs] [INFO] No PDF sources found for 2024.12. [[🌍 Website](https://openai.com/o1/)]
+[fetch-pdfs] [INFO] No PDF sources found for 2024.03. [[🌍 Website](https://www.anthropic.com/news/claude-3-family)]
+[fetch-pdfs] [INFO] No PDF sources found for 2025.01. [[🌍 Website](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/)]
+[fetch-pdfs] [INFO] Item WWBSCUM9 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item R76PJJKP already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item Q7EQTIMM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 26VT52WB already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item EPD9WFRS already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 84UCWE8E already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item DEMAHMXA already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item M5UPE8GI already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item WTUMRXIX already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item QQE8P4W8 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item TKWEM67U already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 5RXD3BVT already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 5BR6DJAT already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 8PJCUEIH already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item MAPB6TFB already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item SR8G6S86 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item CN68ZAFB already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item WAJK3M8Z already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item PBMVPH9X already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] No PDF sources found for 2023.07. [[🌍 Website](https://www.anthropic.com/news/claude-2)]
+[fetch-pdfs] [INFO] No PDF sources found for 2023.03. [[🌍 Website](https://www.anthropic.com/news/introducing-claude)]
+[fetch-pdfs] [INFO] Item U4JJN9SH already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] No PDF sources found for 2022.11. [[🌍 Website](https://openai.com/index/chatgpt/?utm_source=chatgpt.com)]
+[fetch-pdfs] [INFO] Item 5NK8HTFF already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item SMF9GTAP already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 98WDNNGU already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item D7CQHNRE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 7WIBZ89Q already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VUWZ7ANN already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item KE2KPWRS already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item RWZG5VIG already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item P5TFDBPB already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item S7XWU527 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 4U8J5MES already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item AUBKH7U6 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item RGVGNX3E already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item URQZ7XWG already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item SN54BK4G already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item V8G33GB6 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item C8XNIK9W already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item FJXMS3IU already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item UT54XC7M already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item NHWACA6H already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item R6F7CD8D already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 3CD4DKZH already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item JBA6F7PC already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item P3XJ7ABB already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 29W9B9NI already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] No PDF sources found for Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts
+[fetch-pdfs] [INFO] Item K5ERS4X9 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item R8VCVGHN already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 7QS9DZNE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item WISBI7NZ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item TJT4V2BW already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item H7VE3X87 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item FEBAUBK4 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 4XGRIBFM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 5V5Q3XUA already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item I8HVTXNG already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VFQHBWVR already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] No PDF sources found for ROCKET-1: Mastering Open-World Interaction with Visual-Temporal Context Prompting
+[fetch-pdfs] [INFO] Item 3AVA6QPC already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 39FUP3B7 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item U8QIHZZE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item F4F48TEE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 6C9HD7P5 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item V4I77VKC already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item JX4H4P2F already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 3P3FBKKN already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 8BSJE2XT already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item MC3DR8SK already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item UENVVKMA already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 5QWBNJJ4 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Completed. PDFs added: 5, remaining without PDF: 17.
+[PIPELINE] ✓ pdf completed
+[PIPELINE] → dedupe: limit=∞ since_hours=24.0
+[dedupe] [INFO] Scanned 207 top-level items (after time filter).
+[dedupe] [INFO] No duplicates detected with the current heuristic.
+[PIPELINE] ✓ dedupe completed
+[PIPELINE] → summary: limit=200 since_hours=24.0
+[summaries-err] could not convert string to float: b'0.00-20' : FloatObject (b'0.00-20') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-20' : FloatObject (b'0.00-20') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-20' : FloatObject (b'0.00-20') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-20' : FloatObject (b'0.00-20') invalid; use 0.0 instead
+[summaries] [INFO] Fetched 200 Zotero items before time-window filtering.
+[summaries] [INFO] 200 items remain after applying modified-since 24.0h window.
+[summaries] [INFO] Processing ToolOrchestra__Elevating_Intelligence_via_Efficient_Model_and_Tool_Orchestration.pdf (WQJF3WTQ)
+[summaries]   - Reading ToolOrchestra__Elevating_Intelligence_via_Efficient_Model_and_Tool_Orchestration.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing GR-RL__Going_Dexterous_and_Precise_for_Long-Horizon_Robotic_Manipulation.pdf (9VTPF2C3)
+[summaries]   - Reading GR-RL__Going_Dexterous_and_Precise_for_Long-Horizon_Robotic_Manipulation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Qwen3-VL_Technical_Report.pdf (K5NTN4C4)
+[summaries]   - Reading Qwen3-VL_Technical_Report.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Skywork-R1V4__Toward_Agentic_Multimodal_Intelligence_through_Interleaved_Thinkin.pdf (TE5U8PP5)
+[summaries]   - Reading Skywork-R1V4__Toward_Agentic_Multimodal_Intelligence_through_Interleaved_Thinkin.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Deep_Research__A_Systematic_Survey.pdf (GWTC93QS)
+[summaries]   - Reading Deep_Research__A_Systematic_Survey.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PDF (P7946583)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration (SA53X4BU)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (5UXZQXCH)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing GR-RL: Going Dexterous and Precise for Long-Horizon Robotic Manipulation (S8KR8CJU)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (IM4R8CWM)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Qwen3-VL Technical Report (6BDTI2IK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (HFHZS84W)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinking with Images and DeepResearch (VB4TRKGT)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (EJZINV3V)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Deep Research: A Systematic Survey (GA4M5X4M)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing GPT-4V_ision__for_Robotics__Multimodal_Task_Planning_from_Human_Demonstration.pdf (WQRC85I4)
+[summaries]   - Reading GPT-4V_ision__for_Robotics__Multimodal_Task_Planning_from_Human_Demonstration.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing KITE__Keypoint-Conditioned_Policies_for_Semantic_Manipulation.pdf (DFCIGHC6)
+[summaries]   - Reading KITE__Keypoint-Conditioned_Policies_for_Semantic_Manipulation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A3VLM__Actionable_Articulation-Aware_Vision_Language_Model.pdf (QSJGWA4J)
+[summaries]   - Reading A3VLM__Actionable_Articulation-Aware_Vision_Language_Model.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ManiFoundation_Model_for_General-Purpose_Robotic_Manipulation_of_Contact_Synthes.pdf (8C8FT6EQ)
+[summaries]   - Reading ManiFoundation_Model_for_General-Purpose_Robotic_Manipulation_of_Contact_Synthes.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RAM__Retrieval-Based_Affordance_Transfer_for_Generalizable_Zero-Shot_Robotic_Man.pdf (G3VWIDR2)
+[summaries]   - Reading RAM__Retrieval-Based_Affordance_Transfer_for_Generalizable_Zero-Shot_Robotic_Man.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboPoint__A_Vision-Language_Model_for_Spatial_Affordance_Prediction_for_Robotic.pdf (G85T54KH)
+[summaries]   - Reading RoboPoint__A_Vision-Language_Model_for_Spatial_Affordance_Prediction_for_Robotic.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing CoPa__General_Robotic_Manipulation_through_Spatial_Constraints_of_Parts_with_Fou.pdf (BT2KSMEM)
+[summaries]   - Reading CoPa__General_Robotic_Manipulation_through_Spatial_Constraints_of_Parts_with_Fou.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DexGraspVLA__A_Vision-Language-Action_Framework_Towards_General_Dexterous_Graspi.pdf (XG8MGX3B)
+[summaries]   - Reading DexGraspVLA__A_Vision-Language-Action_Framework_Towards_General_Dexterous_Graspi.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing MOKA__Open-World_Robotic_Manipulation_through_Mark-Based_Visual_Prompting.pdf (ZJ5ZT4XZ)
+[summaries]   - Reading MOKA__Open-World_Robotic_Manipulation_through_Mark-Based_Visual_Prompting.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ManipLLM__Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Ma.pdf (525MURN2)
+[summaries]   - Reading ManipLLM__Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Ma.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing VoxPoser__Composable_3D_Value_Maps_for_Robotic_Manipulation_with_Language_Models.pdf (PP6DJHE4)
+[summaries]   - Reading VoxPoser__Composable_3D_Value_Maps_for_Robotic_Manipulation_with_Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing CLIPort__What_and_Where_Pathways_for_Robotic_Manipulation.pdf (HTM2XZI5)
+[summaries]   - Reading CLIPort__What_and_Where_Pathways_for_Robotic_Manipulation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Text2Motion__From_Natural_Language_Instructions_to_Feasible_Plans.pdf (S4UWU5SP)
+[summaries]   - Reading Text2Motion__From_Natural_Language_Instructions_to_Feasible_Plans.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ProgPrompt__Generating_Situated_Robot_Task_Plans_using_Large_Language_Models.pdf (SDPG6ZZS)
+[summaries]   - Reading ProgPrompt__Generating_Situated_Robot_Task_Plans_using_Large_Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing KUDA__Keypoints_to_Unify_Dynamics_Learning_and_Visual_Prompting_for_Open-Vocabul.pdf (X5AMMJRZ)
+[summaries]   - Reading KUDA__Keypoints_to_Unify_Dynamics_Learning_and_Visual_Prompting_for_Open-Vocabul.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing OmniManip__Towards_General_Robotic_Manipulation_via_Object-Centric__Interaction_.pdf (2ZP9685Q)
+[summaries]   - Reading OmniManip__Towards_General_Robotic_Manipulation_via_Object-Centric__Interaction_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ReKep__Spatio-Temporal_Reasoning_of_Relational_Keypoint_Constraints_for_Robotic_.pdf (CW8GSGHK)
+[summaries]   - Reading ReKep__Spatio-Temporal_Reasoning_of_Relational_Keypoint_Constraints_for_Robotic_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Instruct2Act__Mapping_Multi-modality_Instructions_to_Robotic_Actions_with_Large_.pdf (FEPERHX3)
+[summaries]   - Reading Instruct2Act__Mapping_Multi-modality_Instructions_to_Robotic_Actions_with_Large_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ChatGPT_for_Robotics__Design_Principles_and_Model_Abilities.pdf (GZR9X2X2)
+[summaries]   - Reading ChatGPT_for_Robotics__Design_Principles_and_Model_Abilities.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Code_as_Policies__Language_Model_Programs_for_Embodied_Control.pdf (775KWZ92)
+[summaries]   - Reading Code_as_Policies__Language_Model_Programs_for_Embodied_Control.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboDexVLM__Visual_Language_Model-Enabled_Task_Planning_and_Motion_Control_for_D.pdf (ICFHUFE9)
+[summaries]   - Reading RoboDexVLM__Visual_Language_Model-Enabled_Task_Planning_and_Motion_Control_for_D.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing SoFar__Language-Grounded_Orientation_Bridges_Spatial_Reasoning_and_Object_Manipu.pdf (TNAI8JBM)
+[summaries]   - Reading SoFar__Language-Grounded_Orientation_Bridges_Spatial_Reasoning_and_Object_Manipu.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Open-World_Object_Manipulation_using_Pre-Trained_Vision-Language_Models.pdf (MZIEUXN7)
+[summaries]   - Reading Open-World_Object_Manipulation_using_Pre-Trained_Vision-Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Bi-VLA__Vision-Language-Action_Model-Based_System_for_Bimanual_Robotic_Dexterous.pdf (36WQIZ87)
+[summaries]   - Reading Bi-VLA__Vision-Language-Action_Model-Based_System_for_Bimanual_Robotic_Dexterous.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing 3D-VLA__A_3D_Vision-Language-Action_Generative_World_Model.pdf (P6IMNRJE)
+[summaries]   - Reading 3D-VLA__A_3D_Vision-Language-Action_Generative_World_Model.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DoReMi__Grounding_Language_Model_by_Detecting_and_Recovering_from_Plan-Execution.pdf (TF7H9BG9)
+[summaries]   - Reading DoReMi__Grounding_Language_Model_by_Detecting_and_Recovering_from_Plan-Execution.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing EmbodiedGPT__Vision-Language_Pre-Training_via_Embodied_Chain_of_Thought.pdf (I6GFAIDB)
+[summaries-err] could not convert string to float: b'0.00-40' : FloatObject (b'0.00-40') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-40' : FloatObject (b'0.00-40') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-40' : FloatObject (b'0.00-40') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-40' : FloatObject (b'0.00-40') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-60277275' : FloatObject (b'0.00-60277275') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-60277275' : FloatObject (b'0.00-60277275') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-30358226' : FloatObject (b'0.00-30358226') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-5129082' : FloatObject (b'0.00-5129082') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.00-43497173' : FloatObject (b'0.00-43497173') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.0000-36745407' : FloatObject (b'0.0000-36745407') invalid; use 0.0 instead
+[summaries]   - Reading EmbodiedGPT__Vision-Language_Pre-Training_via_Embodied_Chain_of_Thought.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Inner_Monologue__Embodied_Reasoning_through_Planning_with_Language_Models.pdf (WS8ATC7I)
+[summaries]   - Reading Inner_Monologue__Embodied_Reasoning_through_Planning_with_Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Do_As_I_Can.pdf (8MIMXIUM)
+[summaries]   - Reading Do_As_I_Can.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing NaVILA__Legged_Robot_Vision-Language-Action_Model_for_Navigation.pdf (72GDD4JF)
+[summaries]   - Reading NaVILA__Legged_Robot_Vision-Language-Action_Model_for_Navigation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RT-H__Action_Hierarchies_Using_Language.pdf (G3KCKFWH)
+[summaries]   - Reading RT-H__Action_Hierarchies_Using_Language.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing GEVRM__Goal-Expressive_Video_Generation_Model_For_Robust_Visual_Manipulation.pdf (PB5SXUC4)
+[summaries]   - Reading GEVRM__Goal-Expressive_Video_Generation_Model_For_Robust_Visual_Manipulation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Gen2Act__Human_Video_Generation_in_Novel_Scenarios_enables_Generalizable_Robot_M.pdf (S4IFJ4TW)
+[summaries]   - Reading Gen2Act__Human_Video_Generation_in_Novel_Scenarios_enables_Generalizable_Robot_M.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Video_Language_Planning.pdf (PHM9K644)
+[summaries]   - Reading Video_Language_Planning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Learning_Universal_Policies_via_Text-Guided_Video_Generation.pdf (M62NWHDC)
+[summaries]   - Reading Learning_Universal_Policies_via_Text-Guided_Video_Generation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboScript__Code_Generation_for_Free-Form_Manipulation_Tasks_across_Real_and_Sim.pdf (XUS8NKS8)
+[summaries]   - Reading RoboScript__Code_Generation_for_Free-Form_Manipulation_Tasks_across_Real_and_Sim.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ReplanVLM__Replanning_Robotic_Tasks_with_Visual_Language_Models.pdf (BPXUQ5EF)
+[summaries]   - Reading ReplanVLM__Replanning_Robotic_Tasks_with_Visual_Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboMamba__Multimodal_State_Space_Model_for_Efficient_Robot_Reasoning_and_Manipu.pdf (K3S3GFSP)
+[summaries]   - Reading RoboMamba__Multimodal_State_Space_Model_for_Efficient_Robot_Reasoning_and_Manipu.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Look_Before_You_Leap__Unveiling_the_Power_of__GPT-4V_in_Robotic_Vision-Language_.pdf (2EA55XQC)
+[summaries]   - Reading Look_Before_You_Leap__Unveiling_the_Power_of__GPT-4V_in_Robotic_Vision-Language_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PaLM-E__An_Embodied_Multimodal_Language_Model.pdf (FIGNCZ2F)
+[summaries]   - Reading PaLM-E__An_Embodied_Multimodal_Language_Model.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Socratic_Models__Composing_Zero-Shot_Multimodal_Reasoning_with_Language.pdf (WHV6ACUQ)
+[summaries]   - Reading Socratic_Models__Composing_Zero-Shot_Multimodal_Reasoning_with_Language.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Language_Models_as_Zero-Shot_Planners__Extracting_Actionable_Knowledge_for_Embod.pdf (WAJCBKI4)
+[summaries]   - Reading Language_Models_as_Zero-Shot_Planners__Extracting_Actionable_Knowledge_for_Embod.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing CoT-VLA__Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models.pdf (HPB4WKQS)
+[summaries]   - Reading CoT-VLA__Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Zero-Shot_Robotic_Manipulation_with_Pretrained_Image-Editing_Diffusion_Models.pdf (MFU62D35)
+[summaries]   - Reading Zero-Shot_Robotic_Manipulation_with_Pretrained_Image-Editing_Diffusion_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Video_Prediction_Policy__A_Generalist_Robot_Policy_with_Predictive_Visual_Repres.pdf (F572VPMW)
+[summaries]   - Reading Video_Prediction_Policy__A_Generalist_Robot_Policy_with_Predictive_Visual_Repres.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboCodeX__Multimodal_Code_Generation_for_Robotic_Behavior_Synthesis.pdf (GKITB8ZZ)
+[summaries]   - Reading RoboCodeX__Multimodal_Code_Generation_for_Robotic_Behavior_Synthesis.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Improving_language_understanding_by_generative_pre-training.pdf (J94IBDIC)
+[summaries]   - Reading Improving_language_understanding_by_generative_pre-training.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Exploring_the_limits_of_transfer_learning_with_a_unified_text-to-text_transforme.pdf (MECCJC26)
+[summaries]   - Reading Exploring_the_limits_of_transfer_learning_with_a_unified_text-to-text_transforme.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Language_Models_are_Unsupervised_Multitask_Learners.pdf (ZK58H9HW)
+[summaries]   - Reading Language_Models_are_Unsupervised_Multitask_Learners.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Mixtral_of_Experts.pdf (R2U27THM)
+[summaries]   - Reading Mixtral_of_Experts.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Mamba__Linear-Time_Sequence_Modeling_with_Selective_State_Spaces.pdf (FMHPE4Q2)
+[summaries]   - Reading Mamba__Linear-Time_Sequence_Modeling_with_Selective_State_Spaces.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Mistral_7B.pdf (QQUJCB93)
+[summaries]   - Reading Mistral_7B.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing 2023.03._____Paper__https___arxiv.org_abs_2303.08774_______Website__https___open.pdf (4DBTR893)
+[summaries]   - Reading 2023.03._____Paper__https___arxiv.org_abs_2303.08774_______Website__https___open.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Training_language_models_to_follow_instructions_with_human_feedback.pdf (ZVBA2UKC)
+[summaries]   - Reading Training_language_models_to_follow_instructions_with_human_feedback.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Language_Models_are_Few-Shot_Learners.pdf (BZDR8P85)
+[summaries]   - Reading Language_Models_are_Few-Shot_Learners.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing BERT__Pre-training_of_Deep_Bidirectional_Transformers_for_Language_Understanding.pdf (DE5B4BTB)
+[summaries]   - Reading BERT__Pre-training_of_Deep_Bidirectional_Transformers_for_Language_Understanding.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Attention_is_All_You_Need.pdf (EUW3WBPK)
+[summaries]   - Reading Attention_is_All_You_Need.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing __pi__0.5_____a_Vision-Language-Action_Model_with_Open-World_Generalization.pdf (JNR55IVX)
+[summaries]   - Reading __pi__0.5_____a_Vision-Language-Action_Model_with_Open-World_Generalization.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboBrain__A_Unified_Brain_Model_for_Robotic_Manipulation_from_Abstract_to_Concr.pdf (CHFCT4DX)
+[summaries]   - Reading RoboBrain__A_Unified_Brain_Model_for_Robotic_Manipulation_from_Abstract_to_Concr.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Hi_Robot__Open-Ended_Instruction_Following_with_Hierarchical_Vision-Language-Act.pdf (SADJ75ZU)
+[summaries]   - Reading Hi_Robot__Open-Ended_Instruction_Following_with_Hierarchical_Vision-Language-Act.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Reflective_Planning__Vision-Language_Models_for_Multi-Stage_Long-Horizon_Robotic.pdf (UIP2P9HZ)
+[summaries]   - Reading Reflective_Planning__Vision-Language_Models_for_Multi-Stage_Long-Horizon_Robotic.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Llama_2__Open_Foundation_and_Fine-Tuned_Chat_Models.pdf (VGCKVPCZ)
+[summaries]   - Reading Llama_2__Open_Foundation_and_Fine-Tuned_Chat_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing LLaMA__Open_and_Efficient_Foundation_Language_Models.pdf (3U2QA4PA)
+[summaries]   - Reading LLaMA__Open_and_Efficient_Foundation_Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Training_Compute-Optimal_Large_Language_Models.pdf (HHFK9DBC)
+[summaries]   - Reading Training_Compute-Optimal_Large_Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Multilingual_universal_sentence_encoder_for_semantic_retrieval.pdf (WQ7WNTAZ)
+[summaries]   - Reading Multilingual_universal_sentence_encoder_for_semantic_retrieval.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Universal_sentence_encoder.pdf (68S7VWE7)
+[summaries]   - Reading Universal_sentence_encoder.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing BUMBLE__Unifying_Reasoning_and_Acting_with_Vision-Language_Models_for_Building-w.pdf (9H5BVAJH)
+[summaries]   - Reading BUMBLE__Unifying_Reasoning_and_Acting_with_Vision-Language_Models_for_Building-w.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Gemma__Open_Models_Based_on_Gemini_Research_and_Technology.pdf (6ZDHUMNN)
+[summaries]   - Reading Gemma__Open_Models_Based_on_Gemini_Research_and_Technology.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing 2025.03._____Paper__https___arxiv.org_abs_2503.19786_______Website__https___deep.pdf (6IKT7RJF)
+[summaries-err] Ignoring wrong pointing object 8 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 10 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 12 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 14 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 16 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 18 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 20 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 22 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 24 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 59 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 174 0 (offset 0)
+[summaries-err] could not convert string to float: b'0.000000000000-5684342' : FloatObject (b'0.000000000000-5684342') invalid; use 0.0 instead
+[summaries-err] could not convert string to float: b'0.000000000000-5684342' : FloatObject (b'0.000000000000-5684342') invalid; use 0.0 instead
+[summaries]   - Reading 2025.03._____Paper__https___arxiv.org_abs_2503.19786_______Website__https___deep.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DeepSeek-R1__Incentivizing_Reasoning_Capability_in_LLMs_via_Reinforcement_Learni.pdf (RBDPVIPS)
+[summaries]   - Reading DeepSeek-R1__Incentivizing_Reasoning_Capability_in_LLMs_via_Reinforcement_Learni.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Gemma_2__Improving_Open_Language_Models_at_a_Practical_Size.pdf (V7NJ784Z)
+[summaries]   - Reading Gemma_2__Improving_Open_Language_Models_at_a_Practical_Size.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing The_Llama_3_Herd_of_Models.pdf (TWVP2KWS)
+[summaries]   - Reading The_Llama_3_Herd_of_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Vision-Language_Foundation_Models_as_Effective_Robot_Imitators.pdf (QW9VZV5S)
+[summaries]   - Reading Vision-Language_Foundation_Models_as_Effective_Robot_Imitators.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Open_X-Embodiment__Robotic_Learning_Datasets_and_RT-X_Models.pdf (F4G3AQ3W)
+[summaries]   - Reading Open_X-Embodiment__Robotic_Learning_Datasets_and_RT-X_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RT-2__Vision-Language-Action_Models_Transfer_Web_Knowledge_to_Robotic_Control.pdf (Q3MNAWX4)
+[summaries]   - Reading RT-2__Vision-Language-Action_Models_Transfer_Web_Knowledge_to_Robotic_Control.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RT-1__Robotics_Transformer_for_Real-World_Control_at_Scale.pdf (93SW5T2M)
+[summaries]   - Reading RT-1__Robotics_Transformer_for_Real-World_Control_at_Scale.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing VIMA__General_Robot_Manipulation_with_Multimodal_Prompts.pdf (T4HDCZQC)
+[summaries]   - Reading VIMA__General_Robot_Manipulation_with_Multimodal_Prompts.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Language-Conditioned_Imitation_Learning_over_Unstructured_Data.pdf (CUUEC6PU)
+[summaries]   - Reading Language-Conditioned_Imitation_Learning_over_Unstructured_Data.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing AgiBot_World_Colosseo__A_Large-scale_Manipulation_Platform_for_Scalable_and_Inte.pdf (REQHJ8J5)
+[summaries]   - Reading AgiBot_World_Colosseo__A_Large-scale_Manipulation_Platform_for_Scalable_and_Inte.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Generalist_Agent.pdf (WTW8K5PE)
+[summaries]   - Reading A_Generalist_Agent.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Zero-Shot_Task_Generalization_with_Robotic_Imitation_Learning.pdf (GE64MKCD)
+[summaries]   - Reading Zero-Shot_Task_Generalization_with_Robotic_Imitation_Learning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing UniVLA__Learning_to_Act_Anywhere_with_Task-centric_Latent_Actions.pdf (7GZW9SD2)
+[summaries]   - Reading UniVLA__Learning_to_Act_Anywhere_with_Task-centric_Latent_Actions.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing GROOT-2__Weakly_Supervised_Multi-Modal_Instruction_Following_Agents.pdf (GMP7V2UM)
+[summaries]   - Reading GROOT-2__Weakly_Supervised_Multi-Modal_Instruction_Following_Agents.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing LAPA__Latent_Action_Pretraining_from_Videos.pdf (IQA2DIWA)
+[summaries]   - Reading LAPA__Latent_Action_Pretraining_from_Videos.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing QueST__Self-Supervised_Skill_Abstractions_for_Learning_Continuous_Control.pdf (AMMW6UGN)
+[summaries]   - Reading QueST__Self-Supervised_Skill_Abstractions_for_Learning_Continuous_Control.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing OmniJARVIS__Unified_Vision-Language-Action_Tokenization_Enables_Open-World_Instr.pdf (8Q4EA5G6)
+[summaries]   - Reading OmniJARVIS__Unified_Vision-Language-Action_Tokenization_Enables_Open-World_Instr.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Post-Training_Large-Scale_Vision_Language_Models_to_Play_Visual_Games_with_Keybo.pdf (3RD8CGF2)
+[summaries]   - Reading Post-Training_Large-Scale_Vision_Language_Models_to_Play_Visual_Games_with_Keybo.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Universal_Actions_for_Enhanced_Embodied_Foundation_Models.pdf (U2PFRJ5G)
+[summaries]   - Reading Universal_Actions_for_Enhanced_Embodied_Foundation_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing FAST__Efficient_Action_Tokenization_for_Vision-Language-Action_Models.pdf (BZDXT9BE)
+[summaries]   - Reading FAST__Efficient_Action_Tokenization_for_Vision-Language-Action_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Vision-Language-Action_Flow_Model_for_General_Robot_Control.pdf (4EM9ZBEI)
+[summaries]   - Reading A_Vision-Language-Action_Flow_Model_for_General_Robot_Control.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RDT-1B__a_Diffusion_Foundation_Model_for_Bimanual_Manipulation.pdf (4PWF8P6J)
+[summaries]   - Reading RDT-1B__a_Diffusion_Foundation_Model_for_Bimanual_Manipulation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing GR-2__A_Generative_Video-Language-Action_Model_with_Web-Scale_Knowledge_for_Robo.pdf (RX43XTP7)
+[summaries]   - Reading GR-2__A_Generative_Video-Language-Action_Model_with_Web-Scale_Knowledge_for_Robo.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing HiRT__Enhancing_Robotic_Control_with_Hierarchical_Robot_Transformers.pdf (QCGFNFIG)
+[summaries]   - Reading HiRT__Enhancing_Robotic_Control_with_Hierarchical_Robot_Transformers.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing An_Embodied_Generalist_Agent_in_3D_World.pdf (FUHJPIXU)
+[summaries]   - Reading An_Embodied_Generalist_Agent_in_3D_World.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Fine-Tuning_Vision-Language-Action_Models__Optimizing_Speed_and_Success.pdf (9TK6WW38)
+[summaries]   - Reading Fine-Tuning_Vision-Language-Action_Models__Optimizing_Speed_and_Success.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing CogACT__A_Foundational_Vision-Language-Action_Model_for_Synergizing_Cognition_an.pdf (KDJ6AN3S)
+[summaries]   - Reading CogACT__A_Foundational_Vision-Language-Action_Model_for_Synergizing_Cognition_an.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing TinyVLA__Towards_Fast.pdf (MBI4SRBQ)
+[summaries]   - Reading TinyVLA__Towards_Fast.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing OpenVLA__An_open-source_vision-language-action_model.pdf (DKTGF2P7)
+[summaries]   - Reading OpenVLA__An_open-source_vision-language-action_model.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Octo__An_Open-Source_Generalist_Robot_Policy.pdf (W7CETII3)
+[summaries]   - Reading Octo__An_Open-Source_Generalist_Robot_Policy.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Unleashing_Large-Scale_Video_Generative_Pre-training_for_Visual_Robot_Manipulati.pdf (PS8F7KEP)
+[summaries]   - Reading Unleashing_Large-Scale_Video_Generative_Pre-training_for_Visual_Robot_Manipulati.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Learning_to_Act_from_Actionless_Videos_through_Dense_Correspondences.pdf (QKZ2M8HC)
+[summaries]   - Reading Learning_to_Act_from_Actionless_Videos_through_Dense_Correspondences.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Robotic_Control_via_Embodied_Chain-of-Thought_Reasoning.pdf (6PRVMZJK)
+[summaries]   - Reading Robotic_Control_via_Embodied_Chain-of-Thought_Reasoning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Knowledge_Insulating_Vision-Language-Action_Models__Train_Fast.pdf (AB9AMBDN)
+[summaries]   - Reading Knowledge_Insulating_Vision-Language-Action_Models__Train_Fast.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing GR00T_N1__An_Open_Foundation_Model_for_Generalist_Humanoid_Robots.pdf (BWW8X25C)
+[summaries]   - Reading GR00T_N1__An_Open_Foundation_Model_for_Generalist_Humanoid_Robots.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing HybridVLA__Collaborative_Diffusion_and_Autoregression_in_a_Unified_Vision-Langua.pdf (5ZCKS2QZ)
+[summaries]   - Reading HybridVLA__Collaborative_Diffusion_and_Autoregression_in_a_Unified_Vision-Langua.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RT-Trajectory__Robotic_Task_Generalization_via_Hindsight_Trajectory_Sketches.pdf (75576B25)
+[summaries]   - Reading RT-Trajectory__Robotic_Task_Generalization_via_Hindsight_Trajectory_Sketches.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Cosmos-Reason1__From_Physical_Common_Sense_To_Embodied_Reasoning.pdf (Z7P5C8B7)
+[summaries]   - Reading Cosmos-Reason1__From_Physical_Common_Sense_To_Embodied_Reasoning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing AlphaDrive__Unleashing_the_Power_of_VLMs_in_Autonomous_Driving_via_Reinforcement.pdf (XJ6Q75ZX)
+[summaries]   - Reading AlphaDrive__Unleashing_the_Power_of_VLMs_in_Autonomous_Driving_via_Reinforcement.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Action-Free_Reasoning_for_Policy_Generalization.pdf (UV8SHHGK)
+[summaries]   - Reading Action-Free_Reasoning_for_Policy_Generalization.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Real-Time_Execution_of_Action_Chunking_Flow_Policies.pdf (STAPIXH7)
+[summaries]   - Reading Real-Time_Execution_of_Action_Chunking_Flow_Policies.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing MoManipVLA__Transferring_Vision-Language-Action_Models_for_General_Mobile_Manipu.pdf (G5P8ZCCJ)
+[summaries]   - Reading MoManipVLA__Transferring_Vision-Language-Action_Models_for_General_Mobile_Manipu.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Survey_on_Integration_of_Large_Language_Models_with_Intelligent_Robots.pdf (BXVP2C8M)
+[summaries]   - Reading A_Survey_on_Integration_of_Large_Language_Models_with_Intelligent_Robots.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing FLIP___Flow-Centric_Generative_Planning_as_General-Purpose_Manipulation_World_Mo.pdf (4M7DFNJP)
+[summaries]   - Reading FLIP___Flow-Centric_Generative_Planning_as_General-Purpose_Manipulation_World_Mo.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Magma__A_foundation_model_for_multimodal_AI_agents.pdf (295BBAEW)
+[summaries]   - Reading Magma__A_foundation_model_for_multimodal_AI_agents.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Robot_Learning_in_the_Era_of_Foundation_Models__A_Survey.pdf (NIVSP68C)
+[summaries]   - Reading Robot_Learning_in_the_Era_of_Foundation_Models__A_Survey.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DROID__A_Large-Scale_In-the-Wild_Robot_Manipulation_Dataset.pdf (F6SRASHQ)
+[summaries]   - Reading DROID__A_Large-Scale_In-the-Wild_Robot_Manipulation_Dataset.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing BridgeData_V2__A_Dataset_for_Robot_Learning_at_Scale.pdf (C628DJ6I)
+[summaries]   - Reading BridgeData_V2__A_Dataset_for_Robot_Learning_at_Scale.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing nuScenes__A_multimodal_dataset_for_autonomous_driving.pdf (R267Z8Z8)
+[summaries]   - Reading nuScenes__A_multimodal_dataset_for_autonomous_driving.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DexMimicGen__Automated_Data_Generation_for__Bimanual_Dexterous_Manipulation_via_.pdf (B2IMGCDP)
+[summaries]   - Reading DexMimicGen__Automated_Data_Generation_for__Bimanual_Dexterous_Manipulation_via_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboCasa__Large-Scale_Simulation_of_Everyday_Tasks_for_Generalist_Robots.pdf (CEP9IV42)
+[summaries]   - Reading RoboCasa__Large-Scale_Simulation_of_Everyday_Tasks_for_Generalist_Robots.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Ego-Exo4D__Understanding_Skilled_Human_Activity_from_First-_and_Third-Person_Per.pdf (U3PHUFZF)
+[summaries]   - Reading Ego-Exo4D__Understanding_Skilled_Human_Activity_from_First-_and_Third-Person_Per.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Pre-training_Auto-regressive_Robotic_Models_with_4D_Representations.pdf (78M86VBK)
+[summaries]   - Reading Pre-training_Auto-regressive_Robotic_Models_with_4D_Representations.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing HAMSTER__Hierarchical_Action_Models_for_Open-World_Robot_Manipulation.pdf (RSX4A5I9)
+[summaries]   - Reading HAMSTER__Hierarchical_Action_Models_for_Open-World_Robot_Manipulation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Flow_as_the_Cross-Domain_Manipulation_Interface.pdf (NNDR3TFK)
+[summaries]   - Reading Flow_as_the_Cross-Domain_Manipulation_Interface.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing LLARVA__Vision-Action_Instruction_Tuning_Enhances_Robot_Learning.pdf (9469PRT8)
+[summaries]   - Reading LLARVA__Vision-Action_Instruction_Tuning_Enhances_Robot_Learning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Any-point_Trajectory_Modeling_for_Policy_Learning.pdf (JEB68TIZ)
+[summaries]   - Reading Any-point_Trajectory_Modeling_for_Policy_Learning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Survey_on_Robotics_with_Foundation_Models__toward_Embodied_AI.pdf (3KJ8E36B)
+[summaries]   - Reading A_Survey_on_Robotics_with_Foundation_Models__toward_Embodied_AI.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboMIND__Benchmark_on_Multi-embodiment_Intelligence_Normative_Data_for_Robot_Ma.pdf (QSB5SH69)
+[summaries]   - Reading RoboMIND__Benchmark_on_Multi-embodiment_Intelligence_Normative_Data_for_Robot_Ma.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing On_Bringing_Robots_Home.pdf (U2EBTZMJ)
+[summaries]   - Reading On_Bringing_Robots_Home.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RH20T__A_Comprehensive_Robotic_Dataset_for_Learning_Diverse_Skills_in_One-Shot.pdf (JTZBWNQ8)
+[summaries]   - Reading RH20T__A_Comprehensive_Robotic_Dataset_for_Learning_Diverse_Skills_in_One-Shot.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Large_Scale_Interactive_Motion_Forecasting_for_Autonomous_Driving__The_Waymo_Ope.pdf (UEHXAFTJ)
+[summaries]   - Reading Large_Scale_Interactive_Motion_Forecasting_for_Autonomous_Driving__The_Waymo_Ope.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing MimicGen__A_Data_Generation_System_for_Scalable_Robot_Learning_using_Human_Demon.pdf (ABARE5MV)
+[summaries]   - Reading MimicGen__A_Data_Generation_System_for_Scalable_Robot_Learning_using_Human_Demon.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Ego4D__Around_the_World_in_3.pdf (QWTEN86I)
+[summaries]   - Reading Ego4D__Around_the_World_in_3.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Scaling_Egocentric_Vision__The_EPIC-KITCHENS_Dataset.pdf (2T25B5IR)
+[summaries]   - Reading Scaling_Egocentric_Vision__The_EPIC-KITCHENS_Dataset.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing something_something.pdf (XMTJE9ZR)
+[summaries]   - Reading something_something.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Grounding_DINO__Marrying_DINO_with_Grounded_Pre-Training_for_Open-Set_Object_Det.pdf (QXM2D8IJ)
+[summaries]   - Reading Grounding_DINO__Marrying_DINO_with_Grounded_Pre-Training_for_Open-Set_Object_Det.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models.pdf (ZT5FX8P9)
+[summaries]   - Reading Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Photorealistic_Text-to-Image_Diffusion_Models_with_Deep_Language_Understanding.pdf (IKXMXGKI)
+[summaries]   - Reading Photorealistic_Text-to-Image_Diffusion_Models_with_Deep_Language_Understanding.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Hierarchical_Text-Conditional_Image_Generation_with_CLIP_Latents.pdf (GIBTE253)
+[summaries]   - Reading Hierarchical_Text-Conditional_Image_Generation_with_CLIP_Latents.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing High-Resolution_Image_Synthesis_with_Latent_Diffusion_Models.pdf (9XAC663Z)
+[summaries]   - Reading High-Resolution_Image_Synthesis_with_Latent_Diffusion_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Learning_Transferable_Visual_Models_From_Natural_Language_Supervision.pdf (B8FFAVXI)
+[summaries]   - Reading Learning_Transferable_Visual_Models_From_Natural_Language_Supervision.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing An_Image_is_Worth_16x16_Words__Transformers_for_Image_Recognition_at_Scale.pdf (6NGFC3SQ)
+[summaries]   - Reading An_Image_is_Worth_16x16_Words__Transformers_for_Image_Recognition_at_Scale.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing VLM-E2E__Enhancing_End-to-End_Autonomous_Driving_with_Multimodal_Driver_Attentio.pdf (NFKP3BC9)
+[summaries]   - Reading VLM-E2E__Enhancing_End-to-End_Autonomous_Driving_with_Multimodal_Driver_Attentio.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing EMMA__End-to-End_Multimodal_Model_for_Autonomous_Driving.pdf (G5EVTMZS)
+[summaries]   - Reading EMMA__End-to-End_Multimodal_Model_for_Autonomous_Driving.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing CoVLA__Comprehensive_Vision-Language-Action_Dataset_for_Autonomous_Driving.pdf (R67CZ4B4)
+[summaries]   - Reading CoVLA__Comprehensive_Vision-Language-Action_Dataset_for_Autonomous_Driving.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Vision-Language-Action_Models__Concepts.pdf (IBT2FDZC)
+[summaries]   - Reading Vision-Language-Action_Models__Concepts.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing OpenHelix__A_Short_Survey.pdf (63V85H5X)
+[summaries]   - Reading OpenHelix__A_Short_Survey.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Aligning_Cyber_Space_with_Physical_World__A_Comprehensive_Survey_on_Embodied_AI.pdf (ADUNF3A3)
+[summaries]   - Reading Aligning_Cyber_Space_with_Physical_World__A_Comprehensive_Survey_on_Embodied_AI.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing What_Foundation_Models_can_Bring_for_Robot_Learning_in_Manipulation__A_Survey.pdf (S8DNV8J8)
+[summaries]   - Reading What_Foundation_Models_can_Bring_for_Robot_Learning_in_Manipulation__A_Survey.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DINOv2__Learning_Robust_Visual_Features_without_Supervision.pdf (QKPF66C7)
+[summaries]   - Reading DINOv2__Learning_Robust_Visual_Features_without_Supervision.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Sigmoid_Loss_for_Language_Image_Pre-Training.pdf (MA9HXNPN)
+[summaries]   - Reading Sigmoid_Loss_for_Language_Image_Pre-Training.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Video_Probabilistic_Diffusion_Models_in_Projected_Latent_Space.pdf (Q27V5QS6)
+[summaries]   - Reading Video_Probabilistic_Diffusion_Models_in_Projected_Latent_Space.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing GLIDE__Towards_Photorealistic_Image_Generation_and_Editing_with_Text-Guided_Diff.pdf (ZPBR5XVX)
+[summaries]   - Reading GLIDE__Towards_Photorealistic_Image_Generation_and_Editing_with_Text-Guided_Diff.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Grounded_Language-Image_Pre-training.pdf (2M6TJDZ2)
+[summaries]   - Reading Grounded_Language-Image_Pre-training.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Emerging_Properties_in_Self-Supervised_Vision_Transformers.pdf (IIPA2FHE)
+[summaries]   - Reading Emerging_Properties_in_Self-Supervised_Vision_Transformers.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DriveVLM__The_Convergence_of_Autonomous_Driving_and_Large_Vision-Language_Models.pdf (SFQWCCII)
+[summaries]   - Reading DriveVLM__The_Convergence_of_Autonomous_Driving_and_Large_Vision-Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Generative_Artificial_Intelligence_in_Robotic_Manipulation__A_Survey.pdf (DNF85RE3)
+[summaries]   - Reading Generative_Artificial_Intelligence_in_Robotic_Manipulation__A_Survey.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Exploring_Embodied_Multimodal_Large_Models__Development.pdf (4KVE8DU4)
+[summaries]   - Reading Exploring_Embodied_Multimodal_Large_Models__Development.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI.pdf (FX2TTUWT)
+[summaries]   - Reading A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Segment_Anything.pdf (DC6RRFJF)
+[summaries]   - Reading Segment_Anything.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing BLIP__Bootstrapping_Language-Image_Pre-training_for_Unified_Vision-Language_Unde.pdf (69U8RRVB)
+[summaries]   - Reading BLIP__Bootstrapping_Language-Image_Pre-training_for_Unified_Vision-Language_Unde.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing SAMURAI__Adapting_Segment_Anything_Model_for_Zero-Shot_Visual_Tracking_with_Moti.pdf (TXH8HVPJ)
+[summaries]   - Reading SAMURAI__Adapting_Segment_Anything_Model_for_Zero-Shot_Visual_Tracking_with_Moti.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Depth_Anything_V2.pdf (6PHQ3EWF)
+[summaries]   - Reading Depth_Anything_V2.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Genie__Generative_Interactive_Environments.pdf (3M2EBAVK)
+[summaries]   - Reading Genie__Generative_Interactive_Environments.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing VideoCrafter2__Overcoming_Data_Limitations_for_High-Quality_Video_Diffusion_Mode.pdf (737PXQU6)
+[summaries]   - Reading VideoCrafter2__Overcoming_Data_Limitations_for_High-Quality_Video_Diffusion_Mode.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Depth_Anything__Unleashing_the_Power_of_Large-Scale_Unlabeled_Data.pdf (DS94BCQ4)
+[summaries]   - Reading Depth_Anything__Unleashing_the_Power_of_Large-Scale_Unlabeled_Data.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Reconstructing_Hands_in_3D_with_Transformers.pdf (SUAR5QVT)
+[summaries]   - Reading Reconstructing_Hands_in_3D_with_Transformers.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing SAM_2__Segment_Anything_in_Images_and_Videos.pdf (WIJIJEWG)
+[summaries]   - Reading SAM_2__Segment_Anything_in_Images_and_Videos.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Edge.pdf (W4H5GGBI)
+[summaries]   - Reading Edge.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Scaling_Rectified_Flow_Transformers_for_High-Resolution_Image_Synthesis.pdf (FRM5JGGD)
+[summaries]   - Reading Scaling_Rectified_Flow_Transformers_for_High-Resolution_Image_Synthesis.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Grounded_SAM__Assembling_Open-World_Models_for_Diverse_Visual_Tasks.pdf (X94DEI6M)
+[summaries]   - Reading Grounded_SAM__Assembling_Open-World_Models_for_Diverse_Visual_Tasks.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing FoundationPose__Unified_6D_Pose_Estimation_and_Tracking_of_Novel_Objects.pdf (HAUGP6C9)
+[summaries]   - Reading FoundationPose__Unified_6D_Pose_Estimation_and_Tracking_of_Novel_Objects.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing VideoCrafter1__Open_Diffusion_Models_for_High-Quality_Video_Generation.pdf (Z8NPUW9Q)
+[summaries]   - Reading VideoCrafter1__Open_Diffusion_Models_for_High-Quality_Video_Generation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Putting_the_Object_Back_into_Video_Object_Segmentation.pdf (D4A5ANQJ)
+[summaries]   - Reading Putting_the_Object_Back_into_Video_Object_Segmentation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing CoTracker__It_is_Better_to_Track_Together.pdf (2INWM22Q)
+[summaries]   - Reading CoTracker__It_is_Better_to_Track_Together.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Improved_Baselines_with_Visual_Instruction_Tuning.pdf (EZ67ICPJ)
+[summaries]   - Reading Improved_Baselines_with_Visual_Instruction_Tuning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Visual_Instruction_Tuning.pdf (AI4PSEXB)
+[summaries]   - Reading Visual_Instruction_Tuning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing BLIP-2__Bootstrapping_Language-Image_Pre-training_with_Frozen_Image_Encoders_and.pdf (T5VCEHVW)
+[summaries]   - Reading BLIP-2__Bootstrapping_Language-Image_Pre-training_with_Frozen_Image_Encoders_and.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Flamingo__a_Visual_Language_Model_for_Few-Shot_Learning.pdf (X854H6KF)
+[summaries]   - Reading Flamingo__a_Visual_Language_Model_for_Few-Shot_Learning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Prismatic_VLMs__Investigating_the_Design_Space_of_Visually-Conditioned_Language_.pdf (F229UHUS)
+[summaries]   - Reading Prismatic_VLMs__Investigating_the_Design_Space_of_Visually-Conditioned_Language_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Qwen-VL__A_Versatile_Vision-Language_Model_for_Understanding.pdf (IS295K93)
+[summaries]   - Reading Qwen-VL__A_Versatile_Vision-Language_Model_for_Understanding.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing 2025.02._____Paper__https___arxiv.org_abs_2502.13923_______Website__https___qwen.pdf (UD3JUQUH)
+[summaries]   - Reading 2025.02._____Paper__https___arxiv.org_abs_2502.13923_______Website__https___qwen.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing 2024.05._____Paper__https___arxiv.org_abs_2410.21276_______Website__https___open.pdf (NFPW7ARM)
+[summaries]   - Reading 2024.05._____Paper__https___arxiv.org_abs_2410.21276_______Website__https___open.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Qwen2-VL__Enhancing_Vision-Language_Model_s_Perception_of_the_World_at_Any_Resol.pdf (J2W9PA6W)
+[summaries]   - Reading Qwen2-VL__Enhancing_Vision-Language_Model_s_Perception_of_the_World_at_Any_Resol.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PaliGemma__A_versatile_3B_VLM_for_transfer.pdf (7CDUFRTM)
+[summaries]   - Reading PaliGemma__A_versatile_3B_VLM_for_transfer.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Completed. Items scanned: 200, notes created: 190.
+[PIPELINE] ✓ summary completed
+[PIPELINE] → abstracts: limit=∞ since_hours=24.0
+[abstracts] [OK] Updated SJACQXRZ with abstract from URL meta
+[abstracts] [OK] Updated ZSU9JMF4 with abstract from URL meta
+[abstracts] [WARN] Direct URL fetch failed (https://openai.com/index/video-generation-models-as-world-simulators/): 403 Client Error: Forbidden for url: https://openai.com/index/video-generation-models-as-world-simulators/
+[abstracts] [MISS] No abstract found for VTXFFBGB (Video generation models as world simulators)
+[abstracts] [OK] Updated G8B6XQCX with abstract from URL meta
+[abstracts] [OK] Updated UGJPCRXC with abstract from URL meta
+[abstracts] [OK] Updated 6MA3ZHWQ with abstract from arXiv (URL)
+[abstracts] [OK] Updated 7ACM7JHV with abstract from URL meta
+[abstracts] [OK] Updated 4XQIQBPT with abstract from URL meta
+[abstracts] [OK] Updated R3N4UHU6 with abstract from URL meta
+[abstracts] [OK] Updated 7QFGCQS9 with abstract from URL meta
+[abstracts] [WARN] Direct URL fetch failed (https://openai.com/o1/): 403 Client Error: Forbidden for url: https://openai.com/o1/
+[abstracts] [MISS] No abstract found for 454B2HUZ (2024.12. [[🌍 Website](https://openai.com/o1/)])
+[abstracts] [OK] Updated PHSKASSB with abstract from URL meta
+[abstracts] [OK] Updated G8H2QRUG with abstract from URL meta
+[abstracts] [OK] Updated 25C5R32D with abstract from URL meta
+[abstracts] [OK] Updated D3Z3J3KI with abstract from URL meta
+[abstracts] [MISS] No abstract found for U4JJN9SH (Language Models are Unsupervised Multitask Learners)
+[abstracts] [WARN] Direct URL fetch failed (https://openai.com/index/chatgpt/?utm_source=chatgpt.com): 403 Client Error: Forbidden for url: https://openai.com/index/chatgpt/?utm_source=chatgpt.com
+[abstracts] [MISS] No abstract found for G2JASWBC (2022.11. [[🌍 Website](https://openai.com/index/chatgpt/?utm_source=chatgpt.com)])
+[abstracts] [MISS] No abstract found for 5NK8HTFF (Exploring the limits of transfer learning with a unified text-to-text transformer)
+[abstracts] [MISS] No abstract found for SMF9GTAP (Improving language understanding by generative pre-training)
+[abstracts] [MISS] No abstract found for DKRFVW83 (Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts)
+[abstracts] [OK] Updated VFQHBWVR with abstract from arXiv (URL)
+[abstracts] [MISS] No abstract found for 45N57HW5 (ROCKET-1: Mastering Open-World Interaction with Visual-Temporal Context Prompting)
+[abstracts] [OK] Updated 5QWBNJJ4 with abstract from arXiv (URL)
+[abstracts] [INFO] Completed. Items scanned: 1345, updated: 15, missing abstract after lookup: 8.
+[PIPELINE] ✓ abstracts completed
+[PIPELINE] → notion: limit=500 since_hours=24.0
+[notion-sync] [ERR] Notion API error for 'Teleoperation of Humanoid Robots: A Survey': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81b5-b8e0-d4cb3437071a
+[notion-sync] [ERR] Notion API error for 'ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'GR-RL: Going Dexterous and Precise for Long-Horizon Robotic Manipulation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Qwen3-VL Technical Report': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Deep Research: A Systematic Survey': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'PaliGemma: A versatile 3B VLM for transfer': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resol': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2024.05. [[📄 Paper](https://arxiv.org/abs/2410.21276)] [[🌍 Website](https://open': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2025.02. [[📄 Paper](https://arxiv.org/abs/2502.13923)] [[🌍 Website](https://qwen': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Qwen-VL: A Versatile Vision-Language Model for Understanding': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Flamingo: a Visual Language Model for Few-Shot Learning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Visual Instruction Tuning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Improved Baselines with Visual Instruction Tuning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Genie 2: A large-scale foundation world model': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Veo 3': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'CoTracker: It is Better to Track Together': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Putting the Object Back into Video Object Segmentation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'VideoCrafter1: Open Diffusion Models for High-Quality Video Generation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Grounded SAM: Assembling Open-World Models for Diverse Visual Tasks': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Scaling Rectified Flow Transformers for High-Resolution Image Synthesis': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Edge': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'SAM 2: Segment Anything in Images and Videos': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Reconstructing Hands in 3D with Transformers': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Mode': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Genie: Generative Interactive Environments': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2aa6ce10-e4b9-8140-a464-ce40bfe84d9d
+[notion-sync] [ERR] Notion API error for 'Depth Anything V2': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Moti': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Unde': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Video generation models as world simulators': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Segment Anything': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2022.11. [[🌍 Website](https://github.com/Stability-AI/StableDiffusion)]': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A Survey on Vision-Language-Action Models for Embodied AI': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8103-86b6-d94970c0ea81
+[notion-sync] [ERR] Notion API error for 'Exploring Embodied Multimodal Large Models: Development': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Generative Artificial Intelligence in Robotic Manipulation: A Survey': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Emerging Properties in Self-Supervised Vision Transformers': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Grounded Language-Image Pre-training': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diff': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Video Probabilistic Diffusion Models in Projected Latent Space': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Sigmoid Loss for Language Image Pre-Training': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DINOv2: Learning Robust Visual Features without Supervision': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2aa6ce10-e4b9-8185-8601-f8c076e416ee
+[notion-sync] [ERR] Notion API error for 'What Foundation Models can Bring for Robot Learning in Manipulation: A Survey': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-812b-9d6f-fa1e7475d91b
+[notion-sync] [ERR] Notion API error for 'OpenHelix: A Short Survey': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Vision-Language-Action Models: Concepts': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'CoVLA: Comprehensive Vision-Language-Action Dataset for Autonomous Driving': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-811a-9874-ce8004fc2626
+[notion-sync] [ERR] Notion API error for 'EMMA: End-to-End Multimodal Model for Autonomous Driving': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'VLM-E2E: Enhancing End-to-End Autonomous Driving with Multimodal Driver Attentio': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Learning Transferable Visual Models From Natural Language Supervision': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8177-9c9e-f2e74428ef22
+[notion-sync] [ERR] Notion API error for 'High-Resolution Image Synthesis with Latent Diffusion Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Hierarchical Text-Conditional Image Generation with CLIP Latents': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Adding Conditional Control to Text-to-Image Diffusion Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Det': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A Survey on Integration of Large Language Models with Intelligent Robots': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'AgiBot DigitalWorld': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'something something': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Scaling Egocentric Vision: The EPIC-KITCHENS Dataset': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Ego4D: Around the World in 3': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'MimicGen: A Data Generation System for Scalable Robot Learning using Human Demon': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Large Scale Interactive Motion Forecasting for Autonomous Driving: The Waymo Ope': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in One-Shot': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'On Bringing Robots Home': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Ma': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A Survey on Robotics with Foundation Models: toward Embodied AI': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-815c-b685-c4fc6700057d
+[notion-sync] [ERR] Notion API error for 'Any-point Trajectory Modeling for Policy Learning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'LLARVA: Vision-Action Instruction Tuning Enhances Robot Learning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Flow as the Cross-Domain Manipulation Interface': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Pre-training Auto-regressive Robotic Models with 4D Representations': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Per': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DexMimicGen: Automated Data Generation for  Bimanual Dexterous Manipulation via ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'nuScenes: A multimodal dataset for autonomous driving': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'BridgeData V2: A Dataset for Robot Learning at Scale': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Robot Learning in the Era of Foundation Models: A Survey': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Magma: A foundation model for multimodal AI agents': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'FLIP : Flow-Centric Generative Planning as General-Purpose Manipulation World Mo': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'MoManipVLA: Transferring Vision-Language-Action Models for General Mobile Manipu': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Real-Time Execution of Action Chunking Flow Policies': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Action-Free Reasoning for Policy Generalization': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'AlphaDrive: Unleashing the Power of VLMs in Autonomous Driving via Reinforcement': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Cosmos-Reason1: From Physical Common Sense To Embodied Reasoning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RT-Trajectory: Robotic Task Generalization via Hindsight Trajectory Sketches': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8107-a795-e6df122c4986
+[notion-sync] [ERR] Notion API error for 'HybridVLA: Collaborative Diffusion and Autoregression in a Unified Vision-Langua': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81ed-a7a0-f516144f2f6d
+[notion-sync] [ERR] Notion API error for 'GR00T N1: An Open Foundation Model for Generalist Humanoid Robots': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Knowledge Insulating Vision-Language-Action Models: Train Fast': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Robotic Control via Embodied Chain-of-Thought Reasoning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2aa6ce10-e4b9-81b0-bd20-ddb8f9abf1f1
+[notion-sync] [ERR] Notion API error for 'Learning to Act from Actionless Videos through Dense Correspondences': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulati': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8109-9d50-efac7a77d463
+[notion-sync] [ERR] Notion API error for 'Octo: An Open-Source Generalist Robot Policy': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-815b-9dc2-d3af7cf7ff5c
+[notion-sync] [ERR] Notion API error for 'OpenVLA: An open-source vision-language-action model': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81ff-94f8-eb217b8e0d45
+[notion-sync] [ERR] Notion API error for 'TinyVLA: Towards Fast': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition an': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8128-aa0c-c82f7aba1176
+[notion-sync] [ERR] Notion API error for 'Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'An Embodied Generalist Agent in 3D World': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81b2-889f-fffd1ff532cf
+[notion-sync] [ERR] Notion API error for 'HiRT: Enhancing Robotic Control with Hierarchical Robot Transformers': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robo': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-810e-8fae-de414921d1c9
+[notion-sync] [ERR] Notion API error for 'RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81ec-baf5-dac13afbae60
+[notion-sync] [ERR] Notion API error for 'A Vision-Language-Action Flow Model for General Robot Control': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'FAST: Efficient Action Tokenization for Vision-Language-Action Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Universal Actions for Enhanced Embodied Foundation Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Post-Training Large-Scale Vision Language Models to Play Visual Games with Keybo': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2025.04. [[🌍 Website](https://deepmind.google/models/gemini/flash/)]': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2024.05. [[🌍 Website](https://www.anthropic.com/news/claude-4)]': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'OmniJARVIS: Unified Vision-Language-Action Tokenization Enables Open-World Instr': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'QueST: Self-Supervised Skill Abstractions for Learning Continuous Control': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'LAPA: Latent Action Pretraining from Videos': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'GROOT-2: Weakly Supervised Multi-Modal Instruction Following Agents': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'UniVLA: Learning to Act Anywhere with Task-centric Latent Actions': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Zero-Shot Task Generalization with Robotic Imitation Learning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A Generalist Agent': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-815d-b642-dd027e03c294
+[notion-sync] [ERR] Notion API error for 'AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Inte': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Language-Conditioned Imitation Learning over Unstructured Data': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'VIMA: General Robot Manipulation with Multimodal Prompts': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81d8-a890-fbaec2e0042e
+[notion-sync] [ERR] Notion API error for 'RT-1: Robotics Transformer for Real-World Control at Scale': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8139-9934-e621500d5d4c
+[notion-sync] [ERR] Notion API error for 'RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81fa-a318-d29b68546630
+[notion-sync] [ERR] Notion API error for 'Open X-Embodiment: Robotic Learning Datasets and RT-X Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8156-aa68-e95d31c939a3
+[notion-sync] [ERR] Notion API error for 'Vision-Language Foundation Models as Effective Robot Imitators': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-817b-aa76-c23e1306d9f5
+[notion-sync] [ERR] Notion API error for '2025.01. [[🌍 Website](https://blog.google/technology/google-deepmind/google-gemi': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2024.03. [[🌍 Website](https://www.anthropic.com/news/claude-3-family)]': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2025.02. [[🌍 Website](https://blog.google/technology/google-deepmind/gemini-mode': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2025.03. [[🌍 Website](https://deepmind.google/models/gemini/pro/)]': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'The Llama 3 Herd of Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Gemma 2: Improving Open Language Models at a Practical Size': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learni': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2025.03. [[📄 Paper](https://arxiv.org/abs/2503.19786)] [[🌍 Website](https://deep': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2024.12. [[🌍 Website](https://openai.com/o1/)]': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Gemma: Open Models Based on Gemini Research and Technology': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2023.03. [[🌍 Website](https://www.anthropic.com/news/introducing-claude)]': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2023.07. [[🌍 Website](https://www.anthropic.com/news/claude-2)]': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'BUMBLE: Unifying Reasoning and Acting with Vision-Language Models for Building-w': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Universal sentence encoder': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Multilingual universal sentence encoder for semantic retrieval': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Training Compute-Optimal Large Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'LLaMA: Open and Efficient Foundation Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Llama 2: Open Foundation and Fine-Tuned Chat Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Reflective Planning: Vision-Language Models for Multi-Stage Long-Horizon Robotic': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Act': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboBrain: A Unified Brain Model for Robotic Manipulation from Abstract to Concr': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '$\pi_{0.5}$*: a Vision-Language-Action Model with Open-World Generalization': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Attention is All You Need': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Language Models are Few-Shot Learners': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8181-a440-d3910cf7a4da
+[notion-sync] [ERR] Notion API error for 'Training language models to follow instructions with human feedback': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2023.03. [[📄 Paper](https://arxiv.org/abs/2303.08774)] [[🌍 Website](https://open': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Mistral 7B': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Mamba: Linear-Time Sequence Modeling with Selective State Spaces': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Mixtral of Experts': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Language Models are Unsupervised Multitask Learners': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '2022.11. [[🌍 Website](https://openai.com/index/chatgpt/?utm_source=chatgpt.com)]': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Exploring the limits of transfer learning with a unified text-to-text transforme': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Improving language understanding by generative pre-training': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Repres': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2aa6ce10-e4b9-819f-a861-dc8d090ee0b6
+[notion-sync] [ERR] Notion API error for 'Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embod': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81df-bedf-cd5f329252f6
+[notion-sync] [ERR] Notion API error for 'Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-813c-9487-ff8bc51cd239
+[notion-sync] [ERR] Notion API error for 'PaLM-E: An Embodied Multimodal Language Model': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-812a-abab-f4469b615ed0
+[notion-sync] [ERR] Notion API error for 'Look Before You Leap: Unveiling the Power of  GPT-4V in Robotic Vision-Language ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboMamba: Multimodal State Space Model for Efficient Robot Reasoning and Manipu': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81e0-91e3-f743bc3840db
+[notion-sync] [ERR] Notion API error for 'ReplanVLM: Replanning Robotic Tasks with Visual Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboScript: Code Generation for Free-Form Manipulation Tasks across Real and Sim': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Learning Universal Policies via Text-Guided Video Generation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81f8-9ccd-c1ab443f0113
+[notion-sync] [ERR] Notion API error for 'Video Language Planning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81ac-a7bf-e6f42dc83269
+[notion-sync] [ERR] Notion API error for 'Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot M': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'GEVRM: Goal-Expressive Video Generation Model For Robust Visual Manipulation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RT-H: Action Hierarchies Using Language': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81bb-a8c1-c3c379c0e742
+[notion-sync] [ERR] Notion API error for 'NaVILA: Legged Robot Vision-Language-Action Model for Navigation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Do As I Can': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Inner Monologue: Embodied Reasoning through Planning with Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-817e-bcc6-f4ce1268fd35
+[notion-sync] [ERR] Notion API error for 'EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-810c-a9c6-de8cfbdc8cd9
+[notion-sync] [ERR] Notion API error for 'DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for '3D-VLA: A 3D Vision-Language-Action Generative World Model': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2aa6ce10-e4b9-81af-872c-ddc40804f603
+[notion-sync] [ERR] Notion API error for 'Bi-VLA: Vision-Language-Action Model-Based System for Bimanual Robotic Dexterous': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Text2Motion: From Natural Language Instructions to Feasible Plans': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Open-World Object Manipulation using Pre-Trained Vision-Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8101-ab19-cee465f30f05
+[notion-sync] [ERR] Notion API error for 'SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipu': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboDexVLM: Visual Language Model-Enabled Task Planning and Motion Control for D': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Code as Policies: Language Model Programs for Embodied Control': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8182-90f9-f2ac1ab5d60e
+[notion-sync] [ERR] Notion API error for 'ChatGPT for Robotics: Design Principles and Model Abilities': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8109-aca3-e6ccc9e4f057
+[notion-sync] [ERR] Notion API error for 'Instruct2Act: Mapping Multi-modality Instructions to Robotic Actions with Large ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81fc-b8c1-de673e60e557
+[notion-sync] [ERR] Notion API error for 'ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2aa6ce10-e4b9-8189-89de-cf5a60c83eb7
+[notion-sync] [ERR] Notion API error for 'OmniManip: Towards General Robotic Manipulation via Object-Centric  Interaction ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'KUDA: Keypoints to Unify Dynamics Learning and Visual Prompting for Open-Vocabul': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ProgPrompt: Generating Situated Robot Task Plans using Large Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8155-82c1-f19bdba96e81
+[notion-sync] [ERR] Notion API error for 'ROCKET-1: Mastering Open-World Interaction with Visual-Temporal Context Promptin': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'GPT-4V(ision) for Robotics: Multimodal Task Planning from Human Demonstration': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'CLIPort: What and Where Pathways for Robotic Manipulation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8116-b534-f1a6b9f13612
+[notion-sync] [ERR] Notion API error for 'VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81c0-a2be-c361b69dd78b
+[notion-sync] [ERR] Notion API error for 'ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Ma': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81cc-9271-d6e2f12f2ecb
+[notion-sync] [ERR] Notion API error for 'ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Ma': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81cc-9271-d6e2f12f2ecb
+[notion-sync] [ERR] Notion API error for 'MOKA: Open-World Robotic Manipulation through Mark-Based Visual Prompting': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Graspi': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2aa6ce10-e4b9-814d-a379-fd5bb483179b
+[notion-sync] [ERR] Notion API error for 'CoPa: General Robotic Manipulation through Spatial Constraints of Parts with Fou': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboPoint: A Vision-Language Model for Spatial Affordance Prediction for Robotic': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2aa6ce10-e4b9-8195-ba1a-d0b5f3e2639f
+[notion-sync] [ERR] Notion API error for 'RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Man': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ManiFoundation Model for General-Purpose Robotic Manipulation of Contact Synthes': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A3VLM: Actionable Articulation-Aware Vision Language Model': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'KITE: Keypoint-Conditioned Policies for Semantic Manipulation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [INFO] Completed. Scanned=209 created=0 updated=0
+[PIPELINE] ✓ notion completed
+{
+  "watch": {
+    "name": "watch-import",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py",
+      "--tags",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--since-days",
+      "0",
+      "--since-hours",
+      "24.0",
+      "--top-k",
+      "10",
+      "--min-score",
+      "0.3",
+      "--log-file",
+      "/Users/neoone/code/Zotero/logs/watch_20251204_162530.log",
+      "--report-json",
+      "/Users/neoone/code/Zotero/reports/watch_20251204_162530.json",
+      "--create-collections"
+    ],
+    "artifacts": {
+      "log": "/Users/neoone/code/Zotero/logs/watch_20251204_162530.log",
+      "report": "/Users/neoone/code/Zotero/reports/watch_20251204_162530.json",
+      "report_data": {
+        "started_at": "2025-12-04T16:25:30.995188",
+        "params": {
+          "since_days": 0,
+          "since_hours": 24.0,
+          "top_k": 10,
+          "min_score": 0.3,
+          "create_collections": true,
+          "fill_missing": false,
+          "dry_run": false,
+          "use_hf_papers": true,
+          "hf_weight": 0.3
+        },
+        "tags": {
+          "embodied_ai": {
+            "label": "embodied_ai｜具身智能",
+            "candidates": 2,
+            "added": 0,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 2,
+            "hf_overrides": 2
+          },
+          "embodied_surveys": {
+            "label": "embodied_surveys｜具身智能综述",
+            "candidates": 36,
+            "added": 1,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 5,
+            "hf_overrides": 2
+          },
+          "sim2real": {
+            "label": "sim2real｜模拟到现实",
+            "candidates": 1,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "teleoperation": {
+            "label": "teleoperation｜遥操作",
+            "candidates": 1,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_navigation": {
+            "label": "robotic_navigation｜机器人导航",
+            "candidates": 51,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 1,
+            "hf_overrides": 0
+          },
+          "robotic_manipulation": {
+            "label": "robotic_manipulation｜机器人操作",
+            "candidates": 20,
+            "added": 1,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 6,
+            "hf_overrides": 2
+          },
+          "robotic_grasping": {
+            "label": "robotic_grasping｜机器人抓取",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "vision_language_model": {
+            "label": "vision_language_model｜视觉语言模型",
+            "candidates": 28,
+            "added": 1,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 15,
+            "hf_overrides": 2
+          },
+          "vision_language_action_model": {
+            "label": "vision_language_action_model｜视觉语言动作模型",
+            "candidates": 7,
+            "added": 1,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 4,
+            "hf_overrides": 2
+          },
+          "large_language_model": {
+            "label": "large_language_model｜大语言模型",
+            "candidates": 70,
+            "added": 1,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 31,
+            "hf_overrides": 2
+          },
+          "foundation_model": {
+            "label": "foundation_model｜基础模型",
+            "candidates": 8,
+            "added": 0,
+            "skipped": 5,
+            "updated": 0,
+            "hf_candidates": 8,
+            "hf_overrides": 2
+          },
+          "dexterous_hand": {
+            "label": "dexterous_hand｜灵巧机械手",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "humanoid_robot": {
+            "label": "humanoid_robot｜类人机器人",
+            "candidates": 1,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "quadruped_robot": {
+            "label": "quadruped_robot｜四足机器人",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_arm": {
+            "label": "robotic_arm｜机械臂",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "reinforcement_learning": {
+            "label": "reinforcement_learning｜强化学习",
+            "candidates": 62,
+            "added": 0,
+            "skipped": 10,
+            "updated": 0,
+            "hf_candidates": 48,
+            "hf_overrides": 2
+          },
+          "imitation_learning": {
+            "label": "imitation_learning｜模仿学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "world_model": {
+            "label": "world_model｜世界模型",
+            "candidates": 3,
+            "added": 0,
+            "skipped": 3,
+            "updated": 0,
+            "hf_candidates": 3,
+            "hf_overrides": 2
+          },
+          "simulator": {
+            "label": "simulator｜仿真平台",
+            "candidates": 51,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 1,
+            "hf_overrides": 0
+          },
+          "motion_planning": {
+            "label": "motion_planning｜运动规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "task_planning": {
+            "label": "task_planning｜任务规划",
+            "candidates": 5,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "code_based_task_planning": {
+            "label": "code_based_task_planning｜代码任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "language_based_task_planning": {
+            "label": "language_based_task_planning｜语言任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "end_to_end_task_planning": {
+            "label": "end_to_end_task_planning｜端到端任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "grounded_task_planning": {
+            "label": "grounded_task_planning｜具身语义任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "transformer_policy": {
+            "label": "transformer_policy｜Transformer控制策略",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "diffusion_policy": {
+            "label": "diffusion_policy｜扩散策略学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "3d_vision": {
+            "label": "3d_vision｜3D视觉感知",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "point_based_action": {
+            "label": "point_based_action｜基于点的控制",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "chain_of_thought": {
+            "label": "chain_of_thought｜链式推理",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          }
+        },
+        "summary": {
+          "candidates": 5,
+          "added": 5,
+          "skipped": 27,
+          "updated": 0,
+          "hf_candidates": 124,
+          "hf_overrides": 18
+        },
+        "errors": [],
+        "hf_sources": {
+          "daily": 5,
+          "weekly": 20,
+          "monthly": 50
+        },
+        "finished_at": "2025-12-04T16:32:53.604730"
+      }
+    }
+  },
+  "pdf": {
+    "name": "fetch-pdfs",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/fetch_missing_pdfs.py",
+      "--since-hours",
+      "24.0",
+      "--new-items-json",
+      "/Users/neoone/code/Zotero/.data/new_items_watch.json"
+    ],
+    "artifacts": {}
+  },
+  "dedupe": {
+    "name": "dedupe",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/merge_zotero_duplicates.py",
+      "--group-by",
+      "auto",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "summary": {
+    "name": "summaries",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/summarize_zotero_with_doubao.py",
+      "--limit",
+      "200",
+      "--max-pages",
+      "80",
+      "--max-chars",
+      "80000",
+      "--note-tag",
+      "AI总结",
+      "--summary-dir",
+      "/Users/neoone/code/Zotero/summaries",
+      "--recursive",
+      "--insert-note",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {
+      "summary_dir": "/Users/neoone/code/Zotero/summaries"
+    }
+  },
+  "abstract": {
+    "name": "abstracts",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/enrich_zotero_abstracts.py",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "notion": {
+    "name": "notion-sync",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/sync_zotero_to_notion.py",
+      "--limit",
+      "500",
+      "--tag-file",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--recursive",
+      "--skip-untitled",
+      "--enrich-with-doubao",
+      "--since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  }
+}

@@ -1,0 +1,150 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-12-21
+[watch-import] [HF] weekly fetched=20 from week/2025-W51
+[watch-import] [HF] monthly fetched=50 from month/2025-12
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=101 arXiv=1159 URL=1400 TY=1377
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [SCORE] tag=embodied_ai total=0 selected=0
+[watch-import] [TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[watch-import] [HF] embodied_surveys matched 11 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.26
+[watch-import] [HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.25
+[watch-import] [SCORE] tag=embodied_surveys total=11 selected=2
+[watch-import] [COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[watch-import] [SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[watch-import] [SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=0 selected=0
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [SCORE] tag=teleoperation total=0 selected=0
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage' despite score=0.25
+[watch-import] [HF-OVERRIDE] Added 'QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage' despite score=0.24
+[watch-import] [SCORE] tag=robotic_navigation total=2 selected=2
+[watch-import] [COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[watch-import] [SKIP] duplicate QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage (arxiv:2512.12967)
+[watch-import] [SKIP] duplicate QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage (arxiv:2512.12967)
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [HF] robotic_manipulation matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin' despite score=0.06
+[watch-import] [HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.05
+[watch-import] [SCORE] tag=robotic_manipulation total=2 selected=2
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [SKIP] duplicate Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin (arxiv:2512.02395)
+[watch-import] [SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 5 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?' despite score=0.16
+[watch-import] [HF-OVERRIDE] Added 'Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?' despite score=0.14
+[watch-import] [SCORE] tag=vision_language_model total=5 selected=3
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[watch-import] [SKIP] duplicate Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans? (arxiv:2512.13281)
+[watch-import] [SKIP] duplicate Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans? (arxiv:2512.13281)
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [SCORE] tag=vision_language_action_model total=0 selected=0
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 29 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.29
+[watch-import] [SCORE] tag=large_language_model total=29 selected=5
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[watch-import] [SKIP] duplicate DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle (arxiv:2512.04324)
+[watch-import] [ADD] Step-GUI Technical Report → large_language_model｜大语言模型 [9J684JG9]
+[watch-import] [ATTACH] PDF linked for 9J684JG9
+[watch-import] [SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 10 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[watch-import] [HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[watch-import] [SCORE] tag=foundation_model total=10 selected=4
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [SCORE] tag=dexterous_hand total=0 selected=0
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [HF] humanoid_robot matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.29
+[watch-import] [SCORE] tag=humanoid_robot total=2 selected=2
+[watch-import] [COL] ensured collection 'humanoid_robot｜类人机器人' → B652AA82
+[watch-import] [SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[watch-import] [SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 46 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.29
+[watch-import] [SCORE] tag=reinforcement_learning total=46 selected=9
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[watch-import] [SKIP] duplicate LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling (arxiv:2511.20785)
+[watch-import] [ADD] Kling-Omni Technical Report → reinforcement_learning｜强化学习 [FQS3886E]
+[watch-import] [ATTACH] PDF linked for FQS3886E
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[watch-import] [SKIP] duplicate DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle (arxiv:2512.04324)
+[watch-import] [SKIP] duplicate Kling-Omni Technical Report (arxiv:2512.16776)
+[watch-import] [SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[watch-import] [SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [SCORE] tag=imitation_learning total=0 selected=0
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [HF] world_model matched 7 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[watch-import] [HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[watch-import] [SCORE] tag=world_model total=7 selected=2
+[watch-import] [COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [HF] simulator matched 5 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[watch-import] [HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[watch-import] [SCORE] tag=simulator total=5 selected=4
+[watch-import] [COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[watch-import] [SKIP] duplicate Kling-Omni Technical Report (arxiv:2512.16776)
+[watch-import] [SKIP] duplicate Kling-Omni Technical Report (arxiv:2512.16776)
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[watch-import] [SCORE] tag=motion_planning total=0 selected=0
+[watch-import] [TAG] task_planning 'task_planning｜任务规划' keywords=4
+[watch-import] [SCORE] tag=task_planning total=0 selected=0
+[watch-import] [TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[watch-import] [SCORE] tag=code_based_task_planning total=0 selected=0
+[watch-import] [TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[watch-import] [SCORE] tag=language_based_task_planning total=0 selected=0
+[watch-import] [TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[watch-import] [SCORE] tag=end_to_end_task_planning total=0 selected=0
+[watch-import] [TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[watch-import] [SCORE] tag=grounded_task_planning total=0 selected=0
+[watch-import] [TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[watch-import] [SCORE] tag=transformer_policy total=0 selected=0
+[watch-import] [TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[watch-import] [SCORE] tag=diffusion_policy total=0 selected=0
+[watch-import] [TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[watch-import] [SCORE] tag=3d_vision total=0 selected=0
+[watch-import] [TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[watch-import] [SCORE] tag=point_based_action total=0 selected=0
+[watch-import] [TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[watch-import] [SCORE] tag=chain_of_thought total=0 selected=0
+[watch-import] [INFO] Recorded 2 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[watch-import] [INFO] Done. Summary: {"candidates": 2, "added": 2, "skipped": 33, "updated": 0, "hf_candidates": 119, "hf_overrides": 20}
+[watch-import] [INFO] Report → /Users/neoone/code/Zotero/reports/watch_20251221_131925.json
+[PIPELINE] ✓ watch completed
+[PIPELINE] → pdf: since_hours=24.0 limit=∞
+[fetch-pdfs-err] [ERR] HTTPSConnectionPool(host='api.zotero.org', port=443): Max retries exceeded with url: /users/17507734/items/top?limit=100&start=1300 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))

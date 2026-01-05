@@ -1,0 +1,146 @@
+[INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2025-12-15
+[HF] weekly fetched=12 from week/2025-W51
+[HF] monthly fetched=50 from month/2025-12
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=99 arXiv=1150 URL=1396 TY=1361
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[SCORE] tag=embodied_ai total=0 selected=0
+[TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[HF] embodied_surveys matched 4 trending papers.
+[HF-OVERRIDE] Added 'Deep Research: A Systematic Survey' despite score=0.22
+[HF-OVERRIDE] Added 'PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing,' despite score=0.20
+[SCORE] tag=embodied_surveys total=4 selected=2
+[COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[SKIP] duplicate Deep Research: A Systematic Survey (arxiv:2512.02038)
+[SKIP] duplicate PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, (arxiv:2512.02589)
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=0 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[HF] teleoperation matched 1 trending papers.
+[HF-OVERRIDE] Added 'Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling ' despite score=0.04
+[SCORE] tag=teleoperation total=1 selected=1
+[COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[SKIP] duplicate Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling  (arxiv:2512.02834)
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[HF] robotic_navigation matched 1 trending papers.
+[HF-OVERRIDE] Added 'Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling ' despite score=0.04
+[SCORE] tag=robotic_navigation total=1 selected=1
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[SKIP] duplicate Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling  (arxiv:2512.02834)
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[HF] robotic_manipulation matched 5 trending papers.
+[HF-OVERRIDE] Added 'V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties' despite score=0.30
+[HF-OVERRIDE] Added 'V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties' despite score=0.20
+[SCORE] tag=robotic_manipulation total=5 selected=2
+[COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[ADD] V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties → robotic_manipulation｜机器人操作 [2CPT4HCW]
+[ATTACH] PDF linked for 2CPT4HCW
+[SKIP] duplicate V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties (arxiv:2512.11799)
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[HF] vision_language_model matched 9 trending papers.
+[HF-OVERRIDE] Added 'What about gravity in video generation? Post-Training Newton's Laws with Verifia' despite score=0.18
+[HF-OVERRIDE] Added 'The N-Body Problem: Parallel Execution from Single-Person Egocentric Video' despite score=0.17
+[SCORE] tag=vision_language_model total=9 selected=3
+[COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[SKIP] duplicate What about gravity in video generation? Post-Training Newton's Laws with Verifia (arxiv:2512.00425)
+[ADD] The N-Body Problem: Parallel Execution from Single-Person Egocentric Video → vision_language_model｜视觉语言模型 [6H9RX2ZM]
+[ATTACH] PDF linked for 6H9RX2ZM
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[HF] vision_language_action_model matched 2 trending papers.
+[HF-OVERRIDE] Added 'Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025' despite score=0.14
+[HF-OVERRIDE] Added 'Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling ' despite score=0.04
+[SCORE] tag=vision_language_action_model total=2 selected=2
+[COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[SKIP] duplicate Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 (arxiv:2512.06951)
+[SKIP] duplicate Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling  (arxiv:2512.02834)
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[HF] large_language_model matched 22 trending papers.
+[HF-OVERRIDE] Added 'ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration' despite score=0.30
+[HF-OVERRIDE] Added 'Stabilizing Reinforcement Learning with LLMs: Formulation and Practices' despite score=0.29
+[SCORE] tag=large_language_model total=22 selected=6
+[COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[ADD] DentalGPT: Incentivizing Multimodal Complex Reasoning in Dentistry → large_language_model｜大语言模型 [6NC75IGV]
+[ATTACH] PDF linked for 6NC75IGV
+[SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[SKIP] duplicate DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle (arxiv:2512.04324)
+[SKIP] duplicate ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration (arxiv:2511.21689)
+[SKIP] duplicate Stabilizing Reinforcement Learning with LLMs: Formulation and Practices (arxiv:2512.01374)
+[TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[HF] foundation_model matched 6 trending papers.
+[HF-OVERRIDE] Added 'SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Aut' despite score=0.28
+[HF-OVERRIDE] Added 'SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Aut' despite score=0.15
+[SCORE] tag=foundation_model total=6 selected=4
+[COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[ADD] SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Aut → foundation_model｜基础模型 [2A24ECAH]
+[ATTACH] PDF linked for 2A24ECAH
+[SKIP] duplicate SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Aut (arxiv:2512.11749)
+[TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[SCORE] tag=dexterous_hand total=0 selected=0
+[TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[SCORE] tag=humanoid_robot total=0 selected=0
+[TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[SCORE] tag=quadruped_robot total=0 selected=0
+[TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[SCORE] tag=robotic_arm total=0 selected=0
+[TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[HF] reinforcement_learning matched 41 trending papers.
+[HF-OVERRIDE] Added 'V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties' despite score=0.30
+[HF-OVERRIDE] Added 'ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration' despite score=0.30
+[SCORE] tag=reinforcement_learning total=41 selected=8
+[COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[SKIP] duplicate LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling (arxiv:2511.20785)
+[SKIP] duplicate DentalGPT: Incentivizing Multimodal Complex Reasoning in Dentistry (arxiv:2512.11558)
+[SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[SKIP] duplicate DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle (arxiv:2512.04324)
+[SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[SKIP] duplicate V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties (arxiv:2512.11799)
+[SKIP] duplicate ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration (arxiv:2511.21689)
+[TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[SCORE] tag=imitation_learning total=0 selected=0
+[TAG] world_model 'world_model｜世界模型' keywords=4
+[HF] world_model matched 2 trending papers.
+[HF-OVERRIDE] Added 'Envision: Benchmarking Unified Understanding & Generation for Causal World Proce' despite score=0.28
+[HF-OVERRIDE] Added 'Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Pl' despite score=0.27
+[SCORE] tag=world_model total=2 selected=2
+[COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[SKIP] duplicate Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Pl (arxiv:2512.08478)
+[TAG] simulator 'simulator｜仿真平台' keywords=5
+[SCORE] tag=simulator total=0 selected=0
+[TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[SCORE] tag=motion_planning total=0 selected=0
+[TAG] task_planning 'task_planning｜任务规划' keywords=4
+[HF] task_planning matched 1 trending papers.
+[HF-OVERRIDE] Added 'Exploring MLLM-Diffusion Information Transfer with MetaCanvas' despite score=0.20
+[SCORE] tag=task_planning total=1 selected=1
+[COL] ensured collection 'task_planning｜任务规划' → IDXJKRDJ
+[ADD] Exploring MLLM-Diffusion Information Transfer with MetaCanvas → task_planning｜任务规划 [M5VM74ZB]
+[ATTACH] PDF linked for M5VM74ZB
+[TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[SCORE] tag=code_based_task_planning total=0 selected=0
+[TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[SCORE] tag=language_based_task_planning total=0 selected=0
+[TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[SCORE] tag=end_to_end_task_planning total=0 selected=0
+[TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[SCORE] tag=grounded_task_planning total=0 selected=0
+[TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[SCORE] tag=transformer_policy total=0 selected=0
+[TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[SCORE] tag=diffusion_policy total=0 selected=0
+[TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[SCORE] tag=3d_vision total=0 selected=0
+[TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[SCORE] tag=point_based_action total=0 selected=0
+[TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[SCORE] tag=chain_of_thought total=0 selected=0
+[INFO] Recorded 5 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[INFO] Done. Summary: {"candidates": 5, "added": 5, "skipped": 27, "updated": 0, "hf_candidates": 94, "hf_overrides": 19}

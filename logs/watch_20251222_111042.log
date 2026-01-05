@@ -1,0 +1,5 @@
+[INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2025-12-22
+[HF] weekly fetched=6 from week/2025-W52
+[HF] monthly fetched=50 from month/2025-12
+[INFO] Building library index for dedupe...

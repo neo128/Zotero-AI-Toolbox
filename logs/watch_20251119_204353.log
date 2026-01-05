@@ -1,0 +1,21 @@
+[INFO] Started watch. since_days=14 top_k=10 min_score=0.3
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=69 arXiv=781 URL=940 TY=949
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[SCORE] tag=embodied_ai total=0 selected=0
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=4 selected=4
+[COL] ensured collection 'sim2real｜模拟到现实' → WUFJMHDG
+[SKIP] duplicate ResAlignNet: A Data-Driven Approach for INS/DVL Alignment (arxiv:2511.13096v1)
+[SKIP] duplicate DiffuDepGrasp: Diffusion-based Depth Noise Modeling Empowers Sim2Real Robotic Gr (arxiv:2511.12912v1)
+[SKIP] duplicate SynthSoM-Twin: A Multi-Modal Sensing-Communication Digital-Twin Dataset for Sim2 (arxiv:2511.11503v1)
+[SKIP] duplicate SimTac: A Physics-Based Simulator for Vision-Based Tactile Sensing with Biomorph (arxiv:2511.11456v1)
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[SCORE] tag=teleoperation total=15 selected=5
+[COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[SKIP] duplicate $π^{*}_{0.6}$: a VLA That Learns From Experience (arxiv:2511.14759v1)
+[SKIP] duplicate HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation (arxiv:2511.14756v1)
+[SKIP] duplicate Advancing Minimally Invasive Precision Surgery in Open Cavities with Robotic Fle (arxiv:2511.14458v1)
+[SKIP] duplicate Learning Adaptive Neural Teleoperation for Humanoid Robots: From Inverse Kinemat (arxiv:2511.12390v1)
+[SKIP] duplicate ARCSnake V2: An Amphibious Multi-Domain Screw-Propelled Snake-Like Robot (arxiv:2511.11970v1)
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5

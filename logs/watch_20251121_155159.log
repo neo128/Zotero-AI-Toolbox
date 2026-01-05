@@ -1,0 +1,11 @@
+[INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[HF] No HuggingFace trending papers fetched; integration disabled for this run.
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=73 arXiv=864 URL=1023 TY=1032
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[SCORE] tag=embodied_ai total=0 selected=0
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=0 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[SCORE] tag=teleoperation total=0 selected=0
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5

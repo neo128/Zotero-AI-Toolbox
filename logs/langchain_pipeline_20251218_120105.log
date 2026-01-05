@@ -1,0 +1,644 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-12-18
+[watch-import] [HF] weekly fetched=20 from week/2025-W51
+[watch-import] [HF] monthly fetched=50 from month/2025-12
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=101 arXiv=1159 URL=1398 TY=1375
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [SCORE] tag=embodied_ai total=0 selected=0
+[watch-import] [TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[watch-import] [HF] embodied_surveys matched 8 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.27
+[watch-import] [SCORE] tag=embodied_surveys total=54 selected=2
+[watch-import] [COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[watch-import] [SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[watch-import] [SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=0 selected=0
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [SCORE] tag=teleoperation total=0 selected=0
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 3 trending papers.
+[watch-import] [SCORE] tag=robotic_navigation total=53 selected=0
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [HF] robotic_manipulation matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin' despite score=0.10
+[watch-import] [HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.09
+[watch-import] [SCORE] tag=robotic_manipulation total=19 selected=2
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [SKIP] duplicate Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin (arxiv:2512.02395)
+[watch-import] [SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 7 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?' despite score=0.20
+[watch-import] [HF-OVERRIDE] Added 'Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?' despite score=0.16
+[watch-import] [SCORE] tag=vision_language_model total=21 selected=3
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[watch-import] [ADD] Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans? → vision_language_model｜视觉语言模型 [R7XSJKS7]
+[watch-import] [ATTACH] PDF linked for R7XSJKS7
+[watch-import] [SKIP] duplicate Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans? (arxiv:2512.13281)
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [SCORE] tag=vision_language_action_model total=3 selected=0
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 28 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding' despite score=0.25
+[watch-import] [SCORE] tag=large_language_model total=72 selected=2
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[watch-import] [SKIP] duplicate ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding (arxiv:2512.13586)
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 9 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[watch-import] [SCORE] tag=foundation_model total=9 selected=5
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [SCORE] tag=dexterous_hand total=0 selected=0
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [SCORE] tag=humanoid_robot total=1 selected=0
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 50 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration' despite score=0.30
+[watch-import] [SCORE] tag=reinforcement_learning total=54 selected=8
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[watch-import] [SKIP] duplicate LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling (arxiv:2511.20785)
+[watch-import] [SKIP] duplicate DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle (arxiv:2512.04324)
+[watch-import] [SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[watch-import] [SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[watch-import] [SKIP] duplicate ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration (arxiv:2511.21689)
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [SCORE] tag=imitation_learning total=0 selected=0
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [HF] world_model matched 7 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[watch-import] [HF-OVERRIDE] Added 'Envision: Benchmarking Unified Understanding & Generation for Causal World Proce' despite score=0.28
+[watch-import] [SCORE] tag=world_model total=7 selected=3
+[watch-import] [COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [HF] simulator matched 2 trending papers.
+[watch-import] [SCORE] tag=simulator total=53 selected=0
+[watch-import] [TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[watch-import] [HF] motion_planning matched 1 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Vector Prism: Animating Vector Graphics by Stratifying Semantic Structure' despite score=0.02
+[watch-import] [SCORE] tag=motion_planning total=1 selected=1
+[watch-import] [COL] ensured collection 'motion_planning｜运动规划' → DGH39V7J
+[watch-import] [ADD] Vector Prism: Animating Vector Graphics by Stratifying Semantic Structure → motion_planning｜运动规划 [5I5XH979]
+[watch-import] [ATTACH] PDF linked for 5I5XH979
+[watch-import] [TAG] task_planning 'task_planning｜任务规划' keywords=4
+[watch-import] [SCORE] tag=task_planning total=0 selected=0
+[watch-import] [TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[watch-import] [SCORE] tag=code_based_task_planning total=0 selected=0
+[watch-import] [TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[watch-import] [SCORE] tag=language_based_task_planning total=0 selected=0
+[watch-import] [TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[watch-import] [SCORE] tag=end_to_end_task_planning total=0 selected=0
+[watch-import] [TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[watch-import] [SCORE] tag=grounded_task_planning total=0 selected=0
+[watch-import] [TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[watch-import] [SCORE] tag=transformer_policy total=0 selected=0
+[watch-import] [TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[watch-import] [SCORE] tag=diffusion_policy total=0 selected=0
+[watch-import] [TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[watch-import] [SCORE] tag=3d_vision total=0 selected=0
+[watch-import] [TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[watch-import] [SCORE] tag=point_based_action total=0 selected=0
+[watch-import] [TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[watch-import] [SCORE] tag=chain_of_thought total=0 selected=0
+[watch-import] [INFO] Recorded 2 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[watch-import] [INFO] Done. Summary: {"candidates": 2, "added": 2, "skipped": 24, "updated": 0, "hf_candidates": 118, "hf_overrides": 15}
+[watch-import] [INFO] Report → /Users/neoone/code/Zotero/reports/watch_20251218_120105.json
+[PIPELINE] ✓ watch completed
+[PIPELINE] → pdf: since_hours=24.0 limit=∞
+[fetch-pdfs] [TRY] R7XSJKS7 ← existing attachment link: https://arxiv.org/pdf/2512.13281.pdf
+[fetch-pdfs] [OK] Linked local PDF for R7XSJKS7
+[fetch-pdfs] [TRY] 5I5XH979 ← existing attachment link: https://arxiv.org/pdf/2512.14336.pdf
+[fetch-pdfs] [OK] Linked local PDF for 5I5XH979
+[fetch-pdfs] [INFO] Item QCP58WVH already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 8I23XE8H already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item V7D7XS3Q already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item A2VCIPV9 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item UJUPXJQ2 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item FS8GGMZD already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item HH9KJGQJ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Completed. PDFs added: 2, remaining without PDF: 0.
+[PIPELINE] ✓ pdf completed
+[PIPELINE] → dedupe: limit=∞ since_hours=24.0
+[dedupe] [INFO] Scanned 9 top-level items (after time filter).
+[dedupe] [INFO] No duplicates detected with the current heuristic.
+[PIPELINE] ✓ dedupe completed
+[PIPELINE] → summary: limit=200 since_hours=24.0
+[summaries] [INFO] Fetched 200 Zotero items before time-window filtering.
+[summaries] [INFO] 34 items remain after applying modified-since 24.0h window.
+[summaries] [INFO] Processing Vector_Prism__Animating_Vector_Graphics_by_Stratifying_Semantic_Structure.pdf (373K7JJB)
+[summaries]   - Reading Vector_Prism__Animating_Vector_Graphics_by_Stratifying_Semantic_Structure.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Video_Reality_Test__Can_AI-Generated_ASMR_Videos_fool_VLMs_and_Humans_.pdf (5JRA8JQ5)
+[summaries]   - Reading Video_Reality_Test__Can_AI-Generated_ASMR_Videos_fool_VLMs_and_Humans_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PDF (Z9VG6XME)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Vector Prism: Animating Vector Graphics by Stratifying Semantic Structure (5I5XH979)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (DSRQ6EGW)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans? (R7XSJKS7)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing EQ7NX2DU (EQ7NX2DU)
+[summaries] [WARN] No local PDF attachments for EQ7NX2DU; children types: none
+[summaries] [INFO] Processing FX4MCN74 (FX4MCN74)
+[summaries] [WARN] No local PDF attachments for FX4MCN74; children types: none
+[summaries] [INFO] Processing NXKS9SND (NXKS9SND)
+[summaries] [WARN] No local PDF attachments for NXKS9SND; children types: none
+[summaries] [INFO] Processing MAZZEZE2 (MAZZEZE2)
+[summaries] [WARN] No local PDF attachments for MAZZEZE2; children types: none
+[summaries] [INFO] Processing V4GVR6A7 (V4GVR6A7)
+[summaries] [WARN] No local PDF attachments for V4GVR6A7; children types: none
+[summaries] [INFO] Processing V4RCXKSF (V4RCXKSF)
+[summaries] [WARN] No local PDF attachments for V4RCXKSF; children types: none
+[summaries] [INFO] Processing PF8JHPF8 (PF8JHPF8)
+[summaries] [WARN] No local PDF attachments for PF8JHPF8; children types: none
+[summaries] [INFO] Processing EgoX__Egocentric_Video_Generation_from_a_Single_Exocentric_Video.pdf (3KTM77E2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing MMGR__Multi-Modal_Generative_Reasoning.pdf (P3SZ4FPP)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Finch__Benchmarking_Finance___Accounting_across_Spreadsheet-Centric_Enterprise_W.pdf (9HFTJ64X)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing ReFusion__A_Diffusion_Large_Language_Model_with_Parallel_Autoregressive_Decoding.pdf (88QCJ6XN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing RoboTracer__Mastering_Spatial_Trace_with_Reasoning_in_Vision-Language_Models_for.pdf (AGZXWWZF)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing QwenLong-L1.5__Post-Training_Recipe_for_Long-Context_Reasoning_and_Memory_Manage.pdf (2HSW2G7T)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Memory_in_the_Age_of_AI_Agents.pdf (ZB4RMNXF)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (NDRDBKVX)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing EgoX: Egocentric Video Generation from a Single Exocentric Video (QCP58WVH)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (NBZMN9QN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing MMGR: Multi-Modal Generative Reasoning (8I23XE8H)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (45EDS3UQ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Finch: Benchmarking Finance & Accounting across Spreadsheet-Centric Enterprise Workflows (V7D7XS3Q)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (53Q5IMNV)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding (A2VCIPV9)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (BNTE83CN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics (UJUPXJQ2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (6G4KRPDM)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Management (FS8GGMZD)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (IUVPBW4T)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Memory in the Age of AI Agents (HH9KJGQJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Completed. Items scanned: 34, notes created: 2.
+[PIPELINE] ✓ summary completed
+[PIPELINE] → abstracts: limit=∞ since_hours=24.0
+[abstracts] [INFO] Completed. Items scanned: 1484, updated: 0, missing abstract after lookup: 0.
+[PIPELINE] ✓ abstracts completed
+[PIPELINE] → notion: limit=500 since_hours=24.0
+[notion-sync] [ERR] Notion API error for 'Vector Prism: Animating Vector Graphics by Stratifying Semantic Structure': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'EgoX: Egocentric Video Generation from a Single Exocentric Video': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'MMGR: Multi-Modal Generative Reasoning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Finch: Benchmarking Finance & Accounting across Spreadsheet-Centric Enterprise W': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Memory in the Age of AI Agents': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [INFO] Completed. Scanned=9 created=0 updated=0
+[PIPELINE] ✓ notion completed
+{
+  "watch": {
+    "name": "watch-import",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py",
+      "--tags",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--since-days",
+      "0",
+      "--since-hours",
+      "24.0",
+      "--top-k",
+      "10",
+      "--min-score",
+      "0.3",
+      "--log-file",
+      "/Users/neoone/code/Zotero/logs/watch_20251218_120105.log",
+      "--report-json",
+      "/Users/neoone/code/Zotero/reports/watch_20251218_120105.json",
+      "--create-collections"
+    ],
+    "artifacts": {
+      "log": "/Users/neoone/code/Zotero/logs/watch_20251218_120105.log",
+      "report": "/Users/neoone/code/Zotero/reports/watch_20251218_120105.json",
+      "report_data": {
+        "started_at": "2025-12-18T12:01:05.161492",
+        "params": {
+          "since_days": 0,
+          "since_hours": 24.0,
+          "top_k": 10,
+          "min_score": 0.3,
+          "create_collections": true,
+          "fill_missing": false,
+          "dry_run": false,
+          "use_hf_papers": true,
+          "hf_weight": 0.3
+        },
+        "tags": {
+          "embodied_ai": {
+            "label": "embodied_ai｜具身智能",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "embodied_surveys": {
+            "label": "embodied_surveys｜具身智能综述",
+            "candidates": 54,
+            "added": 0,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 8,
+            "hf_overrides": 2
+          },
+          "sim2real": {
+            "label": "sim2real｜模拟到现实",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "teleoperation": {
+            "label": "teleoperation｜遥操作",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_navigation": {
+            "label": "robotic_navigation｜机器人导航",
+            "candidates": 53,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 3,
+            "hf_overrides": 0
+          },
+          "robotic_manipulation": {
+            "label": "robotic_manipulation｜机器人操作",
+            "candidates": 19,
+            "added": 0,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 3,
+            "hf_overrides": 2
+          },
+          "robotic_grasping": {
+            "label": "robotic_grasping｜机器人抓取",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "vision_language_model": {
+            "label": "vision_language_model｜视觉语言模型",
+            "candidates": 21,
+            "added": 1,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 7,
+            "hf_overrides": 2
+          },
+          "vision_language_action_model": {
+            "label": "vision_language_action_model｜视觉语言动作模型",
+            "candidates": 3,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "large_language_model": {
+            "label": "large_language_model｜大语言模型",
+            "candidates": 72,
+            "added": 0,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 28,
+            "hf_overrides": 2
+          },
+          "foundation_model": {
+            "label": "foundation_model｜基础模型",
+            "candidates": 9,
+            "added": 0,
+            "skipped": 5,
+            "updated": 0,
+            "hf_candidates": 9,
+            "hf_overrides": 2
+          },
+          "dexterous_hand": {
+            "label": "dexterous_hand｜灵巧机械手",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "humanoid_robot": {
+            "label": "humanoid_robot｜类人机器人",
+            "candidates": 1,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "quadruped_robot": {
+            "label": "quadruped_robot｜四足机器人",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_arm": {
+            "label": "robotic_arm｜机械臂",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "reinforcement_learning": {
+            "label": "reinforcement_learning｜强化学习",
+            "candidates": 54,
+            "added": 0,
+            "skipped": 8,
+            "updated": 0,
+            "hf_candidates": 50,
+            "hf_overrides": 2
+          },
+          "imitation_learning": {
+            "label": "imitation_learning｜模仿学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "world_model": {
+            "label": "world_model｜世界模型",
+            "candidates": 7,
+            "added": 0,
+            "skipped": 3,
+            "updated": 0,
+            "hf_candidates": 7,
+            "hf_overrides": 2
+          },
+          "simulator": {
+            "label": "simulator｜仿真平台",
+            "candidates": 53,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 2,
+            "hf_overrides": 0
+          },
+          "motion_planning": {
+            "label": "motion_planning｜运动规划",
+            "candidates": 1,
+            "added": 1,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 1,
+            "hf_overrides": 1
+          },
+          "task_planning": {
+            "label": "task_planning｜任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "code_based_task_planning": {
+            "label": "code_based_task_planning｜代码任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "language_based_task_planning": {
+            "label": "language_based_task_planning｜语言任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "end_to_end_task_planning": {
+            "label": "end_to_end_task_planning｜端到端任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "grounded_task_planning": {
+            "label": "grounded_task_planning｜具身语义任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "transformer_policy": {
+            "label": "transformer_policy｜Transformer控制策略",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "diffusion_policy": {
+            "label": "diffusion_policy｜扩散策略学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "3d_vision": {
+            "label": "3d_vision｜3D视觉感知",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "point_based_action": {
+            "label": "point_based_action｜基于点的控制",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "chain_of_thought": {
+            "label": "chain_of_thought｜链式推理",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          }
+        },
+        "summary": {
+          "candidates": 2,
+          "added": 2,
+          "skipped": 24,
+          "updated": 0,
+          "hf_candidates": 118,
+          "hf_overrides": 15
+        },
+        "errors": [],
+        "hf_sources": {
+          "daily": 5,
+          "weekly": 20,
+          "monthly": 50
+        },
+        "finished_at": "2025-12-18T12:06:54.085151"
+      }
+    }
+  },
+  "pdf": {
+    "name": "fetch-pdfs",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/fetch_missing_pdfs.py",
+      "--since-hours",
+      "24.0",
+      "--new-items-json",
+      "/Users/neoone/code/Zotero/.data/new_items_watch.json"
+    ],
+    "artifacts": {}
+  },
+  "dedupe": {
+    "name": "dedupe",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/merge_zotero_duplicates.py",
+      "--group-by",
+      "auto",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "summary": {
+    "name": "summaries",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/summarize_zotero_with_doubao.py",
+      "--limit",
+      "200",
+      "--max-pages",
+      "80",
+      "--max-chars",
+      "80000",
+      "--note-tag",
+      "AI总结",
+      "--summary-dir",
+      "/Users/neoone/code/Zotero/summaries",
+      "--recursive",
+      "--insert-note",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {
+      "summary_dir": "/Users/neoone/code/Zotero/summaries"
+    }
+  },
+  "abstract": {
+    "name": "abstracts",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/enrich_zotero_abstracts.py",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "notion": {
+    "name": "notion-sync",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/sync_zotero_to_notion.py",
+      "--limit",
+      "500",
+      "--tag-file",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--recursive",
+      "--skip-untitled",
+      "--enrich-with-doubao",
+      "--since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  }
+}

@@ -1,0 +1,766 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-12-11
+[watch-import] [HF] weekly fetched=20 from week/2025-W50
+[watch-import] [HF] monthly fetched=50 from month/2025-12
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=98 arXiv=1147 URL=1392 TY=1357
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [HF] embodied_ai matched 1 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling' despite score=0.05
+[watch-import] [SCORE] tag=embodied_ai total=1 selected=1
+[watch-import] [COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[watch-import] [SKIP] duplicate DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling (arxiv:2512.03000)
+[watch-import] [TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[watch-import] [HF] embodied_surveys matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Deep Research: A Systematic Survey' despite score=0.25
+[watch-import] [HF-OVERRIDE] Added 'PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing,' despite score=0.23
+[watch-import] [SCORE] tag=embodied_surveys total=43 selected=2
+[watch-import] [COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[watch-import] [SKIP] duplicate Deep Research: A Systematic Survey (arxiv:2512.02038)
+[watch-import] [SKIP] duplicate PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, (arxiv:2512.02589)
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=0 selected=0
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [HF] teleoperation matched 1 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling ' despite score=0.11
+[watch-import] [SCORE] tag=teleoperation total=3 selected=1
+[watch-import] [COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[watch-import] [SKIP] duplicate Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling  (arxiv:2512.02834)
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 1 trending papers.
+[watch-import] [SCORE] tag=robotic_navigation total=51 selected=0
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [HF] robotic_manipulation matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin' despite score=0.18
+[watch-import] [HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.17
+[watch-import] [SCORE] tag=robotic_manipulation total=27 selected=2
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [SKIP] duplicate Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin (arxiv:2512.02395)
+[watch-import] [SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 10 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'What about gravity in video generation? Post-Training Newton's Laws with Verifia' despite score=0.20
+[watch-import] [HF-OVERRIDE] Added 'ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool U' despite score=0.18
+[watch-import] [SCORE] tag=vision_language_model total=30 selected=3
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[watch-import] [SKIP] duplicate What about gravity in video generation? Post-Training Newton's Laws with Verifia (arxiv:2512.00425)
+[watch-import] [SKIP] duplicate ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool U (arxiv:2512.05111)
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [HF] vision_language_action_model matched 1 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling ' despite score=0.11
+[watch-import] [SCORE] tag=vision_language_action_model total=7 selected=1
+[watch-import] [COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[watch-import] [SKIP] duplicate Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling  (arxiv:2512.02834)
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 27 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcem' despite score=0.28
+[watch-import] [HF-OVERRIDE] Added 'Beyond Real: Imaginary Extension of Rotary Position Embeddings for Long-Context ' despite score=0.25
+[watch-import] [SCORE] tag=large_language_model total=70 selected=3
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcem (arxiv:2512.07461)
+[watch-import] [ADD] Beyond Real: Imaginary Extension of Rotary Position Embeddings for Long-Context  → large_language_model｜大语言模型 [R8BRJZTR]
+[watch-import] [ATTACH] PDF linked for R8BRJZTR
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 8 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'EditThinker: Unlocking Iterative Reasoning for Any Image Editor' despite score=0.20
+[watch-import] [HF-OVERRIDE] Added 'PretrainZero: Reinforcement Active Pretraining' despite score=0.16
+[watch-import] [SCORE] tag=foundation_model total=8 selected=4
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[watch-import] [SKIP] duplicate EditThinker: Unlocking Iterative Reasoning for Any Image Editor (arxiv:2512.05965)
+[watch-import] [SKIP] duplicate PretrainZero: Reinforcement Active Pretraining (arxiv:2512.03442)
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [SCORE] tag=dexterous_hand total=0 selected=0
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [SCORE] tag=humanoid_robot total=0 selected=0
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 46 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Pl' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'Envision: Benchmarking Unified Understanding & Generation for Causal World Proce' despite score=0.29
+[watch-import] [SCORE] tag=reinforcement_learning total=56 selected=8
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[watch-import] [SKIP] duplicate LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling (arxiv:2511.20785)
+[watch-import] [SKIP] duplicate DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle (arxiv:2512.04324)
+[watch-import] [SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[watch-import] [SKIP] duplicate ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration (arxiv:2511.21689)
+[watch-import] [ADD] Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Pl → reinforcement_learning｜强化学习 [F24DP9EK]
+[watch-import] [ATTACH] PDF linked for F24DP9EK
+[watch-import] [SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [HF] imitation_learning matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mech' despite score=0.14
+[watch-import] [HF-OVERRIDE] Added 'ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Mo' despite score=0.05
+[watch-import] [SCORE] tag=imitation_learning total=2 selected=2
+[watch-import] [COL] ensured collection 'imitation_learning｜模仿学习' → GMS5HD3W
+[watch-import] [SKIP] duplicate From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mech (arxiv:2512.02580)
+[watch-import] [ADD] ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Mo → imitation_learning｜模仿学习 [G6QEB8ZJ]
+[watch-import] [ATTACH] PDF linked for G6QEB8ZJ
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [HF] world_model matched 4 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Pl' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'Envision: Benchmarking Unified Understanding & Generation for Causal World Proce' despite score=0.29
+[watch-import] [SCORE] tag=world_model total=4 selected=2
+[watch-import] [COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[watch-import] [SKIP] duplicate Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Pl (arxiv:2512.08478)
+[watch-import] [SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [HF] simulator matched 2 trending papers.
+[watch-import] [SCORE] tag=simulator total=52 selected=0
+[watch-import] [TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[watch-import] [SCORE] tag=motion_planning total=0 selected=0
+[watch-import] [TAG] task_planning 'task_planning｜任务规划' keywords=4
+[watch-import] [SCORE] tag=task_planning total=6 selected=0
+[watch-import] [TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[watch-import] [SCORE] tag=code_based_task_planning total=0 selected=0
+[watch-import] [TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[watch-import] [SCORE] tag=language_based_task_planning total=0 selected=0
+[watch-import] [TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[watch-import] [SCORE] tag=end_to_end_task_planning total=0 selected=0
+[watch-import] [TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[watch-import] [SCORE] tag=grounded_task_planning total=0 selected=0
+[watch-import] [TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[watch-import] [SCORE] tag=transformer_policy total=0 selected=0
+[watch-import] [TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[watch-import] [SCORE] tag=diffusion_policy total=0 selected=0
+[watch-import] [TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[watch-import] [SCORE] tag=3d_vision total=0 selected=0
+[watch-import] [TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[watch-import] [SCORE] tag=point_based_action total=0 selected=0
+[watch-import] [TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[watch-import] [SCORE] tag=chain_of_thought total=0 selected=0
+[watch-import] [INFO] Recorded 3 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[watch-import] [INFO] Done. Summary: {"candidates": 3, "added": 3, "skipped": 26, "updated": 0, "hf_candidates": 109, "hf_overrides": 19}
+[watch-import] [INFO] Report → /Users/neoone/code/Zotero/reports/watch_20251211_104248.json
+[PIPELINE] ✓ watch completed
+[PIPELINE] → pdf: since_hours=24.0 limit=∞
+[fetch-pdfs] [TRY] R8BRJZTR ← existing attachment link: https://arxiv.org/pdf/2512.07525.pdf
+[fetch-pdfs] [OK] Linked local PDF for R8BRJZTR
+[fetch-pdfs] [TRY] F24DP9EK ← existing attachment link: https://arxiv.org/pdf/2512.08478.pdf
+[fetch-pdfs] [OK] Linked local PDF for F24DP9EK
+[fetch-pdfs] [TRY] G6QEB8ZJ ← existing attachment link: https://arxiv.org/pdf/2512.07843.pdf
+[fetch-pdfs] [OK] Linked local PDF for G6QEB8ZJ
+[fetch-pdfs] [INFO] No PDF sources found for Replica: A Digital Replica of Indoor Spaces
+[fetch-pdfs] [INFO] No PDF sources found for Habitat: A Platform for Embodied AI Research
+[fetch-pdfs] [INFO] No PDF sources found for NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+[fetch-pdfs] [INFO] No PDF sources found for Matterport3D: Learning from RGB-D Data in Indoor Environments
+[fetch-pdfs] [INFO] No PDF sources found for AI2-THOR: An Interactive 3D Environment for Visual AI
+[fetch-pdfs] [INFO] No PDF sources found for Gibson Env: Real-World Perception for Embodied Agents
+[fetch-pdfs] [INFO] No PDF sources found for SEAL: Self-supervised Embodied Active Learning using Exploration and 3D Consistency
+[fetch-pdfs] [INFO] No PDF sources found for Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping
+[fetch-pdfs] [INFO] No PDF sources found for Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World
+[fetch-pdfs] [INFO] No PDF sources found for Understanding Domain Randomization for Sim-to-Real
+[fetch-pdfs] [INFO] Item WT6NUISF already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 3GR8LBET already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VK3VXQSW already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item WHSP8I6X already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item PJGJZP7E already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item CFWTV4CM already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item P4E4GCNR already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 3489DYAB already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item FE5NY3NF already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item KV43XAMF already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Completed. PDFs added: 3, remaining without PDF: 10.
+[PIPELINE] ✓ pdf completed
+[PIPELINE] → dedupe: limit=∞ since_hours=24.0
+[dedupe] [INFO] Scanned 23 top-level items (after time filter).
+[dedupe] [INFO] No duplicates detected with the current heuristic.
+[PIPELINE] ✓ dedupe completed
+[PIPELINE] → summary: limit=200 since_hours=24.0
+[summaries-err] could not convert string to float: b'0.00-5301837' : FloatObject (b'0.00-5301837') invalid; use 0.0 instead
+[summaries] [INFO] Fetched 200 Zotero items before time-window filtering.
+[summaries] [INFO] 64 items remain after applying modified-since 24.0h window.
+[summaries] [INFO] Processing ThreadWeaver__Adaptive_Threading_for_Efficient_Parallel_Reasoning_in_Language_Mo.pdf (7WBNRNCT)
+[summaries]   - Reading ThreadWeaver__Adaptive_Threading_for_Efficient_Parallel_Reasoning_in_Language_Mo.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Visionary__The_World_Model_Carrier_Built_on_WebGPU-Powered_Gaussian_Splatting_Pl.pdf (PSEA7VXE)
+[summaries]   - Reading Visionary__The_World_Model_Carrier_Built_on_WebGPU-Powered_Gaussian_Splatting_Pl.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Beyond_Real__Imaginary_Extension_of_Rotary_Position_Embeddings_for_Long-Context_.pdf (6KQTB4AG)
+[summaries]   - Reading Beyond_Real__Imaginary_Extension_of_Rotary_Position_Embeddings_for_Long-Context_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PDF (FTSBZFRZ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models (G6QEB8ZJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (IIFDKV8W)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Platform (F24DP9EK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (B3HH3IME)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Beyond Real: Imaginary Extension of Rotary Position Embeddings for Long-Context LLMs (R8BRJZTR)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Replica: A Digital Replica of Indoor Spaces (VCSWSL5J)
+[summaries] [WARN] No local PDF attachments for Replica: A Digital Replica of Indoor Spaces; children types: none
+[summaries] [INFO] Processing Habitat: A Platform for Embodied AI Research (65XW874W)
+[summaries] [WARN] No local PDF attachments for Habitat: A Platform for Embodied AI Research; children types: none
+[summaries] [INFO] Processing NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis (69AEN5E7)
+[summaries] [WARN] No local PDF attachments for NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis; children types: none
+[summaries] [INFO] Processing Matterport3D: Learning from RGB-D Data in Indoor Environments (ZEZBCMZL)
+[summaries] [WARN] No local PDF attachments for Matterport3D: Learning from RGB-D Data in Indoor Environments; children types: none
+[summaries] [INFO] Processing AI2-THOR: An Interactive 3D Environment for Visual AI (BTG5M4KC)
+[summaries] [WARN] No local PDF attachments for AI2-THOR: An Interactive 3D Environment for Visual AI; children types: none
+[summaries] [INFO] Processing Gibson Env: Real-World Perception for Embodied Agents (PHASF83X)
+[summaries] [WARN] No local PDF attachments for Gibson Env: Real-World Perception for Embodied Agents; children types: none
+[summaries] [INFO] Processing SEAL: Self-supervised Embodied Active Learning using Exploration and 3D Consistency (T6A42CL3)
+[summaries] [WARN] No local PDF attachments for SEAL: Self-supervised Embodied Active Learning using Exploration and 3D Consistency; children types: none
+[summaries] [INFO] Processing Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping (23KWLKEK)
+[summaries] [WARN] No local PDF attachments for Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping; children types: none
+[summaries] [INFO] Processing Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World (XZ8XYKBE)
+[summaries] [WARN] No local PDF attachments for Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World; children types: none
+[summaries] [INFO] Processing Understanding Domain Randomization for Sim-to-Real (9RQVT8V9)
+[summaries] [WARN] No local PDF attachments for Understanding Domain Randomization for Sim-to-Real; children types: none
+[summaries] [INFO] Processing Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots (WT6NUISF)
+[summaries]   - Reading Chi et al. - 2024 - Universal Manipulation Interface In-The-Wild Robot Teaching Without In-The-Wild Robots.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing 8HV2LVCZ (8HV2LVCZ)
+[summaries] [WARN] No local PDF attachments for 8HV2LVCZ; children types: none
+[summaries] [INFO] Processing CAG3JATE (CAG3JATE)
+[summaries] [WARN] No local PDF attachments for CAG3JATE; children types: none
+[summaries] [INFO] Processing 4W3P2AS6 (4W3P2AS6)
+[summaries] [WARN] No local PDF attachments for 4W3P2AS6; children types: none
+[summaries] [INFO] Processing 9PZCITHC (9PZCITHC)
+[summaries] [WARN] No local PDF attachments for 9PZCITHC; children types: none
+[summaries] [INFO] Processing H38HFB7C (H38HFB7C)
+[summaries] [WARN] No local PDF attachments for H38HFB7C; children types: none
+[summaries] [INFO] Processing Snapshot (ZHG5FK28)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Preprint PDF (8NL62GR5)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing RXXQI5YT (RXXQI5YT)
+[summaries] [WARN] No local PDF attachments for RXXQI5YT; children types: none
+[summaries] [INFO] Processing PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands (3GR8LBET)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Snapshot (H3HRPPNB)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Preprint PDF (RLZKT7JY)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing TeleOpBench: A Simulator-Centric Benchmark for Dual-Arm Dexterous Teleoperation (VK3VXQSW)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing J4HXY4ZL (J4HXY4ZL)
+[summaries] [WARN] No local PDF attachments for J4HXY4ZL; children types: none
+[summaries] [INFO] Processing Snapshot (7MVYMASW)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Preprint PDF (9TG3RLV3)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Crossing the Human-Robot Embodiment Gap with Sim-to-Real RL using One Human Demonstration (WHSP8I6X)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Snapshot (G36CRSSD)
+[summaries] [WARN] Item Snapshot is tagged but not a PDF attachment; skipping.
+[summaries] [INFO] Processing Preprint PDF (58LP3PD3)
+[summaries]   - Reading Christoph et al. - 2025 - ORCA An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for Uninterrupted Dexte.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing BRQ8TDFT (BRQ8TDFT)
+[summaries] [WARN] No local PDF attachments for BRQ8TDFT; children types: none
+[summaries] [INFO] Processing ORCA: An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for Uninterrupted Dexterous Task Learning (PJGJZP7E)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Snapshot (3MAVQH5J)
+[summaries] [WARN] Item Snapshot is tagged but not a PDF attachment; skipping.
+[summaries] [INFO] Processing Preprint PDF (H7832X76)
+[summaries]   - Reading Zorin et al. - 2025 - RUKA Rethinking the Design of Humanoid Hands with Learning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RUKA: Rethinking the Design of Humanoid Hands with Learning (CFWTV4CM)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing FSQ8IGEI (FSQ8IGEI)
+[summaries] [WARN] No local PDF attachments for FSQ8IGEI; children types: none
+[summaries] [INFO] Processing Snapshot (XZKQQB8W)
+[summaries] [WARN] Item Snapshot is tagged but not a PDF attachment; skipping.
+[summaries] [INFO] Processing Preprint PDF (R77IISFA)
+[summaries]   - Reading Zhang et al. - 2025 - KineDex Learning Tactile-Informed Visuomotor Policies via Kinesthetic Teaching for Dexterous Manipu.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing KineDex: Learning Tactile-Informed Visuomotor Policies via Kinesthetic Teaching for Dexterous Manipulation (P4E4GCNR)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Snapshot (ZVSUFBKL)
+[summaries] [WARN] Item Snapshot is tagged but not a PDF attachment; skipping.
+[summaries] [INFO] Processing Preprint PDF (4RPWCGLZ)
+[summaries]   - Reading Tao et al. - 2025 - DexWild Dexterous Human Interactions for In-the-Wild Robot Policies.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies (3489DYAB)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing FBCZKVP2 (FBCZKVP2)
+[summaries] [WARN] No local PDF attachments for FBCZKVP2; children types: none
+[summaries] [INFO] Processing Snapshot (YWA4I8VV)
+[summaries] [WARN] Item Snapshot is tagged but not a PDF attachment; skipping.
+[summaries] [INFO] Processing Preprint PDF (CBTJU7DJ)
+[summaries]   - Reading Xu et al. - 2025 - DexUMI Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation (FE5NY3NF)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Snapshot (EXV7EXSW)
+[summaries] [WARN] Item Snapshot is tagged but not a PDF attachment; skipping.
+[summaries] [INFO] Processing Preprint PDF (4ACSIFMM)
+[summaries]   - Reading Liu et al. - 2025 - FastUMI-100K Advancing Data-driven Robotic Manipulation with a Large-scale UMI-style Dataset.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing FastUMI-100K: Advancing Data-driven Robotic Manipulation with a Large-scale UMI-style Dataset (KV43XAMF)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Snapshot (AV8GM6IS)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Preprint PDF (2D93437F)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PSBL9QVH (PSBL9QVH)
+[summaries] [WARN] No local PDF attachments for PSBL9QVH; children types: none
+[summaries] [INFO] Processing H9HZEGJF (H9HZEGJF)
+[summaries] [WARN] No local PDF attachments for H9HZEGJF; children types: none
+[summaries] [INFO] Processing G7IZK8IC (G7IZK8IC)
+[summaries] [WARN] No local PDF attachments for G7IZK8IC; children types: none
+[summaries] [INFO] Processing IW5SIH3W (IW5SIH3W)
+[summaries] [WARN] No local PDF attachments for IW5SIH3W; children types: none
+[summaries] [INFO] Processing EBGIPI66 (EBGIPI66)
+[summaries] [WARN] No local PDF attachments for EBGIPI66; children types: none
+[summaries] [INFO] Completed. Items scanned: 64, notes created: 10.
+[PIPELINE] ✓ summary completed
+[PIPELINE] → abstracts: limit=∞ since_hours=24.0
+[abstracts] [MISS] No abstract found for VCSWSL5J (Replica: A Digital Replica of Indoor Spaces)
+[abstracts] [MISS] No abstract found for 65XW874W (Habitat: A Platform for Embodied AI Research)
+[abstracts] [MISS] No abstract found for 69AEN5E7 (NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis)
+[abstracts] [MISS] No abstract found for ZEZBCMZL (Matterport3D: Learning from RGB-D Data in Indoor Environments)
+[abstracts] [MISS] No abstract found for BTG5M4KC (AI2-THOR: An Interactive 3D Environment for Visual AI)
+[abstracts] [MISS] No abstract found for PHASF83X (Gibson Env: Real-World Perception for Embodied Agents)
+[abstracts] [MISS] No abstract found for T6A42CL3 (SEAL: Self-supervised Embodied Active Learning using Exploration and 3D Consistency)
+[abstracts] [MISS] No abstract found for 23KWLKEK (Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping)
+[abstracts] [MISS] No abstract found for XZ8XYKBE (Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World)
+[abstracts] [MISS] No abstract found for 9RQVT8V9 (Understanding Domain Randomization for Sim-to-Real)
+[abstracts] [INFO] Completed. Items scanned: 1479, updated: 0, missing abstract after lookup: 10.
+[PIPELINE] ✓ abstracts completed
+[PIPELINE] → notion: limit=500 since_hours=24.0
+[notion-sync] [ERR] Notion API error for 'ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Mo': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Pl': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Beyond Real: Imaginary Extension of Rotary Position Embeddings for Long-Context ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Replica: A Digital Replica of Indoor Spaces': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Habitat: A Platform for Embodied AI Research': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-811d-8540-d4159c8b525c
+[notion-sync] [ERR] Notion API error for 'NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Matterport3D: Learning from RGB-D Data in Indoor Environments': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'AI2-THOR: An Interactive 3D Environment for Visual AI': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81e8-a831-da34ea230abe
+[notion-sync] [ERR] Notion API error for 'Gibson Env: Real-World Perception for Embodied Agents': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'SEAL: Self-supervised Embodied Active Learning using Exploration and 3D Consiste': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Domain Randomization for Transferring Deep Neural Networks from Simulation to th': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2aa6ce10-e4b9-81a0-a490-f87bb8952938
+[notion-sync] [ERR] Notion API error for 'Understanding Domain Randomization for Sim-to-Real': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8190-b6f3-e65df771c994
+[notion-sync] [ERR] Notion API error for 'PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'TeleOpBench: A Simulator-Centric Benchmark for Dual-Arm Dexterous Teleoperation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-81fd-8dfe-e02f77e4c314
+[notion-sync] [ERR] Notion API error for 'Crossing the Human-Robot Embodiment Gap with Sim-to-Real RL using One Human Demo': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ORCA: An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RUKA: Rethinking the Design of Humanoid Hands with Learning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'KineDex: Learning Tactile-Informed Visuomotor Policies via Kinesthetic Teaching ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous M': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'FastUMI-100K: Advancing Data-driven Robotic Manipulation with a Large-scale UMI-': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [INFO] Completed. Scanned=23 created=0 updated=0
+[PIPELINE] ✓ notion completed
+{
+  "watch": {
+    "name": "watch-import",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py",
+      "--tags",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--since-days",
+      "0",
+      "--since-hours",
+      "24.0",
+      "--top-k",
+      "10",
+      "--min-score",
+      "0.3",
+      "--log-file",
+      "/Users/neoone/code/Zotero/logs/watch_20251211_104248.log",
+      "--report-json",
+      "/Users/neoone/code/Zotero/reports/watch_20251211_104248.json",
+      "--create-collections"
+    ],
+    "artifacts": {
+      "log": "/Users/neoone/code/Zotero/logs/watch_20251211_104248.log",
+      "report": "/Users/neoone/code/Zotero/reports/watch_20251211_104248.json",
+      "report_data": {
+        "started_at": "2025-12-11T10:42:48.332539",
+        "params": {
+          "since_days": 0,
+          "since_hours": 24.0,
+          "top_k": 10,
+          "min_score": 0.3,
+          "create_collections": true,
+          "fill_missing": false,
+          "dry_run": false,
+          "use_hf_papers": true,
+          "hf_weight": 0.3
+        },
+        "tags": {
+          "embodied_ai": {
+            "label": "embodied_ai｜具身智能",
+            "candidates": 1,
+            "added": 0,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 1,
+            "hf_overrides": 1
+          },
+          "embodied_surveys": {
+            "label": "embodied_surveys｜具身智能综述",
+            "candidates": 43,
+            "added": 0,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 3,
+            "hf_overrides": 2
+          },
+          "sim2real": {
+            "label": "sim2real｜模拟到现实",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "teleoperation": {
+            "label": "teleoperation｜遥操作",
+            "candidates": 3,
+            "added": 0,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 1,
+            "hf_overrides": 1
+          },
+          "robotic_navigation": {
+            "label": "robotic_navigation｜机器人导航",
+            "candidates": 51,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 1,
+            "hf_overrides": 0
+          },
+          "robotic_manipulation": {
+            "label": "robotic_manipulation｜机器人操作",
+            "candidates": 27,
+            "added": 0,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 3,
+            "hf_overrides": 2
+          },
+          "robotic_grasping": {
+            "label": "robotic_grasping｜机器人抓取",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "vision_language_model": {
+            "label": "vision_language_model｜视觉语言模型",
+            "candidates": 30,
+            "added": 0,
+            "skipped": 3,
+            "updated": 0,
+            "hf_candidates": 10,
+            "hf_overrides": 2
+          },
+          "vision_language_action_model": {
+            "label": "vision_language_action_model｜视觉语言动作模型",
+            "candidates": 7,
+            "added": 0,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 1,
+            "hf_overrides": 1
+          },
+          "large_language_model": {
+            "label": "large_language_model｜大语言模型",
+            "candidates": 70,
+            "added": 1,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 27,
+            "hf_overrides": 2
+          },
+          "foundation_model": {
+            "label": "foundation_model｜基础模型",
+            "candidates": 8,
+            "added": 0,
+            "skipped": 4,
+            "updated": 0,
+            "hf_candidates": 8,
+            "hf_overrides": 2
+          },
+          "dexterous_hand": {
+            "label": "dexterous_hand｜灵巧机械手",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "humanoid_robot": {
+            "label": "humanoid_robot｜类人机器人",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "quadruped_robot": {
+            "label": "quadruped_robot｜四足机器人",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_arm": {
+            "label": "robotic_arm｜机械臂",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "reinforcement_learning": {
+            "label": "reinforcement_learning｜强化学习",
+            "candidates": 56,
+            "added": 1,
+            "skipped": 7,
+            "updated": 0,
+            "hf_candidates": 46,
+            "hf_overrides": 2
+          },
+          "imitation_learning": {
+            "label": "imitation_learning｜模仿学习",
+            "candidates": 2,
+            "added": 1,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 2,
+            "hf_overrides": 2
+          },
+          "world_model": {
+            "label": "world_model｜世界模型",
+            "candidates": 4,
+            "added": 0,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 4,
+            "hf_overrides": 2
+          },
+          "simulator": {
+            "label": "simulator｜仿真平台",
+            "candidates": 52,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 2,
+            "hf_overrides": 0
+          },
+          "motion_planning": {
+            "label": "motion_planning｜运动规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "task_planning": {
+            "label": "task_planning｜任务规划",
+            "candidates": 6,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "code_based_task_planning": {
+            "label": "code_based_task_planning｜代码任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "language_based_task_planning": {
+            "label": "language_based_task_planning｜语言任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "end_to_end_task_planning": {
+            "label": "end_to_end_task_planning｜端到端任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "grounded_task_planning": {
+            "label": "grounded_task_planning｜具身语义任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "transformer_policy": {
+            "label": "transformer_policy｜Transformer控制策略",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "diffusion_policy": {
+            "label": "diffusion_policy｜扩散策略学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "3d_vision": {
+            "label": "3d_vision｜3D视觉感知",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "point_based_action": {
+            "label": "point_based_action｜基于点的控制",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "chain_of_thought": {
+            "label": "chain_of_thought｜链式推理",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          }
+        },
+        "summary": {
+          "candidates": 3,
+          "added": 3,
+          "skipped": 26,
+          "updated": 0,
+          "hf_candidates": 109,
+          "hf_overrides": 19
+        },
+        "errors": [],
+        "hf_sources": {
+          "daily": 5,
+          "weekly": 20,
+          "monthly": 50
+        },
+        "finished_at": "2025-12-11T10:50:54.012537"
+      }
+    }
+  },
+  "pdf": {
+    "name": "fetch-pdfs",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/fetch_missing_pdfs.py",
+      "--since-hours",
+      "24.0",
+      "--new-items-json",
+      "/Users/neoone/code/Zotero/.data/new_items_watch.json"
+    ],
+    "artifacts": {}
+  },
+  "dedupe": {
+    "name": "dedupe",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/merge_zotero_duplicates.py",
+      "--group-by",
+      "auto",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "summary": {
+    "name": "summaries",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/summarize_zotero_with_doubao.py",
+      "--limit",
+      "200",
+      "--max-pages",
+      "80",
+      "--max-chars",
+      "80000",
+      "--note-tag",
+      "AI总结",
+      "--summary-dir",
+      "/Users/neoone/code/Zotero/summaries",
+      "--recursive",
+      "--insert-note",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {
+      "summary_dir": "/Users/neoone/code/Zotero/summaries"
+    }
+  },
+  "abstract": {
+    "name": "abstracts",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/enrich_zotero_abstracts.py",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "notion": {
+    "name": "notion-sync",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/sync_zotero_to_notion.py",
+      "--limit",
+      "500",
+      "--tag-file",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--recursive",
+      "--skip-untitled",
+      "--enrich-with-doubao",
+      "--since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  }
+}

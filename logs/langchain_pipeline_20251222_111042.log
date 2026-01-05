@@ -1,0 +1,57 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[watch-import-err] Traceback (most recent call last):
+[watch-import-err]   File "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py", line 776, in <module>
+[watch-import] [HF] daily fetched=5 from date/2025-12-22
+[watch-import] [HF] weekly fetched=6 from week/2025-W52
+[watch-import] [HF] monthly fetched=50 from month/2025-12
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import-err]     main()
+[watch-import-err]   File "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py", line 540, in main
+[watch-import-err]     idx = build_library_index(zot)
+[watch-import-err]           ^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py", line 263, in build_library_index
+[watch-import-err]     for entry in zot.iter_top_items():
+[watch-import-err]                  ^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py", line 80, in iter_top_items
+[watch-import-err]     resp = self.session.get(url, params=params)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/requests/sessions.py", line 602, in get
+[watch-import-err]     return self.request("GET", url, **kwargs)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+[watch-import-err]     resp = self.send(prep, **send_kwargs)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+[watch-import-err]     r = adapter.send(request, **kwargs)
+[watch-import-err]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/requests/adapters.py", line 644, in send
+[watch-import-err]     resp = conn.urlopen(
+[watch-import-err]            ^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+[watch-import-err]     response = self._make_request(
+[watch-import-err]                ^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+[watch-import-err]     response = conn.getresponse()
+[watch-import-err]                ^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+[watch-import-err]     httplib_response = super().getresponse()
+[watch-import-err]                        ^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/http/client.py", line 1430, in getresponse
+[watch-import-err]     response.begin()
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/http/client.py", line 331, in begin
+[watch-import-err]     version, status, reason = self._read_status()
+[watch-import-err]                               ^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/http/client.py", line 292, in _read_status
+[watch-import-err]     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+[watch-import-err]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/socket.py", line 720, in readinto
+[watch-import-err]     return self._sock.recv_into(b)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/ssl.py", line 1251, in recv_into
+[watch-import-err]     return self.read(nbytes, buffer)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/ssl.py", line 1103, in read
+[watch-import-err]     return self._sslobj.read(len, buffer)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err] KeyboardInterrupt

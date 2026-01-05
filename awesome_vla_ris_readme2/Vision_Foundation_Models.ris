@@ -1,0 +1,318 @@
+TY  - ELEC
+TI  - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+T2  - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+PB  - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+UR  - https://arxiv.org/abs/2010.11929
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - ViT
+ER  - 
+
+TY  - ELEC
+TI  - Learning Transferable Visual Models From Natural Language Supervision
+T2  - Learning Transferable Visual Models From Natural Language Supervision
+PB  - Learning Transferable Visual Models From Natural Language Supervision
+UR  - https://arxiv.org/abs/2103.00020
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - CLIP
+ER  - 
+
+TY  - ELEC
+TI  - Emerging Properties in Self-Supervised Vision Transformers
+T2  - Emerging Properties in Self-Supervised Vision Transformers
+PB  - Emerging Properties in Self-Supervised Vision Transformers
+UR  - https://arxiv.org/abs/2104.14294
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - DINO
+ER  - 
+
+TY  - ELEC
+TI  - Grounded Language-Image Pre-training
+T2  - Grounded Language-Image Pre-training
+PB  - Grounded Language-Image Pre-training
+UR  - https://arxiv.org/abs/2112.03857
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - GLIP
+ER  - 
+
+TY  - ELEC
+TI  - GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
+T2  - GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
+PB  - GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
+UR  - https://arxiv.org/abs/2112.10741
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - GLIDE
+ER  - 
+
+TY  - ELEC
+TI  - High-Resolution Image Synthesis with Latent Diffusion Models
+T2  - High-Resolution Image Synthesis with Latent Diffusion Models
+PB  - High-Resolution Image Synthesis with Latent Diffusion Models
+UR  - https://arxiv.org/abs/2112.10752
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Stable Diffusion
+ER  - 
+
+TY  - ELEC
+TI  - Hierarchical Text-Conditional Image Generation with CLIP Latents
+T2  - Hierarchical Text-Conditional Image Generation with CLIP Latents
+PB  - Hierarchical Text-Conditional Image Generation with CLIP Latents
+UR  - https://arxiv.org/abs/2204.06125
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - DALL-E 2
+ER  - 
+
+TY  - ELEC
+TI  - Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+T2  - Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+PB  - Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+UR  - https://arxiv.org/abs/2205.11487
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Imagen
+ER  - 
+
+TY  - ELEC
+TI  - 2022.11. [[🌍 Website](https://github.com/Stability-AI/StableDiffusion)]
+UR  - https://github.com/Stability-AI/StableDiffusion
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Stable Diffusion 2
+ER  - 
+
+TY  - ELEC
+TI  - Adding Conditional Control to Text-to-Image Diffusion Models
+T2  - Adding Conditional Control to Text-to-Image Diffusion Models
+PB  - Adding Conditional Control to Text-to-Image Diffusion Models
+UR  - https://arxiv.org/abs/2302.05543
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - ControlNet
+ER  - 
+
+TY  - ELEC
+TI  - Video Probabilistic Diffusion Models in Projected Latent Space
+T2  - Video Probabilistic Diffusion Models in Projected Latent Space
+PB  - Video Probabilistic Diffusion Models in Projected Latent Space
+UR  - https://arxiv.org/abs/2302.07685
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - PVDM
+ER  - 
+
+TY  - ELEC
+TI  - Sigmoid Loss for Language Image Pre-Training
+T2  - Sigmoid Loss for Language Image Pre-Training
+PB  - Sigmoid Loss for Language Image Pre-Training
+UR  - https://arxiv.org/abs/2303.15343
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - SigLIP
+ER  - 
+
+TY  - ELEC
+TI  - Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection
+T2  - Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection
+PB  - Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection
+UR  - https://arxiv.org/abs/2303.05499
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Grounding DINO
+ER  - 
+
+TY  - ELEC
+TI  - DINOv2: Learning Robust Visual Features without Supervision
+T2  - DINOv2: Learning Robust Visual Features without Supervision
+PB  - DINOv2: Learning Robust Visual Features without Supervision
+UR  - https://arxiv.org/abs/2304.07193
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - DINOv2
+ER  - 
+
+TY  - ELEC
+TI  - Segment Anything
+T2  - Segment Anything
+PB  - Segment Anything
+UR  - https://arxiv.org/abs/2304.02643
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - SAM
+ER  - 
+
+TY  - ELEC
+TI  - CoTracker: It is Better to Track Together
+T2  - CoTracker: It is Better to Track Together
+PB  - CoTracker: It is Better to Track Together
+UR  - https://arxiv.org/abs/2307.07635
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - CoTracker
+ER  - 
+
+TY  - ELEC
+TI  - Putting the Object Back into Video Object Segmentation
+T2  - Putting the Object Back into Video Object Segmentation
+PB  - Putting the Object Back into Video Object Segmentation
+UR  - https://arxiv.org/abs/2310.12982
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Cutie
+ER  - 
+
+TY  - ELEC
+TI  - VideoCrafter1: Open Diffusion Models for High-Quality Video Generation
+T2  - VideoCrafter1: Open Diffusion Models for High-Quality Video Generation
+PB  - VideoCrafter1: Open Diffusion Models for High-Quality Video Generation
+UR  - https://arxiv.org/abs/2310.19512
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - VideoCrafter1
+ER  - 
+
+TY  - ELEC
+TI  - FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects
+T2  - FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects
+PB  - FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects
+UR  - https://arxiv.org/abs/2312.08344
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - FoundationPose
+ER  - 
+
+TY  - ELEC
+TI  - Reconstructing Hands in 3D with Transformers
+T2  - Reconstructing Hands in 3D with Transformers
+PB  - Reconstructing Hands in 3D with Transformers
+UR  - https://arxiv.org/abs/2312.05251
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - HaMeR
+ER  - 
+
+TY  - ELEC
+TI  - Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data
+T2  - Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data
+PB  - Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data
+UR  - https://arxiv.org/abs/2401.10891
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Depth Anything
+ER  - 
+
+TY  - ELEC
+TI  - Grounded SAM: Assembling Open-World Models for Diverse Visual Tasks
+T2  - Grounded SAM: Assembling Open-World Models for Diverse Visual Tasks
+PB  - Grounded SAM: Assembling Open-World Models for Diverse Visual Tasks
+UR  - https://arxiv.org/abs/2401.14159
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Grounded SAM
+ER  - 
+
+TY  - ELEC
+TI  - VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models
+T2  - VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models
+PB  - VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models
+UR  - https://arxiv.org/abs/2401.09047
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - VideoCrafter2
+ER  - 
+
+TY  - ELEC
+TI  - Video generation models as world simulators
+T2  - Video generation models as world simulators
+PB  - Video generation models as world simulators
+UR  - https://openai.com/index/video-generation-models-as-world-simulators/
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Sora
+ER  - 
+
+TY  - ELEC
+TI  - Genie: Generative Interactive Environments
+T2  - Genie: Generative Interactive Environments
+PB  - Genie: Generative Interactive Environments
+UR  - https://arxiv.org/abs/2402.15391
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Genie
+ER  - 
+
+TY  - ELEC
+TI  - Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
+T2  - Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
+PB  - Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
+UR  - https://arxiv.org/abs/2403.03206
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Stable Diffusion 3
+ER  - 
+
+TY  - ELEC
+TI  - Edge
+T2  - Grounding DINO 1.5: Advance the "Edge" of Open-Set Object Detection
+PB  - Grounding DINO 1.5: Advance the "Edge" of Open-Set Object Detection
+UR  - https://arxiv.org/abs/2405.10300
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Grounding DINO 1.5
+ER  - 
+
+TY  - ELEC
+TI  - Depth Anything V2
+T2  - Depth Anything V2
+PB  - Depth Anything V2
+UR  - https://arxiv.org/abs/2406.09414
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Depth Anything V2
+ER  - 
+
+TY  - ELEC
+TI  - SAM 2: Segment Anything in Images and Videos
+T2  - SAM 2: Segment Anything in Images and Videos
+PB  - SAM 2: Segment Anything in Images and Videos
+UR  - https://arxiv.org/abs/2408.00714
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - SAM 2
+ER  - 
+
+TY  - ELEC
+TI  - SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory
+T2  - SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory
+PB  - SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory
+UR  - https://arxiv.org/abs/2411.11922
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - SAMURAI
+ER  - 
+
+TY  - ELEC
+TI  - Genie 2: A large-scale foundation world model
+T2  - Genie 2: A large-scale foundation world model
+PB  - Genie 2: A large-scale foundation world model
+UR  - https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Genie 2
+ER  - 
+
+TY  - ELEC
+TI  - Veo 3
+T2  - Veo 3
+PB  - Veo 3
+UR  - https://deepmind.google/models/veo/
+KW  - Foundation Models
+KW  - Vision Foundation Models
+KW  - Veo 3
+ER  - 
+

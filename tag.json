@@ -10,6 +10,21 @@
       "具身"
     ]
   },
+  "embodied_surveys": {
+    "label": "embodied_surveys｜具身智能综述",
+    "description": "系统分析具身智能相关研究进展，涵盖感知、操作技能学习、决策规划、模仿学习、具身大模型、数据集、评测体系等内容的综述性研究。",
+    "sample_keywords": [
+      "survey",
+      "review",
+      "综述",
+      "进展",
+      "embodied ai survey",
+      "embodied intelligence review",
+      "具身智能综述",
+      "具身智能进展",
+      "state of the art"
+    ]
+  },
   "sim2real": {
     "label": "sim2real｜模拟到现实",
     "description": "解决仿真环境与真实世界之间域差距的技术。",

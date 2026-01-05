@@ -1,0 +1,1667 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=140.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-12-26
+[watch-import] [HF] weekly fetched=20 from week/2025-W52
+[watch-import] [HF] monthly fetched=50 from month/2025-12
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=101 arXiv=1165 URL=1412 TY=1389
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [SCORE] tag=embodied_ai total=0 selected=0
+[watch-import] [TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[watch-import] [HF] embodied_surveys matched 5 trending papers.
+[watch-import] [SCORE] tag=embodied_surveys total=101 selected=10
+[watch-import] [COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[watch-import] [ADD] When Geometry Radiates Review: Gravitational Waves in Theory, Cosmology, and Obs → embodied_surveys｜具身智能综述 [6EIV5JH3]
+[watch-import] [ATTACH] PDF linked for 6EIV5JH3
+[watch-import] [ADD] Bar Formation in Disc Galaxies: Internal Kinematics and Environmental Influence  → embodied_surveys｜具身智能综述 [DQ54AJSJ]
+[watch-import] [ATTACH] PDF linked for DQ54AJSJ
+[watch-import] [ADD] Notes on Bernstein spaces, sampling, Boas interpolation formulas and their exten → embodied_surveys｜具身智能综述 [MPD7RGTT]
+[watch-import] [ATTACH] PDF linked for MPD7RGTT
+[watch-import] [ADD] A Multimodal Human-Centered Framework for Assessing Pedestrian Well-Being in the → embodied_surveys｜具身智能综述 [BD65CBCT]
+[watch-import] [ATTACH] PDF linked for BD65CBCT
+[watch-import] [ADD] ORCA: Object Recognition and Comprehension for Archiving Marine Species → embodied_surveys｜具身智能综述 [27BTACGV]
+[watch-import] [ATTACH] PDF linked for 27BTACGV
+[watch-import] [ADD] DRAGNs in the Forest: Identifying Artifacts with Random Forest Models in the VLA → embodied_surveys｜具身智能综述 [JSAA47VK]
+[watch-import] [ATTACH] PDF linked for JSAA47VK
+[watch-import] [ADD] A compendium of research in operator algebras and operator theory → embodied_surveys｜具身智能综述 [9GDJ856J]
+[watch-import] [ATTACH] PDF linked for 9GDJ856J
+[watch-import] [ADD] Mid-IR luminosity functions: inferred dusty cosmic star-formation and black hole → embodied_surveys｜具身智能综述 [AA9SP6P7]
+[watch-import] [ATTACH] PDF linked for AA9SP6P7
+[watch-import] [ADD] When Future Communications Shift Toward Narrow Beams: A Forward Looking Survey o → embodied_surveys｜具身智能综述 [CABZCICS]
+[watch-import] [ATTACH] PDF linked for CABZCICS
+[watch-import] [ADD] An introduction to reciprocal complements of integral domains → embodied_surveys｜具身智能综述 [R8QSVIEQ]
+[watch-import] [ATTACH] PDF linked for R8QSVIEQ
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=42 selected=10
+[watch-import] [COL] ensured collection 'sim2real｜模拟到现实' → WUFJMHDG
+[watch-import] [ADD] LeLaR: The First In-Orbit Demonstration of an AI-Based Satellite Attitude Contro → sim2real｜模拟到现实 [CUCNHEQ2]
+[watch-import] [ATTACH] PDF linked for CUCNHEQ2
+[watch-import] [ADD] Coarse-to-Fine Hierarchical Alignment for UAV-based Human Detection using Diffus → sim2real｜模拟到现实 [KXTBPKMU]
+[watch-import] [ATTACH] PDF linked for KXTBPKMU
+[watch-import] [ADD] Sim2Real Reinforcement Learning for Soccer skills → sim2real｜模拟到现实 [ENT57258]
+[watch-import] [ATTACH] PDF linked for ENT57258
+[watch-import] [ADD] Sim2Swim: Zero-Shot Velocity Control for Agile AUV Maneuvering in 3 Minutes → sim2real｜模拟到现实 [N4FZEPXJ]
+[watch-import] [ATTACH] PDF linked for N4FZEPXJ
+[watch-import] [ADD] Crossing the Sim2Real Gap Between Simulation and Ground Testing to Space Deploym → sim2real｜模拟到现实 [2PU82VKP]
+[watch-import] [ATTACH] PDF linked for 2PU82VKP
+[watch-import] [ADD] FOD-S2R: A FOD Dataset for Sim2Real Transfer Learning based Object Detection → sim2real｜模拟到现实 [VWADRGTK]
+[watch-import] [ATTACH] PDF linked for VWADRGTK
+[watch-import] [ADD] Data assimilation and discrepancy modeling with shallow recurrent decoders → sim2real｜模拟到现实 [P6C98IMQ]
+[watch-import] [ATTACH] PDF linked for P6C98IMQ
+[watch-import] [ADD] RealD$^2$iff: Bridging Real-World Gap in Robot Manipulation via Depth Diffusion → sim2real｜模拟到现实 [QPIR7XDQ]
+[watch-import] [ATTACH] PDF linked for QPIR7XDQ
+[watch-import] [SKIP] duplicate ResAlignNet: A Data-Driven Approach for INS/DVL Alignment (arxiv:2511.13096v1)
+[watch-import] [SKIP] duplicate DiffuDepGrasp: Diffusion-based Depth Noise Modeling Empowers Sim2Real Robotic Gr (arxiv:2511.12912v1)
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [SCORE] tag=teleoperation total=50 selected=10
+[watch-import] [COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[watch-import] [ADD] RoboCade: Gamifying Robot Data Collection → teleoperation｜遥操作 [8GIQ5WG7]
+[watch-import] [ATTACH] PDF linked for 8GIQ5WG7
+[watch-import] [ADD] A Flexible Field-Based Policy Learning Framework for Diverse Robotic Systems and → teleoperation｜遥操作 [3B6WE96D]
+[watch-import] [ATTACH] PDF linked for 3B6WE96D
+[watch-import] [ADD] A Framework for Deploying Learning-based Quadruped Loco-Manipulation → teleoperation｜遥操作 [RI59U7G8]
+[watch-import] [ATTACH] PDF linked for RI59U7G8
+[watch-import] [ADD] Breathe with Me: Synchronizing Biosignals for User Embodiment in Robots → teleoperation｜遥操作 [VA53EVXK]
+[watch-import] [ATTACH] PDF linked for VA53EVXK
+[watch-import] [ADD] CaFe-TeleVision: A Coarse-to-Fine Teleoperation System with Immersive Situated V → teleoperation｜遥操作 [NBF9ANNQ]
+[watch-import] [ATTACH] PDF linked for NBF9ANNQ
+[watch-import] [ADD] Sample-Efficient Robot Skill Learning for Construction Tasks: Benchmarking Hiera → teleoperation｜遥操作 [WIUZDN6G]
+[watch-import] [ATTACH] PDF linked for WIUZDN6G
+[watch-import] [ADD] Autonomous Construction-Site Safety Inspection Using Mobile Robots: A Multilayer → teleoperation｜遥操作 [ZU7K36VX]
+[watch-import] [ATTACH] PDF linked for ZU7K36VX
+[watch-import] [ADD] AnchorDream: Repurposing Video Diffusion for Embodiment-Aware Robot Data Synthes → teleoperation｜遥操作 [VNMV6GBA]
+[watch-import] [ATTACH] PDF linked for VNMV6GBA
+[watch-import] [ADD] WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Contro → teleoperation｜遥操作 [9XWDHSZZ]
+[watch-import] [ATTACH] PDF linked for 9XWDHSZZ
+[watch-import] [ADD] YOPO-Nav: Visual Navigation using 3DGS Graphs from One-Pass Videos → teleoperation｜遥操作 [87CAW9NK]
+[watch-import] [ATTACH] PDF linked for 87CAW9NK
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 4 trending papers.
+[watch-import] [SCORE] tag=robotic_navigation total=54 selected=10
+[watch-import] [COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[watch-import] [SKIP] duplicate When Geometry Radiates Review: Gravitational Waves in Theory, Cosmology, and Obs (arxiv:2512.21328v1)
+[watch-import] [ADD] Topological Charge-2ne Superconductors → robotic_navigation｜机器人导航 [FUV37Z2U]
+[watch-import] [ATTACH] PDF linked for FUV37Z2U
+[watch-import] [ADD] Does the Data Processing Inequality Reflect Practice? On the Utility of Low-Leve → robotic_navigation｜机器人导航 [A8D2IJAE]
+[watch-import] [ATTACH] PDF linked for A8D2IJAE
+[watch-import] [SKIP] duplicate Bar Formation in Disc Galaxies: Internal Kinematics and Environmental Influence  (arxiv:2512.21303v1)
+[watch-import] [ADD] AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Age → robotic_navigation｜机器人导航 [KE6KREFF]
+[watch-import] [ATTACH] PDF linked for KE6KREFF
+[watch-import] [ADD] Surgical Scene Segmentation using a Spike-Driven Video Transformer with Real-Tim → robotic_navigation｜机器人导航 [SV6INR5G]
+[watch-import] [ATTACH] PDF linked for SV6INR5G
+[watch-import] [ADD] Learning Factors in AI-Augmented Education: A Comparative Study of Middle and Hi → robotic_navigation｜机器人导航 [9XATCRZV]
+[watch-import] [ATTACH] PDF linked for 9XATCRZV
+[watch-import] [ADD] Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking → robotic_navigation｜机器人导航 [C3EI64RT]
+[watch-import] [ATTACH] PDF linked for C3EI64RT
+[watch-import] [ADD] PhononBench:A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crys → robotic_navigation｜机器人导航 [N972E5SE]
+[watch-import] [ATTACH] PDF linked for N972E5SE
+[watch-import] [ADD] Exploring the Role of Vector Potential and Plasma-$β$ in Jet Formation from Magn → robotic_navigation｜机器人导航 [CV8PM8RZ]
+[watch-import] [ATTACH] PDF linked for CV8PM8RZ
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [SCORE] tag=robotic_manipulation total=50 selected=10
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [SKIP] duplicate RoboCade: Gamifying Robot Data Collection (arxiv:2512.21235v1)
+[watch-import] [ADD] UniTacHand: Unified Spatio-Tactile Representation for Human to Robotic Hand Skil → robotic_manipulation｜机器人操作 [HJJ6FZZ4]
+[watch-import] [ATTACH] PDF linked for HJJ6FZZ4
+[watch-import] [ADD] Optical Detection and Manipulation of Pseudospin Orders in Wigner Crystals → robotic_manipulation｜机器人操作 [QW278DB6]
+[watch-import] [ATTACH] PDF linked for QW278DB6
+[watch-import] [ADD] Non-Abelian gauge field optics in the time domain → robotic_manipulation｜机器人操作 [KBC33DPG]
+[watch-import] [ATTACH] PDF linked for KBC33DPG
+[watch-import] [ADD] Global End-Effector Pose Control of an Underactuated Aerial Manipulator via Rein → robotic_manipulation｜机器人操作 [6KKZISIB]
+[watch-import] [ATTACH] PDF linked for 6KKZISIB
+[watch-import] [ADD] Language-Guided Grasp Detection with Coarse-to-Fine Learning for Robotic Manipul → robotic_manipulation｜机器人操作 [DJ8MCEUM]
+[watch-import] [ATTACH] PDF linked for DJ8MCEUM
+[watch-import] [ADD] LSTM-Based Modeling and Reinforcement Learning Control of a Magnetically Actuate → robotic_manipulation｜机器人操作 [Q5V8HXH2]
+[watch-import] [ATTACH] PDF linked for Q5V8HXH2
+[watch-import] [ADD] Tracing Energy Flow: Learning Tactile-based Grasping Force Control to Prevent Sl → robotic_manipulation｜机器人操作 [2P6G4FHZ]
+[watch-import] [ATTACH] PDF linked for 2P6G4FHZ
+[watch-import] [ADD] Artificial or Just Artful? Do LLMs Bend the Rules in Programming? → robotic_manipulation｜机器人操作 [9T4KRKWF]
+[watch-import] [ATTACH] PDF linked for 9T4KRKWF
+[watch-import] [ADD] Precise quantum control of unidirectional field-free molecular orientation → robotic_manipulation｜机器人操作 [GMUNM353]
+[watch-import] [ATTACH] PDF linked for GMUNM353
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 7 trending papers.
+[watch-import] [SCORE] tag=vision_language_model total=83 selected=10
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [ADD] Beyond Memorization: A Multi-Modal Ordinal Regression Benchmark to Expose Popula → vision_language_model｜视觉语言模型 [CG8Z6GUU]
+[watch-import] [ATTACH] PDF linked for CG8Z6GUU
+[watch-import] [ADD] Your Reasoning Benchmark May Not Test Reasoning: Revealing Perception Bottleneck → vision_language_model｜视觉语言模型 [7KCDFNCX]
+[watch-import] [ATTACH] PDF linked for 7KCDFNCX
+[watch-import] [ADD] LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation → vision_language_model｜视觉语言模型 [BJHDB5GB]
+[watch-import] [ATTACH] PDF linked for BJHDB5GB
+[watch-import] [ADD] RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic → vision_language_model｜视觉语言模型 [8RDVVT7J]
+[watch-import] [ATTACH] PDF linked for 8RDVVT7J
+[watch-import] [ADD] VisRes Bench: On Evaluating the Visual Reasoning Capabilities of VLMs → vision_language_model｜视觉语言模型 [EZ44I2XE]
+[watch-import] [ATTACH] PDF linked for EZ44I2XE
+[watch-import] [ADD] MarineEval: Assessing the Marine Intelligence of Vision-Language Models → vision_language_model｜视觉语言模型 [3UF5GI9S]
+[watch-import] [ATTACH] PDF linked for 3UF5GI9S
+[watch-import] [ADD] UniRec-0.1B: Unified Text and Formula Recognition with 0.1B Parameters → vision_language_model｜视觉语言模型 [QXW9U3KM]
+[watch-import] [ATTACH] PDF linked for QXW9U3KM
+[watch-import] [ADD] GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs → vision_language_model｜视觉语言模型 [8UBKTT49]
+[watch-import] [ATTACH] PDF linked for 8UBKTT49
+[watch-import] [ADD] A Multi-fidelity Double-Delta Wing Dataset and Empirical Scaling Laws for GNN-ba → vision_language_model｜视觉语言模型 [QRQDV4K5]
+[watch-import] [ATTACH] PDF linked for QRQDV4K5
+[watch-import] [ADD] PanoGrounder: Bridging 2D and 3D with Panoramic Scene Representations for VLM-ba → vision_language_model｜视觉语言模型 [3VH66ZZR]
+[watch-import] [ATTACH] PDF linked for 3VH66ZZR
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [HF] vision_language_action_model matched 2 trending papers.
+[watch-import] [SCORE] tag=vision_language_action_model total=72 selected=10
+[watch-import] [COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[watch-import] [ADD] Simultaneous JWST, NuSTAR, and VLA Monitoring of Sgr A*: A Unified Picture of th → vision_language_action_model｜视觉语言动作模型 [96UUW4N2]
+[watch-import] [ATTACH] PDF linked for 96UUW4N2
+[watch-import] [ADD] ActionFlow: A Pipelined Action Acceleration for Vision Language Models on Edge → vision_language_action_model｜视觉语言动作模型 [PPS4NTH9]
+[watch-import] [ATTACH] PDF linked for PPS4NTH9
+[watch-import] [ADD] Asynchronous Fast-Slow Vision-Language-Action Policies for Whole-Body Robotic Ma → vision_language_action_model｜视觉语言动作模型 [B2TV8Q93]
+[watch-import] [ATTACH] PDF linked for B2TV8Q93
+[watch-import] [ADD] LoLA: Long Horizon Latent Action Learning for General Robot Manipulation → vision_language_action_model｜视觉语言动作模型 [RS7Z6E2P]
+[watch-import] [ATTACH] PDF linked for RS7Z6E2P
+[watch-import] [ADD] Bring My Cup! Personalizing Vision-Language-Action Models with Visual Attentive  → vision_language_action_model｜视觉语言动作模型 [TCUEBKSP]
+[watch-import] [ATTACH] PDF linked for TCUEBKSP
+[watch-import] [ADD] A multiwavelength study of an early galaxy group merger in COSMOS revealed by tw → vision_language_action_model｜视觉语言动作模型 [HRTMTDB6]
+[watch-import] [ATTACH] PDF linked for HRTMTDB6
+[watch-import] [ADD] REALM: A Real-to-Sim Validated Benchmark for Generalization in Robotic Manipulat → vision_language_action_model｜视觉语言动作模型 [MRA4X3C3]
+[watch-import] [ATTACH] PDF linked for MRA4X3C3
+[watch-import] [ADD] Revealing the intricacies of radio galaxies and filaments in the merging galaxy  → vision_language_action_model｜视觉语言动作模型 [IIRGXVRI]
+[watch-import] [ATTACH] PDF linked for IIRGXVRI
+[watch-import] [ADD] IndoorUAV: Benchmarking Vision-Language UAV Navigation in Continuous Indoor Envi → vision_language_action_model｜视觉语言动作模型 [9QEJEWAB]
+[watch-import] [ATTACH] PDF linked for 9QEJEWAB
+[watch-import] [ADD] Point What You Mean: Visually Grounded Instruction Policy → vision_language_action_model｜视觉语言动作模型 [W46UQE59]
+[watch-import] [ATTACH] PDF linked for W46UQE59
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 35 trending papers.
+[watch-import] [SCORE] tag=large_language_model total=85 selected=10
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [ADD] Streaming Video Instruction Tuning → large_language_model｜大语言模型 [WJZEHBGR]
+[watch-import] [ATTACH] PDF linked for WJZEHBGR
+[watch-import] [ADD] C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Atte → large_language_model｜大语言模型 [R8S36C2I]
+[watch-import] [ATTACH] PDF linked for R8S36C2I
+[watch-import] [ADD] Measuring all the noises of LLM Evals → large_language_model｜大语言模型 [EFDWWFNV]
+[watch-import] [ATTACH] PDF linked for EFDWWFNV
+[watch-import] [ADD] Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Co → large_language_model｜大语言模型 [FRHZNGVT]
+[watch-import] [ATTACH] PDF linked for FRHZNGVT
+[watch-import] [ADD] A Plan Reuse Mechanism for LLM-Driven Agent → large_language_model｜大语言模型 [H872KB6A]
+[watch-import] [ATTACH] PDF linked for H872KB6A
+[watch-import] [ADD] Quadrupped-Legged Robot Movement Plan Generation using Large Language Model → large_language_model｜大语言模型 [2CIRP79M]
+[watch-import] [ATTACH] PDF linked for 2CIRP79M
+[watch-import] [ADD] CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents → large_language_model｜大语言模型 [Q777J8FW]
+[watch-import] [ATTACH] PDF linked for Q777J8FW
+[watch-import] [SKIP] duplicate LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation (arxiv:2512.21243v1)
+[watch-import] [ADD] Assessing the Software Security Comprehension of Large Language Models → large_language_model｜大语言模型 [MW3CHZJW]
+[watch-import] [ATTACH] PDF linked for MW3CHZJW
+[watch-import] [SKIP] duplicate Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking (arxiv:2512.21236v1)
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 6 trending papers.
+[watch-import] [SCORE] tag=foundation_model total=6 selected=6
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[watch-import] [SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[watch-import] [SKIP] duplicate Adaptation of Agentic AI (arxiv:2512.16301)
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [ADD] Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Mode → foundation_model｜基础模型 [DKTNJZEX]
+[watch-import] [ATTACH] PDF linked for DKTNJZEX
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [SCORE] tag=dexterous_hand total=0 selected=0
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [HF] humanoid_robot matched 3 trending papers.
+[watch-import] [SCORE] tag=humanoid_robot total=53 selected=10
+[watch-import] [COL] ensured collection 'humanoid_robot｜类人机器人' → B652AA82
+[watch-import] [SKIP] duplicate AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Age (arxiv:2512.21302v1)
+[watch-import] [ADD] Better Call Graphs: A New Dataset of Function Call Graphs for Malware Classifica → humanoid_robot｜类人机器人 [XT8KRG82]
+[watch-import] [ATTACH] PDF linked for XT8KRG82
+[watch-import] [ADD] IoT-based Android Malware Detection Using Graph Neural Network With Adversarial  → humanoid_robot｜类人机器人 [W7UF5F7D]
+[watch-import] [ATTACH] PDF linked for W7UF5F7D
+[watch-import] [ADD] EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self- → humanoid_robot｜类人机器人 [RV8FXZ7U]
+[watch-import] [ATTACH] PDF linked for RV8FXZ7U
+[watch-import] [ADD] Exploring Runtime Evolution in Android: A Cross-Version Analysis and Its Implica → humanoid_robot｜类人机器人 [UJ4NJCXE]
+[watch-import] [ATTACH] PDF linked for UJ4NJCXE
+[watch-import] [ADD] Visualization of The Content of Surah al Fiil using Marker-Based Augmented Reali → humanoid_robot｜类人机器人 [7WMFRGBF]
+[watch-import] [ATTACH] PDF linked for 7WMFRGBF
+[watch-import] [ADD] An Open-Source Framework for Quality-Assured Smartphone-Based Visible Light Iris → humanoid_robot｜类人机器人 [UH89MKUM]
+[watch-import] [ATTACH] PDF linked for UH89MKUM
+[watch-import] [ADD] From User Interface to Agent Interface: Efficiency Optimization of UI Representa → humanoid_robot｜类人机器人 [T9WTKWTK]
+[watch-import] [ATTACH] PDF linked for T9WTKWTK
+[watch-import] [ADD] Assessing the Capability of Android Dynamic Analysis Tools to Combat Anti-Runtim → humanoid_robot｜类人机器人 [REPVSAK5]
+[watch-import] [ATTACH] PDF linked for REPVSAK5
+[watch-import] [ADD] See-Control: A Multimodal Agent Framework for Smartphone Interaction with a Robo → humanoid_robot｜类人机器人 [8ERZ9ZM7]
+[watch-import] [ATTACH] PDF linked for 8ERZ9ZM7
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 47 trending papers.
+[watch-import] [SCORE] tag=reinforcement_learning total=97 selected=10
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [ADD] MiST: Understanding the Role of Mid-Stage Scientific Training in Developing Chem → reinforcement_learning｜强化学习 [2INS9NWJ]
+[watch-import] [ATTACH] PDF linked for 2INS9NWJ
+[watch-import] [SKIP] duplicate LSTM-Based Modeling and Reinforcement Learning Control of a Magnetically Actuate (arxiv:2512.21063v1)
+[watch-import] [ADD] Generalised Linear Models in Deep Bayesian RL with Learnable Basis Functions → reinforcement_learning｜强化学习 [DPWXDRZM]
+[watch-import] [ATTACH] PDF linked for DPWXDRZM
+[watch-import] [ADD] ReACT-Drug: Reaction-Template Guided Reinforcement Learning for de novo Drug Des → reinforcement_learning｜强化学习 [4WFZ6JXS]
+[watch-import] [ATTACH] PDF linked for 4WFZ6JXS
+[watch-import] [ADD] One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents → reinforcement_learning｜强化学习 [HH3VEH4D]
+[watch-import] [ATTACH] PDF linked for HH3VEH4D
+[watch-import] [ADD] Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Mod → reinforcement_learning｜强化学习 [CHFWK97H]
+[watch-import] [ATTACH] PDF linked for CHFWK97H
+[watch-import] [ADD] Context-Sensitive Abstractions for Reinforcement Learning with Parameterized Act → reinforcement_learning｜强化学习 [7XW7SDE4]
+[watch-import] [ATTACH] PDF linked for 7XW7SDE4
+[watch-import] [ADD] Safety Alignment of LMs via Non-cooperative Games → reinforcement_learning｜强化学习 [R4IUM5KI]
+[watch-import] [ATTACH] PDF linked for R4IUM5KI
+[watch-import] [ADD] AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool- → reinforcement_learning｜强化学习 [KVJH8A2W]
+[watch-import] [ATTACH] PDF linked for KVJH8A2W
+[watch-import] [ADD] SpatialTree: How Spatial Abilities Branch Out in MLLMs → reinforcement_learning｜强化学习 [VW88RQ2M]
+[watch-import] [ATTACH] PDF linked for VW88RQ2M
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [SCORE] tag=imitation_learning total=0 selected=0
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [HF] world_model matched 4 trending papers.
+[watch-import] [SCORE] tag=world_model total=4 selected=4
+[watch-import] [COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[watch-import] [ADD] LongVie 2: Multimodal Controllable Ultra-Long Video World Model → world_model｜世界模型 [2NN6MSG3]
+[watch-import] [ATTACH] PDF linked for 2NN6MSG3
+[watch-import] [ADD] WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive Wor → world_model｜世界模型 [WGJQAX3F]
+[watch-import] [ATTACH] PDF linked for WGJQAX3F
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [HF] simulator matched 2 trending papers.
+[watch-import] [SCORE] tag=simulator total=107 selected=10
+[watch-import] [COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[watch-import] [ADD] Integral modelling of weakly evaporating 3D liquid film with variable substrate  → simulator｜仿真平台 [TFFX8XRJ]
+[watch-import] [ATTACH] PDF linked for TFFX8XRJ
+[watch-import] [ADD] Impurity peaking of SPARC H-modes: a sensitivity study on physics and engineerin → simulator｜仿真平台 [W7C484RT]
+[watch-import] [ATTACH] PDF linked for W7C484RT
+[watch-import] [ADD] Proximal Survival Analysis for Dependent Left Truncation → simulator｜仿真平台 [86HEIEP4]
+[watch-import] [ATTACH] PDF linked for 86HEIEP4
+[watch-import] [ADD] Quantum computation of mass gap in an asymptotically free theory → simulator｜仿真平台 [GAIWHGTG]
+[watch-import] [ATTACH] PDF linked for GAIWHGTG
+[watch-import] [ADD] Twist-Tuned Strong Coupling in Sub-GHz Wire Metasurface Bilayers → simulator｜仿真平台 [DVD4ZVBV]
+[watch-import] [ATTACH] PDF linked for DVD4ZVBV
+[watch-import] [ADD] Coherently Assisted Wireless Power Transfer Through Poorly Transparent Barriers → simulator｜仿真平台 [U6HV7V83]
+[watch-import] [ATTACH] PDF linked for U6HV7V83
+[watch-import] [ADD] Neural Network-Assisted RIS Weight Optimization for Spatial Nulling in Distorted → simulator｜仿真平台 [6Z6QGWW6]
+[watch-import] [ATTACH] PDF linked for 6Z6QGWW6
+[watch-import] [ADD] ARX-Implementation of encrypted nonlinear dynamic controllers using observer for → simulator｜仿真平台 [UWVMHV93]
+[watch-import] [ATTACH] PDF linked for UWVMHV93
+[watch-import] [SKIP] duplicate LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation (arxiv:2512.21243v1)
+[watch-import] [ADD] Minijets and Broken Stationarity in a Blazar : Novel Insights into the Origin of → simulator｜仿真平台 [F7IETF82]
+[watch-import] [ATTACH] PDF linked for F7IETF82
+[watch-import] [TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[watch-import] [SCORE] tag=motion_planning total=0 selected=0
+[watch-import] [TAG] task_planning 'task_planning｜任务规划' keywords=4
+[watch-import] [SCORE] tag=task_planning total=50 selected=10
+[watch-import] [COL] ensured collection 'task_planning｜任务规划' → IDXJKRDJ
+[watch-import] [SKIP] duplicate LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation (arxiv:2512.21243v1)
+[watch-import] [ADD] Robust and Efficient MuJoCo-based Model Predictive Control via Web of Affine Spa → task_planning｜任务规划 [EDA95UI2]
+[watch-import] [ATTACH] PDF linked for EDA95UI2
+[watch-import] [ADD] A General Purpose Method for Robotic Interception of Non-Cooperative Dynamic Tar → task_planning｜任务规划 [QGCWJFCS]
+[watch-import] [ATTACH] PDF linked for QGCWJFCS
+[watch-import] [ADD] Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning → task_planning｜任务规划 [AFQXZZGN]
+[watch-import] [ATTACH] PDF linked for AFQXZZGN
+[watch-import] [ADD] UTDesign: A Unified Framework for Stylized Text Editing and Generation in Graphi → task_planning｜任务规划 [PWPRR6JN]
+[watch-import] [ATTACH] PDF linked for PWPRR6JN
+[watch-import] [ADD] Drift-Corrected Monocular VIO and Perception-Aware Planning for Autonomous Drone → task_planning｜任务规划 [TKVJFUEK]
+[watch-import] [ATTACH] PDF linked for TKVJFUEK
+[watch-import] [ADD] Detecting Non-Optimal Decisions of Embodied Agents via Diversity-Guided Metamorp → task_planning｜任务规划 [H3CHWGV5]
+[watch-import] [ATTACH] PDF linked for H3CHWGV5
+[watch-import] [ADD] Limit Regret in Binary Treatment Choice with Misspecified Plug-In Predictors and → task_planning｜任务规划 [F5CFXFCG]
+[watch-import] [ATTACH] PDF linked for F5CFXFCG
+[watch-import] [ADD] Learning Generalizable Hand-Object Tracking from Synthetic Demonstrations → task_planning｜任务规划 [8GP8T8F8]
+[watch-import] [ATTACH] PDF linked for 8GP8T8F8
+[watch-import] [ADD] Results of the 2024 CommonRoad Motion Planning Competition for Autonomous Vehicl → task_planning｜任务规划 [SCV7PD4C]
+[watch-import] [ATTACH] PDF linked for SCV7PD4C
+[watch-import] [TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[watch-import] [SCORE] tag=code_based_task_planning total=0 selected=0
+[watch-import] [TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[watch-import] [SCORE] tag=language_based_task_planning total=0 selected=0
+[watch-import] [TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[watch-import] [SCORE] tag=end_to_end_task_planning total=0 selected=0
+[watch-import] [TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[watch-import] [SCORE] tag=grounded_task_planning total=0 selected=0
+[watch-import] [TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[watch-import] [SCORE] tag=transformer_policy total=24 selected=9
+[watch-import] [COL] ensured collection 'transformer_policy｜Transformer控制策略' → URZGRBAC
+[watch-import] [ADD] Harnessing non-Hermiticity for efficient quantum state transfer → transformer_policy｜Transformer控制策略 [RHV4JTN9]
+[watch-import] [ATTACH] PDF linked for RHV4JTN9
+[watch-import] [ADD] The Milky Way Bulge Extra-Tidal Star Survey: NGC 6569 → transformer_policy｜Transformer控制策略 [MJF7FVU2]
+[watch-import] [ATTACH] PDF linked for MJF7FVU2
+[watch-import] [SKIP] duplicate Generalized Connes-Kreimer Hopf algebras on decorated rooted forests by weighted (arxiv:2512.06538v1)
+[watch-import] [ADD] Interferometric view into RT Pav's long secondary period. binary vs oscillatory  → transformer_policy｜Transformer控制策略 [P37WBBXC]
+[watch-import] [ATTACH] PDF linked for P37WBBXC
+[watch-import] [ADD] Electrical Modulation and Probing of Antiferromagnetism in Hybrid Multiferroic H → transformer_policy｜Transformer控制策略 [2Q3IFRQC]
+[watch-import] [ATTACH] PDF linked for 2Q3IFRQC
+[watch-import] [ADD] Hyperion: Hierarchical Scheduling for Parallel LLM Acceleration in Multi-tier Ne → transformer_policy｜Transformer控制策略 [E2376N2Z]
+[watch-import] [ATTACH] PDF linked for E2376N2Z
+[watch-import] [SKIP] duplicate Rebellion: Noise-Robust Reasoning Training for Audio Reasoning Models (arxiv:2511.09682v1)
+[watch-import] [SKIP] duplicate CommUNext: Deep Learning-Based Cross-Band and Multi-Directional Signal Predictio (arxiv:2511.05860v1)
+[watch-import] [SKIP] duplicate Evaluating Video Quality Metrics for Neural and Traditional Codecs using 4K/UHD- (arxiv:2511.00969v1)
+[watch-import] [TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[watch-import] [SCORE] tag=diffusion_policy total=0 selected=0
+[watch-import] [TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[watch-import] [SCORE] tag=3d_vision total=0 selected=0
+[watch-import] [TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[watch-import] [SCORE] tag=point_based_action total=0 selected=0
+[watch-import] [TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[watch-import] [SCORE] tag=chain_of_thought total=0 selected=0
+[watch-import] [INFO] Recorded 117 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[watch-import] [INFO] Done. Summary: {"candidates": 117, "added": 117, "skipped": 22, "updated": 0, "hf_candidates": 115, "hf_overrides": 0}
+[watch-import] [INFO] Report → /Users/neoone/code/Zotero/reports/watch_20251226_151554.json
+[PIPELINE] ✓ watch completed
+[PIPELINE] → pdf: since_hours=24.0 limit=∞
+[fetch-pdfs] [TRY] 6EIV5JH3 ← existing attachment link: https://arxiv.org/pdf/2512.21328v1
+[fetch-pdfs] [OK] Linked local PDF for 6EIV5JH3
+[fetch-pdfs] [TRY] DQ54AJSJ ← existing attachment link: https://arxiv.org/pdf/2512.21303v1
+[fetch-pdfs] [OK] Linked local PDF for DQ54AJSJ
+[fetch-pdfs] [TRY] MPD7RGTT ← existing attachment link: https://arxiv.org/pdf/2512.21262v1
+[fetch-pdfs] [OK] Linked local PDF for MPD7RGTT
+[fetch-pdfs] [TRY] BD65CBCT ← existing attachment link: https://arxiv.org/pdf/2512.21200v1
+[fetch-pdfs] [OK] Linked local PDF for BD65CBCT
+[fetch-pdfs] [TRY] 27BTACGV ← existing attachment link: https://arxiv.org/pdf/2512.21150v1
+[fetch-pdfs] [OK] Linked local PDF for 27BTACGV
+[fetch-pdfs] [TRY] JSAA47VK ← existing attachment link: https://arxiv.org/pdf/2512.20999v1
+[fetch-pdfs] [OK] Linked local PDF for JSAA47VK
+[fetch-pdfs] [TRY] 9GDJ856J ← existing attachment link: https://arxiv.org/pdf/2512.20979v1
+[fetch-pdfs] [OK] Linked local PDF for 9GDJ856J
+[fetch-pdfs] [TRY] AA9SP6P7 ← existing attachment link: https://arxiv.org/pdf/2512.20945v1
+[fetch-pdfs] [OK] Linked local PDF for AA9SP6P7
+[fetch-pdfs] [TRY] CABZCICS ← existing attachment link: https://arxiv.org/pdf/2512.20874v1
+[fetch-pdfs] [OK] Linked local PDF for CABZCICS
+[fetch-pdfs] [TRY] R8QSVIEQ ← existing attachment link: https://arxiv.org/pdf/2512.20801v1
+[fetch-pdfs] [OK] Linked local PDF for R8QSVIEQ
+[fetch-pdfs] [TRY] CUCNHEQ2 ← existing attachment link: https://arxiv.org/pdf/2512.19576v2
+[fetch-pdfs] [OK] Linked local PDF for CUCNHEQ2
+[fetch-pdfs] [TRY] KXTBPKMU ← existing attachment link: https://arxiv.org/pdf/2512.13869v1
+[fetch-pdfs] [OK] Linked local PDF for KXTBPKMU
+[fetch-pdfs] [TRY] ENT57258 ← existing attachment link: https://arxiv.org/pdf/2512.12437v1
+[fetch-pdfs] [OK] Linked local PDF for ENT57258
+[fetch-pdfs] [TRY] N4FZEPXJ ← existing attachment link: https://arxiv.org/pdf/2512.08656v1
+[fetch-pdfs] [OK] Linked local PDF for N4FZEPXJ
+[fetch-pdfs] [TRY] 2PU82VKP ← existing attachment link: https://arxiv.org/pdf/2512.03736v1
+[fetch-pdfs] [OK] Linked local PDF for 2PU82VKP
+[fetch-pdfs] [TRY] VWADRGTK ← existing attachment link: https://arxiv.org/pdf/2512.01315v1
+[fetch-pdfs] [OK] Linked local PDF for VWADRGTK
+[fetch-pdfs] [TRY] P6C98IMQ ← existing attachment link: https://arxiv.org/pdf/2512.01170v1
+[fetch-pdfs] [OK] Linked local PDF for P6C98IMQ
+[fetch-pdfs] [TRY] QPIR7XDQ ← existing attachment link: https://arxiv.org/pdf/2511.22505v2
+[fetch-pdfs] [WARN] Failed via existing attachment link: 404 Client Error: Not Found for url: https://arxiv.org/pdf/2511.22505v2
+[fetch-pdfs] [TRY] QPIR7XDQ ← arXiv: https://arxiv.org/pdf/2511.22505v2.pdf
+[fetch-pdfs] [WARN] Failed via arXiv: 404 Client Error: Not Found for url: https://arxiv.org/pdf/2511.22505v2
+[fetch-pdfs] [TRY] 8GIQ5WG7 ← existing attachment link: https://arxiv.org/pdf/2512.21235v1
+[fetch-pdfs] [OK] Linked local PDF for 8GIQ5WG7
+[fetch-pdfs] [TRY] 3B6WE96D ← existing attachment link: https://arxiv.org/pdf/2512.19148v1
+[fetch-pdfs] [OK] Linked local PDF for 3B6WE96D
+[fetch-pdfs] [TRY] RI59U7G8 ← existing attachment link: https://arxiv.org/pdf/2512.18938v1
+[fetch-pdfs] [OK] Linked local PDF for RI59U7G8
+[fetch-pdfs] [TRY] VA53EVXK ← existing attachment link: https://arxiv.org/pdf/2512.14952v1
+[fetch-pdfs] [OK] Linked local PDF for VA53EVXK
+[fetch-pdfs] [TRY] NBF9ANNQ ← existing attachment link: https://arxiv.org/pdf/2512.14270v2
+[fetch-pdfs] [OK] Linked local PDF for NBF9ANNQ
+[fetch-pdfs] [TRY] WIUZDN6G ← existing attachment link: https://arxiv.org/pdf/2512.14031v1
+[fetch-pdfs] [OK] Linked local PDF for WIUZDN6G
+[fetch-pdfs] [TRY] ZU7K36VX ← existing attachment link: https://arxiv.org/pdf/2512.13974v1
+[fetch-pdfs] [OK] Linked local PDF for ZU7K36VX
+[fetch-pdfs] [TRY] VNMV6GBA ← existing attachment link: https://arxiv.org/pdf/2512.11797v1
+[fetch-pdfs] [OK] Linked local PDF for VNMV6GBA
+[fetch-pdfs] [TRY] 9XWDHSZZ ← existing attachment link: https://arxiv.org/pdf/2512.11047v2
+[fetch-pdfs] [OK] Linked local PDF for 9XWDHSZZ
+[fetch-pdfs] [TRY] 87CAW9NK ← existing attachment link: https://arxiv.org/pdf/2512.09903v1
+[fetch-pdfs] [OK] Linked local PDF for 87CAW9NK
+[fetch-pdfs] [TRY] FUV37Z2U ← existing attachment link: https://arxiv.org/pdf/2512.21325v1
+[fetch-pdfs] [OK] Linked local PDF for FUV37Z2U
+[fetch-pdfs] [TRY] A8D2IJAE ← existing attachment link: https://arxiv.org/pdf/2512.21315v1
+[fetch-pdfs] [OK] Linked local PDF for A8D2IJAE
+[fetch-pdfs] [TRY] KE6KREFF ← existing attachment link: https://arxiv.org/pdf/2512.21302v1
+[fetch-pdfs] [OK] Linked local PDF for KE6KREFF
+[fetch-pdfs] [TRY] SV6INR5G ← existing attachment link: https://arxiv.org/pdf/2512.21284v1
+[fetch-pdfs] [OK] Linked local PDF for SV6INR5G
+[fetch-pdfs] [TRY] 9XATCRZV ← existing attachment link: https://arxiv.org/pdf/2512.21246v1
+[fetch-pdfs] [OK] Linked local PDF for 9XATCRZV
+[fetch-pdfs] [TRY] C3EI64RT ← existing attachment link: https://arxiv.org/pdf/2512.21236v1
+[fetch-pdfs] [OK] Linked local PDF for C3EI64RT
+[fetch-pdfs] [TRY] N972E5SE ← existing attachment link: https://arxiv.org/pdf/2512.21227v1
+[fetch-pdfs] [OK] Linked local PDF for N972E5SE
+[fetch-pdfs] [TRY] CV8PM8RZ ← existing attachment link: https://arxiv.org/pdf/2512.21216v1
+[fetch-pdfs] [OK] Linked local PDF for CV8PM8RZ
+[fetch-pdfs] [TRY] HJJ6FZZ4 ← existing attachment link: https://arxiv.org/pdf/2512.21233v1
+[fetch-pdfs] [OK] Linked local PDF for HJJ6FZZ4
+[fetch-pdfs] [TRY] QW278DB6 ← existing attachment link: https://arxiv.org/pdf/2512.21097v1
+[fetch-pdfs] [OK] Linked local PDF for QW278DB6
+[fetch-pdfs] [TRY] KBC33DPG ← existing attachment link: https://arxiv.org/pdf/2512.21089v1
+[fetch-pdfs] [OK] Linked local PDF for KBC33DPG
+[fetch-pdfs] [TRY] 6KKZISIB ← existing attachment link: https://arxiv.org/pdf/2512.21085v1
+[fetch-pdfs] [OK] Linked local PDF for 6KKZISIB
+[fetch-pdfs] [TRY] DJ8MCEUM ← existing attachment link: https://arxiv.org/pdf/2512.21065v1
+[fetch-pdfs] [OK] Linked local PDF for DJ8MCEUM
+[fetch-pdfs] [TRY] Q5V8HXH2 ← existing attachment link: https://arxiv.org/pdf/2512.21063v1
+[fetch-pdfs] [OK] Linked local PDF for Q5V8HXH2
+[fetch-pdfs] [TRY] 2P6G4FHZ ← existing attachment link: https://arxiv.org/pdf/2512.21043v1
+[fetch-pdfs] [OK] Linked local PDF for 2P6G4FHZ
+[fetch-pdfs] [TRY] 9T4KRKWF ← existing attachment link: https://arxiv.org/pdf/2512.21028v1
+[fetch-pdfs] [OK] Linked local PDF for 9T4KRKWF
+[fetch-pdfs] [TRY] GMUNM353 ← existing attachment link: https://arxiv.org/pdf/2512.21012v1
+[fetch-pdfs] [OK] Linked local PDF for GMUNM353
+[fetch-pdfs] [TRY] CG8Z6GUU ← existing attachment link: https://arxiv.org/pdf/2512.21337v1
+[fetch-pdfs] [OK] Linked local PDF for CG8Z6GUU
+[fetch-pdfs] [TRY] 7KCDFNCX ← existing attachment link: https://arxiv.org/pdf/2512.21329v1
+[fetch-pdfs] [OK] Linked local PDF for 7KCDFNCX
+[fetch-pdfs] [TRY] BJHDB5GB ← existing attachment link: https://arxiv.org/pdf/2512.21243v1
+[fetch-pdfs] [OK] Linked local PDF for BJHDB5GB
+[fetch-pdfs] [TRY] 8RDVVT7J ← existing attachment link: https://arxiv.org/pdf/2512.21220v1
+[fetch-pdfs] [OK] Linked local PDF for 8RDVVT7J
+[fetch-pdfs] [TRY] EZ44I2XE ← existing attachment link: https://arxiv.org/pdf/2512.21194v1
+[fetch-pdfs] [OK] Linked local PDF for EZ44I2XE
+[fetch-pdfs] [TRY] 3UF5GI9S ← existing attachment link: https://arxiv.org/pdf/2512.21126v1
+[fetch-pdfs] [OK] Linked local PDF for 3UF5GI9S
+[fetch-pdfs] [TRY] QXW9U3KM ← existing attachment link: https://arxiv.org/pdf/2512.21095v1
+[fetch-pdfs] [OK] Linked local PDF for QXW9U3KM
+[fetch-pdfs] [TRY] 8UBKTT49 ← existing attachment link: https://arxiv.org/pdf/2512.21008v1
+[fetch-pdfs] [OK] Linked local PDF for 8UBKTT49
+[fetch-pdfs] [TRY] QRQDV4K5 ← existing attachment link: https://arxiv.org/pdf/2512.20941v1
+[fetch-pdfs] [OK] Linked local PDF for QRQDV4K5
+[fetch-pdfs] [TRY] 3VH66ZZR ← existing attachment link: https://arxiv.org/pdf/2512.20907v1
+[fetch-pdfs] [OK] Linked local PDF for 3VH66ZZR
+[fetch-pdfs] [TRY] 96UUW4N2 ← existing attachment link: https://arxiv.org/pdf/2512.20786v1
+[fetch-pdfs] [OK] Linked local PDF for 96UUW4N2
+[fetch-pdfs] [TRY] PPS4NTH9 ← existing attachment link: https://arxiv.org/pdf/2512.20276v1
+[fetch-pdfs] [OK] Linked local PDF for PPS4NTH9
+[fetch-pdfs] [TRY] B2TV8Q93 ← existing attachment link: https://arxiv.org/pdf/2512.20188v1
+[fetch-pdfs] [OK] Linked local PDF for B2TV8Q93
+[fetch-pdfs] [TRY] RS7Z6E2P ← existing attachment link: https://arxiv.org/pdf/2512.20166v1
+[fetch-pdfs] [OK] Linked local PDF for RS7Z6E2P
+[fetch-pdfs] [TRY] TCUEBKSP ← existing attachment link: https://arxiv.org/pdf/2512.20014v1
+[fetch-pdfs] [OK] Linked local PDF for TCUEBKSP
+[fetch-pdfs] [TRY] HRTMTDB6 ← existing attachment link: https://arxiv.org/pdf/2512.19792v1
+[fetch-pdfs] [OK] Linked local PDF for HRTMTDB6
+[fetch-pdfs] [TRY] MRA4X3C3 ← existing attachment link: https://arxiv.org/pdf/2512.19562v1
+[fetch-pdfs] [OK] Linked local PDF for MRA4X3C3
+[fetch-pdfs] [TRY] IIRGXVRI ← existing attachment link: https://arxiv.org/pdf/2512.19471v1
+[fetch-pdfs] [OK] Linked local PDF for IIRGXVRI
+[fetch-pdfs] [TRY] 9QEJEWAB ← existing attachment link: https://arxiv.org/pdf/2512.19024v1
+[fetch-pdfs] [OK] Linked local PDF for 9QEJEWAB
+[fetch-pdfs] [TRY] W46UQE59 ← existing attachment link: https://arxiv.org/pdf/2512.18933v1
+[fetch-pdfs] [OK] Linked local PDF for W46UQE59
+[fetch-pdfs] [TRY] WJZEHBGR ← existing attachment link: https://arxiv.org/pdf/2512.21334v1
+[fetch-pdfs] [OK] Linked local PDF for WJZEHBGR
+[fetch-pdfs] [TRY] R8S36C2I ← existing attachment link: https://arxiv.org/pdf/2512.21332v1
+[fetch-pdfs] [OK] Linked local PDF for R8S36C2I
+[fetch-pdfs] [TRY] EFDWWFNV ← existing attachment link: https://arxiv.org/pdf/2512.21326v1
+[fetch-pdfs] [OK] Linked local PDF for EFDWWFNV
+[fetch-pdfs] [TRY] FRHZNGVT ← existing attachment link: https://arxiv.org/pdf/2512.21316v1
+[fetch-pdfs] [OK] Linked local PDF for FRHZNGVT
+[fetch-pdfs] [TRY] H872KB6A ← existing attachment link: https://arxiv.org/pdf/2512.21309v1
+[fetch-pdfs] [OK] Linked local PDF for H872KB6A
+[fetch-pdfs] [TRY] 2CIRP79M ← existing attachment link: https://arxiv.org/pdf/2512.21293v1
+[fetch-pdfs] [OK] Linked local PDF for 2CIRP79M
+[fetch-pdfs] [TRY] Q777J8FW ← existing attachment link: https://arxiv.org/pdf/2512.21250v1
+[fetch-pdfs] [OK] Linked local PDF for Q777J8FW
+[fetch-pdfs] [TRY] MW3CHZJW ← existing attachment link: https://arxiv.org/pdf/2512.21238v1
+[fetch-pdfs] [OK] Linked local PDF for MW3CHZJW
+[fetch-pdfs] [TRY] DKTNJZEX ← existing attachment link: https://arxiv.org/pdf/2512.20557.pdf
+[fetch-pdfs] [OK] Linked local PDF for DKTNJZEX
+[fetch-pdfs] [TRY] XT8KRG82 ← existing attachment link: https://arxiv.org/pdf/2512.20872v1
+[fetch-pdfs] [OK] Linked local PDF for XT8KRG82
+[fetch-pdfs] [TRY] W7UF5F7D ← existing attachment link: https://arxiv.org/pdf/2512.20004v1
+[fetch-pdfs] [OK] Linked local PDF for W7UF5F7D
+[fetch-pdfs] [TRY] RV8FXZ7U ← existing attachment link: https://arxiv.org/pdf/2512.19396v1
+[fetch-pdfs] [OK] Linked local PDF for RV8FXZ7U
+[fetch-pdfs] [TRY] UJ4NJCXE ← existing attachment link: https://arxiv.org/pdf/2512.18517v1
+[fetch-pdfs] [OK] Linked local PDF for UJ4NJCXE
+[fetch-pdfs] [TRY] 7WMFRGBF ← existing attachment link: https://arxiv.org/pdf/2512.17895v2
+[fetch-pdfs] [OK] Linked local PDF for 7WMFRGBF
+[fetch-pdfs] [TRY] UH89MKUM ← existing attachment link: https://arxiv.org/pdf/2512.15548v1
+[fetch-pdfs] [OK] Linked local PDF for UH89MKUM
+[fetch-pdfs] [TRY] T9WTKWTK ← existing attachment link: https://arxiv.org/pdf/2512.13438v1
+[fetch-pdfs] [OK] Linked local PDF for T9WTKWTK
+[fetch-pdfs] [TRY] REPVSAK5 ← existing attachment link: https://arxiv.org/pdf/2512.12551v1
+[fetch-pdfs] [OK] Linked local PDF for REPVSAK5
+[fetch-pdfs] [TRY] 8ERZ9ZM7 ← existing attachment link: https://arxiv.org/pdf/2512.08629v1
+[fetch-pdfs] [OK] Linked local PDF for 8ERZ9ZM7
+[fetch-pdfs] [TRY] 2INS9NWJ ← existing attachment link: https://arxiv.org/pdf/2512.21231v1
+[fetch-pdfs] [OK] Linked local PDF for 2INS9NWJ
+[fetch-pdfs] [TRY] DPWXDRZM ← existing attachment link: https://arxiv.org/pdf/2512.20974v1
+[fetch-pdfs] [OK] Linked local PDF for DPWXDRZM
+[fetch-pdfs] [TRY] 4WFZ6JXS ← existing attachment link: https://arxiv.org/pdf/2512.20958v1
+[fetch-pdfs] [OK] Linked local PDF for 4WFZ6JXS
+[fetch-pdfs] [TRY] HH3VEH4D ← existing attachment link: https://arxiv.org/pdf/2512.20957v1
+[fetch-pdfs] [OK] Linked local PDF for HH3VEH4D
+[fetch-pdfs] [TRY] CHFWK97H ← existing attachment link: https://arxiv.org/pdf/2512.20848v1
+[fetch-pdfs] [OK] Linked local PDF for CHFWK97H
+[fetch-pdfs] [TRY] 7XW7SDE4 ← existing attachment link: https://arxiv.org/pdf/2512.20831v1
+[fetch-pdfs] [OK] Linked local PDF for 7XW7SDE4
+[fetch-pdfs] [TRY] R4IUM5KI ← existing attachment link: https://arxiv.org/pdf/2512.20806v1
+[fetch-pdfs] [OK] Linked local PDF for R4IUM5KI
+[fetch-pdfs] [TRY] KVJH8A2W ← existing attachment link: https://arxiv.org/pdf/2512.20745v1
+[fetch-pdfs] [OK] Linked local PDF for KVJH8A2W
+[fetch-pdfs] [TRY] VW88RQ2M ← existing attachment link: https://arxiv.org/pdf/2512.20617v1
+[fetch-pdfs] [OK] Linked local PDF for VW88RQ2M
+[fetch-pdfs] [TRY] 2NN6MSG3 ← existing attachment link: https://arxiv.org/pdf/2512.13604.pdf
+[fetch-pdfs] [OK] Linked local PDF for 2NN6MSG3
+[fetch-pdfs] [TRY] WGJQAX3F ← existing attachment link: https://arxiv.org/pdf/2512.14614.pdf
+[fetch-pdfs] [OK] Linked local PDF for WGJQAX3F
+[fetch-pdfs] [TRY] TFFX8XRJ ← existing attachment link: https://arxiv.org/pdf/2512.21299v1
+[fetch-pdfs] [OK] Linked local PDF for TFFX8XRJ
+[fetch-pdfs] [TRY] W7C484RT ← existing attachment link: https://arxiv.org/pdf/2512.21286v1
+[fetch-pdfs] [OK] Linked local PDF for W7C484RT
+[fetch-pdfs] [TRY] 86HEIEP4 ← existing attachment link: https://arxiv.org/pdf/2512.21283v1
+[fetch-pdfs] [OK] Linked local PDF for 86HEIEP4
+[fetch-pdfs] [TRY] GAIWHGTG ← existing attachment link: https://arxiv.org/pdf/2512.21282v1
+[fetch-pdfs] [OK] Linked local PDF for GAIWHGTG
+[fetch-pdfs] [TRY] DVD4ZVBV ← existing attachment link: https://arxiv.org/pdf/2512.21277v1
+[fetch-pdfs] [OK] Linked local PDF for DVD4ZVBV
+[fetch-pdfs] [TRY] U6HV7V83 ← existing attachment link: https://arxiv.org/pdf/2512.21271v1
+[fetch-pdfs] [OK] Linked local PDF for U6HV7V83
+[fetch-pdfs] [TRY] 6Z6QGWW6 ← existing attachment link: https://arxiv.org/pdf/2512.21253v1
+[fetch-pdfs] [OK] Linked local PDF for 6Z6QGWW6
+[fetch-pdfs] [TRY] UWVMHV93 ← existing attachment link: https://arxiv.org/pdf/2512.21244v1
+[fetch-pdfs] [OK] Linked local PDF for UWVMHV93
+[fetch-pdfs] [TRY] F7IETF82 ← existing attachment link: https://arxiv.org/pdf/2512.21240v1
+[fetch-pdfs] [OK] Linked local PDF for F7IETF82
+[fetch-pdfs] [TRY] EDA95UI2 ← existing attachment link: https://arxiv.org/pdf/2512.21109v1
+[fetch-pdfs] [OK] Linked local PDF for EDA95UI2
+[fetch-pdfs] [TRY] QGCWJFCS ← existing attachment link: https://arxiv.org/pdf/2512.20769v1
+[fetch-pdfs] [OK] Linked local PDF for QGCWJFCS
+[fetch-pdfs] [TRY] AFQXZZGN ← existing attachment link: https://arxiv.org/pdf/2512.20586v1
+[fetch-pdfs] [OK] Linked local PDF for AFQXZZGN
+[fetch-pdfs] [TRY] PWPRR6JN ← existing attachment link: https://arxiv.org/pdf/2512.20479v1
+[fetch-pdfs] [OK] Linked local PDF for PWPRR6JN
+[fetch-pdfs] [TRY] TKVJFUEK ← existing attachment link: https://arxiv.org/pdf/2512.20475v1
+[fetch-pdfs] [OK] Linked local PDF for TKVJFUEK
+[fetch-pdfs] [TRY] H3CHWGV5 ← existing attachment link: https://arxiv.org/pdf/2512.20083v1
+[fetch-pdfs] [OK] Linked local PDF for H3CHWGV5
+[fetch-pdfs] [TRY] F5CFXFCG ← existing attachment link: https://arxiv.org/pdf/2512.19824v1
+[fetch-pdfs] [OK] Linked local PDF for F5CFXFCG
+[fetch-pdfs] [TRY] 8GP8T8F8 ← existing attachment link: https://arxiv.org/pdf/2512.19583v1
+[fetch-pdfs] [OK] Linked local PDF for 8GP8T8F8
+[fetch-pdfs] [TRY] SCV7PD4C ← existing attachment link: https://arxiv.org/pdf/2512.19564v1
+[fetch-pdfs] [OK] Linked local PDF for SCV7PD4C
+[fetch-pdfs] [TRY] RHV4JTN9 ← existing attachment link: https://arxiv.org/pdf/2512.19490v1
+[fetch-pdfs] [OK] Linked local PDF for RHV4JTN9
+[fetch-pdfs] [TRY] MJF7FVU2 ← existing attachment link: https://arxiv.org/pdf/2512.19074v1
+[fetch-pdfs] [OK] Linked local PDF for MJF7FVU2
+[fetch-pdfs] [TRY] P37WBBXC ← existing attachment link: https://arxiv.org/pdf/2511.21987v2
+[fetch-pdfs] [OK] Linked local PDF for P37WBBXC
+[fetch-pdfs] [TRY] 2Q3IFRQC ← existing attachment link: https://arxiv.org/pdf/2511.15754v1
+[fetch-pdfs] [OK] Linked local PDF for 2Q3IFRQC
+[fetch-pdfs] [TRY] E2376N2Z ← existing attachment link: https://arxiv.org/pdf/2511.14450v2
+[fetch-pdfs] [OK] Linked local PDF for E2376N2Z
+[fetch-pdfs] [INFO] Completed. PDFs added: 116, remaining without PDF: 1.
+[PIPELINE] ✓ pdf completed
+[PIPELINE] → dedupe: limit=∞ since_hours=24.0
+[dedupe] [INFO] Scanned 117 top-level items (after time filter).
+[dedupe] [INFO] No duplicates detected with the current heuristic.
+[PIPELINE] ✓ dedupe completed
+[PIPELINE] → summary: limit=200 since_hours=24.0
+[summaries-err] Ignoring wrong pointing object 52 0 (offset 0)
+[summaries] [INFO] Fetched 200 Zotero items before time-window filtering.
+[summaries] [INFO] 200 items remain after applying modified-since 24.0h window.
+[summaries] [INFO] Processing Hyperion__Hierarchical_Scheduling_for_Parallel_LLM_Acceleration_in_Multi-tier_Ne.pdf (5XK7X8IW)
+[summaries]   - Reading Hyperion__Hierarchical_Scheduling_for_Parallel_LLM_Acceleration_in_Multi-tier_Ne.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Electrical_Modulation_and_Probing_of_Antiferromagnetism_in_Hybrid_Multiferroic_H.pdf (D94CCBVN)
+[summaries]   - Reading Electrical_Modulation_and_Probing_of_Antiferromagnetism_in_Hybrid_Multiferroic_H.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Interferometric_view_into_RT_Pav_s_long_secondary_period._binary_vs_oscillatory_.pdf (D76WBER7)
+[summaries]   - Reading Interferometric_view_into_RT_Pav_s_long_secondary_period._binary_vs_oscillatory_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing The_Milky_Way_Bulge_Extra-Tidal_Star_Survey__NGC_6569.pdf (SRPNNCA9)
+[summaries]   - Reading The_Milky_Way_Bulge_Extra-Tidal_Star_Survey__NGC_6569.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Harnessing_non-Hermiticity_for_efficient_quantum_state_transfer.pdf (AAN7DQN4)
+[summaries]   - Reading Harnessing_non-Hermiticity_for_efficient_quantum_state_transfer.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Results_of_the_2024_CommonRoad_Motion_Planning_Competition_for_Autonomous_Vehicl.pdf (Z265S96I)
+[summaries]   - Reading Results_of_the_2024_CommonRoad_Motion_Planning_Competition_for_Autonomous_Vehicl.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Learning_Generalizable_Hand-Object_Tracking_from_Synthetic_Demonstrations.pdf (S5HTVEUG)
+[summaries]   - Reading Learning_Generalizable_Hand-Object_Tracking_from_Synthetic_Demonstrations.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Limit_Regret_in_Binary_Treatment_Choice_with_Misspecified_Plug-In_Predictors_and.pdf (UPSBWHRR)
+[summaries]   - Reading Limit_Regret_in_Binary_Treatment_Choice_with_Misspecified_Plug-In_Predictors_and.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Detecting_Non-Optimal_Decisions_of_Embodied_Agents_via_Diversity-Guided_Metamorp.pdf (IVVI3HBH)
+[summaries]   - Reading Detecting_Non-Optimal_Decisions_of_Embodied_Agents_via_Diversity-Guided_Metamorp.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Drift-Corrected_Monocular_VIO_and_Perception-Aware_Planning_for_Autonomous_Drone.pdf (48PIDB2C)
+[summaries]   - Reading Drift-Corrected_Monocular_VIO_and_Perception-Aware_Planning_for_Autonomous_Drone.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing UTDesign__A_Unified_Framework_for_Stylized_Text_Editing_and_Generation_in_Graphi.pdf (PMNGERNN)
+[summaries]   - Reading UTDesign__A_Unified_Framework_for_Stylized_Text_Editing_and_Generation_in_Graphi.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Automated_stereotactic_radiosurgery_planning_using_a_human-in-the-loop_reasoning.pdf (JQP6N9TX)
+[summaries]   - Reading Automated_stereotactic_radiosurgery_planning_using_a_human-in-the-loop_reasoning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_General_Purpose_Method_for_Robotic_Interception_of_Non-Cooperative_Dynamic_Tar.pdf (UUXW22VN)
+[summaries]   - Reading A_General_Purpose_Method_for_Robotic_Interception_of_Non-Cooperative_Dynamic_Tar.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Robust_and_Efficient_MuJoCo-based_Model_Predictive_Control_via_Web_of_Affine_Spa.pdf (22NKPIS3)
+[summaries]   - Reading Robust_and_Efficient_MuJoCo-based_Model_Predictive_Control_via_Web_of_Affine_Spa.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Minijets_and_Broken_Stationarity_in_a_Blazar___Novel_Insights_into_the_Origin_of.pdf (BJWNJHBH)
+[summaries]   - Reading Minijets_and_Broken_Stationarity_in_a_Blazar___Novel_Insights_into_the_Origin_of.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ARX-Implementation_of_encrypted_nonlinear_dynamic_controllers_using_observer_for.pdf (EHJ4VTA5)
+[summaries]   - Reading ARX-Implementation_of_encrypted_nonlinear_dynamic_controllers_using_observer_for.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Neural_Network-Assisted_RIS_Weight_Optimization_for_Spatial_Nulling_in_Distorted.pdf (DQ5P7FEU)
+[summaries]   - Reading Neural_Network-Assisted_RIS_Weight_Optimization_for_Spatial_Nulling_in_Distorted.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Coherently_Assisted_Wireless_Power_Transfer_Through_Poorly_Transparent_Barriers.pdf (2XKX4Z9K)
+[summaries]   - Reading Coherently_Assisted_Wireless_Power_Transfer_Through_Poorly_Transparent_Barriers.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Twist-Tuned_Strong_Coupling_in_Sub-GHz_Wire_Metasurface_Bilayers.pdf (9MT4CFPS)
+[summaries]   - Reading Twist-Tuned_Strong_Coupling_in_Sub-GHz_Wire_Metasurface_Bilayers.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Quantum_computation_of_mass_gap_in_an_asymptotically_free_theory.pdf (GZQ2S6RV)
+[summaries]   - Reading Quantum_computation_of_mass_gap_in_an_asymptotically_free_theory.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Proximal_Survival_Analysis_for_Dependent_Left_Truncation.pdf (W28BGW2D)
+[summaries]   - Reading Proximal_Survival_Analysis_for_Dependent_Left_Truncation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Impurity_peaking_of_SPARC_H-modes__a_sensitivity_study_on_physics_and_engineerin.pdf (CRXWU2TN)
+[summaries]   - Reading Impurity_peaking_of_SPARC_H-modes__a_sensitivity_study_on_physics_and_engineerin.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Integral_modelling_of_weakly_evaporating_3D_liquid_film_with_variable_substrate_.pdf (3EZKWNXA)
+[summaries]   - Reading Integral_modelling_of_weakly_evaporating_3D_liquid_film_with_variable_substrate_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing WorldPlay__Towards_Long-Term_Geometric_Consistency_for_Real-Time_Interactive_Wor.pdf (7GRTXE5Q)
+[summaries]   - Reading WorldPlay__Towards_Long-Term_Geometric_Consistency_for_Real-Time_Interactive_Wor.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing LongVie_2__Multimodal_Controllable_Ultra-Long_Video_World_Model.pdf (VKPFEWVT)
+[summaries]   - Reading LongVie_2__Multimodal_Controllable_Ultra-Long_Video_World_Model.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing SpatialTree__How_Spatial_Abilities_Branch_Out_in_MLLMs.pdf (G8XPSE8W)
+[summaries]   - Reading SpatialTree__How_Spatial_Abilities_Branch_Out_in_MLLMs.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing AgentMath__Empowering_Mathematical_Reasoning_for_Large_Language_Models_via_Tool-.pdf (T8QH9IDR)
+[summaries]   - Reading AgentMath__Empowering_Mathematical_Reasoning_for_Large_Language_Models_via_Tool-.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Safety_Alignment_of_LMs_via_Non-cooperative_Games.pdf (VHSN59U5)
+[summaries]   - Reading Safety_Alignment_of_LMs_via_Non-cooperative_Games.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Context-Sensitive_Abstractions_for_Reinforcement_Learning_with_Parameterized_Act.pdf (BKNIN25Z)
+[summaries]   - Reading Context-Sensitive_Abstractions_for_Reinforcement_Learning_with_Parameterized_Act.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Nemotron_3_Nano__Open__Efficient_Mixture-of-Experts_Hybrid_Mamba-Transformer_Mod.pdf (ZNI5SM2R)
+[summaries]   - Reading Nemotron_3_Nano__Open__Efficient_Mixture-of-Experts_Hybrid_Mamba-Transformer_Mod.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing One_Tool_Is_Enough__Reinforcement_Learning_for_Repository-Level_LLM_Agents.pdf (NEUKNHGS)
+[summaries]   - Reading One_Tool_Is_Enough__Reinforcement_Learning_for_Repository-Level_LLM_Agents.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ReACT-Drug__Reaction-Template_Guided_Reinforcement_Learning_for_de_novo_Drug_Des.pdf (EXWFG4RS)
+[summaries]   - Reading ReACT-Drug__Reaction-Template_Guided_Reinforcement_Learning_for_de_novo_Drug_Des.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Generalised_Linear_Models_in_Deep_Bayesian_RL_with_Learnable_Basis_Functions.pdf (UJTEKRV4)
+[summaries]   - Reading Generalised_Linear_Models_in_Deep_Bayesian_RL_with_Learnable_Basis_Functions.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing MiST__Understanding_the_Role_of_Mid-Stage_Scientific_Training_in_Developing_Chem.pdf (S7KNEZNH)
+[summaries]   - Reading MiST__Understanding_the_Role_of_Mid-Stage_Scientific_Training_in_Developing_Chem.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing See-Control__A_Multimodal_Agent_Framework_for_Smartphone_Interaction_with_a_Robo.pdf (RPN97GDV)
+[summaries]   - Reading See-Control__A_Multimodal_Agent_Framework_for_Smartphone_Interaction_with_a_Robo.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Assessing_the_Capability_of_Android_Dynamic_Analysis_Tools_to_Combat_Anti-Runtim.pdf (4N222WNR)
+[summaries]   - Reading Assessing_the_Capability_of_Android_Dynamic_Analysis_Tools_to_Combat_Anti-Runtim.pdf
+[summaries]     [OK] Note created.
+[summaries-err] Ignoring wrong pointing object 6 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 8 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 10 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 12 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 14 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 16 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 26 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 28 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 34 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 36 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 53 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 55 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 76 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 78 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 80 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 82 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 121 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 123 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 143 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 148 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 185 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 187 0 (offset 0)
+[summaries-err] Ignoring wrong pointing object 189 0 (offset 0)
+[summaries] [INFO] Processing From_User_Interface_to_Agent_Interface__Efficiency_Optimization_of_UI_Representa.pdf (9T8497FI)
+[summaries]   - Reading From_User_Interface_to_Agent_Interface__Efficiency_Optimization_of_UI_Representa.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing An_Open-Source_Framework_for_Quality-Assured_Smartphone-Based_Visible_Light_Iris.pdf (DH5ZP483)
+[summaries]   - Reading An_Open-Source_Framework_for_Quality-Assured_Smartphone-Based_Visible_Light_Iris.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Visualization_of_The_Content_of_Surah_al_Fiil_using_Marker-Based_Augmented_Reali.pdf (GBAFTGBJ)
+[summaries]   - Reading Visualization_of_The_Content_of_Surah_al_Fiil_using_Marker-Based_Augmented_Reali.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Exploring_Runtime_Evolution_in_Android__A_Cross-Version_Analysis_and_Its_Implica.pdf (WCFHM37X)
+[summaries]   - Reading Exploring_Runtime_Evolution_in_Android__A_Cross-Version_Analysis_and_Its_Implica.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing EchoTrail-GUI__Building_Actionable_Memory_for_GUI_Agents_via_Critic-Guided_Self-.pdf (RDWNTMF4)
+[summaries]   - Reading EchoTrail-GUI__Building_Actionable_Memory_for_GUI_Agents_via_Critic-Guided_Self-.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing IoT-based_Android_Malware_Detection_Using_Graph_Neural_Network_With_Adversarial_.pdf (4GV8TN23)
+[summaries]   - Reading IoT-based_Android_Malware_Detection_Using_Graph_Neural_Network_With_Adversarial_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Better_Call_Graphs__A_New_Dataset_of_Function_Call_Graphs_for_Malware_Classifica.pdf (BMBTCQDH)
+[summaries]   - Reading Better_Call_Graphs__A_New_Dataset_of_Function_Call_Graphs_for_Malware_Classifica.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Learning_to_Reason_in_4D__Dynamic_Spatial_Understanding_for_Vision_Language_Mode.pdf (H7SA788P)
+[summaries]   - Reading Learning_to_Reason_in_4D__Dynamic_Spatial_Understanding_for_Vision_Language_Mode.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Assessing_the_Software_Security_Comprehension_of_Large_Language_Models.pdf (ZTPK77MJ)
+[summaries]   - Reading Assessing_the_Software_Security_Comprehension_of_Large_Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing CoTDeceptor_Adversarial_Code_Obfuscation_Against_CoT-Enhanced_LLM_Code_Agents.pdf (CGJDXBWV)
+[summaries]   - Reading CoTDeceptor_Adversarial_Code_Obfuscation_Against_CoT-Enhanced_LLM_Code_Agents.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Quadrupped-Legged_Robot_Movement_Plan_Generation_using_Large_Language_Model.pdf (9MBKN6WS)
+[summaries]   - Reading Quadrupped-Legged_Robot_Movement_Plan_Generation_using_Large_Language_Model.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Plan_Reuse_Mechanism_for_LLM-Driven_Agent.pdf (RMP2DIFV)
+[summaries]   - Reading A_Plan_Reuse_Mechanism_for_LLM-Driven_Agent.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Scaling_Laws_for_Economic_Productivity__Experimental_Evidence_in_LLM-Assisted_Co.pdf (UIGCNCRE)
+[summaries]   - Reading Scaling_Laws_for_Economic_Productivity__Experimental_Evidence_in_LLM-Assisted_Co.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Measuring_all_the_noises_of_LLM_Evals.pdf (CCQGHQFP)
+[summaries]   - Reading Measuring_all_the_noises_of_LLM_Evals.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing C2LLM_Technical_Report__A_New_Frontier_in_Code_Retrieval_via_Adaptive_Cross-Atte.pdf (4K2PTZTX)
+[summaries]   - Reading C2LLM_Technical_Report__A_New_Frontier_in_Code_Retrieval_via_Adaptive_Cross-Atte.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Streaming_Video_Instruction_Tuning.pdf (MW6GM4GD)
+[summaries]   - Reading Streaming_Video_Instruction_Tuning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Point_What_You_Mean__Visually_Grounded_Instruction_Policy.pdf (VPMT7Q2B)
+[summaries]   - Reading Point_What_You_Mean__Visually_Grounded_Instruction_Policy.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing IndoorUAV__Benchmarking_Vision-Language_UAV_Navigation_in_Continuous_Indoor_Envi.pdf (GSNZAU5B)
+[summaries]   - Reading IndoorUAV__Benchmarking_Vision-Language_UAV_Navigation_in_Continuous_Indoor_Envi.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Revealing_the_intricacies_of_radio_galaxies_and_filaments_in_the_merging_galaxy_.pdf (P7PWZS94)
+[summaries]   - Reading Revealing_the_intricacies_of_radio_galaxies_and_filaments_in_the_merging_galaxy_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing REALM__A_Real-to-Sim_Validated_Benchmark_for_Generalization_in_Robotic_Manipulat.pdf (QP54RS67)
+[summaries]   - Reading REALM__A_Real-to-Sim_Validated_Benchmark_for_Generalization_in_Robotic_Manipulat.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_multiwavelength_study_of_an_early_galaxy_group_merger_in_COSMOS_revealed_by_tw.pdf (KAPC26PK)
+[summaries]   - Reading A_multiwavelength_study_of_an_early_galaxy_group_merger_in_COSMOS_revealed_by_tw.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Bring_My_Cup__Personalizing_Vision-Language-Action_Models_with_Visual_Attentive_.pdf (2R9WAKW3)
+[summaries]   - Reading Bring_My_Cup__Personalizing_Vision-Language-Action_Models_with_Visual_Attentive_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing LoLA__Long_Horizon_Latent_Action_Learning_for_General_Robot_Manipulation.pdf (EEWRHFCM)
+[summaries]   - Reading LoLA__Long_Horizon_Latent_Action_Learning_for_General_Robot_Manipulation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Asynchronous_Fast-Slow_Vision-Language-Action_Policies_for_Whole-Body_Robotic_Ma.pdf (IE9IXQAT)
+[summaries]   - Reading Asynchronous_Fast-Slow_Vision-Language-Action_Policies_for_Whole-Body_Robotic_Ma.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ActionFlow__A_Pipelined_Action_Acceleration_for_Vision_Language_Models_on_Edge.pdf (9U7CIUZZ)
+[summaries]   - Reading ActionFlow__A_Pipelined_Action_Acceleration_for_Vision_Language_Models_on_Edge.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Simultaneous_JWST__NuSTAR__and_VLA_Monitoring_of_Sgr_A___A_Unified_Picture_of_th.pdf (23HB3HFE)
+[summaries]   - Reading Simultaneous_JWST__NuSTAR__and_VLA_Monitoring_of_Sgr_A___A_Unified_Picture_of_th.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PanoGrounder__Bridging_2D_and_3D_with_Panoramic_Scene_Representations_for_VLM-ba.pdf (UHVBZSBR)
+[summaries]   - Reading PanoGrounder__Bridging_2D_and_3D_with_Panoramic_Scene_Representations_for_VLM-ba.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Multi-fidelity_Double-Delta_Wing_Dataset_and_Empirical_Scaling_Laws_for_GNN-ba.pdf (3PGEK8PZ)
+[summaries]   - Reading A_Multi-fidelity_Double-Delta_Wing_Dataset_and_Empirical_Scaling_Laws_for_GNN-ba.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing GateBreaker__Gate-Guided_Attacks_on_Mixture-of-Expert_LLMs.pdf (VJ3ZNUNX)
+[summaries]   - Reading GateBreaker__Gate-Guided_Attacks_on_Mixture-of-Expert_LLMs.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing UniRec-0.1B__Unified_Text_and_Formula_Recognition_with_0.1B_Parameters.pdf (XBQHDWH9)
+[summaries]   - Reading UniRec-0.1B__Unified_Text_and_Formula_Recognition_with_0.1B_Parameters.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing MarineEval__Assessing_the_Marine_Intelligence_of_Vision-Language_Models.pdf (DTZ8C66R)
+[summaries]   - Reading MarineEval__Assessing_the_Marine_Intelligence_of_Vision-Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing VisRes_Bench__On_Evaluating_the_Visual_Reasoning_Capabilities_of_VLMs.pdf (RJZAWHXJ)
+[summaries]   - Reading VisRes_Bench__On_Evaluating_the_Visual_Reasoning_Capabilities_of_VLMs.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboSafe__Safeguarding_Embodied_Agents_via_Executable_Safety_Logic.pdf (GGZWWVQM)
+[summaries]   - Reading RoboSafe__Safeguarding_Embodied_Agents_via_Executable_Safety_Logic.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing LookPlanGraph__Embodied_Instruction_Following_Method_with_VLM_Graph_Augmentation.pdf (NME6QVGH)
+[summaries]   - Reading LookPlanGraph__Embodied_Instruction_Following_Method_with_VLM_Graph_Augmentation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Your_Reasoning_Benchmark_May_Not_Test_Reasoning__Revealing_Perception_Bottleneck.pdf (F7WNIXRA)
+[summaries]   - Reading Your_Reasoning_Benchmark_May_Not_Test_Reasoning__Revealing_Perception_Bottleneck.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Beyond_Memorization__A_Multi-Modal_Ordinal_Regression_Benchmark_to_Expose_Popula.pdf (PVUQEZGG)
+[summaries]   - Reading Beyond_Memorization__A_Multi-Modal_Ordinal_Regression_Benchmark_to_Expose_Popula.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Precise_quantum_control_of_unidirectional_field-free_molecular_orientation.pdf (H8GTGUII)
+[summaries]   - Reading Precise_quantum_control_of_unidirectional_field-free_molecular_orientation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Artificial_or_Just_Artful__Do_LLMs_Bend_the_Rules_in_Programming_.pdf (CFN35JPA)
+[summaries]   - Reading Artificial_or_Just_Artful__Do_LLMs_Bend_the_Rules_in_Programming_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Tracing_Energy_Flow__Learning_Tactile-based_Grasping_Force_Control_to_Prevent_Sl.pdf (2XJMAJ94)
+[summaries]   - Reading Tracing_Energy_Flow__Learning_Tactile-based_Grasping_Force_Control_to_Prevent_Sl.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing LSTM-Based_Modeling_and_Reinforcement_Learning_Control_of_a_Magnetically_Actuate.pdf (JUV4K3XR)
+[summaries]   - Reading LSTM-Based_Modeling_and_Reinforcement_Learning_Control_of_a_Magnetically_Actuate.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Language-Guided_Grasp_Detection_with_Coarse-to-Fine_Learning_for_Robotic_Manipul.pdf (UH2CQ4C7)
+[summaries]   - Reading Language-Guided_Grasp_Detection_with_Coarse-to-Fine_Learning_for_Robotic_Manipul.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Global_End-Effector_Pose_Control_of_an_Underactuated_Aerial_Manipulator_via_Rein.pdf (2W67WSD3)
+[summaries]   - Reading Global_End-Effector_Pose_Control_of_an_Underactuated_Aerial_Manipulator_via_Rein.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Non-Abelian_gauge_field_optics_in_the_time_domain.pdf (VUA2XBJE)
+[summaries]   - Reading Non-Abelian_gauge_field_optics_in_the_time_domain.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Optical_Detection_and_Manipulation_of_Pseudospin_Orders_in_Wigner_Crystals.pdf (SJ93THVD)
+[summaries]   - Reading Optical_Detection_and_Manipulation_of_Pseudospin_Orders_in_Wigner_Crystals.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing UniTacHand__Unified_Spatio-Tactile_Representation_for_Human_to_Robotic_Hand_Skil.pdf (UBS9WVPS)
+[summaries]   - Reading UniTacHand__Unified_Spatio-Tactile_Representation_for_Human_to_Robotic_Hand_Skil.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Exploring_the_Role_of_Vector_Potential_and_Plasma-____in_Jet_Formation_from_Magn.pdf (37R7DTHJ)
+[summaries]   - Reading Exploring_the_Role_of_Vector_Potential_and_Plasma-____in_Jet_Formation_from_Magn.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PhononBench_A_Large-Scale_Phonon-Based_Benchmark_for_Dynamical_Stability_in_Crys.pdf (V8R2GI4F)
+[summaries]   - Reading PhononBench_A_Large-Scale_Phonon-Based_Benchmark_for_Dynamical_Stability_in_Crys.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Casting_a_SPELL__Sentence_Pairing_Exploration_for_LLM_Limitation-breaking.pdf (4Q4RU2FQ)
+[summaries]   - Reading Casting_a_SPELL__Sentence_Pairing_Exploration_for_LLM_Limitation-breaking.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Learning_Factors_in_AI-Augmented_Education__A_Comparative_Study_of_Middle_and_Hi.pdf (VCGXVQ3G)
+[summaries]   - Reading Learning_Factors_in_AI-Augmented_Education__A_Comparative_Study_of_Middle_and_Hi.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Surgical_Scene_Segmentation_using_a_Spike-Driven_Video_Transformer_with_Real-Tim.pdf (7RF6ZJTB)
+[summaries]   - Reading Surgical_Scene_Segmentation_using_a_Spike-Driven_Video_Transformer_with_Real-Tim.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing AndroidLens__Long-latency_Evaluation_with_Nested_Sub-targets_for_Android_GUI_Age.pdf (Q948ZNSD)
+[summaries]   - Reading AndroidLens__Long-latency_Evaluation_with_Nested_Sub-targets_for_Android_GUI_Age.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Does_the_Data_Processing_Inequality_Reflect_Practice__On_the_Utility_of_Low-Leve.pdf (IA9F2NQE)
+[summaries]   - Reading Does_the_Data_Processing_Inequality_Reflect_Practice__On_the_Utility_of_Low-Leve.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Topological_Charge-2ne_Superconductors.pdf (Q9ZHRBKQ)
+[summaries]   - Reading Topological_Charge-2ne_Superconductors.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing YOPO-Nav__Visual_Navigation_using_3DGS_Graphs_from_One-Pass_Videos.pdf (FVVNZUND)
+[summaries]   - Reading YOPO-Nav__Visual_Navigation_using_3DGS_Graphs_from_One-Pass_Videos.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing WholeBodyVLA__Towards_Unified_Latent_VLA_for_Whole-Body_Loco-Manipulation_Contro.pdf (WKXH75ZH)
+[summaries]   - Reading WholeBodyVLA__Towards_Unified_Latent_VLA_for_Whole-Body_Loco-Manipulation_Contro.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing AnchorDream__Repurposing_Video_Diffusion_for_Embodiment-Aware_Robot_Data_Synthes.pdf (9VRS83NB)
+[summaries]   - Reading AnchorDream__Repurposing_Video_Diffusion_for_Embodiment-Aware_Robot_Data_Synthes.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Autonomous_Construction-Site_Safety_Inspection_Using_Mobile_Robots__A_Multilayer.pdf (MM3F5342)
+[summaries]   - Reading Autonomous_Construction-Site_Safety_Inspection_Using_Mobile_Robots__A_Multilayer.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Sample-Efficient_Robot_Skill_Learning_for_Construction_Tasks__Benchmarking_Hiera.pdf (MREFCBS6)
+[summaries]   - Reading Sample-Efficient_Robot_Skill_Learning_for_Construction_Tasks__Benchmarking_Hiera.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing CaFe-TeleVision__A_Coarse-to-Fine_Teleoperation_System_with_Immersive_Situated_V.pdf (MXMVSU2V)
+[summaries]   - Reading CaFe-TeleVision__A_Coarse-to-Fine_Teleoperation_System_with_Immersive_Situated_V.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Breathe_with_Me__Synchronizing_Biosignals_for_User_Embodiment_in_Robots.pdf (9AF9RC8T)
+[summaries]   - Reading Breathe_with_Me__Synchronizing_Biosignals_for_User_Embodiment_in_Robots.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Framework_for_Deploying_Learning-based_Quadruped_Loco-Manipulation.pdf (T9HNDFBG)
+[summaries]   - Reading A_Framework_for_Deploying_Learning-based_Quadruped_Loco-Manipulation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Flexible_Field-Based_Policy_Learning_Framework_for_Diverse_Robotic_Systems_and.pdf (P557VZHW)
+[summaries]   - Reading A_Flexible_Field-Based_Policy_Learning_Framework_for_Diverse_Robotic_Systems_and.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboCade__Gamifying_Robot_Data_Collection.pdf (49X26PD9)
+[summaries]   - Reading RoboCade__Gamifying_Robot_Data_Collection.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Data_assimilation_and_discrepancy_modeling_with_shallow_recurrent_decoders.pdf (TDHWCDJK)
+[summaries]   - Reading Data_assimilation_and_discrepancy_modeling_with_shallow_recurrent_decoders.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing FOD-S2R__A_FOD_Dataset_for_Sim2Real_Transfer_Learning_based_Object_Detection.pdf (FH5MUGK7)
+[summaries]   - Reading FOD-S2R__A_FOD_Dataset_for_Sim2Real_Transfer_Learning_based_Object_Detection.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Crossing_the_Sim2Real_Gap_Between_Simulation_and_Ground_Testing_to_Space_Deploym.pdf (6ZJ28GZB)
+[summaries]   - Reading Crossing_the_Sim2Real_Gap_Between_Simulation_and_Ground_Testing_to_Space_Deploym.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Sim2Swim__Zero-Shot_Velocity_Control_for_Agile_AUV_Maneuvering_in_3_Minutes.pdf (5IAFJMHG)
+[summaries]   - Reading Sim2Swim__Zero-Shot_Velocity_Control_for_Agile_AUV_Maneuvering_in_3_Minutes.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Sim2Real_Reinforcement_Learning_for_Soccer_skills.pdf (UGIVUV77)
+[summaries]   - Reading Sim2Real_Reinforcement_Learning_for_Soccer_skills.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Coarse-to-Fine_Hierarchical_Alignment_for_UAV-based_Human_Detection_using_Diffus.pdf (8WB944EI)
+[summaries]   - Reading Coarse-to-Fine_Hierarchical_Alignment_for_UAV-based_Human_Detection_using_Diffus.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing LeLaR__The_First_In-Orbit_Demonstration_of_an_AI-Based_Satellite_Attitude_Contro.pdf (EEKSNDMI)
+[summaries]   - Reading LeLaR__The_First_In-Orbit_Demonstration_of_an_AI-Based_Satellite_Attitude_Contro.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing An_introduction_to_reciprocal_complements_of_integral_domains.pdf (8VAHCAHX)
+[summaries]   - Reading An_introduction_to_reciprocal_complements_of_integral_domains.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing When_Future_Communications_Shift_Toward_Narrow_Beams__A_Forward_Looking_Survey_o.pdf (9ETAKXSM)
+[summaries]   - Reading When_Future_Communications_Shift_Toward_Narrow_Beams__A_Forward_Looking_Survey_o.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Mid-IR_luminosity_functions__inferred_dusty_cosmic_star-formation_and_black_hole.pdf (SAHTIG22)
+[summaries]   - Reading Mid-IR_luminosity_functions__inferred_dusty_cosmic_star-formation_and_black_hole.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_compendium_of_research_in_operator_algebras_and_operator_theory.pdf (BCQZMHZI)
+[summaries]   - Reading A_compendium_of_research_in_operator_algebras_and_operator_theory.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DRAGNs_in_the_Forest__Identifying_Artifacts_with_Random_Forest_Models_in_the_VLA.pdf (5W6Q7438)
+[summaries]   - Reading DRAGNs_in_the_Forest__Identifying_Artifacts_with_Random_Forest_Models_in_the_VLA.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ORCA__Object_Recognition_and_Comprehension_for_Archiving_Marine_Species.pdf (V53PRXK2)
+[summaries]   - Reading ORCA__Object_Recognition_and_Comprehension_for_Archiving_Marine_Species.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Multimodal_Human-Centered_Framework_for_Assessing_Pedestrian_Well-Being_in_the.pdf (Q6UWUQM3)
+[summaries]   - Reading A_Multimodal_Human-Centered_Framework_for_Assessing_Pedestrian_Well-Being_in_the.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Notes_on_Bernstein_spaces__sampling__Boas_interpolation_formulas_and_their_exten.pdf (42QCA3BB)
+[summaries]   - Reading Notes_on_Bernstein_spaces__sampling__Boas_interpolation_formulas_and_their_exten.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Bar_Formation_in_Disc_Galaxies__Internal_Kinematics_and_Environmental_Influence_.pdf (S9GRNJ7A)
+[summaries]   - Reading Bar_Formation_in_Disc_Galaxies__Internal_Kinematics_and_Environmental_Influence_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing When_Geometry_Radiates_Review__Gravitational_Waves_in_Theory__Cosmology__and_Obs.pdf (E7H3ZBMF)
+[summaries]   - Reading When_Geometry_Radiates_Review__Gravitational_Waves_in_Theory__Cosmology__and_Obs.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PDF (SAAT48KZ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Hyperion: Hierarchical Scheduling for Parallel LLM Acceleration in Multi-tier Networks (E2376N2Z)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (N4VG5DQZ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Electrical Modulation and Probing of Antiferromagnetism in Hybrid Multiferroic Heterostructures (2Q3IFRQC)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (3MECX3AC)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Interferometric view into RT Pav's long secondary period. binary vs oscillatory convective modes (P37WBBXC)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (HJMHFJKQ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing The Milky Way Bulge Extra-Tidal Star Survey: NGC 6569 (MJF7FVU2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (MDWN585H)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Harnessing non-Hermiticity for efficient quantum state transfer (RHV4JTN9)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (N9CTETZ3)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Results of the 2024 CommonRoad Motion Planning Competition for Autonomous Vehicles (SCV7PD4C)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (ZZ975JXE)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Learning Generalizable Hand-Object Tracking from Synthetic Demonstrations (8GP8T8F8)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (IIMPHHZ5)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Limit Regret in Binary Treatment Choice with Misspecified Plug-In Predictors and Decision Thresholds (F5CFXFCG)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (ABWMRDX2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Detecting Non-Optimal Decisions of Embodied Agents via Diversity-Guided Metamorphic Testing (H3CHWGV5)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (MATXXW6K)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Drift-Corrected Monocular VIO and Perception-Aware Planning for Autonomous Drone Racing (TKVJFUEK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (3GRG287W)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing UTDesign: A Unified Framework for Stylized Text Editing and Generation in Graphic Design Images (PWPRR6JN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (RA5JHRSJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent (AFQXZZGN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (JP2D4JZ2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing A General Purpose Method for Robotic Interception of Non-Cooperative Dynamic Targets (QGCWJFCS)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (R5X66UUQ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Robust and Efficient MuJoCo-based Model Predictive Control via Web of Affine Spaces Derivatives (EDA95UI2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (R9K4WXNI)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Minijets and Broken Stationarity in a Blazar : Novel Insights into the Origin of $γ$-ray Variability in CTA 102 (F7IETF82)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (WSF5XXKG)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing ARX-Implementation of encrypted nonlinear dynamic controllers using observer form (UWVMHV93)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (FIRCT7RM)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Neural Network-Assisted RIS Weight Optimization for Spatial Nulling in Distorted Reflector Antenna Systems (6Z6QGWW6)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (ACJWP9HN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Coherently Assisted Wireless Power Transfer Through Poorly Transparent Barriers (U6HV7V83)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (5S4ZVJ4S)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Twist-Tuned Strong Coupling in Sub-GHz Wire Metasurface Bilayers (DVD4ZVBV)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (9AXZBWVW)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Quantum computation of mass gap in an asymptotically free theory (GAIWHGTG)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (CX2FHWG8)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Proximal Survival Analysis for Dependent Left Truncation (86HEIEP4)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (G4GBU8NZ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Impurity peaking of SPARC H-modes: a sensitivity study on physics and engineering assumptions (W7C484RT)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (UBDPBGZ5)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Integral modelling of weakly evaporating 3D liquid film with variable substrate heating (TFFX8XRJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (FEAN2DAW)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling (WGJQAX3F)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (5QJJXSNG)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing LongVie 2: Multimodal Controllable Ultra-Long Video World Model (2NN6MSG3)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (SWU2B4FA)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing SpatialTree: How Spatial Abilities Branch Out in MLLMs (VW88RQ2M)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (NJVMCS4F)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent (KVJH8A2W)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (29S8G34R)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Safety Alignment of LMs via Non-cooperative Games (R4IUM5KI)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (PQUEJ4PS)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Context-Sensitive Abstractions for Reinforcement Learning with Parameterized Actions (7XW7SDE4)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (2PT72ZXH)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning (CHFWK97H)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (BTZCIEUJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents (HH3VEH4D)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (NESZXRID)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing ReACT-Drug: Reaction-Template Guided Reinforcement Learning for de novo Drug Design (4WFZ6JXS)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (DQ3IJSA7)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Generalised Linear Models in Deep Bayesian RL with Learnable Basis Functions (DPWXDRZM)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (TAK9AI4I)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing MiST: Understanding the Role of Mid-Stage Scientific Training in Developing Chemical Reasoning Models (2INS9NWJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (HG8BCASG)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing See-Control: A Multimodal Agent Framework for Smartphone Interaction with a Robotic Arm (8ERZ9ZM7)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (R4KN35RS)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Assessing the Capability of Android Dynamic Analysis Tools to Combat Anti-Runtime Analysis Techniques (REPVSAK5)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (JG6CJADN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing From User Interface to Agent Interface: Efficiency Optimization of UI Representations for LLM Agents (T9WTKWTK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (2IBUGMWW)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing An Open-Source Framework for Quality-Assured Smartphone-Based Visible Light Iris Recognition (UH89MKUM)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (87CDVZU4)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Visualization of The Content of Surah al Fiil using Marker-Based Augmented Reality (7WMFRGBF)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (ZNVXCBGF)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Exploring Runtime Evolution in Android: A Cross-Version Analysis and Its Implications for Memory Forensics (UJ4NJCXE)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (UHNJXGM6)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration (RV8FXZ7U)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (CM6SDE6X)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing IoT-based Android Malware Detection Using Graph Neural Network With Adversarial Defense (W7UF5F7D)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Completed. Items scanned: 200, notes created: 116.
+[PIPELINE] ✓ summary completed
+[PIPELINE] → abstracts: limit=∞ since_hours=24.0
+[abstracts] [INFO] Completed. Items scanned: 1613, updated: 0, missing abstract after lookup: 0.
+[PIPELINE] ✓ abstracts completed
+[PIPELINE] → notion: limit=500 since_hours=24.0
+[notion-sync] [ERR] Notion API error for 'Hyperion: Hierarchical Scheduling for Parallel LLM Acceleration in Multi-tier Ne': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ADD] Electrical Modulation and Probing of Antiferromagnetism in Hybrid Multiferroic H
+[notion-sync] [ERR] Notion API error for 'Interferometric view into RT Pav's long secondary period. binary vs oscillatory ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'The Milky Way Bulge Extra-Tidal Star Survey: NGC 6569': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Harnessing non-Hermiticity for efficient quantum state transfer': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Results of the 2024 CommonRoad Motion Planning Competition for Autonomous Vehicl': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Learning Generalizable Hand-Object Tracking from Synthetic Demonstrations': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Limit Regret in Binary Treatment Choice with Misspecified Plug-In Predictors and': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Detecting Non-Optimal Decisions of Embodied Agents via Diversity-Guided Metamorp': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Drift-Corrected Monocular VIO and Perception-Aware Planning for Autonomous Drone': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'UTDesign: A Unified Framework for Stylized Text Editing and Generation in Graphi': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A General Purpose Method for Robotic Interception of Non-Cooperative Dynamic Tar': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Robust and Efficient MuJoCo-based Model Predictive Control via Web of Affine Spa': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Minijets and Broken Stationarity in a Blazar : Novel Insights into the Origin of': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ARX-Implementation of encrypted nonlinear dynamic controllers using observer for': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Neural Network-Assisted RIS Weight Optimization for Spatial Nulling in Distorted': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Coherently Assisted Wireless Power Transfer Through Poorly Transparent Barriers': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Twist-Tuned Strong Coupling in Sub-GHz Wire Metasurface Bilayers': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Quantum computation of mass gap in an asymptotically free theory': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Proximal Survival Analysis for Dependent Left Truncation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Impurity peaking of SPARC H-modes: a sensitivity study on physics and engineerin': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Integral modelling of weakly evaporating 3D liquid film with variable substrate ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive Wor': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'LongVie 2: Multimodal Controllable Ultra-Long Video World Model': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'SpatialTree: How Spatial Abilities Branch Out in MLLMs': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Safety Alignment of LMs via Non-cooperative Games': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Context-Sensitive Abstractions for Reinforcement Learning with Parameterized Act': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Mod': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ReACT-Drug: Reaction-Template Guided Reinforcement Learning for de novo Drug Des': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Generalised Linear Models in Deep Bayesian RL with Learnable Basis Functions': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'MiST: Understanding the Role of Mid-Stage Scientific Training in Developing Chem': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'See-Control: A Multimodal Agent Framework for Smartphone Interaction with a Robo': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Assessing the Capability of Android Dynamic Analysis Tools to Combat Anti-Runtim': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'From User Interface to Agent Interface: Efficiency Optimization of UI Representa': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'An Open-Source Framework for Quality-Assured Smartphone-Based Visible Light Iris': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Visualization of The Content of Surah al Fiil using Marker-Based Augmented Reali': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Exploring Runtime Evolution in Android: A Cross-Version Analysis and Its Implica': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'IoT-based Android Malware Detection Using Graph Neural Network With Adversarial ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Better Call Graphs: A New Dataset of Function Call Graphs for Malware Classifica': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Mode': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Assessing the Software Security Comprehension of Large Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Quadrupped-Legged Robot Movement Plan Generation using Large Language Model': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A Plan Reuse Mechanism for LLM-Driven Agent': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Co': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Measuring all the noises of LLM Evals': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Atte': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Streaming Video Instruction Tuning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Point What You Mean: Visually Grounded Instruction Policy': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'IndoorUAV: Benchmarking Vision-Language UAV Navigation in Continuous Indoor Envi': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Revealing the intricacies of radio galaxies and filaments in the merging galaxy ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'REALM: A Real-to-Sim Validated Benchmark for Generalization in Robotic Manipulat': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A multiwavelength study of an early galaxy group merger in COSMOS revealed by tw': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Bring My Cup! Personalizing Vision-Language-Action Models with Visual Attentive ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'LoLA: Long Horizon Latent Action Learning for General Robot Manipulation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Asynchronous Fast-Slow Vision-Language-Action Policies for Whole-Body Robotic Ma': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ActionFlow: A Pipelined Action Acceleration for Vision Language Models on Edge': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Simultaneous JWST, NuSTAR, and VLA Monitoring of Sgr A*: A Unified Picture of th': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'PanoGrounder: Bridging 2D and 3D with Panoramic Scene Representations for VLM-ba': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A Multi-fidelity Double-Delta Wing Dataset and Empirical Scaling Laws for GNN-ba': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'UniRec-0.1B: Unified Text and Formula Recognition with 0.1B Parameters': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'MarineEval: Assessing the Marine Intelligence of Vision-Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'VisRes Bench: On Evaluating the Visual Reasoning Capabilities of VLMs': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Your Reasoning Benchmark May Not Test Reasoning: Revealing Perception Bottleneck': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Beyond Memorization: A Multi-Modal Ordinal Regression Benchmark to Expose Popula': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Precise quantum control of unidirectional field-free molecular orientation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Artificial or Just Artful? Do LLMs Bend the Rules in Programming?': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Tracing Energy Flow: Learning Tactile-based Grasping Force Control to Prevent Sl': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'LSTM-Based Modeling and Reinforcement Learning Control of a Magnetically Actuate': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Language-Guided Grasp Detection with Coarse-to-Fine Learning for Robotic Manipul': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Global End-Effector Pose Control of an Underactuated Aerial Manipulator via Rein': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Non-Abelian gauge field optics in the time domain': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Optical Detection and Manipulation of Pseudospin Orders in Wigner Crystals': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'UniTacHand: Unified Spatio-Tactile Representation for Human to Robotic Hand Skil': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Exploring the Role of Vector Potential and Plasma-$β$ in Jet Formation from Magn': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'PhononBench:A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crys': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Learning Factors in AI-Augmented Education: A Comparative Study of Middle and Hi': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Surgical Scene Segmentation using a Spike-Driven Video Transformer with Real-Tim': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Age': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Does the Data Processing Inequality Reflect Practice? On the Utility of Low-Leve': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Topological Charge-2ne Superconductors': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'YOPO-Nav: Visual Navigation using 3DGS Graphs from One-Pass Videos': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Contro': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'AnchorDream: Repurposing Video Diffusion for Embodiment-Aware Robot Data Synthes': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Autonomous Construction-Site Safety Inspection Using Mobile Robots: A Multilayer': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Sample-Efficient Robot Skill Learning for Construction Tasks: Benchmarking Hiera': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'CaFe-TeleVision: A Coarse-to-Fine Teleoperation System with Immersive Situated V': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Breathe with Me: Synchronizing Biosignals for User Embodiment in Robots': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A Framework for Deploying Learning-based Quadruped Loco-Manipulation': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A Flexible Field-Based Policy Learning Framework for Diverse Robotic Systems and': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboCade: Gamifying Robot Data Collection': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RealD$^2$iff: Bridging Real-World Gap in Robot Manipulation via Depth Diffusion': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Data assimilation and discrepancy modeling with shallow recurrent decoders': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'FOD-S2R: A FOD Dataset for Sim2Real Transfer Learning based Object Detection': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Crossing the Sim2Real Gap Between Simulation and Ground Testing to Space Deploym': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Sim2Swim: Zero-Shot Velocity Control for Agile AUV Maneuvering in 3 Minutes': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Sim2Real Reinforcement Learning for Soccer skills': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Coarse-to-Fine Hierarchical Alignment for UAV-based Human Detection using Diffus': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'LeLaR: The First In-Orbit Demonstration of an AI-Based Satellite Attitude Contro': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'An introduction to reciprocal complements of integral domains': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'When Future Communications Shift Toward Narrow Beams: A Forward Looking Survey o': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Mid-IR luminosity functions: inferred dusty cosmic star-formation and black hole': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A compendium of research in operator algebras and operator theory': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DRAGNs in the Forest: Identifying Artifacts with Random Forest Models in the VLA': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ORCA: Object Recognition and Comprehension for Archiving Marine Species': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'A Multimodal Human-Centered Framework for Assessing Pedestrian Well-Being in the': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Notes on Bernstein spaces, sampling, Boas interpolation formulas and their exten': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Bar Formation in Disc Galaxies: Internal Kinematics and Environmental Influence ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'When Geometry Radiates Review: Gravitational Waves in Theory, Cosmology, and Obs': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [INFO] Completed. Scanned=117 created=1 updated=0
+[PIPELINE] ✓ notion completed
+{
+  "watch": {
+    "name": "watch-import",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py",
+      "--tags",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--since-days",
+      "140",
+      "--since-hours",
+      "24.0",
+      "--top-k",
+      "10",
+      "--min-score",
+      "0.3",
+      "--log-file",
+      "/Users/neoone/code/Zotero/logs/watch_20251226_151554.log",
+      "--report-json",
+      "/Users/neoone/code/Zotero/reports/watch_20251226_151554.json",
+      "--create-collections"
+    ],
+    "artifacts": {
+      "log": "/Users/neoone/code/Zotero/logs/watch_20251226_151554.log",
+      "report": "/Users/neoone/code/Zotero/reports/watch_20251226_151554.json",
+      "report_data": {
+        "started_at": "2025-12-26T15:15:55.017551",
+        "params": {
+          "since_days": 140,
+          "since_hours": 24.0,
+          "top_k": 10,
+          "min_score": 0.3,
+          "create_collections": true,
+          "fill_missing": false,
+          "dry_run": false,
+          "use_hf_papers": true,
+          "hf_weight": 0.3
+        },
+        "tags": {
+          "embodied_ai": {
+            "label": "embodied_ai｜具身智能",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "embodied_surveys": {
+            "label": "embodied_surveys｜具身智能综述",
+            "candidates": 101,
+            "added": 10,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 5,
+            "hf_overrides": 0
+          },
+          "sim2real": {
+            "label": "sim2real｜模拟到现实",
+            "candidates": 42,
+            "added": 8,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "teleoperation": {
+            "label": "teleoperation｜遥操作",
+            "candidates": 50,
+            "added": 10,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_navigation": {
+            "label": "robotic_navigation｜机器人导航",
+            "candidates": 54,
+            "added": 8,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 4,
+            "hf_overrides": 0
+          },
+          "robotic_manipulation": {
+            "label": "robotic_manipulation｜机器人操作",
+            "candidates": 50,
+            "added": 9,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_grasping": {
+            "label": "robotic_grasping｜机器人抓取",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "vision_language_model": {
+            "label": "vision_language_model｜视觉语言模型",
+            "candidates": 83,
+            "added": 10,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 7,
+            "hf_overrides": 0
+          },
+          "vision_language_action_model": {
+            "label": "vision_language_action_model｜视觉语言动作模型",
+            "candidates": 72,
+            "added": 10,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 2,
+            "hf_overrides": 0
+          },
+          "large_language_model": {
+            "label": "large_language_model｜大语言模型",
+            "candidates": 85,
+            "added": 8,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 35,
+            "hf_overrides": 0
+          },
+          "foundation_model": {
+            "label": "foundation_model｜基础模型",
+            "candidates": 6,
+            "added": 1,
+            "skipped": 5,
+            "updated": 0,
+            "hf_candidates": 6,
+            "hf_overrides": 0
+          },
+          "dexterous_hand": {
+            "label": "dexterous_hand｜灵巧机械手",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "humanoid_robot": {
+            "label": "humanoid_robot｜类人机器人",
+            "candidates": 53,
+            "added": 9,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 3,
+            "hf_overrides": 0
+          },
+          "quadruped_robot": {
+            "label": "quadruped_robot｜四足机器人",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_arm": {
+            "label": "robotic_arm｜机械臂",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "reinforcement_learning": {
+            "label": "reinforcement_learning｜强化学习",
+            "candidates": 97,
+            "added": 9,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 47,
+            "hf_overrides": 0
+          },
+          "imitation_learning": {
+            "label": "imitation_learning｜模仿学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "world_model": {
+            "label": "world_model｜世界模型",
+            "candidates": 4,
+            "added": 2,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 4,
+            "hf_overrides": 0
+          },
+          "simulator": {
+            "label": "simulator｜仿真平台",
+            "candidates": 107,
+            "added": 9,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 2,
+            "hf_overrides": 0
+          },
+          "motion_planning": {
+            "label": "motion_planning｜运动规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "task_planning": {
+            "label": "task_planning｜任务规划",
+            "candidates": 50,
+            "added": 9,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "code_based_task_planning": {
+            "label": "code_based_task_planning｜代码任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "language_based_task_planning": {
+            "label": "language_based_task_planning｜语言任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "end_to_end_task_planning": {
+            "label": "end_to_end_task_planning｜端到端任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "grounded_task_planning": {
+            "label": "grounded_task_planning｜具身语义任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "transformer_policy": {
+            "label": "transformer_policy｜Transformer控制策略",
+            "candidates": 24,
+            "added": 5,
+            "skipped": 4,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "diffusion_policy": {
+            "label": "diffusion_policy｜扩散策略学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "3d_vision": {
+            "label": "3d_vision｜3D视觉感知",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "point_based_action": {
+            "label": "point_based_action｜基于点的控制",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "chain_of_thought": {
+            "label": "chain_of_thought｜链式推理",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          }
+        },
+        "summary": {
+          "candidates": 117,
+          "added": 117,
+          "skipped": 22,
+          "updated": 0,
+          "hf_candidates": 115,
+          "hf_overrides": 0
+        },
+        "errors": [],
+        "hf_sources": {
+          "daily": 5,
+          "weekly": 20,
+          "monthly": 50
+        },
+        "finished_at": "2025-12-26T15:27:44.326776"
+      }
+    }
+  },
+  "pdf": {
+    "name": "fetch-pdfs",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/fetch_missing_pdfs.py",
+      "--since-hours",
+      "24.0",
+      "--new-items-json",
+      "/Users/neoone/code/Zotero/.data/new_items_watch.json"
+    ],
+    "artifacts": {}
+  },
+  "dedupe": {
+    "name": "dedupe",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/merge_zotero_duplicates.py",
+      "--group-by",
+      "auto",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "summary": {
+    "name": "summaries",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/summarize_zotero_with_doubao.py",
+      "--limit",
+      "200",
+      "--max-pages",
+      "80",
+      "--max-chars",
+      "80000",
+      "--note-tag",
+      "AI总结",
+      "--summary-dir",
+      "/Users/neoone/code/Zotero/summaries",
+      "--recursive",
+      "--insert-note",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {
+      "summary_dir": "/Users/neoone/code/Zotero/summaries"
+    }
+  },
+  "abstract": {
+    "name": "abstracts",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/enrich_zotero_abstracts.py",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "notion": {
+    "name": "notion-sync",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/sync_zotero_to_notion.py",
+      "--limit",
+      "500",
+      "--tag-file",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--recursive",
+      "--skip-untitled",
+      "--enrich-with-doubao",
+      "--since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  }
+}

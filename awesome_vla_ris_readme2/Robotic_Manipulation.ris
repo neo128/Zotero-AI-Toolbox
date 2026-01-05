@@ -1,0 +1,90 @@
+TY  - ELEC
+TI  - Learning to Act from Actionless Videos through Dense Correspondences
+T2  - Learning to Act from Actionless Videos through Dense Correspondences
+PB  - Learning to Act from Actionless Videos through Dense Correspondences
+UR  - https://arxiv.org/abs/2310.08576
+KW  - Trajectory as Action Tokens
+KW  - Robotic Manipulation
+KW  - AVDC
+ER  - 
+
+TY  - ELEC
+TI  - RT-Trajectory: Robotic Task Generalization via Hindsight Trajectory Sketches
+T2  - RT-Trajectory: Robotic Task Generalization via Hindsight Trajectory Sketches
+PB  - RT-Trajectory: Robotic Task Generalization via Hindsight Trajectory Sketches
+UR  - https://arxiv.org/abs/2311.01977
+KW  - Trajectory as Action Tokens
+KW  - Robotic Manipulation
+KW  - RT-Trajectory
+ER  - 
+
+TY  - ELEC
+TI  - Any-point Trajectory Modeling for Policy Learning
+T2  - Any-point Trajectory Modeling for Policy Learning
+PB  - Any-point Trajectory Modeling for Policy Learning
+UR  - https://arxiv.org/abs/2401.00025
+KW  - Trajectory as Action Tokens
+KW  - Robotic Manipulation
+KW  - ATM
+ER  - 
+
+TY  - ELEC
+TI  - LLARVA: Vision-Action Instruction Tuning Enhances Robot Learning
+T2  - LLARVA: Vision-Action Instruction Tuning Enhances Robot Learning
+PB  - LLARVA: Vision-Action Instruction Tuning Enhances Robot Learning
+UR  - https://arxiv.org/abs/2406.11815
+KW  - Trajectory as Action Tokens
+KW  - Robotic Manipulation
+KW  - LLARVA
+ER  - 
+
+TY  - ELEC
+TI  - Flow as the Cross-Domain Manipulation Interface
+T2  - Flow as the Cross-Domain Manipulation Interface
+PB  - Flow as the Cross-Domain Manipulation Interface
+UR  - https://arxiv.org/abs/2407.15208
+KW  - Trajectory as Action Tokens
+KW  - Robotic Manipulation
+KW  - Im2Flow2Act
+ER  - 
+
+TY  - ELEC
+TI  - FLIP : Flow-Centric Generative Planning as General-Purpose Manipulation World Model
+T2  - FLIP : Flow-Centric Generative Planning as General-Purpose Manipulation World Model
+PB  - FLIP : Flow-Centric Generative Planning as General-Purpose Manipulation World Model
+UR  - https://arxiv.org/abs/2412.08261
+KW  - Trajectory as Action Tokens
+KW  - Robotic Manipulation
+KW  - FLIP
+ER  - 
+
+TY  - ELEC
+TI  - HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
+T2  - HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
+PB  - HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
+UR  - https://arxiv.org/abs/2502.05485
+KW  - Trajectory as Action Tokens
+KW  - Robotic Manipulation
+KW  - HAMSTER
+ER  - 
+
+TY  - ELEC
+TI  - Pre-training Auto-regressive Robotic Models with 4D Representations
+T2  - Pre-training Auto-regressive Robotic Models with 4D Representations
+PB  - Pre-training Auto-regressive Robotic Models with 4D Representations
+UR  - https://arxiv.org/abs/2502.13142
+KW  - Trajectory as Action Tokens
+KW  - Robotic Manipulation
+KW  - ARM4R
+ER  - 
+
+TY  - ELEC
+TI  - Magma: A foundation model for multimodal AI agents
+T2  - Magma: A foundation model for multimodal AI agents
+PB  - Magma: A foundation model for multimodal AI agents
+UR  - https://arxiv.org/abs/2502.13130
+KW  - Trajectory as Action Tokens
+KW  - Robotic Manipulation
+KW  - Magma
+ER  - 
+

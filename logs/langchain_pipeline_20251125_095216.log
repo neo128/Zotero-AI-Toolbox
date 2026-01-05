@@ -1,0 +1,199 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-11-25
+[watch-import] [HF] weekly fetched=20 from week/2025-W48
+[watch-import] [HF] monthly fetched=50 from month/2025-11
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=76 arXiv=872 URL=1047 TY=1056
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [SCORE] tag=embodied_ai total=0 selected=0
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=0 selected=0
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [SCORE] tag=teleoperation total=0 selected=0
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 4 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'IterResearch: Rethinking Long-Horizon Agents via Markovian State
+[watch-import]   Reconstructio' despite score=0.16
+[watch-import] [HF-OVERRIDE] Added 'π_RL: Online RL Fine-tuning for Flow-based
+[watch-import]   Vision-Language-Action Models' despite score=0.10
+[watch-import] [SCORE] tag=robotic_navigation total=4 selected=4
+[watch-import] [COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[watch-import] [SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+[watch-import]   Reasoning Para (arxiv:2511.04570)
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate IterResearch: Rethinking Long-Horizon Agents via Markovian State
+[watch-import]   Reconstructio (arxiv:2511.07327)
+[watch-import] [SKIP] duplicate π_RL: Online RL Fine-tuning for Flow-based
+[watch-import]   Vision-Language-Action Models (arxiv:2510.25889)
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [HF] robotic_manipulation matched 8 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization' despite score=0.28
+[watch-import] [HF-OVERRIDE] Added 'ThinkMorph: Emergent Properties in Multimodal Interleaved
+[watch-import]   Chain-of-Thought Rea' despite score=0.19
+[watch-import] [SCORE] tag=robotic_manipulation total=8 selected=3
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization (arxiv:2511.15705)
+[watch-import] [SKIP] duplicate ThinkMorph: Emergent Properties in Multimodal Interleaved
+[watch-import]   Chain-of-Thought Rea (doi:10.48550/arxiv.2510.27492)
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 14 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'VIDEOP2R: Video Understanding from Perception to Reasoning' despite score=0.29
+[watch-import] [HF-OVERRIDE] Added 'VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+[watch-import]   Representatio' despite score=0.28
+[watch-import] [SCORE] tag=vision_language_model total=14 selected=4
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+[watch-import]   Reasoning Para (arxiv:2511.04570)
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate VIDEOP2R: Video Understanding from Perception to Reasoning (arxiv:2511.11113)
+[watch-import] [SKIP] duplicate VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+[watch-import]   Representatio (arxiv:2511.02778)
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [HF] vision_language_action_model matched 5 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Don't Blind Your VLA: Aligning Visual Representations for OOD
+[watch-import]   Generalization' despite score=0.24
+[watch-import] [HF-OVERRIDE] Added 'RynnVLA-002: A Unified Vision-Language-Action and World Model' despite score=0.24
+[watch-import] [SCORE] tag=vision_language_action_model total=5 selected=2
+[watch-import] [COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[watch-import] [SKIP] duplicate Don't Blind Your VLA: Aligning Visual Representations for OOD
+[watch-import]   Generalization (arxiv:2510.25616)
+[watch-import] [SKIP] duplicate RynnVLA-002: A Unified Vision-Language-Action and World Model (arxiv:2511.17502)
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 29 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Unveiling Intrinsic Dimension of Texts: from Academic Abstract to Creative Story' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'VIDEOP2R: Video Understanding from Perception to Reasoning' despite score=0.29
+[watch-import] [SCORE] tag=large_language_model total=29 selected=6
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+[watch-import]   Reasoning Para (arxiv:2511.04570)
+[watch-import] [SKIP] duplicate MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents v (arxiv:2511.11793)
+[watch-import] [SKIP] duplicate P1: Mastering Physics Olympiads with Reinforcement Learning (arxiv:2511.13612)
+[watch-import] [SKIP] duplicate Souper-Model: How Simple Arithmetic Unlocks State-of-the-Art LLM Performance (arxiv:2511.13254)
+[watch-import] [ADD] Unveiling Intrinsic Dimension of Texts: from Academic Abstract to Creative Story → large_language_model｜大语言模型 [TAS5E5H2]
+[watch-import] [ATTACH] PDF linked for TAS5E5H2
+[watch-import] [SKIP] duplicate VIDEOP2R: Video Understanding from Perception to Reasoning (arxiv:2511.11113)
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'MergeDNA: Context-aware Genome Modeling with Dynamic Tokenization through Token ' despite score=0.13
+[watch-import] [SCORE] tag=foundation_model total=2 selected=2
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [SKIP] duplicate Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation (arxiv:2511.14993)
+[watch-import] [ADD] MergeDNA: Context-aware Genome Modeling with Dynamic Tokenization through Token  → foundation_model｜基础模型 [9PSIWU8H]
+[watch-import] [ATTACH] PDF linked for 9PSIWU8H
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [SCORE] tag=dexterous_hand total=0 selected=0
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [SCORE] tag=humanoid_robot total=0 selected=0
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 49 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'VIDEOP2R: Video Understanding from Perception to Reasoning' despite score=0.29
+[watch-import] [SCORE] tag=reinforcement_learning total=49 selected=9
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [SKIP] duplicate Diffusion Language Models are Super Data Learners (arxiv:2511.03276)
+[watch-import] [SKIP] duplicate MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents v (arxiv:2511.11793)
+[watch-import] [SKIP] duplicate OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and  (arxiv:2511.16334)
+[watch-import] [SKIP] duplicate Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation (arxiv:2511.14993)
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate P1: Mastering Physics Olympiads with Reinforcement Learning (arxiv:2511.13612)
+[watch-import] [SKIP] duplicate Tiny Model, Big Logic: Diversity-Driven Optimization Elicits Large-Model
+[watch-import]   Reaso (arxiv:2511.06221)
+[watch-import] [SKIP] duplicate One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter (arxiv:2511.10629)
+[watch-import] [SKIP] duplicate VIDEOP2R: Video Understanding from Perception to Reasoning (arxiv:2511.11113)
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [SCORE] tag=imitation_learning total=0 selected=0
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [HF] world_model matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'RynnVLA-002: A Unified Vision-Language-Action and World Model' despite score=0.24
+[watch-import] [HF-OVERRIDE] Added 'PAN: A World Model for General, Interactable, and Long-Horizon World Simulation' despite score=0.12
+[watch-import] [SCORE] tag=world_model total=2 selected=2
+[watch-import] [COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[watch-import] [SKIP] duplicate RynnVLA-002: A Unified Vision-Language-Action and World Model (arxiv:2511.17502)
+[watch-import] [SKIP] duplicate PAN: A World Model for General, Interactable, and Long-Horizon World Simulation (arxiv:2511.09057)
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [SCORE] tag=simulator total=0 selected=0
+[watch-import] [TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[watch-import] [HF] motion_planning matched 1 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Planning with Sketch-Guided Verification for Physics-Aware Video Generation' despite score=0.03
+[watch-import] [SCORE] tag=motion_planning total=1 selected=1
+[watch-import] [COL] ensured collection 'motion_planning｜运动规划' → DGH39V7J
+[watch-import] [SKIP] duplicate Planning with Sketch-Guided Verification for Physics-Aware Video Generation (arxiv:2511.17450)
+[watch-import] [TAG] task_planning 'task_planning｜任务规划' keywords=4
+[watch-import] [HF] task_planning matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Grounding Computer Use Agents on Human Demonstrations' despite score=0.25
+[watch-import] [HF-OVERRIDE] Added 'Part-X-MLLM: Part-aware 3D Multimodal Large Language Model' despite score=0.14
+[watch-import] [SCORE] tag=task_planning total=2 selected=2
+[watch-import] [COL] ensured collection 'task_planning｜任务规划' → IDXJKRDJ
+[watch-import] [SKIP] duplicate Grounding Computer Use Agents on Human Demonstrations (arxiv:2511.07332)
+[watch-import] [SKIP] duplicate Part-X-MLLM: Part-aware 3D Multimodal Large Language Model (arxiv:2511.13647)
+[watch-import] [TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[watch-import] [SCORE] tag=code_based_task_planning total=0 selected=0
+[watch-import] [TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[watch-import] [SCORE] tag=language_based_task_planning total=0 selected=0
+[watch-import] [TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[watch-import] [SCORE] tag=end_to_end_task_planning total=0 selected=0
+[watch-import] [TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[watch-import] [SCORE] tag=grounded_task_planning total=0 selected=0
+[watch-import] [TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[watch-import] [SCORE] tag=transformer_policy total=0 selected=0
+[watch-import] [TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[watch-import] [SCORE] tag=diffusion_policy total=0 selected=0
+[watch-import] [TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[watch-import] [SCORE] tag=3d_vision total=0 selected=0
+[watch-import] [TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[watch-import] [SCORE] tag=point_based_action total=0 selected=0
+[watch-import] [TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[watch-import] [SCORE] tag=chain_of_thought total=0 selected=0
+[watch-import] [INFO] Recorded 2 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[watch-import] [INFO] Done. Summary: {"candidates": 2, "added": 2, "skipped": 33, "updated": 0, "hf_candidates": 116, "hf_overrides": 18}
+[watch-import] [INFO] Report → /Users/neoone/code/Zotero/reports/watch_20251125_095216.json
+[PIPELINE] ✓ watch completed
+[PIPELINE] → pdf: since_hours=24.0 limit=∞
+[fetch-pdfs] [TRY] TAS5E5H2 ← existing attachment link: https://arxiv.org/pdf/2511.15210.pdf
+[fetch-pdfs] [OK] Linked local PDF for TAS5E5H2
+[fetch-pdfs] [TRY] 9PSIWU8H ← existing attachment link: https://arxiv.org/pdf/2511.14806.pdf
+[fetch-pdfs] [OK] Linked local PDF for 9PSIWU8H
+[fetch-pdfs] [INFO] Item 9764MTSR already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 97PVT295 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item V3HMDV78 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 35ZM9RFG already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item C72TI3ZW already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item WAU82RT2 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 69ATCVDT already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 26CN8BVS already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item EFKT82XE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item AH8QACXH already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item P8H545S2 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VN3DW7Q8 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item A5PX2MMK already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item J5V6X8MF already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item ZN49V5A5 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item RK65A6Z6 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item XHX55AGZ already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 9USJC8CE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item QFGAKAFR already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item EP8H4VXE already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item IKUXQGNW already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VUCMZQQP already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item RCFME4I3 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item VEUBCGZ8 already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 3XF77G5E already has local PDF attachments; skipping.
+[fetch-pdfs] [INFO] Completed. PDFs added: 2, remaining without PDF: 0.
+[PIPELINE] ✓ pdf completed
+[PIPELINE] → dedupe: limit=∞ since_hours=24.0
+[dedupe] [INFO] Scanned 27 top-level items (after time filter).
+[dedupe] [INFO] No duplicates detected with the current heuristic.
+[PIPELINE] ✓ dedupe completed
+[PIPELINE] → summary: limit=200 since_hours=24.0
+[summaries-err] Traceback (most recent call last):
+[summaries-err]   File "/Users/neoone/code/Zotero/scripts/summarize_zotero_with_doubao.py", line 37, in <module>
+[summaries-err]     from ai_utils import AIConfig, create_openai_client, resolve_ai_config
+[summaries-err] ModuleNotFoundError: No module named 'ai_utils'

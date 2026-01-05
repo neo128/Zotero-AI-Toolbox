@@ -1,0 +1,186 @@
+[INFO] Started watch. since_hours=24.0 (→ days=10.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2025-12-08
+[HF] weekly fetched=14 from week/2025-W50
+[HF] monthly fetched=50 from month/2025-12
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=86 arXiv=1043 URL=1283 TY=1244
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[HF] embodied_ai matched 2 trending papers.
+[HF-OVERRIDE] Added 'DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling' despite score=0.28
+[HF-OVERRIDE] Added 'CaptionQA: Is Your Caption as Useful as the Image Itself?' despite score=0.05
+[SCORE] tag=embodied_ai total=2 selected=2
+[COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[SKIP] duplicate DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling (arxiv:2512.03000)
+[SKIP] duplicate CaptionQA: Is Your Caption as Useful as the Image Itself? (arxiv:2511.21025)
+[TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[HF] embodied_surveys matched 3 trending papers.
+[HF-OVERRIDE] Added 'Deep Research: A Systematic Survey' despite score=0.26
+[HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.22
+[SCORE] tag=embodied_surveys total=3 selected=3
+[COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[ADD] PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, → embodied_surveys｜具身智能综述 [6FMW69H9]
+[ATTACH] PDF linked for 6FMW69H9
+[SKIP] duplicate Deep Research: A Systematic Survey (arxiv:2512.02038)
+[SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=0 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[HF] teleoperation matched 1 trending papers.
+[SCORE] tag=teleoperation total=1 selected=1
+[COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[SKIP] duplicate Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling  (arxiv:2512.02834)
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[HF] robotic_navigation matched 4 trending papers.
+[HF-OVERRIDE] Added 'Rectifying LLM Thought from Lens of Optimization' despite score=0.16
+[SCORE] tag=robotic_navigation total=4 selected=4
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[SKIP] duplicate Entropy Ratio Clipping as a Soft Global Constraint for Stable Reinforcement Lear (arxiv:2512.05591)
+[SKIP] duplicate Entropy Ratio Clipping as a Soft Global Constraint for Stable Reinforcement Lear (arxiv:2512.05591)
+[SKIP] duplicate Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling  (arxiv:2512.02834)
+[ADD] Rectifying LLM Thought from Lens of Optimization → robotic_navigation｜机器人导航 [TDX5MFNU]
+[ATTACH] PDF linked for TDX5MFNU
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[HF] robotic_manipulation matched 2 trending papers.
+[HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.22
+[SCORE] tag=robotic_manipulation total=2 selected=2
+[COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[SKIP] duplicate Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin (arxiv:2512.02395)
+[SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[HF] vision_language_model matched 13 trending papers.
+[SCORE] tag=vision_language_model total=63 selected=10
+[COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[ADD] M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG → vision_language_model｜视觉语言模型 [HIVTHBEE]
+[ATTACH] PDF linked for HIVTHBEE
+[ADD] SIMPACT: Simulation-Enabled Action Planning using Vision-Language Models → vision_language_model｜视觉语言模型 [8KKICAT3]
+[ATTACH] PDF linked for 8KKICAT3
+[ADD] PRiSM: An Agentic Multimodal Benchmark for Scientific Reasoning via Python-Groun → vision_language_model｜视觉语言模型 [WGZFW963]
+[ATTACH] PDF linked for WGZFW963
+[ADD] Probing the effectiveness of World Models for Spatial Reasoning through Test-tim → vision_language_model｜视觉语言模型 [3WJ4DNMA]
+[ATTACH] PDF linked for 3WJ4DNMA
+[ADD] Distilling Expert Surgical Knowledge: How to train local surgical VLMs for anato → vision_language_model｜视觉语言模型 [ZCP947F3]
+[ATTACH] PDF linked for ZCP947F3
+[SKIP] duplicate ProPhy: Progressive Physical Alignment for Dynamic World Simulation (arxiv:2512.05564v1)
+[ADD] Conscious Gaze: Adaptive Attention Mechanisms for Hallucination Mitigation in Vi → vision_language_model｜视觉语言模型 [CFJU8STN]
+[ATTACH] PDF linked for CFJU8STN
+[ADD] VOST-SGG: VLM-Aided One-Stage Spatio-Temporal Scene Graph Generation → vision_language_model｜视觉语言模型 [F7R6TC2W]
+[ATTACH] PDF linked for F7R6TC2W
+[ADD] Concept-based Explainable Data Mining with VLM for 3D Detection → vision_language_model｜视觉语言模型 [VGA7ZHI4]
+[ATTACH] PDF linked for VGA7ZHI4
+[ADD] ParaUni: Enhance Generation in Unified Multimodal Model with Reinforcement-drive → vision_language_model｜视觉语言模型 [DZZPFXXV]
+[ATTACH] PDF linked for DZZPFXXV
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[HF] vision_language_action_model matched 1 trending papers.
+[SCORE] tag=vision_language_action_model total=1 selected=1
+[COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[SKIP] duplicate Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling  (arxiv:2512.02834)
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[HF] large_language_model matched 29 trending papers.
+[HF-OVERRIDE] Added 'From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mech' despite score=0.44
+[HF-OVERRIDE] Added 'PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing,' despite score=0.40
+[SCORE] tag=large_language_model total=29 selected=12
+[COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[SKIP] duplicate EditThinker: Unlocking Iterative Reasoning for Any Image Editor (arxiv:2512.05965)
+[SKIP] duplicate Entropy Ratio Clipping as a Soft Global Constraint for Stable Reinforcement Lear (arxiv:2512.05591)
+[SKIP] duplicate EditThinker: Unlocking Iterative Reasoning for Any Image Editor (arxiv:2512.05965)
+[ADD] Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environme → large_language_model｜大语言模型 [V2M794XE]
+[ATTACH] PDF linked for V2M794XE
+[SKIP] duplicate DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle (arxiv:2512.04324)
+[ADD] COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Inte → large_language_model｜大语言模型 [APRBT769]
+[ATTACH] PDF linked for APRBT769
+[SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[SKIP] duplicate Entropy Ratio Clipping as a Soft Global Constraint for Stable Reinforcement Lear (arxiv:2512.05591)
+[ADD] Guided Self-Evolving LLMs with Minimal Human Supervision → large_language_model｜大语言模型 [KAW5SQVT]
+[ATTACH] PDF linked for KAW5SQVT
+[SKIP] duplicate Stabilizing Reinforcement Learning with LLMs: Formulation and Practices (arxiv:2512.01374)
+[SKIP] duplicate From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mech (arxiv:2512.02580)
+[SKIP] duplicate PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, (arxiv:2512.02589)
+[TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[HF] foundation_model matched 7 trending papers.
+[HF-OVERRIDE] Added 'DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling' despite score=0.28
+[HF-OVERRIDE] Added 'LFM2 Technical Report' despite score=0.11
+[SCORE] tag=foundation_model total=7 selected=7
+[COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[SKIP] duplicate EditThinker: Unlocking Iterative Reasoning for Any Image Editor (arxiv:2512.05965)
+[SKIP] duplicate EditThinker: Unlocking Iterative Reasoning for Any Image Editor (arxiv:2512.05965)
+[SKIP] duplicate PretrainZero: Reinforcement Active Pretraining (arxiv:2512.03442)
+[SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[SKIP] duplicate DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling (arxiv:2512.03000)
+[SKIP] duplicate LFM2 Technical Report (arxiv:2511.23404)
+[TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[SCORE] tag=dexterous_hand total=0 selected=0
+[TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[SCORE] tag=humanoid_robot total=0 selected=0
+[TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[SCORE] tag=quadruped_robot total=0 selected=0
+[TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[SCORE] tag=robotic_arm total=0 selected=0
+[TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[HF] reinforcement_learning matched 47 trending papers.
+[HF-OVERRIDE] Added 'ProPhy: Progressive Physical Alignment for Dynamic World Simulation' despite score=0.46
+[HF-OVERRIDE] Added 'Entropy Ratio Clipping as a Soft Global Constraint for Stable Reinforcement Lear' despite score=0.45
+[SCORE] tag=reinforcement_learning total=47 selected=12
+[COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[SKIP] duplicate EditThinker: Unlocking Iterative Reasoning for Any Image Editor (arxiv:2512.05965)
+[SKIP] duplicate Entropy Ratio Clipping as a Soft Global Constraint for Stable Reinforcement Lear (arxiv:2512.05591)
+[SKIP] duplicate EditThinker: Unlocking Iterative Reasoning for Any Image Editor (arxiv:2512.05965)
+[SKIP] duplicate Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environme (arxiv:2512.04987)
+[SKIP] duplicate DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle (arxiv:2512.04324)
+[ADD] ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool U → reinforcement_learning｜强化学习 [R9CRRR3H]
+[ATTACH] PDF linked for R9CRRR3H
+[SKIP] duplicate World Models That Know When They Don't Know: Controllable Video Generation with  (arxiv:2512.05927)
+[SKIP] duplicate COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Inte (arxiv:2512.04563)
+[SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[ADD] PaCo-RL: Advancing Reinforcement Learning for Consistent Image Generation with P → reinforcement_learning｜强化学习 [6HMJR4RD]
+[ATTACH] PDF linked for 6HMJR4RD
+[SKIP] duplicate ProPhy: Progressive Physical Alignment for Dynamic World Simulation (arxiv:2512.05564)
+[SKIP] duplicate Entropy Ratio Clipping as a Soft Global Constraint for Stable Reinforcement Lear (arxiv:2512.05591)
+[TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[HF] imitation_learning matched 1 trending papers.
+[SCORE] tag=imitation_learning total=1 selected=1
+[COL] ensured collection 'imitation_learning｜模仿学习' → GMS5HD3W
+[SKIP] duplicate From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mech (arxiv:2512.02580)
+[TAG] world_model 'world_model｜世界模型' keywords=4
+[HF] world_model matched 3 trending papers.
+[HF-OVERRIDE] Added 'DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling' despite score=0.28
+[SCORE] tag=world_model total=3 selected=3
+[COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[SKIP] duplicate World Models That Know When They Don't Know: Controllable Video Generation with  (arxiv:2512.05927)
+[SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[SKIP] duplicate DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling (arxiv:2512.03000)
+[TAG] simulator 'simulator｜仿真平台' keywords=5
+[HF] simulator matched 3 trending papers.
+[HF-OVERRIDE] Added 'DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling' despite score=0.28
+[HF-OVERRIDE] Added 'SimWorld: An Open-ended Realistic Simulator for Autonomous Agents in Physical an' despite score=0.19
+[SCORE] tag=simulator total=3 selected=3
+[COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[SKIP] duplicate ProPhy: Progressive Physical Alignment for Dynamic World Simulation (arxiv:2512.05564)
+[SKIP] duplicate DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling (arxiv:2512.03000)
+[SKIP] duplicate SimWorld: An Open-ended Realistic Simulator for Autonomous Agents in Physical an (arxiv:2512.01078)
+[TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[SCORE] tag=motion_planning total=0 selected=0
+[TAG] task_planning 'task_planning｜任务规划' keywords=4
+[SCORE] tag=task_planning total=0 selected=0
+[TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[SCORE] tag=code_based_task_planning total=0 selected=0
+[TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[SCORE] tag=language_based_task_planning total=0 selected=0
+[TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[SCORE] tag=end_to_end_task_planning total=0 selected=0
+[TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[SCORE] tag=grounded_task_planning total=0 selected=0
+[TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[SCORE] tag=transformer_policy total=0 selected=0
+[TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[SCORE] tag=diffusion_policy total=0 selected=0
+[TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[SCORE] tag=3d_vision total=0 selected=0
+[TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[SCORE] tag=point_based_action total=0 selected=0
+[TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[SCORE] tag=chain_of_thought total=0 selected=0
+[INFO] Recorded 16 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[INFO] Done. Summary: {"candidates": 16, "added": 16, "skipped": 45, "updated": 0, "hf_candidates": 116, "hf_overrides": 15}

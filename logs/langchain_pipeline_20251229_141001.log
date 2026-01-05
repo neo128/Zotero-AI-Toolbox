@@ -1,0 +1,645 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=140.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-12-29
+[watch-import] [HF] weekly fetched=11 from week/2026-W01
+[watch-import] [HF] monthly fetched=50 from month/2025-12
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=107 arXiv=1280 URL=1529 TY=1506
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [HF] embodied_ai matched 2 trending papers.
+[watch-import] [SCORE] tag=embodied_ai total=2 selected=2
+[watch-import] [COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[watch-import] [ADD] TimeBill: Time-Budgeted Inference for Large Language Models → embodied_ai｜具身智能 [Q45XDIXE]
+[watch-import] [ATTACH] PDF linked for Q45XDIXE
+[watch-import] [SKIP] duplicate TimeBill: Time-Budgeted Inference for Large Language Models (arxiv:2512.21859)
+[watch-import] [TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[watch-import] [HF] embodied_surveys matched 5 trending papers.
+[watch-import] [SCORE] tag=embodied_surveys total=101 selected=10
+[watch-import] [COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[watch-import] [ADD] Gauge Coupling Unification in Gauge-Higgs GUT: Theory and Phenomenology → embodied_surveys｜具身智能综述 [2VNJ4ZXT]
+[watch-import] [ATTACH] PDF linked for 2VNJ4ZXT
+[watch-import] [ADD] Semiperfect rings with a Nakayama permutation: A survey of Double annihilator pr → embodied_surveys｜具身智能综述 [JMN3VAHD]
+[watch-import] [ATTACH] PDF linked for JMN3VAHD
+[watch-import] [ADD] WST spectroscopic variability alerts: discovery space, data flow system requirem → embodied_surveys｜具身智能综述 [Q4MZ2659]
+[watch-import] [ATTACH] PDF linked for Q4MZ2659
+[watch-import] [ADD] TITAN DR1: An Improved, Validated, and Systematically-Controlled Recalibration o → embodied_surveys｜具身智能综述 [5VPH2N9C]
+[watch-import] [ATTACH] PDF linked for 5VPH2N9C
+[watch-import] [ADD] Golden and Silver Dark Sirens for precise H0 measurement with HETDEX → embodied_surveys｜具身智能综述 [QPCV6EJU]
+[watch-import] [ATTACH] PDF linked for QPCV6EJU
+[watch-import] [ADD] Fundamental Physics in 2025: Status, Decisive Targets, and Path Forward → embodied_surveys｜具身智能综述 [7B8VVVK3]
+[watch-import] [ATTACH] PDF linked for 7B8VVVK3
+[watch-import] [ADD] A Survey of Freshness-Aware Wireless Networking with Reinforcement Learning → embodied_surveys｜具身智能综述 [IZ52Z393]
+[watch-import] [ATTACH] PDF linked for IZ52Z393
+[watch-import] [ADD] Sensitivity of Weak Lensing Surveys to Gravitational Waves from Inspiraling Supe → embodied_surveys｜具身智能综述 [EWENZF8E]
+[watch-import] [ATTACH] PDF linked for EWENZF8E
+[watch-import] [SKIP] duplicate When Geometry Radiates Review: Gravitational Waves in Theory, Cosmology, and Obs (arxiv:2512.21328v1)
+[watch-import] [SKIP] duplicate Bar Formation in Disc Galaxies: Internal Kinematics and Environmental Influence  (arxiv:2512.21303v1)
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=42 selected=10
+[watch-import] [COL] ensured collection 'sim2real｜模拟到现实' → WUFJMHDG
+[watch-import] [SKIP] duplicate LeLaR: The First In-Orbit Demonstration of an AI-Based Satellite Attitude Contro (arxiv:2512.19576v2)
+[watch-import] [SKIP] duplicate Coarse-to-Fine Hierarchical Alignment for UAV-based Human Detection using Diffus (arxiv:2512.13869v1)
+[watch-import] [SKIP] duplicate Sim2Real Reinforcement Learning for Soccer skills (arxiv:2512.12437v1)
+[watch-import] [SKIP] duplicate Sim2Swim: Zero-Shot Velocity Control for Agile AUV Maneuvering in 3 Minutes (arxiv:2512.08656v1)
+[watch-import] [SKIP] duplicate Crossing the Sim2Real Gap Between Simulation and Ground Testing to Space Deploym (arxiv:2512.03736v1)
+[watch-import] [SKIP] duplicate FOD-S2R: A FOD Dataset for Sim2Real Transfer Learning based Object Detection (arxiv:2512.01315v1)
+[watch-import] [SKIP] duplicate Data assimilation and discrepancy modeling with shallow recurrent decoders (arxiv:2512.01170v1)
+[watch-import] [SKIP] duplicate RealD$^2$iff: Bridging Real-World Gap in Robot Manipulation via Depth Diffusion (arxiv:2511.22505v2)
+[watch-import] [SKIP] duplicate ResAlignNet: A Data-Driven Approach for INS/DVL Alignment (arxiv:2511.13096v1)
+[watch-import] [SKIP] duplicate DiffuDepGrasp: Diffusion-based Depth Noise Modeling Empowers Sim2Real Robotic Gr (arxiv:2511.12912v1)
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [SCORE] tag=teleoperation total=50 selected=10
+[watch-import] [COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[watch-import] [ADD] Bab_Sak Robotic Intubation System (BRIS): A Learning-Enabled Control Framework f → teleoperation｜遥操作 [JDXWNXDC]
+[watch-import] [ATTACH] PDF linked for JDXWNXDC
+[watch-import] [SKIP] duplicate RoboCade: Gamifying Robot Data Collection (arxiv:2512.21235v2)
+[watch-import] [SKIP] duplicate A Flexible Field-Based Policy Learning Framework for Diverse Robotic Systems and (arxiv:2512.19148v1)
+[watch-import] [SKIP] duplicate A Framework for Deploying Learning-based Quadruped Loco-Manipulation (arxiv:2512.18938v1)
+[watch-import] [SKIP] duplicate Breathe with Me: Synchronizing Biosignals for User Embodiment in Robots (arxiv:2512.14952v1)
+[watch-import] [SKIP] duplicate CaFe-TeleVision: A Coarse-to-Fine Teleoperation System with Immersive Situated V (arxiv:2512.14270v2)
+[watch-import] [SKIP] duplicate Sample-Efficient Robot Skill Learning for Construction Tasks: Benchmarking Hiera (arxiv:2512.14031v1)
+[watch-import] [SKIP] duplicate Autonomous Construction-Site Safety Inspection Using Mobile Robots: A Multilayer (arxiv:2512.13974v1)
+[watch-import] [SKIP] duplicate AnchorDream: Repurposing Video Diffusion for Embodiment-Aware Robot Data Synthes (arxiv:2512.11797v1)
+[watch-import] [SKIP] duplicate WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Contro (arxiv:2512.11047v2)
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 3 trending papers.
+[watch-import] [SCORE] tag=robotic_navigation total=53 selected=10
+[watch-import] [COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[watch-import] [ADD] MoonBot: Modular and On-Demand Reconfigurable Robot Toward Moon Base Constructio → robotic_navigation｜机器人导航 [AMTJUJNG]
+[watch-import] [ATTACH] PDF linked for AMTJUJNG
+[watch-import] [ADD] General Construction of Quantum Error-Correcting Codes from Multiple Classical C → robotic_navigation｜机器人导航 [ST8WDXNX]
+[watch-import] [ATTACH] PDF linked for ST8WDXNX
+[watch-import] [ADD] The Lepton-Gluon Portal Beyond Lepto-Gluons → robotic_navigation｜机器人导航 [TEPA468K]
+[watch-import] [ATTACH] PDF linked for TEPA468K
+[watch-import] [ADD] Effect of Population Imbalance on Vortex Mass in Superfluid Fermi Gases → robotic_navigation｜机器人导航 [26B4V7Z6]
+[watch-import] [ATTACH] PDF linked for 26B4V7Z6
+[watch-import] [ADD] Yume-1.5: A Text-Controlled Interactive World Generation Model → robotic_navigation｜机器人导航 [GUD2H8XB]
+[watch-import] [ATTACH] PDF linked for GUD2H8XB
+[watch-import] [ADD] Prefill vs. Decode Bottlenecks: SRAM-Frequency Tradeoffs and the Memory-Bandwidt → robotic_navigation｜机器人导航 [JWUWVSNJ]
+[watch-import] [ATTACH] PDF linked for JWUWVSNJ
+[watch-import] [ADD] Signature for charged Higgs pair production in 2HDM+a model at CLIC → robotic_navigation｜机器人导航 [GVNJMHN5]
+[watch-import] [ATTACH] PDF linked for GVNJMHN5
+[watch-import] [ADD] Multiband optical variability on diverse timescales of the blazar Ton 599 from 2 → robotic_navigation｜机器人导航 [HW76V4CQ]
+[watch-import] [ATTACH] PDF linked for HW76V4CQ
+[watch-import] [ADD] Measure of entanglement and the monogamy relation: a topical review → robotic_navigation｜机器人导航 [VN4W54G7]
+[watch-import] [ATTACH] PDF linked for VN4W54G7
+[watch-import] [ADD] Multi-Objective Optimization with Desirability and Morris-Mitchell Criterion → robotic_navigation｜机器人导航 [9IDKPUFV]
+[watch-import] [ATTACH] PDF linked for 9IDKPUFV
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [SCORE] tag=robotic_manipulation total=50 selected=10
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [ADD] Chirality-selective topological magnon phase transition induced by interplay of  → robotic_manipulation｜机器人操作 [6RX88KTJ]
+[watch-import] [ATTACH] PDF linked for 6RX88KTJ
+[watch-import] [ADD] Patch-Discontinuity Mining for Generalized Deepfake Detection → robotic_manipulation｜机器人操作 [XCX5HTG5]
+[watch-import] [ATTACH] PDF linked for XCX5HTG5
+[watch-import] [ADD] StereoVLA: Enhancing Vision-Language-Action Models with Stereo Vision → robotic_manipulation｜机器人操作 [3JUS3IKC]
+[watch-import] [ATTACH] PDF linked for 3JUS3IKC
+[watch-import] [ADD] Positive Narrativity Enhances Sense of Agency toward a VR Avatar → robotic_manipulation｜机器人操作 [VJ8VWQKZ]
+[watch-import] [ATTACH] PDF linked for VJ8VWQKZ
+[watch-import] [ADD] Flexible Multitask Learning with Factorized Diffusion Policy → robotic_manipulation｜机器人操作 [FN668R5M]
+[watch-import] [ATTACH] PDF linked for FN668R5M
+[watch-import] [ADD] Online Inertia Parameter Estimation for Unknown Objects Grasped by a Manipulator → robotic_manipulation｜机器人操作 [P3SRG5WW]
+[watch-import] [ATTACH] PDF linked for P3SRG5WW
+[watch-import] [ADD] Optimal Trajectory Planning for Orbital Robot Rendezvous and Docking → robotic_manipulation｜机器人操作 [V2XK9DG5]
+[watch-import] [ATTACH] PDF linked for V2XK9DG5
+[watch-import] [ADD] Memory of topologically constrained disorder in Shakti artificial spin ice → robotic_manipulation｜机器人操作 [JVCWE6EI]
+[watch-import] [ATTACH] PDF linked for JVCWE6EI
+[watch-import] [ADD] $x(1-t(x + x^{-1})) F(x;t) = x - t F(0;t)$ → robotic_manipulation｜机器人操作 [FJP68U6K]
+[watch-import] [ATTACH] PDF linked for FJP68U6K
+[watch-import] [ADD] Properties of a Three-Level $Λ$-Type Atom Driven by Coherent and Stochastic Fiel → robotic_manipulation｜机器人操作 [8GPBX33U]
+[watch-import] [ATTACH] PDF linked for 8GPBX33U
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 8 trending papers.
+[watch-import] [SCORE] tag=vision_language_model total=80 selected=10
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [ADD] See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning → vision_language_model｜视觉语言模型 [2FDFGP74]
+[watch-import] [ATTACH] PDF linked for 2FDFGP74
+[watch-import] [ADD] Look Closer! An Adversarial Parametric Editing Framework for Hallucination Mitig → vision_language_model｜视觉语言模型 [26HJF76S]
+[watch-import] [ATTACH] PDF linked for 26HJF76S
+[watch-import] [ADD] Few Tokens Matter: Entropy Guided Attacks on Vision-Language Models → vision_language_model｜视觉语言模型 [D9H3PTGF]
+[watch-import] [ATTACH] PDF linked for D9H3PTGF
+[watch-import] [ADD] Scene-VLM: Multimodal Video Scene Segmentation via Vision-Language Models → vision_language_model｜视觉语言模型 [SUPDMSA3]
+[watch-import] [ATTACH] PDF linked for SUPDMSA3
+[watch-import] [ADD] Towards Responsible and Explainable AI Agents with Consensus-Driven Reasoning → vision_language_model｜视觉语言模型 [4JDSVPCD]
+[watch-import] [ATTACH] PDF linked for 4JDSVPCD
+[watch-import] [ADD] SlideChain: Semantic Provenance for Lecture Understanding via Blockchain Registr → vision_language_model｜视觉语言模型 [MSX3DZCX]
+[watch-import] [ATTACH] PDF linked for MSX3DZCX
+[watch-import] [ADD] A Medical Multimodal Diagnostic Framework Integrating Vision-Language Models and → vision_language_model｜视觉语言模型 [7BXDIQWF]
+[watch-import] [ATTACH] PDF linked for 7BXDIQWF
+[watch-import] [ADD] Towards Long-window Anchoring in Vision-Language Model Distillation → vision_language_model｜视觉语言模型 [45PU9893]
+[watch-import] [ATTACH] PDF linked for 45PU9893
+[watch-import] [ADD] Toward Intelligent Scene Augmentation for Context-Aware Object Placement and Spo → vision_language_model｜视觉语言模型 [9I6I58NM]
+[watch-import] [ATTACH] PDF linked for 9I6I58NM
+[watch-import] [ADD] Hierarchy-Aware Fine-Tuning of Vision-Language Models → vision_language_model｜视觉语言模型 [629B39MP]
+[watch-import] [ATTACH] PDF linked for 629B39MP
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [HF] vision_language_action_model matched 1 trending papers.
+[watch-import] [SCORE] tag=vision_language_action_model total=73 selected=10
+[watch-import] [COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[watch-import] [SKIP] duplicate StereoVLA: Enhancing Vision-Language-Action Models with Stereo Vision (arxiv:2512.21970v1)
+[watch-import] [SKIP] duplicate Simultaneous JWST, NuSTAR, and VLA Monitoring of Sgr A*: A Unified Picture of th (arxiv:2512.20786v1)
+[watch-import] [SKIP] duplicate ActionFlow: A Pipelined Action Acceleration for Vision Language Models on Edge (arxiv:2512.20276v1)
+[watch-import] [SKIP] duplicate Asynchronous Fast-Slow Vision-Language-Action Policies for Whole-Body Robotic Ma (arxiv:2512.20188v1)
+[watch-import] [SKIP] duplicate LoLA: Long Horizon Latent Action Learning for General Robot Manipulation (arxiv:2512.20166v1)
+[watch-import] [SKIP] duplicate Bring My Cup! Personalizing Vision-Language-Action Models with Visual Attentive  (arxiv:2512.20014v1)
+[watch-import] [SKIP] duplicate A multiwavelength study of an early galaxy group merger in COSMOS revealed by tw (doi:10.1051/0004-6361/202556265)
+[watch-import] [SKIP] duplicate REALM: A Real-to-Sim Validated Benchmark for Generalization in Robotic Manipulat (arxiv:2512.19562v1)
+[watch-import] [SKIP] duplicate Revealing the intricacies of radio galaxies and filaments in the merging galaxy  (arxiv:2512.19471v1)
+[watch-import] [SKIP] duplicate IndoorUAV: Benchmarking Vision-Language UAV Navigation in Continuous Indoor Envi (arxiv:2512.19024v1)
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 27 trending papers.
+[watch-import] [SCORE] tag=large_language_model total=77 selected=10
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [ADD] Agentic Structured Graph Traversal for Root Cause Analysis of Code-related Incid → large_language_model｜大语言模型 [FAXJCJFM]
+[watch-import] [ATTACH] PDF linked for FAXJCJFM
+[watch-import] [ADD] Introducing TrGLUE and SentiTurca: A Comprehensive Benchmark for Turkish General → large_language_model｜大语言模型 [2PGNPW5C]
+[watch-import] [ATTACH] PDF linked for 2PGNPW5C
+[watch-import] [ADD] Unifying Learning Dynamics and Generalization in Transformers Scaling Law → large_language_model｜大语言模型 [PRAWZRWC]
+[watch-import] [ATTACH] PDF linked for PRAWZRWC
+[watch-import] [ADD] Agent-based simulation of online social networks and disinformation → large_language_model｜大语言模型 [ARIBC8MM]
+[watch-import] [ATTACH] PDF linked for ARIBC8MM
+[watch-import] [SKIP] duplicate Prefill vs. Decode Bottlenecks: SRAM-Frequency Tradeoffs and the Memory-Bandwidt (arxiv:2512.22066v1)
+[watch-import] [ADD] Context-Aware Intelligent Chatbot Framework Leveraging Mobile Sensing → large_language_model｜大语言模型 [SWBIDCU7]
+[watch-import] [ATTACH] PDF linked for SWBIDCU7
+[watch-import] [SKIP] duplicate Look Closer! An Adversarial Parametric Editing Framework for Hallucination Mitig (arxiv:2512.21999v1)
+[watch-import] [ADD] Broken Words, Broken Performance: Effect of Tokenization on Performance of LLMs → large_language_model｜大语言模型 [E9QNME5B]
+[watch-import] [ATTACH] PDF linked for E9QNME5B
+[watch-import] [ADD] Exploring the Heterogeneity of Tabular Data: A Diversity-aware Data Generator vi → large_language_model｜大语言模型 [F3JBI4AH]
+[watch-import] [ATTACH] PDF linked for F3JBI4AH
+[watch-import] [ADD] Accelerate Speculative Decoding with Sparse Computation in Verification → large_language_model｜大语言模型 [JK8JTGJ9]
+[watch-import] [ATTACH] PDF linked for JK8JTGJ9
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 7 trending papers.
+[watch-import] [SCORE] tag=foundation_model total=7 selected=7
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[watch-import] [SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[watch-import] [SKIP] duplicate Adaptation of Agentic AI (arxiv:2512.16301)
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [ADD] Omni-Weather: Unified Multimodal Foundation Model for Weather Generation and Und → foundation_model｜基础模型 [8I36UU7R]
+[watch-import] [ATTACH] PDF linked for 8I36UU7R
+[watch-import] [ADD] Emergent temporal abstractions in autoregressive models enable hierarchical rein → foundation_model｜基础模型 [Q4X5UVHZ]
+[watch-import] [ATTACH] PDF linked for Q4X5UVHZ
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [SCORE] tag=dexterous_hand total=0 selected=0
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [HF] humanoid_robot matched 4 trending papers.
+[watch-import] [SCORE] tag=humanoid_robot total=54 selected=10
+[watch-import] [COL] ensured collection 'humanoid_robot｜类人机器人' → B652AA82
+[watch-import] [SKIP] duplicate IoT-based Android Malware Detection Using Graph Neural Network With Adversarial  (doi:10.1109/jiot.2022.3188583)
+[watch-import] [ADD] XTrace: A Non-Invasive Dynamic Tracing Framework for Android Applications in Pro → humanoid_robot｜类人机器人 [2DQKZEE8]
+[watch-import] [ATTACH] PDF linked for 2DQKZEE8
+[watch-import] [ADD] LLM-Driven Feature-Level Adversarial Attacks on Android Malware Detectors → humanoid_robot｜类人机器人 [KUE88CP3]
+[watch-import] [ATTACH] PDF linked for KUE88CP3
+[watch-import] [SKIP] duplicate AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Age (arxiv:2512.21302v1)
+[watch-import] [SKIP] duplicate Better Call Graphs: A New Dataset of Function Call Graphs for Malware Classifica (arxiv:2512.20872v1)
+[watch-import] [SKIP] duplicate EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self- (arxiv:2512.19396v1)
+[watch-import] [SKIP] duplicate Exploring Runtime Evolution in Android: A Cross-Version Analysis and Its Implica (arxiv:2512.18517v1)
+[watch-import] [SKIP] duplicate Visualization of The Content of Surah al Fiil using Marker-Based Augmented Reali (arxiv:2512.17895v2)
+[watch-import] [SKIP] duplicate An Open-Source Framework for Quality-Assured Smartphone-Based Visible Light Iris (arxiv:2512.15548v1)
+[watch-import] [SKIP] duplicate From User Interface to Agent Interface: Efficiency Optimization of UI Representa (arxiv:2512.13438v1)
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 45 trending papers.
+[watch-import] [SCORE] tag=reinforcement_learning total=95 selected=10
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [ADD] MAI-UI Technical Report: Real-World Centric Foundation GUI Agents → reinforcement_learning｜强化学习 [3PJJ7AXV]
+[watch-import] [ATTACH] PDF linked for 3PJJ7AXV
+[watch-import] [ADD] LibContinual: A Comprehensive Library towards Realistic Continual Learning → reinforcement_learning｜强化学习 [JRNNMCSJ]
+[watch-import] [ATTACH] PDF linked for JRNNMCSJ
+[watch-import] [ADD] Meta-Learning-Based Handover Management in NextG O-RAN → reinforcement_learning｜强化学习 [NIHMTUK2]
+[watch-import] [ATTACH] PDF linked for NIHMTUK2
+[watch-import] [ADD] SWE-RM: Execution-free Feedback For Software Engineering Agents → reinforcement_learning｜强化学习 [I834HSRW]
+[watch-import] [ATTACH] PDF linked for I834HSRW
+[watch-import] [ADD] A Comedy of Estimators: On KL Regularization in RL Training of LLMs → reinforcement_learning｜强化学习 [IZN99S75]
+[watch-import] [ATTACH] PDF linked for IZN99S75
+[watch-import] [ADD] Multiconnectivity for SAGIN: Current Trends, Challenges, AI-driven Solutions, an → reinforcement_learning｜强化学习 [8GZTAKS8]
+[watch-import] [ATTACH] PDF linked for 8GZTAKS8
+[watch-import] [ADD] UniPercept: Towards Unified Perceptual-Level Image Understanding across Aestheti → reinforcement_learning｜强化学习 [HJSVQ695]
+[watch-import] [ATTACH] PDF linked for HJSVQ695
+[watch-import] [ADD] Variance-Aware Prior-Based Tree Policies for Monte Carlo Tree Search → reinforcement_learning｜强化学习 [5FV39SHX]
+[watch-import] [ATTACH] PDF linked for 5FV39SHX
+[watch-import] [ADD] Generative Actor Critic → reinforcement_learning｜强化学习 [SNW42IAS]
+[watch-import] [ATTACH] PDF linked for SNW42IAS
+[watch-import] [ADD] DiverseGRPO: Mitigating Mode Collapse in Image Generation via Diversity-Aware GR → reinforcement_learning｜强化学习 [696HFKA6]
+[watch-import] [ATTACH] PDF linked for 696HFKA6
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [SCORE] tag=imitation_learning total=0 selected=0
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [HF] world_model matched 4 trending papers.
+[watch-import] [SCORE] tag=world_model total=4 selected=4
+[watch-import] [COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[watch-import] [SKIP] duplicate LongVie 2: Multimodal Controllable Ultra-Long Video World Model (arxiv:2512.13604)
+[watch-import] [SKIP] duplicate WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive Wor (arxiv:2512.14614)
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [HF] simulator matched 3 trending papers.
+[watch-import] [SCORE] tag=simulator total=109 selected=10
+[watch-import] [COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[watch-import] [ADD] Enhancing Microwave Heating Uniformity in Cavities Using a 2-bit Coding Metasurf → simulator｜仿真平台 [WX2EGWPG]
+[watch-import] [ATTACH] PDF linked for WX2EGWPG
+[watch-import] [SKIP] duplicate MoonBot: Modular and On-Demand Reconfigurable Robot Toward Moon Base Constructio (doi:10.1109/tfr.2025.3624346)
+[watch-import] [ADD] Hybrid Deep Reinforcement Learning for Joint Resource Allocation in Multi-Active → simulator｜仿真平台 [C3JP94M5]
+[watch-import] [ATTACH] PDF linked for C3JP94M5
+[watch-import] [ADD] Exact inference via quasi-conjugacy in two-parameter Poisson-Dirichlet hidden Ma → simulator｜仿真平台 [CVIBKKNE]
+[watch-import] [ATTACH] PDF linked for CVIBKKNE
+[watch-import] [SKIP] duplicate Agent-based simulation of online social networks and disinformation (arxiv:2512.22082v1)
+[watch-import] [ADD] Heterogeneous fragmentation of empty sites promotes cooperation in phenotypicall → simulator｜仿真平台 [B85THPU7]
+[watch-import] [ATTACH] PDF linked for B85THPU7
+[watch-import] [ADD] ReSMT: An SMT-Based Tool for Reverse Engineering → simulator｜仿真平台 [G7ZAIBTH]
+[watch-import] [ATTACH] PDF linked for G7ZAIBTH
+[watch-import] [ADD] Rotationally invariant dynamical lattice regulators for Euclidean quantum field  → simulator｜仿真平台 [5DQWEEB3]
+[watch-import] [ATTACH] PDF linked for 5DQWEEB3
+[watch-import] [ADD] Random state comonads encode cellular automata evaluation → simulator｜仿真平台 [X2T723MQ]
+[watch-import] [ATTACH] PDF linked for X2T723MQ
+[watch-import] [SKIP] duplicate Prefill vs. Decode Bottlenecks: SRAM-Frequency Tradeoffs and the Memory-Bandwidt (arxiv:2512.22066v1)
+[watch-import] [TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[watch-import] [SCORE] tag=motion_planning total=0 selected=0
+[watch-import] [TAG] task_planning 'task_planning｜任务规划' keywords=4
+[watch-import] [SCORE] tag=task_planning total=50 selected=10
+[watch-import] [COL] ensured collection 'task_planning｜任务规划' → IDXJKRDJ
+[watch-import] [ADD] HELP: Hierarchical Embodied Language Planner for Household Tasks → task_planning｜任务规划 [BDZCGNK5]
+[watch-import] [ATTACH] PDF linked for BDZCGNK5
+[watch-import] [ADD] dUltra: Ultra-Fast Diffusion Language Models via Reinforcement Learning → task_planning｜任务规划 [VSFV7JXF]
+[watch-import] [ATTACH] PDF linked for VSFV7JXF
+[watch-import] [ADD] Fast Navigation Through Occluded Spaces via Language-Conditioned Map Prediction → task_planning｜任务规划 [93U7Z8S8]
+[watch-import] [ATTACH] PDF linked for 93U7Z8S8
+[watch-import] [SKIP] duplicate LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation (arxiv:2512.21243v1)
+[watch-import] [SKIP] duplicate Robust and Efficient MuJoCo-based Model Predictive Control via Web of Affine Spa (arxiv:2512.21109v1)
+[watch-import] [SKIP] duplicate A General Purpose Method for Robotic Interception of Non-Cooperative Dynamic Tar (arxiv:2512.20769v1)
+[watch-import] [SKIP] duplicate Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning (arxiv:2512.20586v1)
+[watch-import] [SKIP] duplicate UTDesign: A Unified Framework for Stylized Text Editing and Generation in Graphi (doi:10.1145/3757377.3763923)
+[watch-import] [SKIP] duplicate Drift-Corrected Monocular VIO and Perception-Aware Planning for Autonomous Drone (arxiv:2512.20475v1)
+[watch-import] [SKIP] duplicate Detecting Non-Optimal Decisions of Embodied Agents via Diversity-Guided Metamorp (arxiv:2512.20083v1)
+[watch-import] [TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[watch-import] [SCORE] tag=code_based_task_planning total=0 selected=0
+[watch-import] [TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[watch-import] [SCORE] tag=language_based_task_planning total=0 selected=0
+[watch-import] [TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[watch-import] [SCORE] tag=end_to_end_task_planning total=0 selected=0
+[watch-import] [TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[watch-import] [SCORE] tag=grounded_task_planning total=0 selected=0
+[watch-import] [TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[watch-import] [SCORE] tag=transformer_policy total=24 selected=8
+[watch-import] [COL] ensured collection 'transformer_policy｜Transformer控制策略' → URZGRBAC
+[watch-import] [SKIP] duplicate Harnessing non-Hermiticity for efficient quantum state transfer (arxiv:2512.19490v1)
+[watch-import] [SKIP] duplicate The Milky Way Bulge Extra-Tidal Star Survey: NGC 6569 (arxiv:2512.19074v1)
+[watch-import] [SKIP] duplicate Generalized Connes-Kreimer Hopf algebras on decorated rooted forests by weighted (arxiv:2512.06538v1)
+[watch-import] [SKIP] duplicate Interferometric view into RT Pav's long secondary period. binary vs oscillatory  (arxiv:2511.21987v2)
+[watch-import] [SKIP] duplicate Electrical Modulation and Probing of Antiferromagnetism in Hybrid Multiferroic H (doi:10.1063/5.0274464)
+[watch-import] [SKIP] duplicate Hyperion: Hierarchical Scheduling for Parallel LLM Acceleration in Multi-tier Ne (arxiv:2511.14450v2)
+[watch-import] [SKIP] duplicate Rebellion: Noise-Robust Reasoning Training for Audio Reasoning Models (arxiv:2511.09682v1)
+[watch-import] [SKIP] duplicate CommUNext: Deep Learning-Based Cross-Band and Multi-Directional Signal Predictio (arxiv:2511.05860v1)
+[watch-import] [TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[watch-import] [SCORE] tag=diffusion_policy total=0 selected=0
+[watch-import] [TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[watch-import] [SCORE] tag=3d_vision total=0 selected=0
+[watch-import] [TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[watch-import] [SCORE] tag=point_based_action total=0 selected=0
+[watch-import] [TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[watch-import] [SCORE] tag=chain_of_thought total=0 selected=0
+[watch-import] [INFO] Recorded 72 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[watch-import] [INFO] Done. Summary: {"candidates": 72, "added": 72, "skipped": 69, "updated": 0, "hf_candidates": 109, "hf_overrides": 0}
+[watch-import] [INFO] Report → /Users/neoone/code/Zotero/reports/watch_20251229_141001.json
+[PIPELINE] ✓ watch completed
+[PIPELINE] → pdf: since_hours=24.0 limit=∞
+[fetch-pdfs] [TRY] Q45XDIXE ← existing attachment link: https://arxiv.org/pdf/2512.21859.pdf
+[fetch-pdfs] [OK] Linked local PDF for Q45XDIXE
+[fetch-pdfs] [TRY] 2VNJ4ZXT ← existing attachment link: https://arxiv.org/pdf/2512.22094v1
+[fetch-pdfs] [OK] Linked local PDF for 2VNJ4ZXT
+[fetch-pdfs] [TRY] JMN3VAHD ← existing attachment link: https://arxiv.org/pdf/2512.22074v1
+[fetch-pdfs] [OK] Linked local PDF for JMN3VAHD
+[fetch-pdfs] [TRY] Q4MZ2659 ← existing attachment link: https://arxiv.org/pdf/2512.21949v1
+[fetch-pdfs] [OK] Linked local PDF for Q4MZ2659
+[fetch-pdfs] [TRY] 5VPH2N9C ← existing attachment link: https://arxiv.org/pdf/2512.21903v1
+[fetch-pdfs] [OK] Linked local PDF for 5VPH2N9C
+[fetch-pdfs] [TRY] QPCV6EJU ← existing attachment link: https://arxiv.org/pdf/2512.21729v1
+[fetch-pdfs] [OK] Linked local PDF for QPCV6EJU
+[fetch-pdfs] [TRY] 7B8VVVK3 ← existing attachment link: https://arxiv.org/pdf/2512.21445v1
+[fetch-pdfs] [OK] Linked local PDF for 7B8VVVK3
+[fetch-pdfs] [TRY] IZ52Z393 ← existing attachment link: https://arxiv.org/pdf/2512.21412v1
+[fetch-pdfs] [OK] Linked local PDF for IZ52Z393
+[fetch-pdfs] [TRY] EWENZF8E ← existing attachment link: https://arxiv.org/pdf/2512.21392v1
+[fetch-pdfs] [OK] Linked local PDF for EWENZF8E
+[fetch-pdfs] [TRY] JDXWNXDC ← existing attachment link: https://arxiv.org/pdf/2512.21983v1
+[fetch-pdfs] [OK] Linked local PDF for JDXWNXDC
+[fetch-pdfs] [TRY] AMTJUJNG ← existing attachment link: https://arxiv.org/pdf/2512.21853v1
+[fetch-pdfs] [OK] Linked local PDF for AMTJUJNG
+[fetch-pdfs] [TRY] ST8WDXNX ← existing attachment link: https://arxiv.org/pdf/2512.22116v1
+[fetch-pdfs] [OK] Linked local PDF for ST8WDXNX
+[fetch-pdfs] [TRY] TEPA468K ← existing attachment link: https://arxiv.org/pdf/2512.22112v1
+[fetch-pdfs] [OK] Linked local PDF for TEPA468K
+[fetch-pdfs] [TRY] 26B4V7Z6 ← existing attachment link: https://arxiv.org/pdf/2512.22099v1
+[fetch-pdfs] [OK] Linked local PDF for 26B4V7Z6
+[fetch-pdfs] [TRY] GUD2H8XB ← existing attachment link: https://arxiv.org/pdf/2512.22096v1
+[fetch-pdfs] [OK] Linked local PDF for GUD2H8XB
+[fetch-pdfs] [TRY] JWUWVSNJ ← existing attachment link: https://arxiv.org/pdf/2512.22066v1
+[fetch-pdfs] [OK] Linked local PDF for JWUWVSNJ
+[fetch-pdfs] [TRY] GVNJMHN5 ← existing attachment link: https://arxiv.org/pdf/2512.22059v1
+[fetch-pdfs] [OK] Linked local PDF for GVNJMHN5
+[fetch-pdfs] [TRY] HW76V4CQ ← existing attachment link: https://arxiv.org/pdf/2512.22028v1
+[fetch-pdfs] [OK] Linked local PDF for HW76V4CQ
+[fetch-pdfs] [TRY] VN4W54G7 ← existing attachment link: https://arxiv.org/pdf/2512.21992v1
+[fetch-pdfs] [OK] Linked local PDF for VN4W54G7
+[fetch-pdfs] [TRY] 9IDKPUFV ← existing attachment link: https://arxiv.org/pdf/2512.21989v1
+[fetch-pdfs] [OK] Linked local PDF for 9IDKPUFV
+[fetch-pdfs] [TRY] 6RX88KTJ ← existing attachment link: https://arxiv.org/pdf/2512.21850v1
+[fetch-pdfs] [OK] Linked local PDF for 6RX88KTJ
+[fetch-pdfs] [TRY] XCX5HTG5 ← existing attachment link: https://arxiv.org/pdf/2512.22027v1
+[fetch-pdfs] [OK] Linked local PDF for XCX5HTG5
+[fetch-pdfs] [TRY] 3JUS3IKC ← existing attachment link: https://arxiv.org/pdf/2512.21970v1
+[fetch-pdfs] [OK] Linked local PDF for 3JUS3IKC
+[fetch-pdfs] [TRY] VJ8VWQKZ ← existing attachment link: https://arxiv.org/pdf/2512.21968v1
+[fetch-pdfs] [OK] Linked local PDF for VJ8VWQKZ
+[fetch-pdfs] [TRY] FN668R5M ← existing attachment link: https://arxiv.org/pdf/2512.21898v1
+[fetch-pdfs] [OK] Linked local PDF for FN668R5M
+[fetch-pdfs] [TRY] P3SRG5WW ← existing attachment link: https://arxiv.org/pdf/2512.21886v1
+[fetch-pdfs] [OK] Linked local PDF for P3SRG5WW
+[fetch-pdfs] [TRY] V2XK9DG5 ← existing attachment link: https://arxiv.org/pdf/2512.21882v1
+[fetch-pdfs] [OK] Linked local PDF for V2XK9DG5
+[fetch-pdfs] [TRY] JVCWE6EI ← existing attachment link: https://arxiv.org/pdf/2512.21767v1
+[fetch-pdfs] [OK] Linked local PDF for JVCWE6EI
+[fetch-pdfs] [TRY] FJP68U6K ← existing attachment link: https://arxiv.org/pdf/2512.21753v1
+[fetch-pdfs] [OK] Linked local PDF for FJP68U6K
+[fetch-pdfs] [TRY] 8GPBX33U ← existing attachment link: https://arxiv.org/pdf/2512.21740v1
+[fetch-pdfs] [OK] Linked local PDF for 8GPBX33U
+[fetch-pdfs] [TRY] 2FDFGP74 ← existing attachment link: https://arxiv.org/pdf/2512.22120v1
+[fetch-pdfs] [OK] Linked local PDF for 2FDFGP74
+[fetch-pdfs] [TRY] 26HJF76S ← existing attachment link: https://arxiv.org/pdf/2512.21999v1
+[fetch-pdfs] [OK] Linked local PDF for 26HJF76S
+[fetch-pdfs] [TRY] D9H3PTGF ← existing attachment link: https://arxiv.org/pdf/2512.21815v1
+[fetch-pdfs] [OK] Linked local PDF for D9H3PTGF
+[fetch-pdfs] [TRY] SUPDMSA3 ← existing attachment link: https://arxiv.org/pdf/2512.21778v1
+[fetch-pdfs] [OK] Linked local PDF for SUPDMSA3
+[fetch-pdfs] [TRY] 4JDSVPCD ← existing attachment link: https://arxiv.org/pdf/2512.21699v1
+[fetch-pdfs] [OK] Linked local PDF for 4JDSVPCD
+[fetch-pdfs] [TRY] MSX3DZCX ← existing attachment link: https://arxiv.org/pdf/2512.21684v1
+[fetch-pdfs] [OK] Linked local PDF for MSX3DZCX
+[fetch-pdfs] [TRY] 7BXDIQWF ← existing attachment link: https://arxiv.org/pdf/2512.21583v1
+[fetch-pdfs] [OK] Linked local PDF for 7BXDIQWF
+[fetch-pdfs] [TRY] 45PU9893 ← existing attachment link: https://arxiv.org/pdf/2512.21576v1
+[fetch-pdfs] [OK] Linked local PDF for 45PU9893
+[fetch-pdfs] [TRY] 9I6I58NM ← existing attachment link: https://arxiv.org/pdf/2512.21560v1
+[fetch-pdfs] [OK] Linked local PDF for 9I6I58NM
+[fetch-pdfs] [TRY] 629B39MP ← existing attachment link: https://arxiv.org/pdf/2512.21529v1
+[fetch-pdfs] [OK] Linked local PDF for 629B39MP
+[fetch-pdfs] [TRY] FAXJCJFM ← existing attachment link: https://arxiv.org/pdf/2512.22113v1
+[fetch-pdfs] [OK] Linked local PDF for FAXJCJFM
+[fetch-pdfs] [TRY] 2PGNPW5C ← existing attachment link: https://arxiv.org/pdf/2512.22100v1
+[fetch-pdfs] [OK] Linked local PDF for 2PGNPW5C
+[fetch-pdfs] [TRY] PRAWZRWC ← existing attachment link: https://arxiv.org/pdf/2512.22088v1
+[fetch-pdfs] [OK] Linked local PDF for PRAWZRWC
+[fetch-pdfs] [TRY] ARIBC8MM ← existing attachment link: https://arxiv.org/pdf/2512.22082v1
+[fetch-pdfs] [OK] Linked local PDF for ARIBC8MM
+[fetch-pdfs] [TRY] SWBIDCU7 ← existing attachment link: https://arxiv.org/pdf/2512.22032v1
+[fetch-pdfs] [OK] Linked local PDF for SWBIDCU7
+[fetch-pdfs] [TRY] E9QNME5B ← existing attachment link: https://arxiv.org/pdf/2512.21933v1
+[fetch-pdfs] [OK] Linked local PDF for E9QNME5B
+[fetch-pdfs] [TRY] F3JBI4AH ← existing attachment link: https://arxiv.org/pdf/2512.21915v1
+[fetch-pdfs] [OK] Linked local PDF for F3JBI4AH
+[fetch-pdfs] [TRY] JK8JTGJ9 ← existing attachment link: https://arxiv.org/pdf/2512.21911v1
+[fetch-pdfs] [OK] Linked local PDF for JK8JTGJ9
+[fetch-pdfs] [TRY] 8I36UU7R ← existing attachment link: https://arxiv.org/pdf/2512.21643.pdf
+[fetch-pdfs] [OK] Linked local PDF for 8I36UU7R
+[fetch-pdfs] [TRY] Q4X5UVHZ ← existing attachment link: https://arxiv.org/pdf/2512.20605.pdf
+[fetch-pdfs] [OK] Linked local PDF for Q4X5UVHZ
+[fetch-pdfs] [TRY] 2DQKZEE8 ← existing attachment link: https://arxiv.org/pdf/2512.21555v1
+[fetch-pdfs] [OK] Linked local PDF for 2DQKZEE8
+[fetch-pdfs] [TRY] KUE88CP3 ← existing attachment link: https://arxiv.org/pdf/2512.21404v1
+[fetch-pdfs] [OK] Linked local PDF for KUE88CP3
+[fetch-pdfs] [TRY] 3PJJ7AXV ← existing attachment link: https://arxiv.org/pdf/2512.22047v1
+[fetch-pdfs] [OK] Linked local PDF for 3PJJ7AXV
+[fetch-pdfs] [TRY] JRNNMCSJ ← existing attachment link: https://arxiv.org/pdf/2512.22029v1
+[fetch-pdfs] [OK] Linked local PDF for JRNNMCSJ
+[fetch-pdfs] [TRY] NIHMTUK2 ← existing attachment link: https://arxiv.org/pdf/2512.22022v1
+[fetch-pdfs] [OK] Linked local PDF for NIHMTUK2
+[fetch-pdfs] [TRY] I834HSRW ← existing attachment link: https://arxiv.org/pdf/2512.21919v1
+[fetch-pdfs] [OK] Linked local PDF for I834HSRW
+[fetch-pdfs] [TRY] IZN99S75 ← existing attachment link: https://arxiv.org/pdf/2512.21852v1
+[fetch-pdfs] [OK] Linked local PDF for IZN99S75
+[fetch-pdfs] [TRY] 8GZTAKS8 ← existing attachment link: https://arxiv.org/pdf/2512.21717v1
+[fetch-pdfs] [OK] Linked local PDF for 8GZTAKS8
+[fetch-pdfs] [TRY] HJSVQ695 ← existing attachment link: https://arxiv.org/pdf/2512.21675v1
+[fetch-pdfs] [OK] Linked local PDF for HJSVQ695
+[fetch-pdfs] [TRY] 5FV39SHX ← existing attachment link: https://arxiv.org/pdf/2512.21648v1
+[fetch-pdfs] [OK] Linked local PDF for 5FV39SHX
+[fetch-pdfs] [TRY] SNW42IAS ← existing attachment link: https://arxiv.org/pdf/2512.21527v1
+[fetch-pdfs] [OK] Linked local PDF for SNW42IAS
+[fetch-pdfs] [TRY] 696HFKA6 ← existing attachment link: https://arxiv.org/pdf/2512.21514v1
+[fetch-pdfs] [OK] Linked local PDF for 696HFKA6
+[fetch-pdfs] [TRY] WX2EGWPG ← existing attachment link: https://arxiv.org/pdf/2512.21912v1
+[fetch-pdfs] [OK] Linked local PDF for WX2EGWPG
+[fetch-pdfs] [TRY] C3JP94M5 ← existing attachment link: https://arxiv.org/pdf/2512.22107v1
+[fetch-pdfs] [OK] Linked local PDF for C3JP94M5
+[fetch-pdfs] [TRY] CVIBKKNE ← existing attachment link: https://arxiv.org/pdf/2512.22098v1
+[fetch-pdfs] [OK] Linked local PDF for CVIBKKNE
+[fetch-pdfs] [TRY] B85THPU7 ← existing attachment link: https://arxiv.org/pdf/2512.22077v1
+[fetch-pdfs] [OK] Linked local PDF for B85THPU7
+[fetch-pdfs] [TRY] G7ZAIBTH ← existing attachment link: https://arxiv.org/pdf/2512.22076v1
+[fetch-pdfs] [OK] Linked local PDF for G7ZAIBTH
+[fetch-pdfs] [TRY] 5DQWEEB3 ← existing attachment link: https://arxiv.org/pdf/2512.22072v1
+[fetch-pdfs] [OK] Linked local PDF for 5DQWEEB3
+[fetch-pdfs] [TRY] X2T723MQ ← existing attachment link: https://arxiv.org/pdf/2512.22067v1
+[fetch-pdfs] [OK] Linked local PDF for X2T723MQ
+[fetch-pdfs] [TRY] BDZCGNK5 ← existing attachment link: https://arxiv.org/pdf/2512.21723v1
+[fetch-pdfs] [OK] Linked local PDF for BDZCGNK5
+[fetch-pdfs] [TRY] VSFV7JXF ← existing attachment link: https://arxiv.org/pdf/2512.21446v1
+[fetch-pdfs] [OK] Linked local PDF for VSFV7JXF
+[fetch-pdfs] [TRY] 93U7Z8S8 ← existing attachment link: https://arxiv.org/pdf/2512.21398v1
+[fetch-pdfs] [OK] Linked local PDF for 93U7Z8S8
+[fetch-pdfs] [INFO] Completed. PDFs added: 72, remaining without PDF: 0.
+[PIPELINE] ✓ pdf completed
+[PIPELINE] → dedupe: limit=∞ since_hours=24.0
+[dedupe] [INFO] Scanned 72 top-level items (after time filter).
+[dedupe] [INFO] No duplicates detected with the current heuristic.
+[PIPELINE] ✓ dedupe completed
+[PIPELINE] → summary: limit=200 since_hours=24.0
+[summaries-err] [ERR] HTTPSConnectionPool(host='api.zotero.org', port=443): Max retries exceeded with url: /users/17507734/items (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[summaries] [INFO] Fetched 200 Zotero items before time-window filtering.
+[summaries] [INFO] 200 items remain after applying modified-since 24.0h window.
+[summaries] [INFO] Processing Fast_Navigation_Through_Occluded_Spaces_via_Language-Conditioned_Map_Prediction.pdf (JCUB3BST)
+[summaries]   - Reading Fast_Navigation_Through_Occluded_Spaces_via_Language-Conditioned_Map_Prediction.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing dUltra__Ultra-Fast_Diffusion_Language_Models_via_Reinforcement_Learning.pdf (BUPSJAHH)
+[summaries]   - Reading dUltra__Ultra-Fast_Diffusion_Language_Models_via_Reinforcement_Learning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing HELP__Hierarchical_Embodied_Language_Planner_for_Household_Tasks.pdf (BJCHDK6J)
+[summaries]   - Reading HELP__Hierarchical_Embodied_Language_Planner_for_Household_Tasks.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Random_state_comonads_encode_cellular_automata_evaluation.pdf (J7TGX4WR)
+[summaries]   - Reading Random_state_comonads_encode_cellular_automata_evaluation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Rotationally_invariant_dynamical_lattice_regulators_for_Euclidean_quantum_field_.pdf (ZHNBINDM)
+[summaries]   - Reading Rotationally_invariant_dynamical_lattice_regulators_for_Euclidean_quantum_field_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ReSMT__An_SMT-Based_Tool_for_Reverse_Engineering.pdf (HM4GI52M)
+[summaries]   - Reading ReSMT__An_SMT-Based_Tool_for_Reverse_Engineering.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Heterogeneous_fragmentation_of_empty_sites_promotes_cooperation_in_phenotypicall.pdf (EKGIXM2A)
+[summaries]   - Reading Heterogeneous_fragmentation_of_empty_sites_promotes_cooperation_in_phenotypicall.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Exact_inference_via_quasi-conjugacy_in_two-parameter_Poisson-Dirichlet_hidden_Ma.pdf (4FEE53PM)
+[summaries]   - Reading Exact_inference_via_quasi-conjugacy_in_two-parameter_Poisson-Dirichlet_hidden_Ma.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Hybrid_Deep_Reinforcement_Learning_for_Joint_Resource_Allocation_in_Multi-Active.pdf (DKTCP7ZU)
+[summaries]   - Reading Hybrid_Deep_Reinforcement_Learning_for_Joint_Resource_Allocation_in_Multi-Active.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Enhancing_Microwave_Heating_Uniformity_in_Cavities_Using_a_2-bit_Coding_Metasurf.pdf (MFDV43Q9)
+[summaries]   - Reading Enhancing_Microwave_Heating_Uniformity_in_Cavities_Using_a_2-bit_Coding_Metasurf.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DiverseGRPO__Mitigating_Mode_Collapse_in_Image_Generation_via_Diversity-Aware_GR.pdf (HVZ29QJ3)
+[summaries]   - Reading DiverseGRPO__Mitigating_Mode_Collapse_in_Image_Generation_via_Diversity-Aware_GR.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Generative_Actor_Critic.pdf (RCQTZKHT)
+[summaries]   - Reading Generative_Actor_Critic.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Variance-Aware_Prior-Based_Tree_Policies_for_Monte_Carlo_Tree_Search.pdf (ZUFG8GSF)
+[summaries]   - Reading Variance-Aware_Prior-Based_Tree_Policies_for_Monte_Carlo_Tree_Search.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing UniPercept__Towards_Unified_Perceptual-Level_Image_Understanding_across_Aestheti.pdf (MHFD8EZ3)
+[summaries]   - Reading UniPercept__Towards_Unified_Perceptual-Level_Image_Understanding_across_Aestheti.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Multiconnectivity_for_SAGIN__Current_Trends__Challenges__AI-driven_Solutions__an.pdf (A27H9NA5)
+[summaries]   - Reading Multiconnectivity_for_SAGIN__Current_Trends__Challenges__AI-driven_Solutions__an.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Comedy_of_Estimators__On_KL_Regularization_in_RL_Training_of_LLMs.pdf (INNBKWQ9)
+[summaries]   - Reading A_Comedy_of_Estimators__On_KL_Regularization_in_RL_Training_of_LLMs.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing SWE-RM__Execution-free_Feedback_For_Software_Engineering_Agents.pdf (NJ7EPV7P)
+[summaries]   - Reading SWE-RM__Execution-free_Feedback_For_Software_Engineering_Agents.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Meta-Learning-Based_Handover_Management_in_NextG_O-RAN.pdf (62TJEFD5)
+[summaries]   - Reading Meta-Learning-Based_Handover_Management_in_NextG_O-RAN.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing LibContinual__A_Comprehensive_Library_towards_Realistic_Continual_Learning.pdf (IGQBQWIE)
+[summaries]   - Reading LibContinual__A_Comprehensive_Library_towards_Realistic_Continual_Learning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing MAI-UI_Technical_Report__Real-World_Centric_Foundation_GUI_Agents.pdf (VGK2HCAA)
+[summaries]   - Reading MAI-UI_Technical_Report__Real-World_Centric_Foundation_GUI_Agents.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing LLM-Driven_Feature-Level_Adversarial_Attacks_on_Android_Malware_Detectors.pdf (KHSDVXQ9)
+[summaries]   - Reading LLM-Driven_Feature-Level_Adversarial_Attacks_on_Android_Malware_Detectors.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing XTrace__A_Non-Invasive_Dynamic_Tracing_Framework_for_Android_Applications_in_Pro.pdf (9CIVXWE9)
+[summaries]   - Reading XTrace__A_Non-Invasive_Dynamic_Tracing_Framework_for_Android_Applications_in_Pro.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Emergent_temporal_abstractions_in_autoregressive_models_enable_hierarchical_rein.pdf (M6NA2VBH)
+[summaries]   - Reading Emergent_temporal_abstractions_in_autoregressive_models_enable_hierarchical_rein.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Omni-Weather__Unified_Multimodal_Foundation_Model_for_Weather_Generation_and_Und.pdf (3P5EST64)
+[summaries]   - Reading Omni-Weather__Unified_Multimodal_Foundation_Model_for_Weather_Generation_and_Und.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Accelerate_Speculative_Decoding_with_Sparse_Computation_in_Verification.pdf (RS49NMJC)
+[summaries]   - Reading Accelerate_Speculative_Decoding_with_Sparse_Computation_in_Verification.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Exploring_the_Heterogeneity_of_Tabular_Data__A_Diversity-aware_Data_Generator_vi.pdf (RHPMA8P5)
+[summaries]   - Reading Exploring_the_Heterogeneity_of_Tabular_Data__A_Diversity-aware_Data_Generator_vi.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Broken_Words__Broken_Performance__Effect_of_Tokenization_on_Performance_of_LLMs.pdf (XJXDD2CD)
+[summaries]   - Reading Broken_Words__Broken_Performance__Effect_of_Tokenization_on_Performance_of_LLMs.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Context-Aware_Intelligent_Chatbot_Framework_Leveraging_Mobile_Sensing.pdf (HTZCGZQN)
+[summaries]   - Reading Context-Aware_Intelligent_Chatbot_Framework_Leveraging_Mobile_Sensing.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Agent-based_simulation_of_online_social_networks_and_disinformation.pdf (BHGR967H)
+[summaries]   - Reading Agent-based_simulation_of_online_social_networks_and_disinformation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Unifying_Learning_Dynamics_and_Generalization_in_Transformers_Scaling_Law.pdf (V23V7KMU)
+[summaries]   - Reading Unifying_Learning_Dynamics_and_Generalization_in_Transformers_Scaling_Law.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Introducing_TrGLUE_and_SentiTurca__A_Comprehensive_Benchmark_for_Turkish_General.pdf (9PFM9AD5)
+[summaries]   - Reading Introducing_TrGLUE_and_SentiTurca__A_Comprehensive_Benchmark_for_Turkish_General.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Agentic_Structured_Graph_Traversal_for_Root_Cause_Analysis_of_Code-related_Incid.pdf (HDMZUII3)
+[summaries]   - Reading Agentic_Structured_Graph_Traversal_for_Root_Cause_Analysis_of_Code-related_Incid.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Hierarchy-Aware_Fine-Tuning_of_Vision-Language_Models.pdf (WNU2VK8K)
+[summaries]   - Reading Hierarchy-Aware_Fine-Tuning_of_Vision-Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Toward_Intelligent_Scene_Augmentation_for_Context-Aware_Object_Placement_and_Spo.pdf (G4TV9AHZ)
+[summaries]   - Reading Toward_Intelligent_Scene_Augmentation_for_Context-Aware_Object_Placement_and_Spo.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Towards_Long-window_Anchoring_in_Vision-Language_Model_Distillation.pdf (QK2CBT9U)
+[summaries]   - Reading Towards_Long-window_Anchoring_in_Vision-Language_Model_Distillation.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing A_Medical_Multimodal_Diagnostic_Framework_Integrating_Vision-Language_Models_and.pdf (7N6ZNSZV)
+[summaries]   - Reading A_Medical_Multimodal_Diagnostic_Framework_Integrating_Vision-Language_Models_and.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing SlideChain__Semantic_Provenance_for_Lecture_Understanding_via_Blockchain_Registr.pdf (TNXSZCNJ)
+[summaries]   - Reading SlideChain__Semantic_Provenance_for_Lecture_Understanding_via_Blockchain_Registr.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Towards_Responsible_and_Explainable_AI_Agents_with_Consensus-Driven_Reasoning.pdf (EIMSI2AJ)
+[summaries]   - Reading Towards_Responsible_and_Explainable_AI_Agents_with_Consensus-Driven_Reasoning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Scene-VLM__Multimodal_Video_Scene_Segmentation_via_Vision-Language_Models.pdf (7MJ7KUPC)
+[summaries]   - Reading Scene-VLM__Multimodal_Video_Scene_Segmentation_via_Vision-Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Few_Tokens_Matter__Entropy_Guided_Attacks_on_Vision-Language_Models.pdf (TRCRS8ED)
+[summaries]   - Reading Few_Tokens_Matter__Entropy_Guided_Attacks_on_Vision-Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Look_Closer__An_Adversarial_Parametric_Editing_Framework_for_Hallucination_Mitig.pdf (Q3D9H8NV)
+[summaries]   - Reading Look_Closer__An_Adversarial_Parametric_Editing_Framework_for_Hallucination_Mitig.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing See_Less__See_Right__Bi-directional_Perceptual_Shaping_For_Multimodal_Reasoning.pdf (6PJ5PMUQ)
+[summaries]   - Reading See_Less__See_Right__Bi-directional_Perceptual_Shaping_For_Multimodal_Reasoning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Properties_of_a_Three-Level____-Type_Atom_Driven_by_Coherent_and_Stochastic_Fiel.pdf (DV7HMVCE)
+[summaries]   - Reading Properties_of_a_Three-Level____-Type_Atom_Driven_by_Coherent_and_Stochastic_Fiel.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing _x_1-t_x___x__-1____F_x_t____x_-_t_F_0_t__.pdf (7K2D4PWJ)
+[summaries]   - Reading _x_1-t_x___x__-1____F_x_t____x_-_t_F_0_t__.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Memory_of_topologically_constrained_disorder_in_Shakti_artificial_spin_ice.pdf (3FRQPFZ7)
+[summaries]   - Reading Memory_of_topologically_constrained_disorder_in_Shakti_artificial_spin_ice.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Optimal_Trajectory_Planning_for_Orbital_Robot_Rendezvous_and_Docking.pdf (JM84GJG4)
+[summaries]   - Reading Optimal_Trajectory_Planning_for_Orbital_Robot_Rendezvous_and_Docking.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Online_Inertia_Parameter_Estimation_for_Unknown_Objects_Grasped_by_a_Manipulator.pdf (2GEZ564U)
+[summaries]   - Reading Online_Inertia_Parameter_Estimation_for_Unknown_Objects_Grasped_by_a_Manipulator.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Flexible_Multitask_Learning_with_Factorized_Diffusion_Policy.pdf (D6NDWIHI)
+[summaries]   - Reading Flexible_Multitask_Learning_with_Factorized_Diffusion_Policy.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Positive_Narrativity_Enhances_Sense_of_Agency_toward_a_VR_Avatar.pdf (P4K6D57D)
+[summaries]   - Reading Positive_Narrativity_Enhances_Sense_of_Agency_toward_a_VR_Avatar.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing StereoVLA__Enhancing_Vision-Language-Action_Models_with_Stereo_Vision.pdf (AUXS2KDN)
+[summaries]   - Reading StereoVLA__Enhancing_Vision-Language-Action_Models_with_Stereo_Vision.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Patch-Discontinuity_Mining_for_Generalized_Deepfake_Detection.pdf (7H3PKI2V)
+[summaries]   - Reading Patch-Discontinuity_Mining_for_Generalized_Deepfake_Detection.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Chirality-selective_topological_magnon_phase_transition_induced_by_interplay_of_.pdf (2DZ29F7T)
+[summaries]   - Reading Chirality-selective_topological_magnon_phase_transition_induced_by_interplay_of_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Multi-Objective_Optimization_with_Desirability_and_Morris-Mitchell_Criterion.pdf (RVGBZFMA)
+[summaries]   - Reading Multi-Objective_Optimization_with_Desirability_and_Morris-Mitchell_Criterion.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Measure_of_entanglement_and_the_monogamy_relation__a_topical_review.pdf (FHRSMQUI)
+[summaries]   - Reading Measure_of_entanglement_and_the_monogamy_relation__a_topical_review.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Multiband_optical_variability_on_diverse_timescales_of_the_blazar_Ton_599_from_2.pdf (MJZ76BXR)
+[summaries]   - Reading Multiband_optical_variability_on_diverse_timescales_of_the_blazar_Ton_599_from_2.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Signature_for_charged_Higgs_pair_production_in_2HDM_a_model_at_CLIC.pdf (4HC7RDXD)
+[summaries]   - Reading Signature_for_charged_Higgs_pair_production_in_2HDM_a_model_at_CLIC.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Prefill_vs._Decode_Bottlenecks__SRAM-Frequency_Tradeoffs_and_the_Memory-Bandwidt.pdf (WQ3CVVQK)
+[summaries]   - Reading Prefill_vs._Decode_Bottlenecks__SRAM-Frequency_Tradeoffs_and_the_Memory-Bandwidt.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Yume-1.5__A_Text-Controlled_Interactive_World_Generation_Model.pdf (7ZVRFA4C)
+[summaries]   - Reading Yume-1.5__A_Text-Controlled_Interactive_World_Generation_Model.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Effect_of_Population_Imbalance_on_Vortex_Mass_in_Superfluid_Fermi_Gases.pdf (24VZ8V6Q)
+[summaries]   - Reading Effect_of_Population_Imbalance_on_Vortex_Mass_in_Superfluid_Fermi_Gases.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing The_Lepton-Gluon_Portal_Beyond_Lepto-Gluons.pdf (MEZWDMXE)
+[summaries]   - Reading The_Lepton-Gluon_Portal_Beyond_Lepto-Gluons.pdf

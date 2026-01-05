@@ -1,0 +1,20 @@
+"filename", "language", "Python", "Shell Script", "comment", "blank", "total"
+"/Users/neoone/code/Zotero/paperflow/__init__.py", "Python", -3, 0, -1, -3, -7
+"/Users/neoone/code/Zotero/paperflow/config.py", "Python", -86, 0, -2, -18, -106
+"/Users/neoone/code/Zotero/paperflow/pipeline.py", "Python", -14, 0, -2, -7, -23
+"/Users/neoone/code/Zotero/paperflow/stages.py", "Python", -174, 0, -6, -33, -213
+"/Users/neoone/code/Zotero/paperflow/state.py", "Python", -36, 0, -1, -8, -45
+"/Users/neoone/code/Zotero/scripts/ai_toolbox_pipeline.sh", "Shell Script", 0, 118, 7, 20, 145
+"/Users/neoone/code/Zotero/scripts/awesome_vla_to_ris.py", "Python", 389, 0, 13, 69, 471
+"/Users/neoone/code/Zotero/scripts/delete_collection_notes.py", "Python", 149, 0, 16, 25, 190
+"/Users/neoone/code/Zotero/scripts/enrich_zotero_abstracts.py", "Python", 318, 0, 11, 62, 391
+"/Users/neoone/code/Zotero/scripts/import_embodied_ai_to_zotero.py", "Python", 305, 0, 36, 32, 373
+"/Users/neoone/code/Zotero/scripts/import_ris_folder.py", "Python", 189, 0, 23, 33, 245
+"/Users/neoone/code/Zotero/scripts/langchain_pipeline.py", "Python", 107, 0, 8, 24, 139
+"/Users/neoone/code/Zotero/scripts/list_zotero_collections.py", "Python", 226, 0, 9, 37, 272
+"/Users/neoone/code/Zotero/scripts/merge_zotero_duplicates.py", "Python", 339, 0, 17, 63, 419
+"/Users/neoone/code/Zotero/scripts/summarize_zotero_with_doubao.py", "Python", 254, 0, 391, 51, 696
+"/Users/neoone/code/Zotero/scripts/sync_zotero_to_notion.py", "Python", 594, 0, 47, 82, 723
+"/Users/neoone/code/Zotero/scripts/utils_sources.py", "Python", 182, 0, 3, 26, 211
+"/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py", "Python", 498, 0, 42, 68, 608
+"Total", "-", 3237, 118, 611, 523, 4489

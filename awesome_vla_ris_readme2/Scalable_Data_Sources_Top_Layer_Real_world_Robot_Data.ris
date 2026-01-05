@@ -1,0 +1,70 @@
+TY  - ELEC
+TI  - nuScenes: A multimodal dataset for autonomous driving
+T2  - nuScenes: A multimodal dataset for autonomous driving
+PB  - nuScenes: A multimodal dataset for autonomous driving
+UR  - https://arxiv.org/abs/1903.11027
+KW  - Scalable Data Sources
+KW  - Top Layer: Real-world Robot Data
+KW  - nuScenes
+ER  - 
+
+TY  - ELEC
+TI  - Large Scale Interactive Motion Forecasting for Autonomous Driving: The Waymo Open Motion Dataset
+T2  - Large Scale Interactive Motion Forecasting for Autonomous Driving: The Waymo Open Motion Dataset
+PB  - Large Scale Interactive Motion Forecasting for Autonomous Driving: The Waymo Open Motion Dataset
+UR  - https://arxiv.org/abs/2104.10133
+KW  - Scalable Data Sources
+KW  - Top Layer: Real-world Robot Data
+KW  - WOMD
+ER  - 
+
+TY  - ELEC
+TI  - RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in One-Shot
+T2  - RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in One-Shot
+PB  - RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in One-Shot
+UR  - https://arxiv.org/abs/2307.00595
+KW  - Scalable Data Sources
+KW  - Top Layer: Real-world Robot Data
+KW  - RH20T
+ER  - 
+
+TY  - ELEC
+TI  - BridgeData V2: A Dataset for Robot Learning at Scale
+T2  - BridgeData V2: A Dataset for Robot Learning at Scale
+PB  - BridgeData V2: A Dataset for Robot Learning at Scale
+UR  - https://arxiv.org/abs/2308.12952
+KW  - Scalable Data Sources
+KW  - Top Layer: Real-world Robot Data
+KW  - BridgeData V2
+ER  - 
+
+TY  - ELEC
+TI  - On Bringing Robots Home
+T2  - On Bringing Robots Home
+PB  - On Bringing Robots Home
+UR  - https://arxiv.org/abs/2311.16098
+KW  - Scalable Data Sources
+KW  - Top Layer: Real-world Robot Data
+KW  - HoNY
+ER  - 
+
+TY  - ELEC
+TI  - DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset
+T2  - DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset
+PB  - DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset
+UR  - https://arxiv.org/abs/2403.12945
+KW  - Scalable Data Sources
+KW  - Top Layer: Real-world Robot Data
+KW  - DROID
+ER  - 
+
+TY  - ELEC
+TI  - RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation
+T2  - RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation
+PB  - RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation
+UR  - https://arxiv.org/abs/2412.13877
+KW  - Scalable Data Sources
+KW  - Top Layer: Real-world Robot Data
+KW  - RoboMIND
+ER  - 
+

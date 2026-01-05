@@ -1,0 +1,60 @@
+TY  - ELEC
+TI  - Learning Universal Policies via Text-Guided Video Generation
+T2  - Learning Universal Policies via Text-Guided Video Generation
+PB  - Learning Universal Policies via Text-Guided Video Generation
+UR  - https://arxiv.org/abs/2302.00111
+KW  - Goal State as Action Tokens
+KW  - Multi-Frame Video
+KW  - UniPi
+ER  - 
+
+TY  - ELEC
+TI  - Video Language Planning
+T2  - Video Language Planning
+PB  - Video Language Planning
+UR  - https://arxiv.org/abs/2310.10625
+KW  - Goal State as Action Tokens
+KW  - Multi-Frame Video
+KW  - VLP
+ER  - 
+
+TY  - ELEC
+TI  - Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation
+T2  - Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation
+PB  - Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation
+UR  - https://arxiv.org/abs/2409.16283
+KW  - Goal State as Action Tokens
+KW  - Multi-Frame Video
+KW  - Gen2Act
+ER  - 
+
+TY  - ELEC
+TI  - Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations
+T2  - Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations
+PB  - Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations
+UR  - https://arxiv.org/abs/2412.14803
+KW  - Goal State as Action Tokens
+KW  - Multi-Frame Video
+KW  - Video Prediction Policy
+ER  - 
+
+TY  - ELEC
+TI  - FLIP: Flow-Centric Generative Planning as General-Purpose Manipulation World Model
+T2  - FLIP: Flow-Centric Generative Planning as General-Purpose Manipulation World Model
+PB  - FLIP: Flow-Centric Generative Planning as General-Purpose Manipulation World Model
+UR  - https://arxiv.org/abs/2412.08261
+KW  - Goal State as Action Tokens
+KW  - Multi-Frame Video
+KW  - FLIP
+ER  - 
+
+TY  - ELEC
+TI  - GEVRM: Goal-Expressive Video Generation Model For Robust Visual Manipulation
+T2  - GEVRM: Goal-Expressive Video Generation Model For Robust Visual Manipulation
+PB  - GEVRM: Goal-Expressive Video Generation Model For Robust Visual Manipulation
+UR  - https://arxiv.org/abs/2502.09268
+KW  - Goal State as Action Tokens
+KW  - Multi-Frame Video
+KW  - GEVRM
+ER  - 
+

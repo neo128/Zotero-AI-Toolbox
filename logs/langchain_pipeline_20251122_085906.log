@@ -1,0 +1,227 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-11-22
+[watch-import] [HF] weekly fetched=20 from week/2025-W47
+[watch-import] [HF] monthly fetched=50 from month/2025-11
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=76 arXiv=864 URL=1046 TY=1055
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [HF] embodied_ai matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image' despite score=0.08
+[watch-import] [HF-OVERRIDE] Added 'LEGO-Eval: Towards Fine-Grained Evaluation on Synthesizing 3D Embodied
+[watch-import]   Environ' despite score=0.04
+[watch-import] [SCORE] tag=embodied_ai total=3 selected=2
+[watch-import] [COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[watch-import] [SKIP] duplicate PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image (arxiv:2511.13648)
+[watch-import] [SKIP] duplicate LEGO-Eval: Towards Fine-Grained Evaluation on Synthesizing 3D Embodied
+[watch-import]   Environ (arxiv:2511.03001)
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=0 selected=0
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [SCORE] tag=teleoperation total=0 selected=0
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 4 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'IterResearch: Rethinking Long-Horizon Agents via Markovian State
+[watch-import]   Reconstructio' despite score=0.18
+[watch-import] [HF-OVERRIDE] Added 'π_RL: Online RL Fine-tuning for Flow-based
+[watch-import]   Vision-Language-Action Models' despite score=0.13
+[watch-import] [SCORE] tag=robotic_navigation total=4 selected=4
+[watch-import] [COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[watch-import] [SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+[watch-import]   Reasoning Para (arxiv:2511.04570)
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate IterResearch: Rethinking Long-Horizon Agents via Markovian State
+[watch-import]   Reconstructio (arxiv:2511.07327)
+[watch-import] [SKIP] duplicate π_RL: Online RL Fine-tuning for Flow-based
+[watch-import]   Vision-Language-Action Models (arxiv:2510.25889)
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [HF] robotic_manipulation matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'ThinkMorph: Emergent Properties in Multimodal Interleaved
+[watch-import]   Chain-of-Thought Rea' despite score=0.21
+[watch-import] [HF-OVERRIDE] Added 'Time-to-Move: Training-Free Motion Controlled Video Generation via Dual-Clock De' despite score=0.10
+[watch-import] [SCORE] tag=robotic_manipulation total=3 selected=3
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate ThinkMorph: Emergent Properties in Multimodal Interleaved
+[watch-import]   Chain-of-Thought Rea (doi:10.48550/arxiv.2510.27492)
+[watch-import] [SKIP] duplicate Time-to-Move: Training-Free Motion Controlled Video Generation via Dual-Clock De (arxiv:2511.08633)
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 18 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'VIDEOP2R: Video Understanding from Perception to Reasoning' despite score=0.29
+[watch-import] [HF-OVERRIDE] Added 'VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+[watch-import]   Representatio' despite score=0.28
+[watch-import] [SCORE] tag=vision_language_model total=18 selected=4
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+[watch-import]   Reasoning Para (arxiv:2511.04570)
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate VIDEOP2R: Video Understanding from Perception to Reasoning (arxiv:2511.11113)
+[watch-import] [SKIP] duplicate VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+[watch-import]   Representatio (arxiv:2511.02778)
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [HF] vision_language_action_model matched 4 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Don't Blind Your VLA: Aligning Visual Representations for OOD
+[watch-import]   Generalization' despite score=0.24
+[watch-import] [HF-OVERRIDE] Added 'π_RL: Online RL Fine-tuning for Flow-based
+[watch-import]   Vision-Language-Action Models' despite score=0.13
+[watch-import] [SCORE] tag=vision_language_action_model total=4 selected=2
+[watch-import] [COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[watch-import] [SKIP] duplicate Don't Blind Your VLA: Aligning Visual Representations for OOD
+[watch-import]   Generalization (doi:10.48550/arxiv.2510.25616)
+[watch-import] [SKIP] duplicate π_RL: Online RL Fine-tuning for Flow-based
+[watch-import]   Vision-Language-Action Models (arxiv:2510.25889)
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 30 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents v' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'VIDEOP2R: Video Understanding from Perception to Reasoning' despite score=0.29
+[watch-import] [SCORE] tag=large_language_model total=30 selected=6
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+[watch-import]   Reasoning Para (arxiv:2511.04570)
+[watch-import] [SKIP] duplicate MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents v (arxiv:2511.11793)
+[watch-import] [SKIP] duplicate P1: Mastering Physics Olympiads with Reinforcement Learning (arxiv:2511.13612)
+[watch-import] [ADD] Souper-Model: How Simple Arithmetic Unlocks State-of-the-Art LLM Performance → large_language_model｜大语言模型 [GD6V246T]
+[watch-import] [ATTACH] PDF linked for GD6V246T
+[watch-import] [SKIP] duplicate MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents v (arxiv:2511.11793)
+[watch-import] [SKIP] duplicate VIDEOP2R: Video Understanding from Perception to Reasoning (arxiv:2511.11113)
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Scaling Spatial Intelligence with Multimodal Foundation Models' despite score=0.10
+[watch-import] [SCORE] tag=foundation_model total=3 selected=3
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [SKIP] duplicate Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation (arxiv:2511.14993)
+[watch-import] [SKIP] duplicate Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation (arxiv:2511.14993)
+[watch-import] [SKIP] duplicate Scaling Spatial Intelligence with Multimodal Foundation Models (arxiv:2511.13719)
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [SCORE] tag=dexterous_hand total=0 selected=0
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [SCORE] tag=humanoid_robot total=0 selected=0
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 50 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents v' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter' despite score=0.30
+[watch-import] [SCORE] tag=reinforcement_learning total=50 selected=9
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [SKIP] duplicate Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation (arxiv:2511.14993)
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation (arxiv:2511.14993)
+[watch-import] [SKIP] duplicate MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents v (arxiv:2511.11793)
+[watch-import] [SKIP] duplicate P1: Mastering Physics Olympiads with Reinforcement Learning (arxiv:2511.13612)
+[watch-import] [SKIP] duplicate Diffusion Language Models are Super Data Learners (arxiv:2511.03276)
+[watch-import] [SKIP] duplicate Tiny Model, Big Logic: Diversity-Driven Optimization Elicits Large-Model
+[watch-import]   Reaso (arxiv:2511.06221)
+[watch-import] [SKIP] duplicate MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents v (arxiv:2511.11793)
+[watch-import] [SKIP] duplicate One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter (arxiv:2511.10629)
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [HF] imitation_learning matched 1 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'EBT-Policy: Energy Unlocks Emergent Physical Reasoning Capabilities' despite score=0.05
+[watch-import] [SCORE] tag=imitation_learning total=1 selected=1
+[watch-import] [COL] ensured collection 'imitation_learning｜模仿学习' → GMS5HD3W
+[watch-import] [SKIP] duplicate EBT-Policy: Energy Unlocks Emergent Physical Reasoning Capabilities (doi:10.48550/arxiv.2510.27545)
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [HF] world_model matched 1 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'PAN: A World Model for General, Interactable, and Long-Horizon World Simulation' despite score=0.16
+[watch-import] [SCORE] tag=world_model total=1 selected=1
+[watch-import] [COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[watch-import] [SKIP] duplicate PAN: A World Model for General, Interactable, and Long-Horizon World Simulation (arxiv:2511.09057)
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [HF] simulator matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image' despite score=0.08
+[watch-import] [HF-OVERRIDE] Added 'PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image' despite score=0.04
+[watch-import] [SCORE] tag=simulator total=2 selected=2
+[watch-import] [COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[watch-import] [SKIP] duplicate PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image (arxiv:2511.13648)
+[watch-import] [SKIP] duplicate PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image (arxiv:2511.13648)
+[watch-import] [TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[watch-import] [SCORE] tag=motion_planning total=0 selected=0
+[watch-import] [TAG] task_planning 'task_planning｜任务规划' keywords=4
+[watch-import] [HF] task_planning matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Grounding Computer Use Agents on Human Demonstrations' despite score=0.28
+[watch-import] [HF-OVERRIDE] Added 'Part-X-MLLM: Part-aware 3D Multimodal Large Language Model' despite score=0.17
+[watch-import] [SCORE] tag=task_planning total=3 selected=2
+[watch-import] [COL] ensured collection 'task_planning｜任务规划' → IDXJKRDJ
+[watch-import] [SKIP] duplicate Grounding Computer Use Agents on Human Demonstrations (arxiv:2511.07332)
+[watch-import] [SKIP] duplicate Part-X-MLLM: Part-aware 3D Multimodal Large Language Model (arxiv:2511.13647)
+[watch-import] [TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[watch-import] [SCORE] tag=code_based_task_planning total=0 selected=0
+[watch-import] [TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[watch-import] [SCORE] tag=language_based_task_planning total=0 selected=0
+[watch-import] [TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[watch-import] [SCORE] tag=end_to_end_task_planning total=0 selected=0
+[watch-import] [TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[watch-import] [SCORE] tag=grounded_task_planning total=0 selected=0
+[watch-import] [TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[watch-import] [SCORE] tag=transformer_policy total=0 selected=0
+[watch-import] [TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[watch-import] [HF] diffusion_policy matched 1 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'EBT-Policy: Energy Unlocks Emergent Physical Reasoning Capabilities' despite score=0.05
+[watch-import] [SCORE] tag=diffusion_policy total=1 selected=1
+[watch-import] [COL] ensured collection 'diffusion_policy｜扩散策略学习' → 8MXTUFIM
+[watch-import] [SKIP] duplicate EBT-Policy: Energy Unlocks Emergent Physical Reasoning Capabilities (doi:10.48550/arxiv.2510.27545)
+[watch-import] [TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[watch-import] [SCORE] tag=3d_vision total=0 selected=0
+[watch-import] [TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[watch-import] [SCORE] tag=point_based_action total=0 selected=0
+[watch-import] [TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[watch-import] [SCORE] tag=chain_of_thought total=0 selected=0
+[watch-import] [INFO] Recorded 1 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[watch-import] [INFO] Done. Summary: {"candidates": 1, "added": 1, "skipped": 39, "updated": 0, "hf_candidates": 123, "hf_overrides": 22}
+[watch-import] [INFO] Report → /Users/neoone/code/Zotero/reports/watch_20251122_085906.json
+[PIPELINE] ✓ watch completed
+[PIPELINE] → pdf: since_hours=24.0 limit=∞
+[fetch-pdfs] [INFO] No PDF sources found for Souper-Model: How Simple Arithmetic Unlocks State-of-the-Art LLM Performance
+[fetch-pdfs] [INFO] No PDF sources found for Part-X-MLLM: Part-aware 3D Multimodal Large Language Model
+[fetch-pdfs] [INFO] No PDF sources found for Grounding Computer Use Agents on Human Demonstrations
+[fetch-pdfs] [INFO] No PDF sources found for PAN: A World Model for General, Interactable, and Long-Horizon World Simulation
+[fetch-pdfs] [INFO] No PDF sources found for EBT-Policy: Energy Unlocks Emergent Physical Reasoning Capabilities
+[fetch-pdfs] [INFO] No PDF sources found for One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter for Your Diffusion Models
+[fetch-pdfs] [INFO] No PDF sources found for Tiny Model, Big Logic: Diversity-Driven Optimization Elicits Large-Model
+[fetch-pdfs]   Reasoning Ability in VibeThinker-1.5B
+[fetch-pdfs] [INFO] No PDF sources found for Diffusion Language Models are Super Data Learners
+[fetch-pdfs] [INFO] No PDF sources found for Large Language Models Meet Extreme Multi-label Classification: Scaling and Multi-modal Framework
+[fetch-pdfs] [INFO] No PDF sources found for Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation
+[fetch-pdfs] [INFO] No PDF sources found for MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling
+[fetch-pdfs] [INFO] No PDF sources found for π_RL: Online RL Fine-tuning for Flow-based
+[fetch-pdfs]   Vision-Language-Action Models
+[fetch-pdfs] [INFO] No PDF sources found for Don't Blind Your VLA: Aligning Visual Representations for OOD
+[fetch-pdfs]   Generalization
+[fetch-pdfs] [INFO] No PDF sources found for VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+[fetch-pdfs]   Representation
+[fetch-pdfs] [INFO] No PDF sources found for Time-to-Move: Training-Free Motion Controlled Video Generation via Dual-Clock Denoising
+[fetch-pdfs] [INFO] No PDF sources found for ThinkMorph: Emergent Properties in Multimodal Interleaved
+[fetch-pdfs]   Chain-of-Thought Reasoning
+[fetch-pdfs] [INFO] No PDF sources found for IterResearch: Rethinking Long-Horizon Agents via Markovian State
+[fetch-pdfs]   Reconstruction
+[fetch-pdfs] [INFO] No PDF sources found for Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds
+[fetch-pdfs] [INFO] No PDF sources found for Thinking with Video: Video Generation as a Promising Multimodal
+[fetch-pdfs]   Reasoning Paradigm
+[fetch-pdfs] [INFO] No PDF sources found for LEGO-Eval: Towards Fine-Grained Evaluation on Synthesizing 3D Embodied
+[fetch-pdfs]   Environments with Tool Augmentation
+[fetch-pdfs] [INFO] No PDF sources found for First Frame Is the Place to Go for Video Content Customization
+[fetch-pdfs] [INFO] No PDF sources found for V-ReasonBench: Toward Unified Reasoning Benchmark Suite for Video Generation Models
+[fetch-pdfs] [INFO] No PDF sources found for Scaling Spatial Intelligence with Multimodal Foundation Models
+[fetch-pdfs] [INFO] No PDF sources found for Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO
+[fetch-pdfs] [INFO] Item PZ6XEUZ3 already has PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item V8UZVWQU already has PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item AW9U98BW already has PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item REWBUQVM already has PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 3AV3BXVK already has PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 58B584KF already has PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item M2I5GBDR already has PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item 5RI2EBKI already has PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item A45DP7EU already has PDF attachments; skipping.
+[fetch-pdfs] [INFO] Item QX6NEQQC already has PDF attachments; skipping.
+[fetch-pdfs] [INFO] Completed. PDFs added: 0, remaining without PDF: 24.
+[PIPELINE] ✓ pdf completed
+[PIPELINE] → dedupe: limit=∞ since_hours=24.0
+[dedupe] [INFO] Scanned 34 top-level items (after time filter).
+[dedupe] [INFO] No duplicates detected with the current heuristic.
+[PIPELINE] ✓ dedupe completed
+[PIPELINE] → summary: limit=200 since_hours=24.0
+[summaries-err] Missing DASHSCOPE_API_KEY for Qwen provider.

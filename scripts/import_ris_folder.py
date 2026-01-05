@@ -13,12 +13,12 @@ Notes:
   - This script parses minimal RIS (TI/UR/AU/PY/KW). Items are created as
     'webpage' with title/url/authors/date/tags and optionally placed into a collection.
 """
+from __future__ import annotations
+
 try:  # auto-load .env via sitecustomize if present
     import sitecustomize  # noqa: F401
 except Exception:
     pass
-
-from __future__ import annotations
 
 import argparse
 import os

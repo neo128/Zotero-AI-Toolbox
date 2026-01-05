@@ -1,0 +1,102 @@
+[INFO] Started watch. since_hours=24.0 (→ days=7.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2026-01-04
+[HF] weekly fetched=20 from week/2026-W01
+[HF] monthly fetched=27 from month/2026-01
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=123 arXiv=1469 URL=1724 TY=1700
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[SCORE] tag=embodied_ai total=0 selected=0
+[TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[HF] embodied_surveys matched 1 trending papers.
+[SCORE] tag=embodied_surveys total=89 selected=0
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=0 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[HF] teleoperation matched 1 trending papers.
+[SCORE] tag=teleoperation total=4 selected=1
+[COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[SKIP] duplicate GR-Dexter Technical Report (arxiv:2512.24210)
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[HF] robotic_navigation matched 3 trending papers.
+[SCORE] tag=robotic_navigation total=53 selected=0
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[HF] robotic_manipulation matched 4 trending papers.
+[SCORE] tag=robotic_manipulation total=54 selected=0
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[HF] vision_language_model matched 6 trending papers.
+[SCORE] tag=vision_language_model total=67 selected=0
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[HF] vision_language_action_model matched 2 trending papers.
+[HF-OVERRIDE] Added 'Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models wit' despite score=0.13
+[SCORE] tag=vision_language_action_model total=20 selected=2
+[COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[SKIP] duplicate GR-Dexter Technical Report (arxiv:2512.24210)
+[SKIP] duplicate Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models wit (arxiv:2512.22615)
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[HF] large_language_model matched 23 trending papers.
+[SCORE] tag=large_language_model total=73 selected=0
+[TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[HF] foundation_model matched 1 trending papers.
+[SCORE] tag=foundation_model total=1 selected=1
+[COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[SKIP] duplicate Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Aut (arxiv:2512.24385)
+[TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[HF] dexterous_hand matched 1 trending papers.
+[SCORE] tag=dexterous_hand total=1 selected=1
+[COL] ensured collection 'dexterous_hand｜灵巧机械手' → 25I7PA87
+[SKIP] duplicate GR-Dexter Technical Report (arxiv:2512.24210)
+[TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[HF] humanoid_robot matched 1 trending papers.
+[HF-OVERRIDE] Added 'MAI-UI Technical Report: Real-World Centric Foundation GUI Agents' despite score=0.05
+[SCORE] tag=humanoid_robot total=2 selected=1
+[COL] ensured collection 'humanoid_robot｜类人机器人' → B652AA82
+[SKIP] duplicate MAI-UI Technical Report: Real-World Centric Foundation GUI Agents (arxiv:2512.22047)
+[TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[SCORE] tag=quadruped_robot total=0 selected=0
+[TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[SCORE] tag=robotic_arm total=0 selected=0
+[TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[HF] reinforcement_learning matched 23 trending papers.
+[HF-OVERRIDE] Added 'InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Vi' despite score=0.28
+[HF-OVERRIDE] Added 'Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object' despite score=0.26
+[SCORE] tag=reinforcement_learning total=66 selected=5
+[COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[ADD] Improving Multi-step RAG with Hypergraph-based Memory for Long-Context Complex R → reinforcement_learning｜强化学习 [BREDFK9E]
+[ATTACH] PDF linked for BREDFK9E
+[SKIP] duplicate Improving Multi-step RAG with Hypergraph-based Memory for Long-Context Complex R (arxiv:2512.23959)
+[ADD] Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within a → reinforcement_learning｜强化学习 [RVIKP6EQ]
+[ATTACH] PDF linked for RVIKP6EQ
+[SKIP] duplicate InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Vi (arxiv:2512.17504)
+[SKIP] duplicate Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object (arxiv:2512.24766)
+[TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[SCORE] tag=imitation_learning total=0 selected=0
+[TAG] world_model 'world_model｜世界模型' keywords=4
+[SCORE] tag=world_model total=0 selected=0
+[TAG] simulator 'simulator｜仿真平台' keywords=5
+[SCORE] tag=simulator total=50 selected=0
+[TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[SCORE] tag=motion_planning total=0 selected=0
+[TAG] task_planning 'task_planning｜任务规划' keywords=4
+[SCORE] tag=task_planning total=9 selected=0
+[TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[SCORE] tag=code_based_task_planning total=0 selected=0
+[TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[SCORE] tag=language_based_task_planning total=0 selected=0
+[TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[SCORE] tag=end_to_end_task_planning total=0 selected=0
+[TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[SCORE] tag=grounded_task_planning total=0 selected=0
+[TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[SCORE] tag=transformer_policy total=1 selected=0
+[TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[SCORE] tag=diffusion_policy total=0 selected=0
+[TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[SCORE] tag=3d_vision total=0 selected=0
+[TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[SCORE] tag=point_based_action total=0 selected=0
+[TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[SCORE] tag=chain_of_thought total=0 selected=0
+[INFO] Recorded 2 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[INFO] Done. Summary: {"candidates": 2, "added": 2, "skipped": 9, "updated": 0, "hf_candidates": 66, "hf_overrides": 4}

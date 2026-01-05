@@ -1,0 +1,7 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import-err] [ERR] Response ended prematurely
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-11-22
+[watch-import] [HF] weekly fetched=20 from week/2025-W47
+[watch-import] [HF] monthly fetched=50 from month/2025-11
+[watch-import] [INFO] Building library index for dedupe...

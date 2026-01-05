@@ -1,0 +1,80 @@
+TY  - ELEC
+TI  - KITE: Keypoint-Conditioned Policies for Semantic Manipulation
+T2  - KITE: Keypoint-Conditioned Policies for Semantic Manipulation
+PB  - KITE: Keypoint-Conditioned Policies for Semantic Manipulation
+UR  - https://arxiv.org/abs/2306.16605
+KW  - Affordance as Action Tokens
+KW  - Keypoint
+KW  - KITE
+ER  - 
+
+TY  - ELEC
+TI  - CoPa: General Robotic Manipulation through Spatial Constraints of Parts with Foundation Models
+T2  - CoPa: General Robotic Manipulation through Spatial Constraints of Parts with Foundation Models
+PB  - CoPa: General Robotic Manipulation through Spatial Constraints of Parts with Foundation Models
+UR  - https://arxiv.org/abs/2403.08248
+KW  - Affordance as Action Tokens
+KW  - Keypoint
+KW  - CoPa
+ER  - 
+
+TY  - ELEC
+TI  - RoboPoint: A Vision-Language Model for Spatial Affordance Prediction for Robotics
+T2  - RoboPoint: A Vision-Language Model for Spatial Affordance Prediction for Robotics
+PB  - RoboPoint: A Vision-Language Model for Spatial Affordance Prediction for Robotics
+UR  - https://arxiv.org/abs/2406.10721
+KW  - Affordance as Action Tokens
+KW  - Keypoint
+KW  - RoboPoint
+ER  - 
+
+TY  - ELEC
+TI  - RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Manipulation
+T2  - RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Manipulation
+PB  - RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Manipulation
+UR  - https://arxiv.org/abs/2407.04689
+KW  - Affordance as Action Tokens
+KW  - Keypoint
+KW  - RAM
+ER  - 
+
+TY  - ELEC
+TI  - ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation
+T2  - ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation
+PB  - ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation
+UR  - https://arxiv.org/abs/2409.01652
+KW  - Affordance as Action Tokens
+KW  - Keypoint
+KW  - ReKep
+ER  - 
+
+TY  - ELEC
+TI  - OmniManip: Towards General Robotic Manipulation via Object-Centric  Interaction Primitives as Spatial Constraints
+T2  - OmniManip: Towards General Robotic Manipulation via Object-Centric  Interaction Primitives as Spatial Constraints
+PB  - OmniManip: Towards General Robotic Manipulation via Object-Centric  Interaction Primitives as Spatial Constraints
+UR  - https://arxiv.org/abs/2501.03841
+KW  - Affordance as Action Tokens
+KW  - Keypoint
+KW  - OmniManip
+ER  - 
+
+TY  - ELEC
+TI  - Magma: A Foundation Model for Multimodal AI Agents
+T2  - Magma: A Foundation Model for Multimodal AI Agents
+PB  - Magma: A Foundation Model for Multimodal AI Agents
+UR  - https://arxiv.org/abs/2502.13130
+KW  - Affordance as Action Tokens
+KW  - Keypoint
+KW  - Magma
+ER  - 
+
+TY  - ELEC
+TI  - KUDA: Keypoints to Unify Dynamics Learning and Visual Prompting for Open-Vocabulary Robotic Manipulation
+T2  - KUDA: Keypoints to Unify Dynamics Learning and Visual Prompting for Open-Vocabulary Robotic Manipulation
+PB  - KUDA: Keypoints to Unify Dynamics Learning and Visual Prompting for Open-Vocabulary Robotic Manipulation
+UR  - https://arxiv.org/abs/2503.10546
+KW  - Affordance as Action Tokens
+KW  - Keypoint
+KW  - KUDA
+ER  - 
+

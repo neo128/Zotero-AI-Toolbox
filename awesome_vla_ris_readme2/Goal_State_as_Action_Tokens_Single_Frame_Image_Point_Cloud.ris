@@ -1,0 +1,30 @@
+TY  - ELEC
+TI  - Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models
+T2  - Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models
+PB  - Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models
+UR  - https://arxiv.org/abs/2310.10639
+KW  - Goal State as Action Tokens
+KW  - Single-Frame Image / Point Cloud
+KW  - SuSIE
+ER  - 
+
+TY  - ELEC
+TI  - Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts
+T2  - Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts
+PB  - Generate Subgoal Images before Act: Unlocking the Chain-of-Thought Reasoning in Diffusion Model for Robot Manipulation with Multimodal Prompts
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Ni_Generate_Subgoal_Images_before_Act_Unlocking_the_Chain-of-Thought_Reasoning_in_CVPR_2024_paper.html
+KW  - Goal State as Action Tokens
+KW  - Single-Frame Image / Point Cloud
+KW  - CoTDiffusion
+ER  - 
+
+TY  - ELEC
+TI  - CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
+T2  - CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
+PB  - CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
+UR  - https://arxiv.org/abs/2503.22020
+KW  - Goal State as Action Tokens
+KW  - Single-Frame Image / Point Cloud
+KW  - CoT-VLA
+ER  - 
+

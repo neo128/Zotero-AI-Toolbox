@@ -1,0 +1,1224 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=7.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-12-31
+[watch-import] [HF] weekly fetched=20 from week/2026-W01
+[watch-import] [HF] monthly fetched=50 from month/2025-12
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=112 arXiv=1352 URL=1601 TY=1579
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [HF] embodied_ai matched 1 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'TimeBill: Time-Budgeted Inference for Large Language Models' despite score=0.24
+[watch-import] [SCORE] tag=embodied_ai total=1 selected=1
+[watch-import] [COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[watch-import] [SKIP] duplicate TimeBill: Time-Budgeted Inference for Large Language Models (arxiv:2512.21859)
+[watch-import] [TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[watch-import] [HF] embodied_surveys matched 5 trending papers.
+[watch-import] [SCORE] tag=embodied_surveys total=94 selected=10
+[watch-import] [COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[watch-import] [ADD] Better than squareroot cancellation in number theory → embodied_surveys｜具身智能综述 [8EXUU4V9]
+[watch-import] [ATTACH] PDF linked for 8EXUU4V9
+[watch-import] [ADD] Research Directions in Quantum Computer Cybersecurity → embodied_surveys｜具身智能综述 [B5PTT2CV]
+[watch-import] [ATTACH] PDF linked for B5PTT2CV
+[watch-import] [ADD] Observations of the Fermi bubbles and the Galactic center excess with the DArk M → embodied_surveys｜具身智能综述 [HSV2QAIR]
+[watch-import] [ATTACH] PDF linked for HSV2QAIR
+[watch-import] [ADD] Predicting the detection yields of giant planets and brown dwarfs with CSST astr → embodied_surveys｜具身智能综述 [IV9AE2PG]
+[watch-import] [ATTACH] PDF linked for IV9AE2PG
+[watch-import] [ADD] MAMMOTH-LyC: Investigating the Role of Galaxy Mergers in a Strong Lyman Continuu → embodied_surveys｜具身智能综述 [AKAGMFH5]
+[watch-import] [ATTACH] PDF linked for AKAGMFH5
+[watch-import] [ADD] The Dawn of Agentic EDA: A Survey of Autonomous Digital Chip Design → embodied_surveys｜具身智能综述 [PEEP93CE]
+[watch-import] [ATTACH] PDF linked for PEEP93CE
+[watch-import] [ADD] Incorporating Authority Perception, Economic Status, and Behavioral Response in  → embodied_surveys｜具身智能综述 [CG9BC9BK]
+[watch-import] [ATTACH] PDF linked for CG9BC9BK
+[watch-import] [ADD] The GLASS-JWST Early Release Science Program. V. H$α$ luminosity functions at $z → embodied_surveys｜具身智能综述 [V9PDJZUI]
+[watch-import] [ATTACH] PDF linked for V9PDJZUI
+[watch-import] [ADD] Survey on Lattice Gas Models on 2D Lattices: Critical Behavior of Closed Traject → embodied_surveys｜具身智能综述 [W62BSUEN]
+[watch-import] [ATTACH] PDF linked for W62BSUEN
+[watch-import] [ADD] Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing → embodied_surveys｜具身智能综述 [7N95IKUH]
+[watch-import] [ATTACH] PDF linked for 7N95IKUH
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=0 selected=0
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [SCORE] tag=teleoperation total=0 selected=0
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 6 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Yume-1.5: A Text-Controlled Interactive World Generation Model' despite score=0.29
+[watch-import] [HF-OVERRIDE] Added 'QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage' despite score=0.23
+[watch-import] [SCORE] tag=robotic_navigation total=6 selected=4
+[watch-import] [COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[watch-import] [ADD] Web World Models → robotic_navigation｜机器人导航 [SXS5H93J]
+[watch-import] [ATTACH] PDF linked for SXS5H93J
+[watch-import] [SKIP] duplicate Yume-1.5: A Text-Controlled Interactive World Generation Model (arxiv:2512.22096)
+[watch-import] [SKIP] duplicate Yume-1.5: A Text-Controlled Interactive World Generation Model (arxiv:2512.22096)
+[watch-import] [SKIP] duplicate QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage (arxiv:2512.12967)
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [HF] robotic_manipulation matched 3 trending papers.
+[watch-import] [SCORE] tag=robotic_manipulation total=3 selected=3
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [ADD] Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object → robotic_manipulation｜机器人操作 [5KDCC6QV]
+[watch-import] [ATTACH] PDF linked for 5KDCC6QV
+[watch-import] [ADD] Act2Goal: From World Model To General Goal-conditioned Policy → robotic_manipulation｜机器人操作 [KMDS3N52]
+[watch-import] [ATTACH] PDF linked for KMDS3N52
+[watch-import] [SKIP] duplicate Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object (arxiv:2512.23705)
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 7 trending papers.
+[watch-import] [SCORE] tag=vision_language_model total=83 selected=10
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [ADD] RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion → vision_language_model｜视觉语言模型 [S2W75QP3]
+[watch-import] [ATTACH] PDF linked for S2W75QP3
+[watch-import] [ADD] Same or Not? Enhancing Visual Perception in Vision-Language Models → vision_language_model｜视觉语言模型 [D34WII3P]
+[watch-import] [ATTACH] PDF linked for D34WII3P
+[watch-import] [ADD] VL-RouterBench: A Benchmark for Vision-Language Model Routing → vision_language_model｜视觉语言模型 [NIISV75X]
+[watch-import] [ATTACH] PDF linked for NIISV75X
+[watch-import] [ADD] Toward Trustworthy Agentic AI: A Multimodal Framework for Preventing Prompt Inje → vision_language_model｜视觉语言模型 [VT2RK84Z]
+[watch-import] [ATTACH] PDF linked for VT2RK84Z
+[watch-import] [ADD] SpatialMosaic: A Multiview VLM Dataset for Partial Visibility → vision_language_model｜视觉语言模型 [HPQ9834P]
+[watch-import] [ATTACH] PDF linked for HPQ9834P
+[watch-import] [ADD] ViLaCD-R1: A Vision-Language Framework for Semantic Change Detection in Remote S → vision_language_model｜视觉语言模型 [GAZA4XNK]
+[watch-import] [ATTACH] PDF linked for GAZA4XNK
+[watch-import] [ADD] Multimodal Interpretation of Remote Sensing Images: Dynamic Resolution Input Str → vision_language_model｜视觉语言模型 [FVQ3UUQH]
+[watch-import] [ATTACH] PDF linked for FVQ3UUQH
+[watch-import] [ADD] ProGuard: Towards Proactive Multimodal Safeguard → vision_language_model｜视觉语言模型 [AA3FTG6Z]
+[watch-import] [ATTACH] PDF linked for AA3FTG6Z
+[watch-import] [ADD] Instruction-Following Evaluation of Large Vision-Language Models → vision_language_model｜视觉语言模型 [5U2W9HJZ]
+[watch-import] [ATTACH] PDF linked for 5U2W9HJZ
+[watch-import] [ADD] PathFound: An Agentic Multimodal Model Activating Evidence-seeking Pathological  → vision_language_model｜视觉语言模型 [9KIA5U7M]
+[watch-import] [ATTACH] PDF linked for 9KIA5U7M
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [HF] vision_language_action_model matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Phys' despite score=0.11
+[watch-import] [SCORE] tag=vision_language_action_model total=20 selected=6
+[watch-import] [COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[watch-import] [ADD] Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models wit → vision_language_action_model｜视觉语言动作模型 [XMES3WSD]
+[watch-import] [ATTACH] PDF linked for XMES3WSD
+[watch-import] [ADD] Detections of Compact Radio Continuum toward Methanol Maser Rings Using the VLA → vision_language_action_model｜视觉语言动作模型 [T4URAGZ6]
+[watch-import] [ATTACH] PDF linked for T4URAGZ6
+[watch-import] [ADD] SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling → vision_language_action_model｜视觉语言动作模型 [SUMR4BMG]
+[watch-import] [ATTACH] PDF linked for SUMR4BMG
+[watch-import] [ADD] Agentic AI-Enhanced Semantic Communications: Foundations, Architecture, and Appl → vision_language_action_model｜视觉语言动作模型 [7XADXUWE]
+[watch-import] [ATTACH] PDF linked for 7XADXUWE
+[watch-import] [ADD] Agentic Physical AI toward a Domain-Specific Foundation Model for Nuclear Reacto → vision_language_action_model｜视觉语言动作模型 [HX9Z7ZUZ]
+[watch-import] [ATTACH] PDF linked for HX9Z7ZUZ
+[watch-import] [SKIP] duplicate PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Phys (arxiv:2512.16793)
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 33 trending papers.
+[watch-import] [SCORE] tag=large_language_model total=83 selected=10
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [ADD] Eliciting Behaviors in Multi-Turn Conversations → large_language_model｜大语言模型 [FH2HR8MQ]
+[watch-import] [ATTACH] PDF linked for FH2HR8MQ
+[watch-import] [ADD] Fine-Tuning LLMs with Fine-Grained Human Feedback on Text Spans → large_language_model｜大语言模型 [IXP8ZHBI]
+[watch-import] [ATTACH] PDF linked for IXP8ZHBI
+[watch-import] [SKIP] duplicate Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing (arxiv:2512.23684v1)
+[watch-import] [ADD] BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimizati → large_language_model｜大语言模型 [7I5I4Q96]
+[watch-import] [ATTACH] PDF linked for 7I5I4Q96
+[watch-import] [ADD] Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing → large_language_model｜大语言模型 [UQMJHBFJ]
+[watch-import] [ATTACH] PDF linked for UQMJHBFJ
+[watch-import] [ADD] Enhanced Web Payload Classification Using WAMM: An AI-Based Framework for Datase → large_language_model｜大语言模型 [RC7MR29R]
+[watch-import] [ATTACH] PDF linked for RC7MR29R
+[watch-import] [ADD] The Big Three in Marriage Talk: LLM-Assisted Analysis of Moral Ethics and Sentim → large_language_model｜大语言模型 [NCGGWWUQ]
+[watch-import] [ATTACH] PDF linked for NCGGWWUQ
+[watch-import] [ADD] Divergent-Convergent Thinking in Large Language Models for Creative Problem Gene → large_language_model｜大语言模型 [3KD8FGPJ]
+[watch-import] [ATTACH] PDF linked for 3KD8FGPJ
+[watch-import] [ADD] Can AI Recognize Its Own Reflection? Self-Detection Performance of LLMs in Compu → large_language_model｜大语言模型 [E3HCHJJB]
+[watch-import] [ATTACH] PDF linked for E3HCHJJB
+[watch-import] [SKIP] duplicate Instruction-Following Evaluation of Large Vision-Language Models (arxiv:2512.23572v1)
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 6 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.28
+[watch-import] [HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.27
+[watch-import] [SCORE] tag=foundation_model total=6 selected=4
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[watch-import] [SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[watch-import] [SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [SCORE] tag=dexterous_hand total=0 selected=0
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [HF] humanoid_robot matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.28
+[watch-import] [HF-OVERRIDE] Added 'PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Phys' despite score=0.11
+[watch-import] [SCORE] tag=humanoid_robot total=8 selected=3
+[watch-import] [COL] ensured collection 'humanoid_robot｜类人机器人' → B652AA82
+[watch-import] [SKIP] duplicate MAI-UI Technical Report: Real-World Centric Foundation GUI Agents (arxiv:2512.22047)
+[watch-import] [SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[watch-import] [SKIP] duplicate PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Phys (arxiv:2512.16793)
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 48 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Vi' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'Yume-1.5: A Text-Controlled Interactive World Generation Model' despite score=0.29
+[watch-import] [SCORE] tag=reinforcement_learning total=93 selected=12
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [SKIP] duplicate Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object (arxiv:2512.23705)
+[watch-import] [SKIP] duplicate Yume-1.5: A Text-Controlled Interactive World Generation Model (arxiv:2512.22096)
+[watch-import] [ADD] Robo-Dopamine: General Process Reward Modeling for High-Precision Robotic Manipu → reinforcement_learning｜强化学习 [6GCJEKKR]
+[watch-import] [ATTACH] PDF linked for 6GCJEKKR
+[watch-import] [ADD] Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning → reinforcement_learning｜强化学习 [X9B55NH6]
+[watch-import] [ATTACH] PDF linked for X9B55NH6
+[watch-import] [SKIP] duplicate ProGuard: Towards Proactive Multimodal Safeguard (arxiv:2512.23573v1)
+[watch-import] [ADD] Hierarchical Decision Mamba Meets Agentic AI: A Novel Approach for RAN Slicing i → reinforcement_learning｜强化学习 [296C3S96]
+[watch-import] [ATTACH] PDF linked for 296C3S96
+[watch-import] [ADD] Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Prov → reinforcement_learning｜强化学习 [N72FWWNQ]
+[watch-import] [ATTACH] PDF linked for N72FWWNQ
+[watch-import] [ADD] Replay Failures as Successes: Sample-Efficient Reinforcement Learning for Instru → reinforcement_learning｜强化学习 [72EZ267K]
+[watch-import] [ATTACH] PDF linked for 72EZ267K
+[watch-import] [ADD] MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning → reinforcement_learning｜强化学习 [2945JN5F]
+[watch-import] [ATTACH] PDF linked for 2945JN5F
+[watch-import] [ADD] AGRO-SQL: Agentic Group-Relative Optimization with High-Fidelity Data Synthesis → reinforcement_learning｜强化学习 [A5FZ8JRD]
+[watch-import] [ATTACH] PDF linked for A5FZ8JRD
+[watch-import] [ADD] InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Vi → reinforcement_learning｜强化学习 [N6CINW82]
+[watch-import] [ATTACH] PDF linked for N6CINW82
+[watch-import] [SKIP] duplicate Yume-1.5: A Text-Controlled Interactive World Generation Model (arxiv:2512.22096)
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [SCORE] tag=imitation_learning total=0 selected=0
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [HF] world_model matched 6 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.27
+[watch-import] [HF-OVERRIDE] Added 'Envision: Benchmarking Unified Understanding & Generation for Causal World Proce' despite score=0.19
+[watch-import] [SCORE] tag=world_model total=6 selected=4
+[watch-import] [COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[watch-import] [SKIP] duplicate Act2Goal: From World Model To General Goal-conditioned Policy (arxiv:2512.23541)
+[watch-import] [SKIP] duplicate Web World Models (arxiv:2512.23676)
+[watch-import] [SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[watch-import] [SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [HF] simulator matched 3 trending papers.
+[watch-import] [SCORE] tag=simulator total=55 selected=10
+[watch-import] [COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[watch-import] [ADD] Adaptable Teastore with Energy Consumption Awareness: A Case Study → simulator｜仿真平台 [H962XADH]
+[watch-import] [ATTACH] PDF linked for H962XADH
+[watch-import] [ADD] Compressibility Effects on Leading-Edge Dynamic Stall Criteria at High Reynolds  → simulator｜仿真平台 [I9TR8457]
+[watch-import] [ATTACH] PDF linked for I9TR8457
+[watch-import] [SKIP] duplicate Robo-Dopamine: General Process Reward Modeling for High-Precision Robotic Manipu (arxiv:2512.23703v1)
+[watch-import] [ADD] Rethinking conditioning in polarimetry: a new framework beyond $\ell^2$-based me → simulator｜仿真平台 [KWDXHMFF]
+[watch-import] [ATTACH] PDF linked for KWDXHMFF
+[watch-import] [ADD] Web World Models → simulator｜仿真平台 [3JP5KT2R]
+[watch-import] [ATTACH] PDF linked for 3JP5KT2R
+[watch-import] [ADD] Joint Modeling of Longitudinal and Survival Data: A Bayesian Approach for Predic → simulator｜仿真平台 [N4P7TNJF]
+[watch-import] [ATTACH] PDF linked for N4P7TNJF
+[watch-import] [ADD] Physics-Informed Neural Networks for Device and Circuit Modeling: A Case Study o → simulator｜仿真平台 [6DEPJXIG]
+[watch-import] [ATTACH] PDF linked for 6DEPJXIG
+[watch-import] [ADD] Information is localized in growing network models → simulator｜仿真平台 [SQJDAUKC]
+[watch-import] [ATTACH] PDF linked for SQJDAUKC
+[watch-import] [SKIP] duplicate Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning (arxiv:2512.23617v1)
+[watch-import] [ADD] Predicting random close packing of binary hard-disk mixtures via third-virial-ba → simulator｜仿真平台 [NGHEFBQ8]
+[watch-import] [ATTACH] PDF linked for NGHEFBQ8
+[watch-import] [TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[watch-import] [SCORE] tag=motion_planning total=0 selected=0
+[watch-import] [TAG] task_planning 'task_planning｜任务规划' keywords=4
+[watch-import] [SCORE] tag=task_planning total=10 selected=2
+[watch-import] [COL] ensured collection 'task_planning｜任务规划' → IDXJKRDJ
+[watch-import] [ADD] DriveLaW:Unifying Planning and Video Generation in a Latent Driving World → task_planning｜任务规划 [4XC5HRUG]
+[watch-import] [ATTACH] PDF linked for 4XC5HRUG
+[watch-import] [ADD] SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search → task_planning｜任务规划 [3NXQVS57]
+[watch-import] [ATTACH] PDF linked for 3NXQVS57
+[watch-import] [TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[watch-import] [SCORE] tag=code_based_task_planning total=0 selected=0
+[watch-import] [TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[watch-import] [SCORE] tag=language_based_task_planning total=0 selected=0
+[watch-import] [TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[watch-import] [SCORE] tag=end_to_end_task_planning total=0 selected=0
+[watch-import] [TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[watch-import] [SCORE] tag=grounded_task_planning total=0 selected=0
+[watch-import] [TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[watch-import] [SCORE] tag=transformer_policy total=1 selected=1
+[watch-import] [COL] ensured collection 'transformer_policy｜Transformer控制策略' → URZGRBAC
+[watch-import] [ADD] Elliptical liquid jets in a supersonic cross-flow: Influence of J on atomization → transformer_policy｜Transformer控制策略 [5599QAQQ]
+[watch-import] [ATTACH] PDF linked for 5599QAQQ
+[watch-import] [TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[watch-import] [SCORE] tag=diffusion_policy total=0 selected=0
+[watch-import] [TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[watch-import] [SCORE] tag=3d_vision total=0 selected=0
+[watch-import] [TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[watch-import] [SCORE] tag=point_based_action total=0 selected=0
+[watch-import] [TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[watch-import] [SCORE] tag=chain_of_thought total=0 selected=0
+[watch-import] [INFO] Recorded 55 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[watch-import] [INFO] Done. Summary: {"candidates": 55, "added": 55, "skipped": 25, "updated": 0, "hf_candidates": 123, "hf_overrides": 12}
+[watch-import] [INFO] Report → /Users/neoone/code/Zotero/reports/watch_20251231_113311.json
+[PIPELINE] ✓ watch completed
+[PIPELINE] → pdf: since_hours=24.0 limit=∞
+[fetch-pdfs] [TRY] 8EXUU4V9 ← existing attachment link: https://arxiv.org/pdf/2512.23681v1
+[fetch-pdfs] [OK] Linked local PDF for 8EXUU4V9
+[fetch-pdfs] [TRY] B5PTT2CV ← existing attachment link: https://arxiv.org/pdf/2512.23607v1
+[fetch-pdfs] [OK] Linked local PDF for B5PTT2CV
+[fetch-pdfs] [TRY] HSV2QAIR ← existing attachment link: https://arxiv.org/pdf/2512.23458v1
+[fetch-pdfs] [OK] Linked local PDF for HSV2QAIR
+[fetch-pdfs] [TRY] IV9AE2PG ← existing attachment link: https://arxiv.org/pdf/2512.23378v1
+[fetch-pdfs] [OK] Linked local PDF for IV9AE2PG
+[fetch-pdfs] [TRY] AKAGMFH5 ← existing attachment link: https://arxiv.org/pdf/2512.23202v1
+[fetch-pdfs] [OK] Linked local PDF for AKAGMFH5
+[fetch-pdfs] [TRY] PEEP93CE ← existing attachment link: https://arxiv.org/pdf/2512.23189v1
+[fetch-pdfs] [OK] Linked local PDF for PEEP93CE
+[fetch-pdfs] [TRY] CG9BC9BK ← existing attachment link: https://arxiv.org/pdf/2512.23188v1
+[fetch-pdfs] [OK] Linked local PDF for CG9BC9BK
+[fetch-pdfs] [TRY] V9PDJZUI ← existing attachment link: https://arxiv.org/pdf/2512.23157v1
+[fetch-pdfs] [OK] Linked local PDF for V9PDJZUI
+[fetch-pdfs] [TRY] W62BSUEN ← existing attachment link: https://arxiv.org/pdf/2512.23129v1
+[fetch-pdfs] [OK] Linked local PDF for W62BSUEN
+[fetch-pdfs] [TRY] 7N95IKUH ← existing attachment link: https://arxiv.org/pdf/2512.23684v1
+[fetch-pdfs] [OK] Linked local PDF for 7N95IKUH
+[fetch-pdfs] [TRY] SXS5H93J ← existing attachment link: https://arxiv.org/pdf/2512.23676.pdf
+[fetch-pdfs] [OK] Linked local PDF for SXS5H93J
+[fetch-pdfs] [TRY] 5KDCC6QV ← existing attachment link: https://arxiv.org/pdf/2512.23705.pdf
+[fetch-pdfs] [OK] Linked local PDF for 5KDCC6QV
+[fetch-pdfs] [TRY] KMDS3N52 ← existing attachment link: https://arxiv.org/pdf/2512.23541.pdf
+[fetch-pdfs] [OK] Linked local PDF for KMDS3N52
+[fetch-pdfs] [TRY] S2W75QP3 ← existing attachment link: https://arxiv.org/pdf/2512.23649v1
+[fetch-pdfs] [OK] Linked local PDF for S2W75QP3
+[fetch-pdfs] [TRY] D34WII3P ← existing attachment link: https://arxiv.org/pdf/2512.23592v1
+[fetch-pdfs] [OK] Linked local PDF for D34WII3P
+[fetch-pdfs] [TRY] NIISV75X ← existing attachment link: https://arxiv.org/pdf/2512.23562v1
+[fetch-pdfs] [OK] Linked local PDF for NIISV75X
+[fetch-pdfs] [TRY] VT2RK84Z ← existing attachment link: https://arxiv.org/pdf/2512.23557v1
+[fetch-pdfs] [OK] Linked local PDF for VT2RK84Z
+[fetch-pdfs] [TRY] HPQ9834P ← existing attachment link: https://arxiv.org/pdf/2512.23365v1
+[fetch-pdfs] [OK] Linked local PDF for HPQ9834P
+[fetch-pdfs] [TRY] GAZA4XNK ← existing attachment link: https://arxiv.org/pdf/2512.23244v1
+[fetch-pdfs] [OK] Linked local PDF for GAZA4XNK
+[fetch-pdfs] [TRY] FVQ3UUQH ← existing attachment link: https://arxiv.org/pdf/2512.23243v1
+[fetch-pdfs] [OK] Linked local PDF for FVQ3UUQH
+[fetch-pdfs] [TRY] AA3FTG6Z ← existing attachment link: https://arxiv.org/pdf/2512.23573v1
+[fetch-pdfs] [OK] Linked local PDF for AA3FTG6Z
+[fetch-pdfs] [TRY] 5U2W9HJZ ← existing attachment link: https://arxiv.org/pdf/2512.23572v1
+[fetch-pdfs] [OK] Linked local PDF for 5U2W9HJZ
+[fetch-pdfs] [TRY] 9KIA5U7M ← existing attachment link: https://arxiv.org/pdf/2512.23545v1
+[fetch-pdfs] [OK] Linked local PDF for 9KIA5U7M
+[fetch-pdfs] [TRY] XMES3WSD ← existing attachment link: https://arxiv.org/pdf/2512.22615.pdf
+[fetch-pdfs] [OK] Linked local PDF for XMES3WSD
+[fetch-pdfs] [TRY] T4URAGZ6 ← existing attachment link: https://arxiv.org/pdf/2512.23452v1
+[fetch-pdfs] [OK] Linked local PDF for T4URAGZ6
+[fetch-pdfs] [TRY] SUMR4BMG ← existing attachment link: https://arxiv.org/pdf/2512.23162v1
+[fetch-pdfs] [OK] Linked local PDF for SUMR4BMG
+[fetch-pdfs] [TRY] 7XADXUWE ← existing attachment link: https://arxiv.org/pdf/2512.23294v1
+[fetch-pdfs] [OK] Linked local PDF for 7XADXUWE
+[fetch-pdfs] [TRY] HX9Z7ZUZ ← existing attachment link: https://arxiv.org/pdf/2512.23292v1
+[fetch-pdfs] [OK] Linked local PDF for HX9Z7ZUZ
+[fetch-pdfs] [TRY] FH2HR8MQ ← existing attachment link: https://arxiv.org/pdf/2512.23701v1
+[fetch-pdfs] [OK] Linked local PDF for FH2HR8MQ
+[fetch-pdfs] [TRY] IXP8ZHBI ← existing attachment link: https://arxiv.org/pdf/2512.23693v1
+[fetch-pdfs] [OK] Linked local PDF for IXP8ZHBI
+[fetch-pdfs] [TRY] 7I5I4Q96 ← existing attachment link: https://arxiv.org/pdf/2512.23631v1
+[fetch-pdfs] [OK] Linked local PDF for 7I5I4Q96
+[fetch-pdfs] [TRY] UQMJHBFJ ← existing attachment link: https://arxiv.org/pdf/2512.23611v1
+[fetch-pdfs] [OK] Linked local PDF for UQMJHBFJ
+[fetch-pdfs] [TRY] RC7MR29R ← existing attachment link: https://arxiv.org/pdf/2512.23610v1
+[fetch-pdfs] [OK] Linked local PDF for RC7MR29R
+[fetch-pdfs] [TRY] NCGGWWUQ ← existing attachment link: https://arxiv.org/pdf/2512.23609v1
+[fetch-pdfs] [OK] Linked local PDF for NCGGWWUQ
+[fetch-pdfs] [TRY] 3KD8FGPJ ← existing attachment link: https://arxiv.org/pdf/2512.23601v1
+[fetch-pdfs] [OK] Linked local PDF for 3KD8FGPJ
+[fetch-pdfs] [TRY] E3HCHJJB ← existing attachment link: https://arxiv.org/pdf/2512.23587v1
+[fetch-pdfs] [OK] Linked local PDF for E3HCHJJB
+[fetch-pdfs] [TRY] 6GCJEKKR ← existing attachment link: https://arxiv.org/pdf/2512.23703v1
+[fetch-pdfs] [OK] Linked local PDF for 6GCJEKKR
+[fetch-pdfs] [TRY] X9B55NH6 ← existing attachment link: https://arxiv.org/pdf/2512.23617v1
+[fetch-pdfs] [OK] Linked local PDF for X9B55NH6
+[fetch-pdfs] [TRY] 296C3S96 ← existing attachment link: https://arxiv.org/pdf/2512.23502v1
+[fetch-pdfs] [OK] Linked local PDF for 296C3S96
+[fetch-pdfs] [TRY] N72FWWNQ ← existing attachment link: https://arxiv.org/pdf/2512.23480v1
+[fetch-pdfs] [OK] Linked local PDF for N72FWWNQ
+[fetch-pdfs] [TRY] 72EZ267K ← existing attachment link: https://arxiv.org/pdf/2512.23457v1
+[fetch-pdfs] [OK] Linked local PDF for 72EZ267K
+[fetch-pdfs] [TRY] 2945JN5F ← existing attachment link: https://arxiv.org/pdf/2512.23412v1
+[fetch-pdfs] [OK] Linked local PDF for 2945JN5F
+[fetch-pdfs] [TRY] A5FZ8JRD ← existing attachment link: https://arxiv.org/pdf/2512.23366v1
+[fetch-pdfs] [OK] Linked local PDF for A5FZ8JRD
+[fetch-pdfs] [TRY] N6CINW82 ← existing attachment link: https://arxiv.org/pdf/2512.17504.pdf
+[fetch-pdfs] [OK] Linked local PDF for N6CINW82
+[fetch-pdfs] [TRY] H962XADH ← existing attachment link: https://arxiv.org/pdf/2512.23498v1
+[fetch-pdfs] [OK] Linked local PDF for H962XADH
+[fetch-pdfs] [TRY] I9TR8457 ← existing attachment link: https://arxiv.org/pdf/2512.23704v1
+[fetch-pdfs] [OK] Linked local PDF for I9TR8457
+[fetch-pdfs] [TRY] KWDXHMFF ← existing attachment link: https://arxiv.org/pdf/2512.23689v1
+[fetch-pdfs] [OK] Linked local PDF for KWDXHMFF
+[fetch-pdfs] [TRY] 3JP5KT2R ← existing attachment link: https://arxiv.org/pdf/2512.23676v1
+[fetch-pdfs] [OK] Linked local PDF for 3JP5KT2R
+[fetch-pdfs] [TRY] N4P7TNJF ← existing attachment link: https://arxiv.org/pdf/2512.23627v1
+[fetch-pdfs] [OK] Linked local PDF for N4P7TNJF
+[fetch-pdfs] [TRY] 6DEPJXIG ← existing attachment link: https://arxiv.org/pdf/2512.23624v1
+[fetch-pdfs] [OK] Linked local PDF for 6DEPJXIG
+[fetch-pdfs] [TRY] SQJDAUKC ← existing attachment link: https://arxiv.org/pdf/2512.23622v1
+[fetch-pdfs] [OK] Linked local PDF for SQJDAUKC
+[fetch-pdfs] [TRY] NGHEFBQ8 ← existing attachment link: https://arxiv.org/pdf/2512.23613v1
+[fetch-pdfs] [OK] Linked local PDF for NGHEFBQ8
+[fetch-pdfs] [TRY] 4XC5HRUG ← existing attachment link: https://arxiv.org/pdf/2512.23421v1
+[fetch-pdfs] [OK] Linked local PDF for 4XC5HRUG
+[fetch-pdfs] [TRY] 3NXQVS57 ← existing attachment link: https://arxiv.org/pdf/2512.23167v1
+[fetch-pdfs] [OK] Linked local PDF for 3NXQVS57
+[fetch-pdfs] [TRY] 5599QAQQ ← existing attachment link: https://arxiv.org/pdf/2512.23360v1
+[fetch-pdfs] [OK] Linked local PDF for 5599QAQQ
+[fetch-pdfs] [INFO] No PDF sources found for Wearable technology for robotic manipulation and learning
+[fetch-pdfs] [INFO] Completed. PDFs added: 55, remaining without PDF: 1.
+[PIPELINE] ✓ pdf completed
+[PIPELINE] → dedupe: limit=∞ since_hours=24.0
+[dedupe] [INFO] Scanned 57 top-level items (after time filter).
+[dedupe] [INFO] No duplicates detected with the current heuristic.
+[PIPELINE] ✓ dedupe completed
+[PIPELINE] → summary: limit=200 since_hours=24.0
+[summaries] [INFO] Fetched 200 Zotero items before time-window filtering.
+[summaries] [INFO] 167 items remain after applying modified-since 24.0h window.
+[summaries] [INFO] Processing Elliptical_liquid_jets_in_a_supersonic_cross-flow__Influence_of_J_on_atomization.pdf (Z4J5M75I)
+[summaries]   - Reading Elliptical_liquid_jets_in_a_supersonic_cross-flow__Influence_of_J_on_atomization.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing SPIRAL__Symbolic_LLM_Planning_via_Grounded_and_Reflective_Search.pdf (CC6UBRGN)
+[summaries]   - Reading SPIRAL__Symbolic_LLM_Planning_via_Grounded_and_Reflective_Search.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DriveLaW_Unifying_Planning_and_Video_Generation_in_a_Latent_Driving_World.pdf (DUKDJISR)
+[summaries]   - Reading DriveLaW_Unifying_Planning_and_Video_Generation_in_a_Latent_Driving_World.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Predicting_random_close_packing_of_binary_hard-disk_mixtures_via_third-virial-ba.pdf (GHTG7URI)
+[summaries]   - Reading Predicting_random_close_packing_of_binary_hard-disk_mixtures_via_third-virial-ba.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Information_is_localized_in_growing_network_models.pdf (FQW7IE3I)
+[summaries]   - Reading Information_is_localized_in_growing_network_models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Physics-Informed_Neural_Networks_for_Device_and_Circuit_Modeling__A_Case_Study_o.pdf (6B2633GN)
+[summaries]   - Reading Physics-Informed_Neural_Networks_for_Device_and_Circuit_Modeling__A_Case_Study_o.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Joint_Modeling_of_Longitudinal_and_Survival_Data__A_Bayesian_Approach_for_Predic.pdf (KS6K4R26)
+[summaries]   - Reading Joint_Modeling_of_Longitudinal_and_Survival_Data__A_Bayesian_Approach_for_Predic.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Web_World_Models.pdf (IRT22IM7)
+[summaries]   - Reading Web_World_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Rethinking_conditioning_in_polarimetry__a_new_framework_beyond___ell_2_-based_me.pdf (8VA9GB84)
+[summaries]   - Reading Rethinking_conditioning_in_polarimetry__a_new_framework_beyond___ell_2_-based_me.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Compressibility_Effects_on_Leading-Edge_Dynamic_Stall_Criteria_at_High_Reynolds_.pdf (5K54TCDH)
+[summaries]   - Reading Compressibility_Effects_on_Leading-Edge_Dynamic_Stall_Criteria_at_High_Reynolds_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Adaptable_Teastore_with_Energy_Consumption_Awareness__A_Case_Study.pdf (59MS6WNS)
+[summaries]   - Reading Adaptable_Teastore_with_Energy_Consumption_Awareness__A_Case_Study.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing InsertAnywhere__Bridging_4D_Scene_Geometry_and_Diffusion_Models_for_Realistic_Vi.pdf (29QWG683)
+[summaries]   - Reading InsertAnywhere__Bridging_4D_Scene_Geometry_and_Diffusion_Models_for_Realistic_Vi.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing AGRO-SQL__Agentic_Group-Relative_Optimization_with_High-Fidelity_Data_Synthesis.pdf (56TMT5FM)
+[summaries]   - Reading AGRO-SQL__Agentic_Group-Relative_Optimization_with_High-Fidelity_Data_Synthesis.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing MindWatcher__Toward_Smarter_Multimodal_Tool-Integrated_Reasoning.pdf (EFVEBUEV)
+[summaries]   - Reading MindWatcher__Toward_Smarter_Multimodal_Tool-Integrated_Reasoning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Replay_Failures_as_Successes__Sample-Efficient_Reinforcement_Learning_for_Instru.pdf (QCH4WHH6)
+[summaries]   - Reading Replay_Failures_as_Successes__Sample-Efficient_Reinforcement_Learning_for_Instru.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Agentic_AI_for_Autonomous_Defense_in_Software_Supply_Chain_Security__Beyond_Prov.pdf (UD2MBBRG)
+[summaries]   - Reading Agentic_AI_for_Autonomous_Defense_in_Software_Supply_Chain_Security__Beyond_Prov.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Hierarchical_Decision_Mamba_Meets_Agentic_AI__A_Novel_Approach_for_RAN_Slicing_i.pdf (CC9V6UNR)
+[summaries]   - Reading Hierarchical_Decision_Mamba_Meets_Agentic_AI__A_Novel_Approach_for_RAN_Slicing_i.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Le_Cam_Distortion__A_Decision-Theoretic_Framework_for_Robust_Transfer_Learning.pdf (NZTADVU4)
+[summaries]   - Reading Le_Cam_Distortion__A_Decision-Theoretic_Framework_for_Robust_Transfer_Learning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Robo-Dopamine__General_Process_Reward_Modeling_for_High-Precision_Robotic_Manipu.pdf (GE4HIXDJ)
+[summaries]   - Reading Robo-Dopamine__General_Process_Reward_Modeling_for_High-Precision_Robotic_Manipu.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Can_AI_Recognize_Its_Own_Reflection__Self-Detection_Performance_of_LLMs_in_Compu.pdf (RGIBH86S)
+[summaries]   - Reading Can_AI_Recognize_Its_Own_Reflection__Self-Detection_Performance_of_LLMs_in_Compu.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Divergent-Convergent_Thinking_in_Large_Language_Models_for_Creative_Problem_Gene.pdf (TKUCQ8NG)
+[summaries]   - Reading Divergent-Convergent_Thinking_in_Large_Language_Models_for_Creative_Problem_Gene.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing The_Big_Three_in_Marriage_Talk__LLM-Assisted_Analysis_of_Moral_Ethics_and_Sentim.pdf (XKS295XC)
+[summaries]   - Reading The_Big_Three_in_Marriage_Talk__LLM-Assisted_Analysis_of_Moral_Ethics_and_Sentim.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Enhanced_Web_Payload_Classification_Using_WAMM__An_AI-Based_Framework_for_Datase.pdf (K4JGGEM7)
+[summaries]   - Reading Enhanced_Web_Payload_Classification_Using_WAMM__An_AI-Based_Framework_for_Datase.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Close_the_Loop__Synthesizing_Infinite_Tool-Use_Data_via_Multi-Agent_Role-Playing.pdf (XAV2CHJJ)
+[summaries]   - Reading Close_the_Loop__Synthesizing_Infinite_Tool-Use_Data_via_Multi-Agent_Role-Playing.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing BOAD__Discovering_Hierarchical_Software_Engineering_Agents_via_Bandit_Optimizati.pdf (8ISK2WKB)
+[summaries]   - Reading BOAD__Discovering_Hierarchical_Software_Engineering_Agents_via_Bandit_Optimizati.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Fine-Tuning_LLMs_with_Fine-Grained_Human_Feedback_on_Text_Spans.pdf (RAVDD38M)
+[summaries]   - Reading Fine-Tuning_LLMs_with_Fine-Grained_Human_Feedback_on_Text_Spans.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Eliciting_Behaviors_in_Multi-Turn_Conversations.pdf (NUUIPVSV)
+[summaries]   - Reading Eliciting_Behaviors_in_Multi-Turn_Conversations.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Agentic_Physical_AI_toward_a_Domain-Specific_Foundation_Model_for_Nuclear_Reacto.pdf (4DMBUKBB)
+[summaries]   - Reading Agentic_Physical_AI_toward_a_Domain-Specific_Foundation_Model_for_Nuclear_Reacto.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Agentic_AI-Enhanced_Semantic_Communications__Foundations__Architecture__and_Appl.pdf (CZ3HXS9V)
+[summaries]   - Reading Agentic_AI-Enhanced_Semantic_Communications__Foundations__Architecture__and_Appl.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing SurgWorld__Learning_Surgical_Robot_Policies_from_Videos_via_World_Modeling.pdf (AHZFPPVG)
+[summaries]   - Reading SurgWorld__Learning_Surgical_Robot_Policies_from_Videos_via_World_Modeling.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Detections_of_Compact_Radio_Continuum_toward_Methanol_Maser_Rings_Using_the_VLA.pdf (FNTBQFU6)
+[summaries]   - Reading Detections_of_Compact_Radio_Continuum_toward_Methanol_Maser_Rings_Using_the_VLA.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Dream-VL___Dream-VLA__Open_Vision-Language_and_Vision-Language-Action_Models_wit.pdf (4S8GQPFT)
+[summaries]   - Reading Dream-VL___Dream-VLA__Open_Vision-Language_and_Vision-Language-Action_Models_wit.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PathFound__An_Agentic_Multimodal_Model_Activating_Evidence-seeking_Pathological_.pdf (2VJP75VJ)
+[summaries]   - Reading PathFound__An_Agentic_Multimodal_Model_Activating_Evidence-seeking_Pathological_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Instruction-Following_Evaluation_of_Large_Vision-Language_Models.pdf (H3XZKC5S)
+[summaries]   - Reading Instruction-Following_Evaluation_of_Large_Vision-Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ProGuard__Towards_Proactive_Multimodal_Safeguard.pdf (HHVETXE8)
+[summaries]   - Reading ProGuard__Towards_Proactive_Multimodal_Safeguard.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Multimodal_Interpretation_of_Remote_Sensing_Images__Dynamic_Resolution_Input_Str.pdf (PS4QMP8G)
+[summaries]   - Reading Multimodal_Interpretation_of_Remote_Sensing_Images__Dynamic_Resolution_Input_Str.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing ViLaCD-R1__A_Vision-Language_Framework_for_Semantic_Change_Detection_in_Remote_S.pdf (QH2R8JHD)
+[summaries]   - Reading ViLaCD-R1__A_Vision-Language_Framework_for_Semantic_Change_Detection_in_Remote_S.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing SpatialMosaic__A_Multiview_VLM_Dataset_for_Partial_Visibility.pdf (Q2ZGDDKS)
+[summaries]   - Reading SpatialMosaic__A_Multiview_VLM_Dataset_for_Partial_Visibility.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Toward_Trustworthy_Agentic_AI__A_Multimodal_Framework_for_Preventing_Prompt_Inje.pdf (AQ6RG4KD)
+[summaries]   - Reading Toward_Trustworthy_Agentic_AI__A_Multimodal_Framework_for_Preventing_Prompt_Inje.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing VL-RouterBench__A_Benchmark_for_Vision-Language_Model_Routing.pdf (C2VCR2X5)
+[summaries]   - Reading VL-RouterBench__A_Benchmark_for_Vision-Language_Model_Routing.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Same_or_Not__Enhancing_Visual_Perception_in_Vision-Language_Models.pdf (NG3XRV5S)
+[summaries]   - Reading Same_or_Not__Enhancing_Visual_Perception_in_Vision-Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing RoboMirror__Understand_Before_You_Imitate_for_Video_to_Humanoid_Locomotion.pdf (KF35AQ52)
+[summaries]   - Reading RoboMirror__Understand_Before_You_Imitate_for_Video_to_Humanoid_Locomotion.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Act2Goal__From_World_Model_To_General_Goal-conditioned_Policy.pdf (SZMEIJGX)
+[summaries]   - Reading Act2Goal__From_World_Model_To_General_Goal-conditioned_Policy.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Diffusion_Knows_Transparency__Repurposing_Video_Diffusion_for_Transparent_Object.pdf (KQBZZ56J)
+[summaries]   - Reading Diffusion_Knows_Transparency__Repurposing_Video_Diffusion_for_Transparent_Object.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Web_World_Models.pdf (H5KG8568)
+[summaries]   - Reading Web_World_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Multilingual_Hidden_Prompt_Injection_Attacks_on_LLM-Based_Academic_Reviewing.pdf (UMIGJ7A6)
+[summaries]   - Reading Multilingual_Hidden_Prompt_Injection_Attacks_on_LLM-Based_Academic_Reviewing.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Survey_on_Lattice_Gas_Models_on_2D_Lattices__Critical_Behavior_of_Closed_Traject.pdf (B76P2ZT8)
+[summaries]   - Reading Survey_on_Lattice_Gas_Models_on_2D_Lattices__Critical_Behavior_of_Closed_Traject.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing The_GLASS-JWST_Early_Release_Science_Program._V._H____luminosity_functions_at__z.pdf (A5TEMD4X)
+[summaries]   - Reading The_GLASS-JWST_Early_Release_Science_Program._V._H____luminosity_functions_at__z.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Incorporating_Authority_Perception__Economic_Status__and_Behavioral_Response_in_.pdf (UG7A86E2)
+[summaries]   - Reading Incorporating_Authority_Perception__Economic_Status__and_Behavioral_Response_in_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing The_Dawn_of_Agentic_EDA__A_Survey_of_Autonomous_Digital_Chip_Design.pdf (MDVHVVKM)
+[summaries]   - Reading The_Dawn_of_Agentic_EDA__A_Survey_of_Autonomous_Digital_Chip_Design.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing MAMMOTH-LyC__Investigating_the_Role_of_Galaxy_Mergers_in_a_Strong_Lyman_Continuu.pdf (4GEQIXRV)
+[summaries]   - Reading MAMMOTH-LyC__Investigating_the_Role_of_Galaxy_Mergers_in_a_Strong_Lyman_Continuu.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Predicting_the_detection_yields_of_giant_planets_and_brown_dwarfs_with_CSST_astr.pdf (KF99CG6V)
+[summaries]   - Reading Predicting_the_detection_yields_of_giant_planets_and_brown_dwarfs_with_CSST_astr.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Observations_of_the_Fermi_bubbles_and_the_Galactic_center_excess_with_the_DArk_M.pdf (R92M5KSE)
+[summaries]   - Reading Observations_of_the_Fermi_bubbles_and_the_Galactic_center_excess_with_the_DArk_M.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Research_Directions_in_Quantum_Computer_Cybersecurity.pdf (SFRRJB5J)
+[summaries]   - Reading Research_Directions_in_Quantum_Computer_Cybersecurity.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Better_than_squareroot_cancellation_in_number_theory.pdf (5XBUZBTW)
+[summaries]   - Reading Better_than_squareroot_cancellation_in_number_theory.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PDF (9KJFZ95E)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Elliptical liquid jets in a supersonic cross-flow: Influence of J on atomization mechanism and unsteadiness (5599QAQQ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (DT4PTKXC)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search (3NXQVS57)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (HZQGZI3E)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing DriveLaW:Unifying Planning and Video Generation in a Latent Driving World (4XC5HRUG)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (XAZWZCH2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Predicting random close packing of binary hard-disk mixtures via third-virial-based parameters (NGHEFBQ8)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (K2CFN6CH)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Information is localized in growing network models (SQJDAUKC)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (SQEJTK7K)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Physics-Informed Neural Networks for Device and Circuit Modeling: A Case Study of NeuroSPICE (6DEPJXIG)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (PRWCWWBK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Joint Modeling of Longitudinal and Survival Data: A Bayesian Approach for Predicting Disease Progression (N4P7TNJF)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (4NFWAT5A)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Web World Models (3JP5KT2R)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (MUEMXCFT)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Rethinking conditioning in polarimetry: a new framework beyond $\ell^2$-based metrics (KWDXHMFF)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (BZD5Q7TV)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Compressibility Effects on Leading-Edge Dynamic Stall Criteria at High Reynolds Number (I9TR8457)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (AX2QX3WK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Adaptable Teastore with Energy Consumption Awareness: A Case Study (H962XADH)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (CH2BU5RZ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion (N6CINW82)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (JV6SAB6K)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing AGRO-SQL: Agentic Group-Relative Optimization with High-Fidelity Data Synthesis (A5FZ8JRD)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (XHCHH7SU)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning (2945JN5F)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (87DQPMV4)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Replay Failures as Successes: Sample-Efficient Reinforcement Learning for Instruction Following (72EZ267K)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (H6A6N83R)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Provenance to Vulnerability Mitigation (N72FWWNQ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (FTURATER)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Hierarchical Decision Mamba Meets Agentic AI: A Novel Approach for RAN Slicing in 6G (296C3S96)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (WJJFMJJX)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning (X9B55NH6)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (WS55VBC5)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Robo-Dopamine: General Process Reward Modeling for High-Precision Robotic Manipulation (6GCJEKKR)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (UAFQ4X42)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Can AI Recognize Its Own Reflection? Self-Detection Performance of LLMs in Computing Education (E3HCHJJB)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (UZBB8E29)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation (3KD8FGPJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (AI2EMGBD)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing The Big Three in Marriage Talk: LLM-Assisted Analysis of Moral Ethics and Sentiment on Weibo and Xiaohongshu (NCGGWWUQ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (ZXB3BU2F)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Enhanced Web Payload Classification Using WAMM: An AI-Based Framework for Dataset Refinement and Model Evaluation (RC7MR29R)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (JHQGZXZJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing (UQMJHBFJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (J3V6HSVV)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization (7I5I4Q96)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (9DTIR5FN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Fine-Tuning LLMs with Fine-Grained Human Feedback on Text Spans (IXP8ZHBI)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (6FNUEEZM)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Eliciting Behaviors in Multi-Turn Conversations (FH2HR8MQ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (I33ZSBFA)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Agentic Physical AI toward a Domain-Specific Foundation Model for Nuclear Reactor Control (HX9Z7ZUZ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (A3EMC7WA)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Agentic AI-Enhanced Semantic Communications: Foundations, Architecture, and Applications (7XADXUWE)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (N5K4X6T2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling (SUMR4BMG)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (KEQJZ5QK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Detections of Compact Radio Continuum toward Methanol Maser Rings Using the VLA (T4URAGZ6)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (2WQ79ZBW)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models with Diffusion Language Model Backbone (XMES3WSD)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (BRWTVE4V)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PathFound: An Agentic Multimodal Model Activating Evidence-seeking Pathological Diagnosis (9KIA5U7M)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (W5VHHUKK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Instruction-Following Evaluation of Large Vision-Language Models (5U2W9HJZ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (U63DP6NE)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing ProGuard: Towards Proactive Multimodal Safeguard (AA3FTG6Z)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (GDFDXUKP)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Multimodal Interpretation of Remote Sensing Images: Dynamic Resolution Input Strategy and Multi-scale Vision-Language Alignment Mechanism (FVQ3UUQH)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (MI5C5ZPD)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing ViLaCD-R1: A Vision-Language Framework for Semantic Change Detection in Remote Sensing (GAZA4XNK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (8VGVHKNZ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing SpatialMosaic: A Multiview VLM Dataset for Partial Visibility (HPQ9834P)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (SSED4MUU)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Toward Trustworthy Agentic AI: A Multimodal Framework for Preventing Prompt Injection Attacks (VT2RK84Z)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (IU35QCAJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing VL-RouterBench: A Benchmark for Vision-Language Model Routing (NIISV75X)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (XSWB36NA)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Same or Not? Enhancing Visual Perception in Vision-Language Models (D34WII3P)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (MXTCA3DW)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion (S2W75QP3)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (N9GTDKG2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Act2Goal: From World Model To General Goal-conditioned Policy (KMDS3N52)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (S5TKMCDU)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation (5KDCC6QV)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (IVIK87ZR)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Web World Models (SXS5H93J)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (CFTFWXM8)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing (7N95IKUH)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (ZNI6XP9M)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Survey on Lattice Gas Models on 2D Lattices: Critical Behavior of Closed Trajectories (W62BSUEN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (SZUKQZJZ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing The GLASS-JWST Early Release Science Program. V. H$α$ luminosity functions at $z\sim1.3$ and $z\sim2.0$ (V9PDJZUI)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (R7HXXNTA)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Incorporating Authority Perception, Economic Status, and Behavioral Response in Infectious Disease Control (CG9BC9BK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (ITMX5DDW)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing The Dawn of Agentic EDA: A Survey of Autonomous Digital Chip Design (PEEP93CE)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (D8GHNWDJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing MAMMOTH-LyC: Investigating the Role of Galaxy Mergers in a Strong Lyman Continuum Leaker at $z=2.39$ (AKAGMFH5)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (6GJDNJ78)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Predicting the detection yields of giant planets and brown dwarfs with CSST astrometry (IV9AE2PG)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (AF8ER2SV)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Observations of the Fermi bubbles and the Galactic center excess with the DArk Matter Particle Explorer (HSV2QAIR)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (I3QENSCN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Research Directions in Quantum Computer Cybersecurity (B5PTT2CV)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (UBM7F8BD)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Better than squareroot cancellation in number theory (8EXUU4V9)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing ACE: A Cross-Platform Visual-Exoskeletons System for Low-Cost Dexterous Teleoperation (576GEFZZ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Wearable technology for robotic manipulation and learning (4THY38BB)
+[summaries] [WARN] No local PDF attachments for Wearable technology for robotic manipulation and learning; children types: none
+[summaries] [INFO] Completed. Items scanned: 167, notes created: 55.
+[PIPELINE] ✓ summary completed
+[PIPELINE] → abstracts: limit=∞ since_hours=24.0
+[abstracts] [MISS] No abstract found for 4THY38BB (Wearable technology for robotic manipulation and learning)
+[abstracts] [INFO] Completed. Items scanned: 1741, updated: 0, missing abstract after lookup: 1.
+[PIPELINE] ✓ abstracts completed
+[PIPELINE] → notion: limit=500 since_hours=24.0
+[notion-sync] [ERR] Notion API error for 'Elliptical liquid jets in a supersonic cross-flow: Influence of J on atomization': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DriveLaW:Unifying Planning and Video Generation in a Latent Driving World': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Predicting random close packing of binary hard-disk mixtures via third-virial-ba': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Information is localized in growing network models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Physics-Informed Neural Networks for Device and Circuit Modeling: A Case Study o': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Joint Modeling of Longitudinal and Survival Data: A Bayesian Approach for Predic': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Web World Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Rethinking conditioning in polarimetry: a new framework beyond $\ell^2$-based me': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Compressibility Effects on Leading-Edge Dynamic Stall Criteria at High Reynolds ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Adaptable Teastore with Energy Consumption Awareness: A Case Study': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Vi': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'AGRO-SQL: Agentic Group-Relative Optimization with High-Fidelity Data Synthesis': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Replay Failures as Successes: Sample-Efficient Reinforcement Learning for Instru': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Prov': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Hierarchical Decision Mamba Meets Agentic AI: A Novel Approach for RAN Slicing i': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Robo-Dopamine: General Process Reward Modeling for High-Precision Robotic Manipu': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Can AI Recognize Its Own Reflection? Self-Detection Performance of LLMs in Compu': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Divergent-Convergent Thinking in Large Language Models for Creative Problem Gene': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'The Big Three in Marriage Talk: LLM-Assisted Analysis of Moral Ethics and Sentim': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Enhanced Web Payload Classification Using WAMM: An AI-Based Framework for Datase': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimizati': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Fine-Tuning LLMs with Fine-Grained Human Feedback on Text Spans': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Eliciting Behaviors in Multi-Turn Conversations': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Agentic Physical AI toward a Domain-Specific Foundation Model for Nuclear Reacto': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Agentic AI-Enhanced Semantic Communications: Foundations, Architecture, and Appl': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ADD] Detections of Compact Radio Continuum toward Methanol Maser Rings Using the VLA
+[notion-sync] [ERR] Notion API error for 'Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models wit': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'PathFound: An Agentic Multimodal Model Activating Evidence-seeking Pathological ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Instruction-Following Evaluation of Large Vision-Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ProGuard: Towards Proactive Multimodal Safeguard': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Multimodal Interpretation of Remote Sensing Images: Dynamic Resolution Input Str': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ViLaCD-R1: A Vision-Language Framework for Semantic Change Detection in Remote S': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'SpatialMosaic: A Multiview VLM Dataset for Partial Visibility': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Toward Trustworthy Agentic AI: A Multimodal Framework for Preventing Prompt Inje': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'VL-RouterBench: A Benchmark for Vision-Language Model Routing': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Same or Not? Enhancing Visual Perception in Vision-Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Act2Goal: From World Model To General Goal-conditioned Policy': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Web World Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Survey on Lattice Gas Models on 2D Lattices: Critical Behavior of Closed Traject': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'The GLASS-JWST Early Release Science Program. V. H$α$ luminosity functions at $z': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Incorporating Authority Perception, Economic Status, and Behavioral Response in ': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'The Dawn of Agentic EDA: A Survey of Autonomous Digital Chip Design': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'MAMMOTH-LyC: Investigating the Role of Galaxy Mergers in a Strong Lyman Continuu': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Predicting the detection yields of giant planets and brown dwarfs with CSST astr': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Observations of the Fermi bubbles and the Galactic center excess with the DArk M': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Research Directions in Quantum Computer Cybersecurity': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Better than squareroot cancellation in number theory': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'ACE: A Cross-Platform Visual-Exoskeletons System for Low-Cost Dexterous Teleoper': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages/2ae6ce10-e4b9-8126-9014-d7b6bc23ce86
+[notion-sync] [ERR] Notion API error for 'Wearable technology for robotic manipulation and learning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [INFO] Completed. Scanned=57 created=1 updated=0
+[PIPELINE] ✓ notion completed
+{
+  "watch": {
+    "name": "watch-import",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py",
+      "--tags",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--since-days",
+      "7",
+      "--since-hours",
+      "24.0",
+      "--top-k",
+      "10",
+      "--min-score",
+      "0.3",
+      "--log-file",
+      "/Users/neoone/code/Zotero/logs/watch_20251231_113311.log",
+      "--report-json",
+      "/Users/neoone/code/Zotero/reports/watch_20251231_113311.json",
+      "--create-collections"
+    ],
+    "artifacts": {
+      "log": "/Users/neoone/code/Zotero/logs/watch_20251231_113311.log",
+      "report": "/Users/neoone/code/Zotero/reports/watch_20251231_113311.json",
+      "report_data": {
+        "started_at": "2025-12-31T11:33:11.959382",
+        "params": {
+          "since_days": 7,
+          "since_hours": 24.0,
+          "top_k": 10,
+          "min_score": 0.3,
+          "create_collections": true,
+          "fill_missing": false,
+          "dry_run": false,
+          "use_hf_papers": true,
+          "hf_weight": 0.3
+        },
+        "tags": {
+          "embodied_ai": {
+            "label": "embodied_ai｜具身智能",
+            "candidates": 1,
+            "added": 0,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 1,
+            "hf_overrides": 1
+          },
+          "embodied_surveys": {
+            "label": "embodied_surveys｜具身智能综述",
+            "candidates": 94,
+            "added": 10,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 5,
+            "hf_overrides": 0
+          },
+          "sim2real": {
+            "label": "sim2real｜模拟到现实",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "teleoperation": {
+            "label": "teleoperation｜遥操作",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_navigation": {
+            "label": "robotic_navigation｜机器人导航",
+            "candidates": 6,
+            "added": 1,
+            "skipped": 3,
+            "updated": 0,
+            "hf_candidates": 6,
+            "hf_overrides": 2
+          },
+          "robotic_manipulation": {
+            "label": "robotic_manipulation｜机器人操作",
+            "candidates": 3,
+            "added": 2,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 3,
+            "hf_overrides": 0
+          },
+          "robotic_grasping": {
+            "label": "robotic_grasping｜机器人抓取",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "vision_language_model": {
+            "label": "vision_language_model｜视觉语言模型",
+            "candidates": 83,
+            "added": 10,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 7,
+            "hf_overrides": 0
+          },
+          "vision_language_action_model": {
+            "label": "vision_language_action_model｜视觉语言动作模型",
+            "candidates": 20,
+            "added": 5,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 2,
+            "hf_overrides": 1
+          },
+          "large_language_model": {
+            "label": "large_language_model｜大语言模型",
+            "candidates": 83,
+            "added": 8,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 33,
+            "hf_overrides": 0
+          },
+          "foundation_model": {
+            "label": "foundation_model｜基础模型",
+            "candidates": 6,
+            "added": 0,
+            "skipped": 4,
+            "updated": 0,
+            "hf_candidates": 6,
+            "hf_overrides": 2
+          },
+          "dexterous_hand": {
+            "label": "dexterous_hand｜灵巧机械手",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "humanoid_robot": {
+            "label": "humanoid_robot｜类人机器人",
+            "candidates": 8,
+            "added": 0,
+            "skipped": 3,
+            "updated": 0,
+            "hf_candidates": 3,
+            "hf_overrides": 2
+          },
+          "quadruped_robot": {
+            "label": "quadruped_robot｜四足机器人",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_arm": {
+            "label": "robotic_arm｜机械臂",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "reinforcement_learning": {
+            "label": "reinforcement_learning｜强化学习",
+            "candidates": 93,
+            "added": 8,
+            "skipped": 4,
+            "updated": 0,
+            "hf_candidates": 48,
+            "hf_overrides": 2
+          },
+          "imitation_learning": {
+            "label": "imitation_learning｜模仿学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "world_model": {
+            "label": "world_model｜世界模型",
+            "candidates": 6,
+            "added": 0,
+            "skipped": 4,
+            "updated": 0,
+            "hf_candidates": 6,
+            "hf_overrides": 2
+          },
+          "simulator": {
+            "label": "simulator｜仿真平台",
+            "candidates": 55,
+            "added": 8,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 3,
+            "hf_overrides": 0
+          },
+          "motion_planning": {
+            "label": "motion_planning｜运动规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "task_planning": {
+            "label": "task_planning｜任务规划",
+            "candidates": 10,
+            "added": 2,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "code_based_task_planning": {
+            "label": "code_based_task_planning｜代码任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "language_based_task_planning": {
+            "label": "language_based_task_planning｜语言任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "end_to_end_task_planning": {
+            "label": "end_to_end_task_planning｜端到端任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "grounded_task_planning": {
+            "label": "grounded_task_planning｜具身语义任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "transformer_policy": {
+            "label": "transformer_policy｜Transformer控制策略",
+            "candidates": 1,
+            "added": 1,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "diffusion_policy": {
+            "label": "diffusion_policy｜扩散策略学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "3d_vision": {
+            "label": "3d_vision｜3D视觉感知",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "point_based_action": {
+            "label": "point_based_action｜基于点的控制",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "chain_of_thought": {
+            "label": "chain_of_thought｜链式推理",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          }
+        },
+        "summary": {
+          "candidates": 55,
+          "added": 55,
+          "skipped": 25,
+          "updated": 0,
+          "hf_candidates": 123,
+          "hf_overrides": 12
+        },
+        "errors": [],
+        "hf_sources": {
+          "daily": 5,
+          "weekly": 20,
+          "monthly": 50
+        },
+        "finished_at": "2025-12-31T11:48:20.296889"
+      }
+    }
+  },
+  "pdf": {
+    "name": "fetch-pdfs",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/fetch_missing_pdfs.py",
+      "--since-hours",
+      "24.0",
+      "--new-items-json",
+      "/Users/neoone/code/Zotero/.data/new_items_watch.json"
+    ],
+    "artifacts": {}
+  },
+  "dedupe": {
+    "name": "dedupe",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/merge_zotero_duplicates.py",
+      "--group-by",
+      "auto",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "summary": {
+    "name": "summaries",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/summarize_zotero_with_doubao.py",
+      "--limit",
+      "200",
+      "--max-pages",
+      "80",
+      "--max-chars",
+      "80000",
+      "--note-tag",
+      "AI总结",
+      "--summary-dir",
+      "/Users/neoone/code/Zotero/summaries",
+      "--recursive",
+      "--insert-note",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {
+      "summary_dir": "/Users/neoone/code/Zotero/summaries"
+    }
+  },
+  "abstract": {
+    "name": "abstracts",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/enrich_zotero_abstracts.py",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "notion": {
+    "name": "notion-sync",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/sync_zotero_to_notion.py",
+      "--limit",
+      "500",
+      "--tag-file",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--recursive",
+      "--skip-untitled",
+      "--enrich-with-doubao",
+      "--since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  }
+}

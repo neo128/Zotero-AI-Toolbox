@@ -1,0 +1,133 @@
+[INFO] Started watch. since_hours=24.0 (→ days=14.00) top_k=15 min_score=0.3
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=72 arXiv=854 URL=1013 TY=1022
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[SCORE] tag=embodied_ai total=0 selected=0
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=4 selected=2
+[COL] ensured collection 'sim2real｜模拟到现实' → WUFJMHDG
+[SKIP] duplicate ResAlignNet: A Data-Driven Approach for INS/DVL Alignment (arxiv:2511.13096v1)
+[SKIP] duplicate DiffuDepGrasp: Diffusion-based Depth Noise Modeling Empowers Sim2Real Robotic Gr (arxiv:2511.12912v1)
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[SCORE] tag=teleoperation total=16 selected=6
+[COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[SKIP] duplicate VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation (arxiv:2511.15200v1)
+[SKIP] duplicate $π^{*}_{0.6}$: a VLA That Learns From Experience (arxiv:2511.14759v2)
+[SKIP] duplicate HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation (arxiv:2511.14756v1)
+[SKIP] duplicate Advancing Minimally Invasive Precision Surgery in Open Cavities with Robotic Fle (arxiv:2511.14458v1)
+[SKIP] duplicate Learning Adaptive Neural Teleoperation for Humanoid Robots: From Inverse Kinemat (arxiv:2511.12390v1)
+[SKIP] duplicate ARCSnake V2: An Amphibious Multi-Domain Screw-Propelled Snake-Like Robot (arxiv:2511.11970v1)
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[SCORE] tag=robotic_navigation total=75 selected=15
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[SKIP] duplicate Joint Analog Beamforming and Antenna Position Design for Secure Communication sy (doi:10.1109/icassp49660.2025.10889986)
+[SKIP] duplicate The Atacama Cosmology Telescope: Cross-correlation of kSZ and continuity equatio (arxiv:2511.15701v1)
+[SKIP] duplicate The JWST weather report from the nearest brown dwarfs III: Heterogeneous clouds  (arxiv:2511.15667v1)
+[SKIP] duplicate Fantômas: An analysis of parton distributions in a pion with Bézier parametrizat (arxiv:2511.15657v1)
+[SKIP] duplicate INQUIRE-Search: A Framework for Interactive Discovery in Large-Scale Biodiversit (arxiv:2511.15656v1)
+[SKIP] duplicate New features in the Z2xZ2 3HDM two component DM model (arxiv:2511.15655v1)
+[SKIP] duplicate Towards the LHCb pentaquark modes in the single-charm sector (arxiv:2511.15649v1)
+[SKIP] duplicate A Latency-Constrained, Gated Recurrent Unit (GRU) Implementation in the Versal A (arxiv:2511.15626v1)
+[SKIP] duplicate Endomorphism and automorphism graphs of finite groups (arxiv:2511.15602v1)
+[SKIP] duplicate Discrete Event System Modeling of Neuromorphic Circuits (arxiv:2511.15594v1)
+[SKIP] duplicate QTIS: A QAOA-Based Quantum Time Interval Scheduler (arxiv:2511.15590v1)
+[SKIP] duplicate Structural phase transitions in the van der Waals ferromagnets Fe$_x$Pd$_{y}$Te$ (arxiv:2511.15584v1)
+[SKIP] duplicate Graph Rewriting Language as a Platform for Quantum Diagrammatic Calculi (arxiv:2511.15581v1)
+[SKIP] duplicate Toward Open-Source Chiplets for HPC and AI: Occamy and Beyond (arxiv:2511.15564v1)
+[SKIP] duplicate Voss surfaces in sine-Gordon hierarchies (arxiv:2511.15558v1)
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[SCORE] tag=robotic_manipulation total=75 selected=15
+[COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[SKIP] duplicate Adaptive thresholding pattern for fingerprint forgery detection (doi:10.1007/s11042-024-18649-3)
+[SKIP] duplicate GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization (arxiv:2511.15705v1)
+[SKIP] duplicate In-N-On: Scaling Egocentric Manipulation with in-the-wild and on-task Data (arxiv:2511.15704v1)
+[SKIP] duplicate DuoZone: A User-Centric, LLM-Guided Mixed-Initiative XR Window Management System (arxiv:2511.15676v1)
+[SKIP] duplicate SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models (arxiv:2511.15605v1)
+[SKIP] duplicate Graph Rewriting Language as a Platform for Quantum Diagrammatic Calculi (arxiv:2511.15581v1)
+[SKIP] duplicate Experimental demonstration of non-local magic in a superconducting quantum proce (arxiv:2511.15576v1)
+[SKIP] duplicate NMPC-based Motion Planning with Adaptive Weighting for Dynamic Object Intercepti (arxiv:2511.15532v1)
+[SKIP] duplicate Theoretical Closed-loop Stability Bounds for Dynamical System Coupled with Diffu (arxiv:2511.15520v1)
+[SKIP] duplicate Tuning Bound States of Symmetry-Breaking Vortices via Unidirectional Charge Dens (arxiv:2511.15510v1)
+[SKIP] duplicate HV-Attack: Hierarchical Visual Attack for Multimodal Retrieval Augmented Generat (arxiv:2511.15435v1)
+[SKIP] duplicate Octopus: Agentic Multimodal Reasoning with Six-Capability Orchestration (arxiv:2511.15351v1)
+[SKIP] duplicate Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Langu (arxiv:2511.15304v1)
+[SKIP] duplicate MSA - Technique for Stiffness Modeling of Manipulators with Complex and Hybrid S (arxiv:2511.15294v1)
+[SKIP] duplicate Behavior Trees vs Executable Ontologies: a Comparative Analysis of Robot Control (arxiv:2511.15274v1)
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[SCORE] tag=vision_language_model total=126 selected=15
+[ERR] create collection 'vision_language_model｜视觉语言模型': HTTPSConnectionPool(host='api.zotero.org', port=443): Max retries exceeded with url: /users/17507734/collections?limit=200&format=json&include=data (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[SKIP] duplicate VisPlay: Self-Evolving Vision-Language Models from Images (arxiv:2511.15661v1)
+[SKIP] duplicate IPR-1: Interactive Physical Reasoner (arxiv:2511.15407v1)
+[SKIP] duplicate C2F-Space: Coarse-to-Fine Space Grounding for Spatial Instructions using Vision- (arxiv:2511.15333v1)
+[SKIP] duplicate Look, Zoom, Understand: The Robotic Eyeball for Embodied Perception (arxiv:2511.15279v1)
+[SKIP] duplicate Physics-Based Benchmarking Metrics for Multimodal Synthetic Images (arxiv:2511.15204v1)
+[SKIP] duplicate HinTel-AlignBench: A Framework and Benchmark for Hindi-Telugu with English-Align (arxiv:2511.15183v1)
+[SKIP] duplicate BBox DocVQA: A Large Scale Bounding Box Grounded Dataset for Enhancing Reasoning (arxiv:2511.15090v1)
+[SKIP] duplicate Reasoning via Video: The First Evaluation of Video Models' Reasoning Abilities t (arxiv:2511.15065v1)
+[SKIP] duplicate Skin-R1: Toward Trustworthy Clinical Reasoning for Dermatological Diagnosis (arxiv:2511.14900v1)
+[SKIP] duplicate GeoSceneGraph: Geometric Scene Graph Diffusion Model for Text-guided 3D Indoor S (arxiv:2511.14884v1)
+[SKIP] duplicate Vision Large Language Models Are Good Noise Handlers in Engagement Analysis (arxiv:2511.14749v1)
+[SKIP] duplicate Enhancing Agentic Autonomous Scientific Discovery with Vision-Language Model Cap (arxiv:2511.14631v1)
+[SKIP] duplicate Is Your VLM for Autonomous Driving Safety-Ready? A Comprehensive Benchmark for E (arxiv:2511.14592v2)
+[SKIP] duplicate Enhancing End-to-End Autonomous Driving with Risk Semantic Distillaion from VLM (arxiv:2511.14499v1)
+[SKIP] duplicate Agentic Video Intelligence: A Flexible Framework for Advanced Video Exploration  (arxiv:2511.14446v1)
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[SCORE] tag=vision_language_action_model total=33 selected=11
+[COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[SKIP] duplicate SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models (arxiv:2511.15605v1)
+[SKIP] duplicate IPR-1: Interactive Physical Reasoner (arxiv:2511.15407v1)
+[SKIP] duplicate Look, Zoom, Understand: The Robotic Eyeball for Embodied Perception (arxiv:2511.15279v1)
+[SKIP] duplicate $π^{*}_{0.6}$: a VLA That Learns From Experience (arxiv:2511.14759v2)
+[SKIP] duplicate NORA-1.5: A Vision-Language-Action Model Trained using World Model- and Action-b (arxiv:2511.14659v1)
+[SKIP] duplicate Enhancing End-to-End Autonomous Driving with Risk Semantic Distillaion from VLM (arxiv:2511.14499v1)
+[SKIP] duplicate Towards Deploying VLA without Fine-Tuning: Plug-and-Play Inference-Time VLA Poli (arxiv:2511.14178v1)
+[SKIP] duplicate RoboTidy : A 3D Gaussian Splatting Household Tidying Benchmark for Embodied Navi (arxiv:2511.14161v2)
+[SKIP] duplicate AsyncVLA: Asynchronous Flow Matching for Vision-Language-Action Models (arxiv:2511.14148v1)
+[SKIP] duplicate VLA-R: Vision-Language Action Retrieval toward Open-World End-to-End Autonomous  (arxiv:2511.12405v1)
+[SKIP] duplicate AttackVLA: Benchmarking Adversarial and Backdoor Attacks on Vision-Language-Acti (arxiv:2511.12149v1)
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[SCORE] tag=large_language_model total=0 selected=0
+[TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[SCORE] tag=foundation_model total=0 selected=0
+[TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[SCORE] tag=dexterous_hand total=0 selected=0
+[TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[SCORE] tag=humanoid_robot total=0 selected=0
+[TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[SCORE] tag=quadruped_robot total=0 selected=0
+[TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[SCORE] tag=robotic_arm total=0 selected=0
+[TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[SCORE] tag=reinforcement_learning total=0 selected=0
+[TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[SCORE] tag=imitation_learning total=0 selected=0
+[TAG] world_model 'world_model｜世界模型' keywords=4
+[SCORE] tag=world_model total=0 selected=0
+[TAG] simulator 'simulator｜仿真平台' keywords=5
+[SCORE] tag=simulator total=0 selected=0
+[TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[SCORE] tag=motion_planning total=0 selected=0
+[TAG] task_planning 'task_planning｜任务规划' keywords=4
+[SCORE] tag=task_planning total=0 selected=0
+[TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[SCORE] tag=code_based_task_planning total=0 selected=0
+[TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[SCORE] tag=language_based_task_planning total=0 selected=0
+[TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[SCORE] tag=end_to_end_task_planning total=0 selected=0
+[TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[SCORE] tag=grounded_task_planning total=0 selected=0
+[TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[SCORE] tag=transformer_policy total=0 selected=0
+[TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[SCORE] tag=diffusion_policy total=0 selected=0
+[TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[SCORE] tag=3d_vision total=0 selected=0
+[TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[SCORE] tag=point_based_action total=0 selected=0
+[TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[SCORE] tag=chain_of_thought total=0 selected=0
+[INFO] Recorded 0 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[INFO] Done. Summary: {"candidates": 0, "added": 0, "skipped": 64, "updated": 0}

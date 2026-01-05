@@ -1,0 +1,209 @@
+[INFO] Started watch. since_hours=24.0 (→ days=7.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2026-01-02
+[HF] weekly fetched=20 from week/2026-W01
+[HF] monthly fetched=20 from month/2026-01
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=122 arXiv=1411 URL=1665 TY=1641
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[SCORE] tag=embodied_ai total=0 selected=0
+[TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[HF] embodied_surveys matched 1 trending papers.
+[SCORE] tag=embodied_surveys total=99 selected=10
+[COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[ADD] Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redsh → embodied_surveys｜具身智能综述 [8SDD8WU8]
+[ATTACH] PDF linked for 8SDD8WU8
+[ADD] Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock  → embodied_surveys｜具身智能综述 [WQM7P44J]
+[ATTACH] PDF linked for WQM7P44J
+[ADD] At the intersection of Numerical Analysis and Spectral Geometry → embodied_surveys｜具身智能综述 [GB3CPS2G]
+[ATTACH] PDF linked for GB3CPS2G
+[ADD] Manifold classification from the descriptive viewpoint → embodied_surveys｜具身智能综述 [3UWRU28M]
+[ATTACH] PDF linked for 3UWRU28M
+[ADD] Discovery of a galaxy associated with the HI cloud FAST J0139+4328 → embodied_surveys｜具身智能综述 [2DZ46WIS]
+[ATTACH] PDF linked for 2DZ46WIS
+[ADD] Antecedents of Consumer Regret Frequency: The Roles of Decision Agency, Status S → embodied_surveys｜具身智能综述 [PQQM6VBB]
+[ATTACH] PDF linked for PQQM6VBB
+[ADD] Scaling Charitable Incentives: Policy Selection, Beliefs, and Evidence from a Fi → embodied_surveys｜具身智能综述 [FRXGQFGU]
+[ATTACH] PDF linked for FRXGQFGU
+[ADD] Scalable Stellar Parameter Inference Using Python-based LASP: From CPU Optimizat → embodied_surveys｜具身智能综述 [IGQRA5ST]
+[ATTACH] PDF linked for IGQRA5ST
+[ADD] TTC: Transformer-based TDE Classifier for the Wide Field Survey Telescope (WFST) → embodied_surveys｜具身智能综述 [SS564RES]
+[ATTACH] PDF linked for SS564RES
+[ADD] From Trial to Deployment: A SEM Analysis of Traveler Adoptions to Fully Operatio → embodied_surveys｜具身智能综述 [6NTRXF3M]
+[ATTACH] PDF linked for 6NTRXF3M
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=0 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[HF] teleoperation matched 1 trending papers.
+[SCORE] tag=teleoperation total=5 selected=2
+[COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[ADD] GR-Dexter Technical Report → teleoperation｜遥操作 [92TVIMMW]
+[ATTACH] PDF linked for 92TVIMMW
+[ADD] Coordinated Humanoid Manipulation with Choice Policies → teleoperation｜遥操作 [PGE3Q68N]
+[ATTACH] PDF linked for PGE3Q68N
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[HF] robotic_navigation matched 3 trending papers.
+[SCORE] tag=robotic_navigation total=53 selected=10
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[ADD] SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time → robotic_navigation｜机器人导航 [EX6NC682]
+[ATTACH] PDF linked for EX6NC682
+[ADD] Randomization Times under Quantum Chaotic Hamiltonian Evolution → robotic_navigation｜机器人导航 [H77I3FT8]
+[ATTACH] PDF linked for H77I3FT8
+[ADD] Many Minds from One Model: Bayesian Transformers for Population Intelligence → robotic_navigation｜机器人导航 [7I52XVTG]
+[ATTACH] PDF linked for 7I52XVTG
+[ADD] Extreme nonlinear optics in optical fibers → robotic_navigation｜机器人导航 [S55JTCBE]
+[ATTACH] PDF linked for S55JTCBE
+[ADD] Fractal conduction pathways governing ionic transport in a glass → robotic_navigation｜机器人导航 [46D93JF2]
+[ATTACH] PDF linked for 46D93JF2
+[ADD] Grassmannian Geometries for Non-Planar On-Shell Diagrams → robotic_navigation｜机器人导航 [PNT9HQK9]
+[ATTACH] PDF linked for PNT9HQK9
+[ADD] Best Practices for Modelling Electrides → robotic_navigation｜机器人导航 [PZTHQQZI]
+[ATTACH] PDF linked for PZTHQQZI
+[ADD] Geometric characterisation of structural and regular equivalences in undirected  → robotic_navigation｜机器人导航 [PPXMNJ3P]
+[ATTACH] PDF linked for PPXMNJ3P
+[ADD] Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Net → robotic_navigation｜机器人导航 [9FM5VUTF]
+[ATTACH] PDF linked for 9FM5VUTF
+[ADD] AMAP Agentic Planning Technical Report → robotic_navigation｜机器人导航 [9E4FV2MR]
+[ATTACH] PDF linked for 9E4FV2MR
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[HF] robotic_manipulation matched 3 trending papers.
+[SCORE] tag=robotic_manipulation total=53 selected=10
+[COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[SKIP] duplicate Coordinated Humanoid Manipulation with Choice Policies (arxiv:2512.25072v1)
+[SKIP] duplicate Extreme nonlinear optics in optical fibers (arxiv:2512.25046v1)
+[ADD] PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes → robotic_manipulation｜机器人操作 [5AUNND6D]
+[ATTACH] PDF linked for 5AUNND6D
+[ADD] Hierarchical Deformation Planning and Neural Tracking for DLOs in Constrained En → robotic_manipulation｜机器人操作 [MJ4P8DMJ]
+[ATTACH] PDF linked for MJ4P8DMJ
+[ADD] ShowUI-$π$: Flow-based Generative Models as GUI Dexterous Hands → robotic_manipulation｜机器人操作 [B3ERCPU5]
+[ATTACH] PDF linked for B3ERCPU5
+[ADD] Towards Provably Secure Generative AI: Reliable Consensus Sampling → robotic_manipulation｜机器人操作 [HTXSE3KS]
+[ATTACH] PDF linked for HTXSE3KS
+[ADD] Generation of NIR and Visible Structured Light Beams with a Mechanical Long-Peri → robotic_manipulation｜机器人操作 [9IZIH74Q]
+[ATTACH] PDF linked for 9IZIH74Q
+[ADD] ArtiSG: Functional 3D Scene Graph Construction via Human-demonstrated Articulate → robotic_manipulation｜机器人操作 [S73EB3E8]
+[ATTACH] PDF linked for S73EB3E8
+[ADD] Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object → robotic_manipulation｜机器人操作 [A4XFU5UI]
+[ATTACH] PDF linked for A4XFU5UI
+[ADD] VLA-RAIL: A Real-Time Asynchronous Inference Linker for VLA Models and Robots → robotic_manipulation｜机器人操作 [PCXR4SI5]
+[ATTACH] PDF linked for PCXR4SI5
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[HF] vision_language_model matched 6 trending papers.
+[SCORE] tag=vision_language_model total=72 selected=10
+[COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[ADD] DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in  → vision_language_model｜视觉语言模型 [8NJSKAT4]
+[ATTACH] PDF linked for 8NJSKAT4
+[ADD] VIPER: Process-aware Evaluation for Generative Video Reasoning → vision_language_model｜视觉语言模型 [AWCBH6N4]
+[ATTACH] PDF linked for AWCBH6N4
+[ADD] RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience S → vision_language_model｜视觉语言模型 [K9S7UN2E]
+[ATTACH] PDF linked for K9S7UN2E
+[ADD] LSRE: Latent Semantic Rule Encoding for Real-Time Semantic Risk Detection in Aut → vision_language_model｜视觉语言模型 [GVIIRJDT]
+[ATTACH] PDF linked for GVIIRJDT
+[ADD] RoboMIND 2.0: A Multimodal, Bimanual Mobile Manipulation Dataset for Generalizab → vision_language_model｜视觉语言模型 [VI3JBGFV]
+[ATTACH] PDF linked for VI3JBGFV
+[ADD] SliceLens: Fine-Grained and Grounded Error Slice Discovery for Multi-Instance Vi → vision_language_model｜视觉语言模型 [GTNKXHNP]
+[ATTACH] PDF linked for GTNKXHNP
+[ADD] From Perception to Punchline: Empowering VLM with the Art of In-the-wild Meme → vision_language_model｜视觉语言模型 [HQNJCC3W]
+[ATTACH] PDF linked for HQNJCC3W
+[ADD] PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically C → vision_language_model｜视觉语言模型 [VZZNSFFK]
+[ATTACH] PDF linked for VZZNSFFK
+[ADD] CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-J → vision_language_model｜视觉语言模型 [D2XZJ2NZ]
+[ATTACH] PDF linked for D2XZJ2NZ
+[ADD] VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigation agents → vision_language_model｜视觉语言模型 [W3G4PWH6]
+[ATTACH] PDF linked for W3G4PWH6
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[HF] vision_language_action_model matched 2 trending papers.
+[HF-OVERRIDE] Added 'Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models wit' despite score=0.24
+[SCORE] tag=vision_language_action_model total=27 selected=5
+[COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[SKIP] duplicate GR-Dexter Technical Report (arxiv:2512.24210)
+[SKIP] duplicate VLA-RAIL: A Real-Time Asynchronous Inference Linker for VLA Models and Robots (arxiv:2512.24673v1)
+[SKIP] duplicate RoboMIND 2.0: A Multimodal, Bimanual Mobile Manipulation Dataset for Generalizab (arxiv:2512.24653v1)
+[SKIP] duplicate VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigation agents (arxiv:2512.24851v1)
+[SKIP] duplicate Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models wit (arxiv:2512.22615)
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[HF] large_language_model matched 16 trending papers.
+[SCORE] tag=large_language_model total=66 selected=10
+[COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[ADD] Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search → large_language_model｜大语言模型 [4T6VPZDT]
+[ATTACH] PDF linked for 4T6VPZDT
+[ADD] Reliable and Resilient Collective Communication Library for LLM Training and Ser → large_language_model｜大语言模型 [4P7G8JBA]
+[ATTACH] PDF linked for 4P7G8JBA
+[ADD] Context-aware LLM-based AI Agents for Human-centered Energy Management Systems i → large_language_model｜大语言模型 [GWUTAABB]
+[ATTACH] PDF linked for GWUTAABB
+[ADD] MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Iden → large_language_model｜大语言模型 [FX4FA5NQ]
+[ATTACH] PDF linked for FX4FA5NQ
+[ADD] Efficiently Estimating Data Efficiency for Language Model Fine-tuning → large_language_model｜大语言模型 [KSJH8PGX]
+[ATTACH] PDF linked for KSJH8PGX
+[SKIP] duplicate PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes (arxiv:2512.24986v1)
+[ADD] Large language models and the entropy of English → large_language_model｜大语言模型 [NS7HITW9]
+[ATTACH] PDF linked for NS7HITW9
+[ADD] The Impact of LLMs on Online News Consumption and Production → large_language_model｜大语言模型 [K8W59TZG]
+[ATTACH] PDF linked for K8W59TZG
+[SKIP] duplicate CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-J (arxiv:2512.24947v1)
+[SKIP] duplicate RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience S (arxiv:2512.24943v1)
+[TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[HF] foundation_model matched 1 trending papers.
+[SCORE] tag=foundation_model total=1 selected=1
+[COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[ADD] Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Aut → foundation_model｜基础模型 [855ZS56R]
+[ATTACH] PDF linked for 855ZS56R
+[TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[HF] dexterous_hand matched 1 trending papers.
+[SCORE] tag=dexterous_hand total=1 selected=1
+[COL] ensured collection 'dexterous_hand｜灵巧机械手' → 25I7PA87
+[SKIP] duplicate GR-Dexter Technical Report (arxiv:2512.24210)
+[TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[HF] humanoid_robot matched 1 trending papers.
+[HF-OVERRIDE] Added 'MAI-UI Technical Report: Real-World Centric Foundation GUI Agents' despite score=0.11
+[SCORE] tag=humanoid_robot total=3 selected=1
+[COL] ensured collection 'humanoid_robot｜类人机器人' → B652AA82
+[SKIP] duplicate MAI-UI Technical Report: Real-World Centric Foundation GUI Agents (arxiv:2512.22047)
+[TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[SCORE] tag=quadruped_robot total=0 selected=0
+[TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[SCORE] tag=robotic_arm total=0 selected=0
+[TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[HF] reinforcement_learning matched 21 trending papers.
+[SCORE] tag=reinforcement_learning total=71 selected=10
+[COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[ADD] Scaling Open-Ended Reasoning to Predict the Future → reinforcement_learning｜强化学习 [RTBES39V]
+[ATTACH] PDF linked for RTBES39V
+[SKIP] duplicate Many Minds from One Model: Bayesian Transformers for Population Intelligence (arxiv:2512.25063v1)
+[ADD] ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learnin → reinforcement_learning｜强化学习 [JKKKECM2]
+[ATTACH] PDF linked for JKKKECM2
+[SKIP] duplicate AMAP Agentic Planning Technical Report (arxiv:2512.24957v1)
+[ADD] MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponenti → reinforcement_learning｜强化学习 [68GQ7S5K]
+[ATTACH] PDF linked for 68GQ7S5K
+[ADD] Iterative Deployment Improves Planning Skills in LLMs → reinforcement_learning｜强化学习 [FJXIX9TR]
+[ATTACH] PDF linked for FJXIX9TR
+[ADD] Sparse Offline Reinforcement Learning with Corruption Robustness → reinforcement_learning｜强化学习 [WHVABXCF]
+[ATTACH] PDF linked for WHVABXCF
+[ADD] Control of Microrobots with Reinforcement Learning under On-Device Compute Const → reinforcement_learning｜强化学习 [KGXKHF9A]
+[ATTACH] PDF linked for KGXKHF9A
+[ADD] Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompt → reinforcement_learning｜强化学习 [3PP8B6WK]
+[ATTACH] PDF linked for 3PP8B6WK
+[ADD] Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Pol → reinforcement_learning｜强化学习 [9HM6J6KX]
+[ATTACH] PDF linked for 9HM6J6KX
+[TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[SCORE] tag=imitation_learning total=0 selected=0
+[TAG] world_model 'world_model｜世界模型' keywords=4
+[HF] world_model matched 2 trending papers.
+[HF-OVERRIDE] Added 'Act2Goal: From World Model To General Goal-conditioned Policy' despite score=0.26
+[HF-OVERRIDE] Added 'Web World Models' despite score=0.23
+[SCORE] tag=world_model total=2 selected=2
+[COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[SKIP] duplicate Act2Goal: From World Model To General Goal-conditioned Policy (arxiv:2512.23541)
+[SKIP] duplicate Web World Models (arxiv:2512.23676)
+[TAG] simulator 'simulator｜仿真平台' keywords=5
+[SCORE] tag=simulator total=50 selected=10
+[COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[SKIP] duplicate Randomization Times under Quantum Chaotic Hamiltonian Evolution (arxiv:2512.25074v1)
+[ADD] Melting curve of correlated iron at Earth's core conditions from machine-learned → simulator｜仿真平台 [9VRUQGVR]
+[ATTACH] PDF linked for 9VRUQGVR
+[SKIP] duplicate Reliable and Resilient Collective Communication Library for LLM Training and Ser (arxiv:2512.25059v1)
+[ADD] Bayesian Elastic Net Regression with Structured Prior Dependence → simulator｜仿真平台 [5BC2M7S5]
+[ATTACH] PDF linked for 5BC2M7S5
+[SKIP] duplicate Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock  (arxiv:2512.25040v1)
+[SKIP] duplicate Fractal conduction pathways governing ionic transport in a glass (arxiv:2512.25031v1)

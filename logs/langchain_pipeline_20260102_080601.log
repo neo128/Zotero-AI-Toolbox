@@ -1,0 +1,211 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import-err] [ERR] HTTPSConnectionPool(host='api.zotero.org', port=443): Max retries exceeded with url: /users/17507734/items (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=7.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2026-01-02
+[watch-import] [HF] weekly fetched=20 from week/2026-W01
+[watch-import] [HF] monthly fetched=20 from month/2026-01
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=122 arXiv=1411 URL=1665 TY=1641
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [SCORE] tag=embodied_ai total=0 selected=0
+[watch-import] [TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[watch-import] [HF] embodied_surveys matched 1 trending papers.
+[watch-import] [SCORE] tag=embodied_surveys total=99 selected=10
+[watch-import] [COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[watch-import] [ADD] Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redsh → embodied_surveys｜具身智能综述 [8SDD8WU8]
+[watch-import] [ATTACH] PDF linked for 8SDD8WU8
+[watch-import] [ADD] Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock  → embodied_surveys｜具身智能综述 [WQM7P44J]
+[watch-import] [ATTACH] PDF linked for WQM7P44J
+[watch-import] [ADD] At the intersection of Numerical Analysis and Spectral Geometry → embodied_surveys｜具身智能综述 [GB3CPS2G]
+[watch-import] [ATTACH] PDF linked for GB3CPS2G
+[watch-import] [ADD] Manifold classification from the descriptive viewpoint → embodied_surveys｜具身智能综述 [3UWRU28M]
+[watch-import] [ATTACH] PDF linked for 3UWRU28M
+[watch-import] [ADD] Discovery of a galaxy associated with the HI cloud FAST J0139+4328 → embodied_surveys｜具身智能综述 [2DZ46WIS]
+[watch-import] [ATTACH] PDF linked for 2DZ46WIS
+[watch-import] [ADD] Antecedents of Consumer Regret Frequency: The Roles of Decision Agency, Status S → embodied_surveys｜具身智能综述 [PQQM6VBB]
+[watch-import] [ATTACH] PDF linked for PQQM6VBB
+[watch-import] [ADD] Scaling Charitable Incentives: Policy Selection, Beliefs, and Evidence from a Fi → embodied_surveys｜具身智能综述 [FRXGQFGU]
+[watch-import] [ATTACH] PDF linked for FRXGQFGU
+[watch-import] [ADD] Scalable Stellar Parameter Inference Using Python-based LASP: From CPU Optimizat → embodied_surveys｜具身智能综述 [IGQRA5ST]
+[watch-import] [ATTACH] PDF linked for IGQRA5ST
+[watch-import] [ADD] TTC: Transformer-based TDE Classifier for the Wide Field Survey Telescope (WFST) → embodied_surveys｜具身智能综述 [SS564RES]
+[watch-import] [ATTACH] PDF linked for SS564RES
+[watch-import] [ADD] From Trial to Deployment: A SEM Analysis of Traveler Adoptions to Fully Operatio → embodied_surveys｜具身智能综述 [6NTRXF3M]
+[watch-import] [ATTACH] PDF linked for 6NTRXF3M
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=0 selected=0
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [HF] teleoperation matched 1 trending papers.
+[watch-import] [SCORE] tag=teleoperation total=5 selected=2
+[watch-import] [COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[watch-import] [ADD] GR-Dexter Technical Report → teleoperation｜遥操作 [92TVIMMW]
+[watch-import] [ATTACH] PDF linked for 92TVIMMW
+[watch-import] [ADD] Coordinated Humanoid Manipulation with Choice Policies → teleoperation｜遥操作 [PGE3Q68N]
+[watch-import] [ATTACH] PDF linked for PGE3Q68N
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 3 trending papers.
+[watch-import] [SCORE] tag=robotic_navigation total=53 selected=10
+[watch-import] [COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[watch-import] [ADD] SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time → robotic_navigation｜机器人导航 [EX6NC682]
+[watch-import] [ATTACH] PDF linked for EX6NC682
+[watch-import] [ADD] Randomization Times under Quantum Chaotic Hamiltonian Evolution → robotic_navigation｜机器人导航 [H77I3FT8]
+[watch-import] [ATTACH] PDF linked for H77I3FT8
+[watch-import] [ADD] Many Minds from One Model: Bayesian Transformers for Population Intelligence → robotic_navigation｜机器人导航 [7I52XVTG]
+[watch-import] [ATTACH] PDF linked for 7I52XVTG
+[watch-import] [ADD] Extreme nonlinear optics in optical fibers → robotic_navigation｜机器人导航 [S55JTCBE]
+[watch-import] [ATTACH] PDF linked for S55JTCBE
+[watch-import] [ADD] Fractal conduction pathways governing ionic transport in a glass → robotic_navigation｜机器人导航 [46D93JF2]
+[watch-import] [ATTACH] PDF linked for 46D93JF2
+[watch-import] [ADD] Grassmannian Geometries for Non-Planar On-Shell Diagrams → robotic_navigation｜机器人导航 [PNT9HQK9]
+[watch-import] [ATTACH] PDF linked for PNT9HQK9
+[watch-import] [ADD] Best Practices for Modelling Electrides → robotic_navigation｜机器人导航 [PZTHQQZI]
+[watch-import] [ATTACH] PDF linked for PZTHQQZI
+[watch-import] [ADD] Geometric characterisation of structural and regular equivalences in undirected  → robotic_navigation｜机器人导航 [PPXMNJ3P]
+[watch-import] [ATTACH] PDF linked for PPXMNJ3P
+[watch-import] [ADD] Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Net → robotic_navigation｜机器人导航 [9FM5VUTF]
+[watch-import] [ATTACH] PDF linked for 9FM5VUTF
+[watch-import] [ADD] AMAP Agentic Planning Technical Report → robotic_navigation｜机器人导航 [9E4FV2MR]
+[watch-import] [ATTACH] PDF linked for 9E4FV2MR
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [HF] robotic_manipulation matched 3 trending papers.
+[watch-import] [SCORE] tag=robotic_manipulation total=53 selected=10
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [SKIP] duplicate Coordinated Humanoid Manipulation with Choice Policies (arxiv:2512.25072v1)
+[watch-import] [SKIP] duplicate Extreme nonlinear optics in optical fibers (arxiv:2512.25046v1)
+[watch-import] [ADD] PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes → robotic_manipulation｜机器人操作 [5AUNND6D]
+[watch-import] [ATTACH] PDF linked for 5AUNND6D
+[watch-import] [ADD] Hierarchical Deformation Planning and Neural Tracking for DLOs in Constrained En → robotic_manipulation｜机器人操作 [MJ4P8DMJ]
+[watch-import] [ATTACH] PDF linked for MJ4P8DMJ
+[watch-import] [ADD] ShowUI-$π$: Flow-based Generative Models as GUI Dexterous Hands → robotic_manipulation｜机器人操作 [B3ERCPU5]
+[watch-import] [ATTACH] PDF linked for B3ERCPU5
+[watch-import] [ADD] Towards Provably Secure Generative AI: Reliable Consensus Sampling → robotic_manipulation｜机器人操作 [HTXSE3KS]
+[watch-import] [ATTACH] PDF linked for HTXSE3KS
+[watch-import] [ADD] Generation of NIR and Visible Structured Light Beams with a Mechanical Long-Peri → robotic_manipulation｜机器人操作 [9IZIH74Q]
+[watch-import] [ATTACH] PDF linked for 9IZIH74Q
+[watch-import] [ADD] ArtiSG: Functional 3D Scene Graph Construction via Human-demonstrated Articulate → robotic_manipulation｜机器人操作 [S73EB3E8]
+[watch-import] [ATTACH] PDF linked for S73EB3E8
+[watch-import] [ADD] Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object → robotic_manipulation｜机器人操作 [A4XFU5UI]
+[watch-import] [ATTACH] PDF linked for A4XFU5UI
+[watch-import] [ADD] VLA-RAIL: A Real-Time Asynchronous Inference Linker for VLA Models and Robots → robotic_manipulation｜机器人操作 [PCXR4SI5]
+[watch-import] [ATTACH] PDF linked for PCXR4SI5
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 6 trending papers.
+[watch-import] [SCORE] tag=vision_language_model total=72 selected=10
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [ADD] DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in  → vision_language_model｜视觉语言模型 [8NJSKAT4]
+[watch-import] [ATTACH] PDF linked for 8NJSKAT4
+[watch-import] [ADD] VIPER: Process-aware Evaluation for Generative Video Reasoning → vision_language_model｜视觉语言模型 [AWCBH6N4]
+[watch-import] [ATTACH] PDF linked for AWCBH6N4
+[watch-import] [ADD] RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience S → vision_language_model｜视觉语言模型 [K9S7UN2E]
+[watch-import] [ATTACH] PDF linked for K9S7UN2E
+[watch-import] [ADD] LSRE: Latent Semantic Rule Encoding for Real-Time Semantic Risk Detection in Aut → vision_language_model｜视觉语言模型 [GVIIRJDT]
+[watch-import] [ATTACH] PDF linked for GVIIRJDT
+[watch-import] [ADD] RoboMIND 2.0: A Multimodal, Bimanual Mobile Manipulation Dataset for Generalizab → vision_language_model｜视觉语言模型 [VI3JBGFV]
+[watch-import] [ATTACH] PDF linked for VI3JBGFV
+[watch-import] [ADD] SliceLens: Fine-Grained and Grounded Error Slice Discovery for Multi-Instance Vi → vision_language_model｜视觉语言模型 [GTNKXHNP]
+[watch-import] [ATTACH] PDF linked for GTNKXHNP
+[watch-import] [ADD] From Perception to Punchline: Empowering VLM with the Art of In-the-wild Meme → vision_language_model｜视觉语言模型 [HQNJCC3W]
+[watch-import] [ATTACH] PDF linked for HQNJCC3W
+[watch-import] [ADD] PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically C → vision_language_model｜视觉语言模型 [VZZNSFFK]
+[watch-import] [ATTACH] PDF linked for VZZNSFFK
+[watch-import] [ADD] CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-J → vision_language_model｜视觉语言模型 [D2XZJ2NZ]
+[watch-import] [ATTACH] PDF linked for D2XZJ2NZ
+[watch-import] [ADD] VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigation agents → vision_language_model｜视觉语言模型 [W3G4PWH6]
+[watch-import] [ATTACH] PDF linked for W3G4PWH6
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [HF] vision_language_action_model matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models wit' despite score=0.24
+[watch-import] [SCORE] tag=vision_language_action_model total=27 selected=5
+[watch-import] [COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[watch-import] [SKIP] duplicate GR-Dexter Technical Report (arxiv:2512.24210)
+[watch-import] [SKIP] duplicate VLA-RAIL: A Real-Time Asynchronous Inference Linker for VLA Models and Robots (arxiv:2512.24673v1)
+[watch-import] [SKIP] duplicate RoboMIND 2.0: A Multimodal, Bimanual Mobile Manipulation Dataset for Generalizab (arxiv:2512.24653v1)
+[watch-import] [SKIP] duplicate VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigation agents (arxiv:2512.24851v1)
+[watch-import] [SKIP] duplicate Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models wit (arxiv:2512.22615)
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 16 trending papers.
+[watch-import] [SCORE] tag=large_language_model total=66 selected=10
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [ADD] Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search → large_language_model｜大语言模型 [4T6VPZDT]
+[watch-import] [ATTACH] PDF linked for 4T6VPZDT
+[watch-import] [ADD] Reliable and Resilient Collective Communication Library for LLM Training and Ser → large_language_model｜大语言模型 [4P7G8JBA]
+[watch-import] [ATTACH] PDF linked for 4P7G8JBA
+[watch-import] [ADD] Context-aware LLM-based AI Agents for Human-centered Energy Management Systems i → large_language_model｜大语言模型 [GWUTAABB]
+[watch-import] [ATTACH] PDF linked for GWUTAABB
+[watch-import] [ADD] MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Iden → large_language_model｜大语言模型 [FX4FA5NQ]
+[watch-import] [ATTACH] PDF linked for FX4FA5NQ
+[watch-import] [ADD] Efficiently Estimating Data Efficiency for Language Model Fine-tuning → large_language_model｜大语言模型 [KSJH8PGX]
+[watch-import] [ATTACH] PDF linked for KSJH8PGX
+[watch-import] [SKIP] duplicate PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes (arxiv:2512.24986v1)
+[watch-import] [ADD] Large language models and the entropy of English → large_language_model｜大语言模型 [NS7HITW9]
+[watch-import] [ATTACH] PDF linked for NS7HITW9
+[watch-import] [ADD] The Impact of LLMs on Online News Consumption and Production → large_language_model｜大语言模型 [K8W59TZG]
+[watch-import] [ATTACH] PDF linked for K8W59TZG
+[watch-import] [SKIP] duplicate CPJ: Explainable Agricultural Pest Diagnosis via Caption-Prompt-Judge with LLM-J (arxiv:2512.24947v1)
+[watch-import] [SKIP] duplicate RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience S (arxiv:2512.24943v1)
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 1 trending papers.
+[watch-import] [SCORE] tag=foundation_model total=1 selected=1
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [ADD] Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Aut → foundation_model｜基础模型 [855ZS56R]
+[watch-import] [ATTACH] PDF linked for 855ZS56R
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [HF] dexterous_hand matched 1 trending papers.
+[watch-import] [SCORE] tag=dexterous_hand total=1 selected=1
+[watch-import] [COL] ensured collection 'dexterous_hand｜灵巧机械手' → 25I7PA87
+[watch-import] [SKIP] duplicate GR-Dexter Technical Report (arxiv:2512.24210)
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [HF] humanoid_robot matched 1 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'MAI-UI Technical Report: Real-World Centric Foundation GUI Agents' despite score=0.11
+[watch-import] [SCORE] tag=humanoid_robot total=3 selected=1
+[watch-import] [COL] ensured collection 'humanoid_robot｜类人机器人' → B652AA82
+[watch-import] [SKIP] duplicate MAI-UI Technical Report: Real-World Centric Foundation GUI Agents (arxiv:2512.22047)
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 21 trending papers.
+[watch-import] [SCORE] tag=reinforcement_learning total=71 selected=10
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [ADD] Scaling Open-Ended Reasoning to Predict the Future → reinforcement_learning｜强化学习 [RTBES39V]
+[watch-import] [ATTACH] PDF linked for RTBES39V
+[watch-import] [SKIP] duplicate Many Minds from One Model: Bayesian Transformers for Population Intelligence (arxiv:2512.25063v1)
+[watch-import] [ADD] ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learnin → reinforcement_learning｜强化学习 [JKKKECM2]
+[watch-import] [ATTACH] PDF linked for JKKKECM2
+[watch-import] [SKIP] duplicate AMAP Agentic Planning Technical Report (arxiv:2512.24957v1)
+[watch-import] [ADD] MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponenti → reinforcement_learning｜强化学习 [68GQ7S5K]
+[watch-import] [ATTACH] PDF linked for 68GQ7S5K
+[watch-import] [ADD] Iterative Deployment Improves Planning Skills in LLMs → reinforcement_learning｜强化学习 [FJXIX9TR]
+[watch-import] [ATTACH] PDF linked for FJXIX9TR
+[watch-import] [ADD] Sparse Offline Reinforcement Learning with Corruption Robustness → reinforcement_learning｜强化学习 [WHVABXCF]
+[watch-import] [ATTACH] PDF linked for WHVABXCF
+[watch-import] [ADD] Control of Microrobots with Reinforcement Learning under On-Device Compute Const → reinforcement_learning｜强化学习 [KGXKHF9A]
+[watch-import] [ATTACH] PDF linked for KGXKHF9A
+[watch-import] [ADD] Evolving, Not Training: Zero-Shot Reasoning Segmentation via Evolutionary Prompt → reinforcement_learning｜强化学习 [3PP8B6WK]
+[watch-import] [ATTACH] PDF linked for 3PP8B6WK
+[watch-import] [ADD] Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Pol → reinforcement_learning｜强化学习 [9HM6J6KX]
+[watch-import] [ATTACH] PDF linked for 9HM6J6KX
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [SCORE] tag=imitation_learning total=0 selected=0
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [HF] world_model matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Act2Goal: From World Model To General Goal-conditioned Policy' despite score=0.26
+[watch-import] [HF-OVERRIDE] Added 'Web World Models' despite score=0.23
+[watch-import] [SCORE] tag=world_model total=2 selected=2
+[watch-import] [COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[watch-import] [SKIP] duplicate Act2Goal: From World Model To General Goal-conditioned Policy (arxiv:2512.23541)
+[watch-import] [SKIP] duplicate Web World Models (arxiv:2512.23676)
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [SCORE] tag=simulator total=50 selected=10
+[watch-import] [COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[watch-import] [SKIP] duplicate Randomization Times under Quantum Chaotic Hamiltonian Evolution (arxiv:2512.25074v1)
+[watch-import] [ADD] Melting curve of correlated iron at Earth's core conditions from machine-learned → simulator｜仿真平台 [9VRUQGVR]
+[watch-import] [ATTACH] PDF linked for 9VRUQGVR
+[watch-import] [SKIP] duplicate Reliable and Resilient Collective Communication Library for LLM Training and Ser (arxiv:2512.25059v1)
+[watch-import] [ADD] Bayesian Elastic Net Regression with Structured Prior Dependence → simulator｜仿真平台 [5BC2M7S5]
+[watch-import] [ATTACH] PDF linked for 5BC2M7S5
+[watch-import] [SKIP] duplicate Towards precision cosmology with Voids x CMB correlations (I): Roman-Agora mock  (arxiv:2512.25040v1)
+[watch-import] [SKIP] duplicate Fractal conduction pathways governing ionic transport in a glass (arxiv:2512.25031v1)

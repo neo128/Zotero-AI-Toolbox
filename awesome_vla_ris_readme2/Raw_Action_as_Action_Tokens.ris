@@ -1,0 +1,245 @@
+TY  - ELEC
+TI  - Language-Conditioned Imitation Learning over Unstructured Data
+T2  - Language-Conditioned Imitation Learning over Unstructured Data
+PB  - Language-Conditioned Imitation Learning over Unstructured Data
+UR  - https://arxiv.org/abs/2005.07648
+KW  - Raw Action as Action Tokens
+KW  - LangLfP
+ER  - 
+
+TY  - ELEC
+TI  - Zero-Shot Task Generalization with Robotic Imitation Learning
+T2  - Zero-Shot Task Generalization with Robotic Imitation Learning
+PB  - Zero-Shot Task Generalization with Robotic Imitation Learning
+UR  - https://arxiv.org/abs/2202.02005
+KW  - Raw Action as Action Tokens
+KW  - BC-Z
+ER  - 
+
+TY  - ELEC
+TI  - A Generalist Agent
+T2  - A Generalist Agent
+PB  - A Generalist Agent
+UR  - https://arxiv.org/abs/2205.06175
+KW  - Raw Action as Action Tokens
+KW  - Gato
+ER  - 
+
+TY  - ELEC
+TI  - VIMA: General Robot Manipulation with Multimodal Prompts
+T2  - VIMA: General Robot Manipulation with Multimodal Prompts
+PB  - VIMA: General Robot Manipulation with Multimodal Prompts
+UR  - https://arxiv.org/abs/2210.03094
+KW  - Raw Action as Action Tokens
+KW  - VIMA
+ER  - 
+
+TY  - ELEC
+TI  - RT-1: Robotics Transformer for Real-World Control at Scale
+T2  - RT-1: Robotics Transformer for Real-World Control at Scale
+PB  - RT-1: Robotics Transformer for Real-World Control at Scale
+UR  - https://arxiv.org/abs/2212.06817
+KW  - Raw Action as Action Tokens
+KW  - RT-1
+ER  - 
+
+TY  - ELEC
+TI  - RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control
+T2  - RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control
+PB  - RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control
+UR  - https://arxiv.org/abs/2307.15818
+KW  - Raw Action as Action Tokens
+KW  - RT-2
+ER  - 
+
+TY  - ELEC
+TI  - Open X-Embodiment: Robotic Learning Datasets and RT-X Models
+T2  - Open X-Embodiment: Robotic Learning Datasets and RT-X Models
+PB  - Open X-Embodiment: Robotic Learning Datasets and RT-X Models
+UR  - https://arxiv.org/abs/2310.08864
+KW  - Raw Action as Action Tokens
+KW  - RT-X
+ER  - 
+
+TY  - ELEC
+TI  - Vision-Language Foundation Models as Effective Robot Imitators
+T2  - Vision-Language Foundation Models as Effective Robot Imitators
+PB  - Vision-Language Foundation Models as Effective Robot Imitators
+UR  - https://arxiv.org/abs/2311.01378
+KW  - Raw Action as Action Tokens
+KW  - RoboFlamingo
+ER  - 
+
+TY  - ELEC
+TI  - An Embodied Generalist Agent in 3D World
+T2  - An Embodied Generalist Agent in 3D World
+PB  - An Embodied Generalist Agent in 3D World
+UR  - https://arxiv.org/abs/2311.12871
+KW  - Raw Action as Action Tokens
+KW  - LEO
+ER  - 
+
+TY  - ELEC
+TI  - Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation
+T2  - Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation
+PB  - Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation
+UR  - https://arxiv.org/abs/2312.13139
+KW  - Raw Action as Action Tokens
+KW  - GR-1
+ER  - 
+
+TY  - ELEC
+TI  - Octo: An Open-Source Generalist Robot Policy
+T2  - Octo: An Open-Source Generalist Robot Policy
+PB  - Octo: An Open-Source Generalist Robot Policy
+UR  - https://arxiv.org/abs/2405.12213
+KW  - Raw Action as Action Tokens
+KW  - Octo
+ER  - 
+
+TY  - ELEC
+TI  - OpenVLA: An open-source vision-language-action model
+T2  - OpenVLA: An open-source vision-language-action model
+PB  - OpenVLA: An open-source vision-language-action model
+UR  - https://arxiv.org/abs/2406.09246
+KW  - Raw Action as Action Tokens
+KW  - OpenVLA
+ER  - 
+
+TY  - ELEC
+TI  - TinyVLA: Towards Fast
+T2  - TinyVLA: Towards Fast, Data-Efficient Vision-Language-Action Models for Robotic Manipulation
+DA  - Data-Efficient Vision-Language-Action Models for Robotic Manipulation
+PB  - TinyVLA: Towards Fast
+UR  - https://arxiv.org/abs/2409.12514
+KW  - Raw Action as Action Tokens
+KW  - TinyVLA
+ER  - 
+
+TY  - ELEC
+TI  - HiRT: Enhancing Robotic Control with Hierarchical Robot Transformers
+T2  - HiRT: Enhancing Robotic Control with Hierarchical Robot Transformers
+PB  - HiRT: Enhancing Robotic Control with Hierarchical Robot Transformers
+UR  - https://arxiv.org/abs/2410.05273
+KW  - Raw Action as Action Tokens
+KW  - HiRT
+ER  - 
+
+TY  - ELEC
+TI  - GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation
+T2  - GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation
+PB  - GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation
+UR  - https://arxiv.org/abs/2410.06158v1
+KW  - Raw Action as Action Tokens
+KW  - GR-2
+ER  - 
+
+TY  - ELEC
+TI  - RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation
+T2  - RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation
+PB  - RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation
+UR  - https://arxiv.org/abs/2410.07864
+KW  - Raw Action as Action Tokens
+KW  - RDT-1B
+ER  - 
+
+TY  - ELEC
+TI  - A Vision-Language-Action Flow Model for General Robot Control
+T2  - A Vision-Language-Action Flow Model for General Robot Control
+PB  - A Vision-Language-Action Flow Model for General Robot Control
+UR  - https://arxiv.org/abs/2410.24164
+KW  - Raw Action as Action Tokens
+KW  - $\pi_0$
+ER  - 
+
+TY  - ELEC
+TI  - CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation
+T2  - CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation
+PB  - CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation
+UR  - https://arxiv.org/abs/2411.19650
+KW  - Raw Action as Action Tokens
+KW  - CogACT
+ER  - 
+
+TY  - ELEC
+TI  - FAST: Efficient Action Tokenization for Vision-Language-Action Models
+T2  - FAST: Efficient Action Tokenization for Vision-Language-Action Models
+PB  - FAST: Efficient Action Tokenization for Vision-Language-Action Models
+UR  - https://arxiv.org/abs/2501.09747
+KW  - Raw Action as Action Tokens
+KW  - $\pi_0$-FAST
+ER  - 
+
+TY  - ELEC
+TI  - Universal Actions for Enhanced Embodied Foundation Models
+T2  - Universal Actions for Enhanced Embodied Foundation Models
+PB  - Universal Actions for Enhanced Embodied Foundation Models
+UR  - https://arxiv.org/abs/2501.10105
+KW  - Raw Action as Action Tokens
+KW  - UniAct
+ER  - 
+
+TY  - ELEC
+TI  - Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success
+T2  - Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success
+PB  - Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success
+UR  - https://arxiv.org/abs/2502.19645
+KW  - Raw Action as Action Tokens
+KW  - OpenVLA-OFT
+ER  - 
+
+TY  - ELEC
+TI  - Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse
+T2  - Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse
+PB  - Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse
+UR  - https://arxiv.org/abs/2503.16365
+KW  - Raw Action as Action Tokens
+KW  - JARVIS-VLA
+ER  - 
+
+TY  - ELEC
+TI  - HybridVLA: Collaborative Diffusion and Autoregression in a Unified Vision-Language-Action Model
+T2  - HybridVLA: Collaborative Diffusion and Autoregression in a Unified Vision-Language-Action Model
+PB  - HybridVLA: Collaborative Diffusion and Autoregression in a Unified Vision-Language-Action Model
+UR  - https://arxiv.org/abs/2503.10631
+KW  - Raw Action as Action Tokens
+KW  - HybridVLA
+ER  - 
+
+TY  - ELEC
+TI  - MoManipVLA: Transferring Vision-Language-Action Models for General Mobile Manipulation
+T2  - MoManipVLA: Transferring Vision-Language-Action Models for General Mobile Manipulation
+PB  - MoManipVLA: Transferring Vision-Language-Action Models for General Mobile Manipulation
+UR  - https://arxiv.org/abs/2503.13446
+KW  - Raw Action as Action Tokens
+KW  - MoManipVLA
+ER  - 
+
+TY  - ELEC
+TI  - GR00T N1: An Open Foundation Model for Generalist Humanoid Robots
+T2  - GR00T N1: An Open Foundation Model for Generalist Humanoid Robots
+PB  - GR00T N1: An Open Foundation Model for Generalist Humanoid Robots
+UR  - https://arxiv.org/abs/2503.14734
+KW  - Raw Action as Action Tokens
+KW  - GR00T N1
+ER  - 
+
+TY  - ELEC
+TI  - Knowledge Insulating Vision-Language-Action Models: Train Fast
+T2  - Knowledge Insulating Vision-Language-Action Models: Train Fast, Run Fast, Generalize Better
+DA  - Run Fast, Generalize Better
+PB  - Knowledge Insulating Vision-Language-Action Models: Train Fast
+UR  - https://arxiv.org/abs/2505.23705
+KW  - Raw Action as Action Tokens
+KW  - $\pi_0$+KI
+ER  - 
+
+TY  - ELEC
+TI  - Real-Time Execution of Action Chunking Flow Policies
+T2  - Real-Time Execution of Action Chunking Flow Policies
+PB  - Real-Time Execution of Action Chunking Flow Policies
+UR  - https://arxiv.org/abs/2506.07339
+KW  - Raw Action as Action Tokens
+KW  - RTC
+ER  - 
+

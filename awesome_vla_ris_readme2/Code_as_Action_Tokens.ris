@@ -1,0 +1,63 @@
+TY  - ELEC
+TI  - Code as Policies: Language Model Programs for Embodied Control
+T2  - Code as Policies: Language Model Programs for Embodied Control
+PB  - Code as Policies: Language Model Programs for Embodied Control
+UR  - https://arxiv.org/abs/2209.07753
+KW  - Code as Action Tokens
+KW  - Code as Policies
+ER  - 
+
+TY  - ELEC
+TI  - ProgPrompt: Generating Situated Robot Task Plans using Large Language Models
+T2  - ProgPrompt: Generating Situated Robot Task Plans using Large Language Models
+PB  - ProgPrompt: Generating Situated Robot Task Plans using Large Language Models
+UR  - https://arxiv.org/abs/2209.11302
+KW  - Code as Action Tokens
+KW  - ProgPrompt
+ER  - 
+
+TY  - ELEC
+TI  - ChatGPT for Robotics: Design Principles and Model Abilities
+T2  - ChatGPT for Robotics: Design Principles and Model Abilities
+PB  - ChatGPT for Robotics: Design Principles and Model Abilities
+UR  - https://arxiv.org/abs/2306.17582
+KW  - Code as Action Tokens
+KW  - ChatGPT for Robotics
+ER  - 
+
+TY  - ELEC
+TI  - Text2Motion: From Natural Language Instructions to Feasible Plans
+T2  - Text2Motion: From Natural Language Instructions to Feasible Plans
+PB  - Text2Motion: From Natural Language Instructions to Feasible Plans
+UR  - https://arxiv.org/abs/2303.12153
+KW  - Code as Action Tokens
+KW  - Text2Motion
+ER  - 
+
+TY  - ELEC
+TI  - Instruct2Act: Mapping Multi-modality Instructions to Robotic Actions with Large Language Model
+T2  - Instruct2Act: Mapping Multi-modality Instructions to Robotic Actions with Large Language Model
+PB  - Instruct2Act: Mapping Multi-modality Instructions to Robotic Actions with Large Language Model
+UR  - https://arxiv.org/abs/2305.11176
+KW  - Code as Action Tokens
+KW  - Instruct2Act
+ER  - 
+
+TY  - ELEC
+TI  - RoboScript: Code Generation for Free-Form Manipulation Tasks across Real and Simulation
+T2  - RoboScript: Code Generation for Free-Form Manipulation Tasks across Real and Simulation
+PB  - RoboScript: Code Generation for Free-Form Manipulation Tasks across Real and Simulation
+UR  - https://arxiv.org/abs/2402.14623
+KW  - Code as Action Tokens
+KW  - RoboScript
+ER  - 
+
+TY  - ELEC
+TI  - RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis
+T2  - RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis
+PB  - RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis
+UR  - https://arxiv.org/abs/2402.16117
+KW  - Code as Action Tokens
+KW  - RoboCodeX
+ER  - 
+

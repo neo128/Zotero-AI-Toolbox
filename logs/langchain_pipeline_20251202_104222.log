@@ -1,0 +1,658 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[watch-import] [HF] daily fetched=5 from date/2025-12-02
+[watch-import] [HF] weekly fetched=20 from week/2025-W49
+[watch-import] [HF] monthly fetched=32 from month/2025-12
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=76 arXiv=876 URL=1056 TY=1065
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [HF] embodied_ai matched 4 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'CaptionQA: Is Your Caption as Useful as the Image Itself?' despite score=0.22
+[watch-import] [HF-OVERRIDE] Added 'DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso' despite score=0.20
+[watch-import] [SCORE] tag=embodied_ai total=4 selected=4
+[watch-import] [COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[watch-import] [ADD] CaptionQA: Is Your Caption as Useful as the Image Itself? → embodied_ai｜具身智能 [HI2UTMFT]
+[watch-import] [ATTACH] PDF linked for HI2UTMFT
+[watch-import] [ADD] DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso → embodied_ai｜具身智能 [25JB49BU]
+[watch-import] [ATTACH] PDF linked for 25JB49BU
+[watch-import] [SKIP] duplicate CaptionQA: Is Your Caption as Useful as the Image Itself? (arxiv:2511.21025)
+[watch-import] [SKIP] duplicate DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso (arxiv:2511.22134)
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=0 selected=0
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [SCORE] tag=teleoperation total=0 selected=0
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Captain Safari: A World Engine' despite score=0.25
+[watch-import] [HF-OVERRIDE] Added 'Captain Safari: A World Engine' despite score=0.09
+[watch-import] [SCORE] tag=robotic_navigation total=2 selected=2
+[watch-import] [COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[watch-import] [ADD] Captain Safari: A World Engine → robotic_navigation｜机器人导航 [8ENI9MZM]
+[watch-import] [ATTACH] PDF linked for 8ENI9MZM
+[watch-import] [SKIP] duplicate Captain Safari: A World Engine (arxiv:2511.22815)
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [HF] robotic_manipulation matched 5 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso' despite score=0.20
+[watch-import] [SCORE] tag=robotic_manipulation total=5 selected=4
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [ADD] REASONEDIT: Towards Reasoning-Enhanced Image Editing Models → robotic_manipulation｜机器人操作 [3DICMF9N]
+[watch-import] [ATTACH] PDF linked for 3DICMF9N
+[watch-import] [SKIP] duplicate DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso (arxiv:2511.22134)
+[watch-import] [SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[watch-import] [SKIP] duplicate DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso (arxiv:2511.22134)
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 7 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Lan' despite score=0.25
+[watch-import] [HF-OVERRIDE] Added 'Test-time scaling of diffusions with flow maps' despite score=0.23
+[watch-import] [SCORE] tag=vision_language_model total=7 selected=3
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [SKIP] duplicate DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso (arxiv:2511.22134)
+[watch-import] [ADD] World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Lan → vision_language_model｜视觉语言模型 [C5JGN677]
+[watch-import] [ATTACH] PDF linked for C5JGN677
+[watch-import] [ADD] Test-time scaling of diffusions with flow maps → vision_language_model｜视觉语言模型 [5CXDU9EX]
+[watch-import] [ATTACH] PDF linked for 5CXDU9EX
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [HF] vision_language_action_model matched 2 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso' despite score=0.20
+[watch-import] [SCORE] tag=vision_language_action_model total=2 selected=2
+[watch-import] [COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[watch-import] [SKIP] duplicate DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso (arxiv:2511.22134)
+[watch-import] [SKIP] duplicate DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso (arxiv:2511.22134)
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 20 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models' despite score=0.29
+[watch-import] [SCORE] tag=large_language_model total=20 selected=6
+[watch-import] [COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[watch-import] [SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[watch-import] [ADD] DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning → large_language_model｜大语言模型 [28TTN2IJ]
+[watch-import] [ATTACH] PDF linked for 28TTN2IJ
+[watch-import] [ADD] Architecture Decoupling Is Not All You Need For Unified Multimodal Model → large_language_model｜大语言模型 [QNNATA8R]
+[watch-import] [ATTACH] PDF linked for QNNATA8R
+[watch-import] [SKIP] duplicate CaptionQA: Is Your Caption as Useful as the Image Itself? (arxiv:2511.21025)
+[watch-import] [SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[watch-import] [ADD] Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models → large_language_model｜大语言模型 [9D4G6I5V]
+[watch-import] [ATTACH] PDF linked for 9D4G6I5V
+[watch-import] [TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[watch-import] [HF] foundation_model matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu' despite score=0.25
+[watch-import] [SCORE] tag=foundation_model total=3 selected=3
+[watch-import] [COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[watch-import] [ADD] Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu → foundation_model｜基础模型 [K5DZSES2]
+[watch-import] [ATTACH] PDF linked for K5DZSES2
+[watch-import] [SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[watch-import] [SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[watch-import] [TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[watch-import] [SCORE] tag=dexterous_hand total=0 selected=0
+[watch-import] [TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[watch-import] [SCORE] tag=humanoid_robot total=0 selected=0
+[watch-import] [TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[watch-import] [SCORE] tag=quadruped_robot total=0 selected=0
+[watch-import] [TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[watch-import] [SCORE] tag=robotic_arm total=0 selected=0
+[watch-import] [TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[watch-import] [HF] reinforcement_learning matched 26 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.30
+[watch-import] [HF-OVERRIDE] Added 'Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shiel' despite score=0.28
+[watch-import] [SCORE] tag=reinforcement_learning total=26 selected=6
+[watch-import] [COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[watch-import] [SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[watch-import] [SKIP] duplicate DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning (arxiv:2511.22570)
+[watch-import] [SKIP] duplicate Architecture Decoupling Is Not All You Need For Unified Multimodal Model (arxiv:2511.22663)
+[watch-import] [SKIP] duplicate CaptionQA: Is Your Caption as Useful as the Image Itself? (arxiv:2511.21025)
+[watch-import] [SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[watch-import] [ADD] Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shiel → reinforcement_learning｜强化学习 [44G3AFM2]
+[watch-import] [ATTACH] PDF linked for 44G3AFM2
+[watch-import] [TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[watch-import] [SCORE] tag=imitation_learning total=0 selected=0
+[watch-import] [TAG] world_model 'world_model｜世界模型' keywords=4
+[watch-import] [SCORE] tag=world_model total=0 selected=0
+[watch-import] [TAG] simulator 'simulator｜仿真平台' keywords=5
+[watch-import] [SCORE] tag=simulator total=0 selected=0
+[watch-import] [TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[watch-import] [SCORE] tag=motion_planning total=0 selected=0
+[watch-import] [TAG] task_planning 'task_planning｜任务规划' keywords=4
+[watch-import] [SCORE] tag=task_planning total=0 selected=0
+[watch-import] [TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[watch-import] [SCORE] tag=code_based_task_planning total=0 selected=0
+[watch-import] [TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[watch-import] [SCORE] tag=language_based_task_planning total=0 selected=0
+[watch-import] [TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[watch-import] [SCORE] tag=end_to_end_task_planning total=0 selected=0
+[watch-import] [TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[watch-import] [SCORE] tag=grounded_task_planning total=0 selected=0
+[watch-import] [TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[watch-import] [SCORE] tag=transformer_policy total=0 selected=0
+[watch-import] [TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[watch-import] [SCORE] tag=diffusion_policy total=0 selected=0
+[watch-import] [TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[watch-import] [SCORE] tag=3d_vision total=0 selected=0
+[watch-import] [TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[watch-import] [SCORE] tag=point_based_action total=0 selected=0
+[watch-import] [TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[watch-import] [SCORE] tag=chain_of_thought total=0 selected=0
+[watch-import] [INFO] Recorded 11 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[watch-import] [INFO] Done. Summary: {"candidates": 11, "added": 11, "skipped": 19, "updated": 0, "hf_candidates": 69, "hf_overrides": 14}
+[watch-import] [INFO] Report → /Users/neoone/code/Zotero/reports/watch_20251202_104222.json
+[PIPELINE] ✓ watch completed
+[PIPELINE] → pdf: since_hours=24.0 limit=∞
+[fetch-pdfs] [TRY] HI2UTMFT ← existing attachment link: https://arxiv.org/pdf/2511.21025.pdf
+[fetch-pdfs] [OK] Linked local PDF for HI2UTMFT
+[fetch-pdfs] [TRY] 25JB49BU ← existing attachment link: https://arxiv.org/pdf/2511.22134.pdf
+[fetch-pdfs] [OK] Linked local PDF for 25JB49BU
+[fetch-pdfs] [TRY] 8ENI9MZM ← existing attachment link: https://arxiv.org/pdf/2511.22815.pdf
+[fetch-pdfs] [OK] Linked local PDF for 8ENI9MZM
+[fetch-pdfs] [TRY] 3DICMF9N ← existing attachment link: https://arxiv.org/pdf/2511.22625.pdf
+[fetch-pdfs] [OK] Linked local PDF for 3DICMF9N
+[fetch-pdfs] [TRY] C5JGN677 ← existing attachment link: https://arxiv.org/pdf/2511.22787.pdf
+[fetch-pdfs] [OK] Linked local PDF for C5JGN677
+[fetch-pdfs] [TRY] 5CXDU9EX ← existing attachment link: https://arxiv.org/pdf/2511.22688.pdf
+[fetch-pdfs] [OK] Linked local PDF for 5CXDU9EX
+[fetch-pdfs] [TRY] 28TTN2IJ ← existing attachment link: https://arxiv.org/pdf/2511.22570.pdf
+[fetch-pdfs] [OK] Linked local PDF for 28TTN2IJ
+[fetch-pdfs] [TRY] QNNATA8R ← existing attachment link: https://arxiv.org/pdf/2511.22663.pdf
+[fetch-pdfs] [OK] Linked local PDF for QNNATA8R
+[fetch-pdfs] [TRY] 9D4G6I5V ← existing attachment link: https://arxiv.org/pdf/2511.23319.pdf
+[fetch-pdfs] [OK] Linked local PDF for 9D4G6I5V
+[fetch-pdfs] [TRY] K5DZSES2 ← existing attachment link: https://arxiv.org/pdf/2511.22699.pdf
+[fetch-pdfs] [OK] Linked local PDF for K5DZSES2
+[fetch-pdfs] [TRY] 44G3AFM2 ← existing attachment link: https://arxiv.org/pdf/2511.22677.pdf
+[fetch-pdfs] [OK] Linked local PDF for 44G3AFM2
+[fetch-pdfs] [INFO] Completed. PDFs added: 11, remaining without PDF: 0.
+[PIPELINE] ✓ pdf completed
+[PIPELINE] → dedupe: limit=∞ since_hours=24.0
+[dedupe] [INFO] Scanned 11 top-level items (after time filter).
+[dedupe] [MERGE] url='https://tongyi-mai.github.io/z-image-blog' → keeping 44G3AFM2 (attachments=2, notes=0, pdf=True) removing 1 duplicates.
+[dedupe] [INFO] Completed. Groups merged: 1, items removed: 1, attachments moved: 1, notes moved: 0.
+[PIPELINE] ✓ dedupe completed
+[PIPELINE] → summary: limit=200 since_hours=24.0
+[summaries] [INFO] Fetched 200 Zotero items before time-window filtering.
+[summaries] [INFO] 31 items remain after applying modified-since 24.0h window.
+[summaries] [INFO] Processing Decoupled_DMD__CFG_Augmentation_as_the_Spear__Distribution_Matching_as_the_Shiel.pdf (HS3DBTJV)
+[summaries]   - Reading Decoupled_DMD__CFG_Augmentation_as_the_Spear__Distribution_Matching_as_the_Shiel.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Z-Image__An_Efficient_Image_Generation_Foundation_Model_with_Single-Stream_Diffu.pdf (FGXPVATA)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Every_Token_Counts__Generalizing_16M_Ultra-Long_Context_in_Large_Language_Models.pdf (TUBZ5CJ6)
+[summaries]   - Reading Every_Token_Counts__Generalizing_16M_Ultra-Long_Context_in_Large_Language_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Architecture_Decoupling_Is_Not_All_You_Need_For_Unified_Multimodal_Model.pdf (3K2HZDP5)
+[summaries]   - Reading Architecture_Decoupling_Is_Not_All_You_Need_For_Unified_Multimodal_Model.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DeepSeekMath-V2__Towards_Self-Verifiable_Mathematical_Reasoning.pdf (62SDKQIZ)
+[summaries]   - Reading DeepSeekMath-V2__Towards_Self-Verifiable_Mathematical_Reasoning.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Test-time_scaling_of_diffusions_with_flow_maps.pdf (QTAEE3HR)
+[summaries]   - Reading Test-time_scaling_of_diffusions_with_flow_maps.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing World_in_a_Frame__Understanding_Culture_Mixing_as_a_New_Challenge_for_Vision-Lan.pdf (XTZ5QE2K)
+[summaries]   - Reading World_in_a_Frame__Understanding_Culture_Mixing_as_a_New_Challenge_for_Vision-Lan.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing REASONEDIT__Towards_Reasoning-Enhanced_Image_Editing_Models.pdf (6EWXTQ9Q)
+[summaries]   - Reading REASONEDIT__Towards_Reasoning-Enhanced_Image_Editing_Models.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing Captain_Safari__A_World_Engine.pdf (VJH4W347)
+[summaries]   - Reading Captain_Safari__A_World_Engine.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing DualVLA__Building_a_Generalizable_Embodied_Agent_via_Partial_Decoupling_of_Reaso.pdf (DHKWTT3M)
+[summaries]   - Reading DualVLA__Building_a_Generalizable_Embodied_Agent_via_Partial_Decoupling_of_Reaso.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing CaptionQA__Is_Your_Caption_as_Useful_as_the_Image_Itself_.pdf (BAH7I56S)
+[summaries]   - Reading CaptionQA__Is_Your_Caption_as_Useful_as_the_Image_Itself_.pdf
+[summaries]     [OK] Note created.
+[summaries] [INFO] Processing PDF (V2BJ6BQ2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shield (44G3AFM2)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (2P78RVZT)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models (9D4G6I5V)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (6BCHKVKJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Architecture Decoupling Is Not All You Need For Unified Multimodal Model (QNNATA8R)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (6EP5K6FQ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning (28TTN2IJ)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (F5DW9CW8)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Test-time scaling of diffusions with flow maps (5CXDU9EX)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (6TU3SS7U)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models (C5JGN677)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (NKGEMWZE)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (3DICMF9N)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (JVXF4VTK)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing Captain Safari: A World Engine (8ENI9MZM)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (UG3JNB66)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reasoning and Action (25JB49BU)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing PDF (VEDFX7HN)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Processing CaptionQA: Is Your Caption as Useful as the Image Itself? (HI2UTMFT)
+[summaries]     [SKIP] Existing AI总结 note found; skipping this item.
+[summaries] [INFO] Completed. Items scanned: 31, notes created: 10.
+[PIPELINE] ✓ summary completed
+[PIPELINE] → abstracts: limit=∞ since_hours=24.0
+[abstracts] [INFO] Completed. Items scanned: 1122, updated: 0, missing abstract after lookup: 0.
+[PIPELINE] ✓ abstracts completed
+[PIPELINE] → notion: limit=500 since_hours=24.0
+[notion-sync] [ERR] Notion API error for 'Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shiel': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Architecture Decoupling Is Not All You Need For Unified Multimodal Model': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Test-time scaling of diffusions with flow maps': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Lan': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'Captain Safari: A World Engine': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reaso': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [ERR] Notion API error for 'CaptionQA: Is Your Caption as Useful as the Image Itself?': 400 Client Error: Bad Request for url: https://api.notion.com/v1/pages
+[notion-sync] [INFO] Completed. Scanned=10 created=0 updated=0
+[PIPELINE] ✓ notion completed
+{
+  "watch": {
+    "name": "watch-import",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py",
+      "--tags",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--since-days",
+      "0",
+      "--since-hours",
+      "24.0",
+      "--top-k",
+      "10",
+      "--min-score",
+      "0.3",
+      "--log-file",
+      "/Users/neoone/code/Zotero/logs/watch_20251202_104222.log",
+      "--report-json",
+      "/Users/neoone/code/Zotero/reports/watch_20251202_104222.json",
+      "--create-collections"
+    ],
+    "artifacts": {
+      "log": "/Users/neoone/code/Zotero/logs/watch_20251202_104222.log",
+      "report": "/Users/neoone/code/Zotero/reports/watch_20251202_104222.json",
+      "report_data": {
+        "started_at": "2025-12-02T10:42:22.407265",
+        "params": {
+          "since_days": 0,
+          "since_hours": 24.0,
+          "top_k": 10,
+          "min_score": 0.3,
+          "create_collections": true,
+          "fill_missing": false,
+          "dry_run": false,
+          "use_hf_papers": true,
+          "hf_weight": 0.3
+        },
+        "tags": {
+          "embodied_ai": {
+            "label": "embodied_ai｜具身智能",
+            "candidates": 4,
+            "added": 2,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 4,
+            "hf_overrides": 2
+          },
+          "sim2real": {
+            "label": "sim2real｜模拟到现实",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "teleoperation": {
+            "label": "teleoperation｜遥操作",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_navigation": {
+            "label": "robotic_navigation｜机器人导航",
+            "candidates": 2,
+            "added": 1,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 2,
+            "hf_overrides": 2
+          },
+          "robotic_manipulation": {
+            "label": "robotic_manipulation｜机器人操作",
+            "candidates": 5,
+            "added": 1,
+            "skipped": 3,
+            "updated": 0,
+            "hf_candidates": 5,
+            "hf_overrides": 2
+          },
+          "robotic_grasping": {
+            "label": "robotic_grasping｜机器人抓取",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "vision_language_model": {
+            "label": "vision_language_model｜视觉语言模型",
+            "candidates": 7,
+            "added": 2,
+            "skipped": 1,
+            "updated": 0,
+            "hf_candidates": 7,
+            "hf_overrides": 2
+          },
+          "vision_language_action_model": {
+            "label": "vision_language_action_model｜视觉语言动作模型",
+            "candidates": 2,
+            "added": 0,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 2,
+            "hf_overrides": 1
+          },
+          "large_language_model": {
+            "label": "large_language_model｜大语言模型",
+            "candidates": 20,
+            "added": 3,
+            "skipped": 3,
+            "updated": 0,
+            "hf_candidates": 20,
+            "hf_overrides": 2
+          },
+          "foundation_model": {
+            "label": "foundation_model｜基础模型",
+            "candidates": 3,
+            "added": 1,
+            "skipped": 2,
+            "updated": 0,
+            "hf_candidates": 3,
+            "hf_overrides": 1
+          },
+          "dexterous_hand": {
+            "label": "dexterous_hand｜灵巧机械手",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "humanoid_robot": {
+            "label": "humanoid_robot｜类人机器人",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "quadruped_robot": {
+            "label": "quadruped_robot｜四足机器人",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "robotic_arm": {
+            "label": "robotic_arm｜机械臂",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "reinforcement_learning": {
+            "label": "reinforcement_learning｜强化学习",
+            "candidates": 26,
+            "added": 1,
+            "skipped": 5,
+            "updated": 0,
+            "hf_candidates": 26,
+            "hf_overrides": 2
+          },
+          "imitation_learning": {
+            "label": "imitation_learning｜模仿学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "world_model": {
+            "label": "world_model｜世界模型",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "simulator": {
+            "label": "simulator｜仿真平台",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "motion_planning": {
+            "label": "motion_planning｜运动规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "task_planning": {
+            "label": "task_planning｜任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "code_based_task_planning": {
+            "label": "code_based_task_planning｜代码任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "language_based_task_planning": {
+            "label": "language_based_task_planning｜语言任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "end_to_end_task_planning": {
+            "label": "end_to_end_task_planning｜端到端任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "grounded_task_planning": {
+            "label": "grounded_task_planning｜具身语义任务规划",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "transformer_policy": {
+            "label": "transformer_policy｜Transformer控制策略",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "diffusion_policy": {
+            "label": "diffusion_policy｜扩散策略学习",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "3d_vision": {
+            "label": "3d_vision｜3D视觉感知",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "point_based_action": {
+            "label": "point_based_action｜基于点的控制",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          },
+          "chain_of_thought": {
+            "label": "chain_of_thought｜链式推理",
+            "candidates": 0,
+            "added": 0,
+            "skipped": 0,
+            "updated": 0,
+            "hf_candidates": 0,
+            "hf_overrides": 0
+          }
+        },
+        "summary": {
+          "candidates": 11,
+          "added": 11,
+          "skipped": 19,
+          "updated": 0,
+          "hf_candidates": 69,
+          "hf_overrides": 14
+        },
+        "errors": [],
+        "hf_sources": {
+          "daily": 5,
+          "weekly": 20,
+          "monthly": 32
+        },
+        "finished_at": "2025-12-02T10:49:00.433212"
+      }
+    }
+  },
+  "pdf": {
+    "name": "fetch-pdfs",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/fetch_missing_pdfs.py",
+      "--since-hours",
+      "24.0",
+      "--new-items-json",
+      "/Users/neoone/code/Zotero/.data/new_items_watch.json"
+    ],
+    "artifacts": {}
+  },
+  "dedupe": {
+    "name": "dedupe",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/merge_zotero_duplicates.py",
+      "--group-by",
+      "auto",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "summary": {
+    "name": "summaries",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/summarize_zotero_with_doubao.py",
+      "--limit",
+      "200",
+      "--max-pages",
+      "80",
+      "--max-chars",
+      "80000",
+      "--note-tag",
+      "AI总结",
+      "--summary-dir",
+      "/Users/neoone/code/Zotero/summaries",
+      "--recursive",
+      "--insert-note",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {
+      "summary_dir": "/Users/neoone/code/Zotero/summaries"
+    }
+  },
+  "abstract": {
+    "name": "abstracts",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/enrich_zotero_abstracts.py",
+      "--modified-since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  },
+  "notion": {
+    "name": "notion-sync",
+    "command": [
+      "/Users/neoone/miniconda3/bin/python",
+      "/Users/neoone/code/Zotero/scripts/sync_zotero_to_notion.py",
+      "--limit",
+      "500",
+      "--tag-file",
+      "/Users/neoone/code/Zotero/tag.json",
+      "--recursive",
+      "--skip-untitled",
+      "--enrich-with-doubao",
+      "--since-hours",
+      "24.0"
+    ],
+    "artifacts": {}
+  }
+}

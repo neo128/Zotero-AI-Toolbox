@@ -1,0 +1,286 @@
+[INFO] Started watch. since_hours=24.0 (→ days=10.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2025-12-10
+[HF] weekly fetched=20 from week/2025-W50
+[HF] monthly fetched=50 from month/2025-12
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=86 arXiv=1057 URL=1300 TY=1261
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[HF] embodied_ai matched 1 trending papers.
+[HF-OVERRIDE] Added 'DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling' despite score=0.17
+[SCORE] tag=embodied_ai total=1 selected=1
+[COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[SKIP] duplicate DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling (arxiv:2512.03000)
+[TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[HF] embodied_surveys matched 3 trending papers.
+[SCORE] tag=embodied_surveys total=99 selected=10
+[COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[ADD] Light-Emitting Diodes based on Metal Halide Perovskite and Perovskite Related Na → embodied_surveys｜具身智能综述 [Q64NT4UQ]
+[ATTACH] PDF linked for Q64NT4UQ
+[ADD] DESI Strong Lens Foundry V: A Sample of HST-Observed Strong Lenses Modeled with  → embodied_surveys｜具身智能综述 [5D3BFUU2]
+[ATTACH] PDF linked for 5D3BFUU2
+[ADD] Toward Seamless Physical Human-Humanoid Interaction: Insights from Control, Inte → embodied_surveys｜具身智能综述 [SKTFDHPG]
+[ATTACH] PDF linked for SKTFDHPG
+[ADD] ZTF-SEDm Type Ia supernova sample for Twins Embedding spectrophotometric standar → embodied_surveys｜具身智能综述 [HHFV4957]
+[ATTACH] PDF linked for HHFV4957
+[ADD] Service Registration, Indexing, Discovery & Selection; An Architectural Survey T → embodied_surveys｜具身智能综述 [ST7K7ERN]
+[ATTACH] PDF linked for ST7K7ERN
+[ADD] Chemical complexity in star formation induced by stellar feedback: cores shock-f → embodied_surveys｜具身智能综述 [UAEEFRVS]
+[ATTACH] PDF linked for UAEEFRVS
+[ADD] Size Matters: The Impact of Avatar Size on User Experience in Healthcare Applica → embodied_surveys｜具身智能综述 [FFH4B3DI]
+[ATTACH] PDF linked for FFH4B3DI
+[ADD] Off-grid solar energy storage system with hybrid lithium iron phosphate (LFP) an → embodied_surveys｜具身智能综述 [E59ZU4CS]
+[ATTACH] PDF linked for E59ZU4CS
+[ADD] Limits on Unintended Radio Emission from Geostationary and Geosynchronous Satell → embodied_surveys｜具身智能综述 [Z5BXEASV]
+[ATTACH] PDF linked for Z5BXEASV
+[ADD] Back-End System of BURSTT → embodied_surveys｜具身智能综述 [KWQMSVQK]
+[ATTACH] PDF linked for KWQMSVQK
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=3 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[HF] teleoperation matched 1 trending papers.
+[HF-OVERRIDE] Added 'Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling ' despite score=0.22
+[SCORE] tag=teleoperation total=8 selected=2
+[COL] ensured collection 'teleoperation｜遥操作' → 8WXVCWFU
+[ADD] Parametric Design of a Cable-Driven Coaxial Spherical Parallel Mechanism for Ult → teleoperation｜遥操作 [QREGMVJB]
+[ATTACH] PDF linked for QREGMVJB
+[SKIP] duplicate Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling  (arxiv:2512.02834)
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[HF] robotic_navigation matched 2 trending papers.
+[SCORE] tag=robotic_navigation total=52 selected=10
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[ADD] Artificial Intelligence and Nuclear Weapons Proliferation: The Technological Arm → robotic_navigation｜机器人导航 [T9W38QB8]
+[ATTACH] PDF linked for T9W38QB8
+[ADD] Inchworm-Inspired Soft Robot with Groove-Guided Locomotion → robotic_navigation｜机器人导航 [UANZCD2V]
+[ATTACH] PDF linked for UANZCD2V
+[ADD] Auditing Games for Sandbagging → robotic_navigation｜机器人导航 [TAI5X7WW]
+[ATTACH] PDF linked for TAI5X7WW
+[ADD] LUNA: LUT-Based Neural Architecture for Fast and Low-Cost Qubit Readout → robotic_navigation｜机器人导航 [9C26MN2T]
+[ATTACH] PDF linked for 9C26MN2T
+[ADD] Analytic First Derivatives of Aufbau Suppressed Coupled Cluster Theory and their → robotic_navigation｜机器人导航 [FH7EQWP6]
+[ATTACH] PDF linked for FH7EQWP6
+[ADD] Designing Co-operation in Systems of Hierarchical, Multi-objective Schedulers fo → robotic_navigation｜机器人导航 [QZRF3BCA]
+[ATTACH] PDF linked for QZRF3BCA
+[ADD] Thermodynamic Phase Transitions and Quantum Entropy Corrections in the Simpson-V → robotic_navigation｜机器人导航 [3ND22WMK]
+[ATTACH] PDF linked for 3ND22WMK
+[ADD] DiffusionDriveV2: Reinforcement Learning-Constrained Truncated Diffusion Modelin → robotic_navigation｜机器人导航 [NINB9IHH]
+[ATTACH] PDF linked for NINB9IHH
+[ADD] A multimodal Bayesian Network for symptom-level depression and anxiety predictio → robotic_navigation｜机器人导航 [EQMHAAQW]
+[ATTACH] PDF linked for EQMHAAQW
+[ADD] SpatialDreamer: Incentivizing Spatial Reasoning via Active Mental Imagery → robotic_navigation｜机器人导航 [R6QKR6UB]
+[ATTACH] PDF linked for R6QKR6UB
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[HF] robotic_manipulation matched 2 trending papers.
+[SCORE] tag=robotic_manipulation total=52 selected=10
+[COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[ADD] On the Interplay of Pre-Training, Mid-Training, and RL on Reasoning Language Mod → robotic_manipulation｜机器人操作 [GTC8GD32]
+[ATTACH] PDF linked for GTC8GD32
+[ADD] AMBER: Aerial deployable gripping crawler with compliant microspine for canopy m → robotic_manipulation｜机器人操作 [GMK2DZBF]
+[ATTACH] PDF linked for GMK2DZBF
+[ADD] See Once, Then Act: Vision-Language-Action Model with Task Learning from One-Sho → robotic_manipulation｜机器人操作 [5VPKXKNP]
+[ATTACH] PDF linked for 5VPKXKNP
+[ADD] Introduction to Ambisonics, Part 1: The Part With No Math → robotic_manipulation｜机器人操作 [N76BMGFA]
+[ATTACH] PDF linked for N76BMGFA
+[ADD] Spin-Texture Spin-valve with a van der Waals Magnet → robotic_manipulation｜机器人操作 [6WFHMI62]
+[ATTACH] PDF linked for 6WFHMI62
+[ADD] ReLaX: Reasoning with Latent Exploration for Large Reasoning Models → robotic_manipulation｜机器人操作 [52WFS7JG]
+[ATTACH] PDF linked for 52WFS7JG
+[ADD] Towards Robust DeepFake Detection under Unstable Face Sequences: Adaptive Sparse → robotic_manipulation｜机器人操作 [QJ7DWHAN]
+[ATTACH] PDF linked for QJ7DWHAN
+[ADD] Atomic-scale probe of molecular magneto-electric coupling → robotic_manipulation｜机器人操作 [HB8GUAC9]
+[ATTACH] PDF linked for HB8GUAC9
+[ADD] Affordance Field Intervention: Enabling VLAs to Escape Memory Traps in Robotic M → robotic_manipulation｜机器人操作 [US3XFCGH]
+[ATTACH] PDF linked for US3XFCGH
+[ADD] Breaking Players' expectations: the Role of Non-player Characters' coherence and → robotic_manipulation｜机器人操作 [ZZWUPPG8]
+[ATTACH] PDF linked for ZZWUPPG8
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[HF] vision_language_model matched 10 trending papers.
+[SCORE] tag=vision_language_model total=94 selected=10
+[COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[ADD] Toward More Reliable Artificial Intelligence: Reducing Hallucinations in Vision- → vision_language_model｜视觉语言模型 [V88WHKAH]
+[ATTACH] PDF linked for V88WHKAH
+[ADD] ESPADA: Execution Speedup via Semantics Aware Demonstration Data Downsampling fo → vision_language_model｜视觉语言模型 [VIGJTHJF]
+[ATTACH] PDF linked for VIGJTHJF
+[ADD] Venus: An Efficient Edge Memory-and-Retrieval System for VLM-based Online Video  → vision_language_model｜视觉语言模型 [8JC2E54F]
+[ATTACH] PDF linked for 8JC2E54F
+[ADD] Towards Accurate UAV Image Perception: Guiding Vision-Language Models with Stron → vision_language_model｜视觉语言模型 [EHMV3ZDT]
+[ATTACH] PDF linked for EHMV3ZDT
+[ADD] Geo3DVQA: Evaluating Vision-Language Models for 3D Geospatial Reasoning from Aer → vision_language_model｜视觉语言模型 [FJ6ZXJKR]
+[ATTACH] PDF linked for FJ6ZXJKR
+[ADD] Pay Less Attention to Function Words for Free Robustness of Vision-Language Mode → vision_language_model｜视觉语言模型 [PAFCM6R4]
+[ATTACH] PDF linked for PAFCM6R4
+[ADD] VFM-VLM: Vision Foundation Model and Vision Language Model based Visual Comparis → vision_language_model｜视觉语言模型 [E55MSUJP]
+[ATTACH] PDF linked for E55MSUJP
+[ADD] Using Vision-Language Models as Proxies for Social Intelligence in Human-Robot I → vision_language_model｜视觉语言模型 [SVVWDSED]
+[ATTACH] PDF linked for SVVWDSED
+[ADD] Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vis → vision_language_model｜视觉语言模型 [HDU9IFWM]
+[ATTACH] PDF linked for HDU9IFWM
+[ADD] RMAdapter: Reconstruction-based Multi-Modal Adapter for Vision-Language Models → vision_language_model｜视觉语言模型 [V5SNJ7Q8]
+[ATTACH] PDF linked for V5SNJ7Q8
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[HF] vision_language_action_model matched 1 trending papers.
+[SCORE] tag=vision_language_action_model total=55 selected=7
+[COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[ADD] Diverse stages of star formation in the IRAS 18162-2048 region. Emergence of UV  → vision_language_action_model｜视觉语言动作模型 [P4U69MTU]
+[ATTACH] PDF linked for P4U69MTU
+[SKIP] duplicate See Once, Then Act: Vision-Language-Action Model with Task Learning from One-Sho (arxiv:2512.07582v1)
+[SKIP] duplicate Affordance Field Intervention: Enabling VLAs to Escape Memory Traps in Robotic M (arxiv:2512.07472v1)
+[ADD] A Large-Scale Multimodal Dataset and Benchmarks for Human Activity Scene Underst → vision_language_action_model｜视觉语言动作模型 [C6VMJAAR]
+[ATTACH] PDF linked for C6VMJAAR
+[ADD] VideoVLA: Video Generators Can Be Generalizable Robot Manipulators → vision_language_action_model｜视觉语言动作模型 [2QJJFI9K]
+[ATTACH] PDF linked for 2QJJFI9K
+[ADD] Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 → vision_language_action_model｜视觉语言动作模型 [RMH6XRAB]
+[ATTACH] PDF linked for RMH6XRAB
+[ADD] MIND-V: Hierarchical Video Generation for Long-Horizon Robotic Manipulation with → vision_language_action_model｜视觉语言动作模型 [5AENNENQ]
+[ATTACH] PDF linked for 5AENNENQ
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[HF] large_language_model matched 32 trending papers.
+[SCORE] tag=large_language_model total=82 selected=10
+[COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[ADD] Do Generalisation Results Generalise? → large_language_model｜大语言模型 [R5V4U67D]
+[ATTACH] PDF linked for R5V4U67D
+[ADD] Collaborative Causal Sensemaking: Closing the Complementarity Gap in Human-AI De → large_language_model｜大语言模型 [RCP34FH9]
+[ATTACH] PDF linked for RCP34FH9
+[ADD] LLM Use for Mental Health: Crowdsourcing Users' Sentiment-based Perspectives and → large_language_model｜大语言模型 [B8EQEC5V]
+[ATTACH] PDF linked for B8EQEC5V
+[ADD] Large Causal Models from Large Language Models → large_language_model｜大语言模型 [XBCEFZ5B]
+[ATTACH] PDF linked for XBCEFZ5B
+[ADD] ReasonBENCH: Benchmarking the (In)Stability of LLM Reasoning → large_language_model｜大语言模型 [JJIFPPGS]
+[ATTACH] PDF linked for JJIFPPGS
+[ADD] Automating High Energy Physics Data Analysis with LLM-Powered Agents → large_language_model｜大语言模型 [HDQ3S25P]
+[ATTACH] PDF linked for HDQ3S25P
+[ADD] Mary, the Cheeseburger-Eating Vegetarian: Do LLMs Recognize Incoherence in Narra → large_language_model｜大语言模型 [X23INIA2]
+[ATTACH] PDF linked for X23INIA2
+[ADD] RL-MTJail: Reinforcement Learning for Automated Black-Box Multi-Turn Jailbreakin → large_language_model｜大语言模型 [GUBRKWUC]
+[ATTACH] PDF linked for GUBRKWUC
+[ADD] In-Context and Few-Shots Learning for Forecasting Time Series Data based on Larg → large_language_model｜大语言模型 [B5R23G4V]
+[ATTACH] PDF linked for B5R23G4V
+[ADD] HalluShift++: Bridging Language and Vision through Internal Representation Shift → large_language_model｜大语言模型 [B9HE6ZG9]
+[ATTACH] PDF linked for B9HE6ZG9
+[TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[HF] foundation_model matched 9 trending papers.
+[HF-OVERRIDE] Added 'PretrainZero: Reinforcement Active Pretraining' despite score=0.30
+[HF-OVERRIDE] Added 'DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling' despite score=0.17
+[SCORE] tag=foundation_model total=9 selected=8
+[COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[ADD] Distribution Matching Variational AutoEncoder → foundation_model｜基础模型 [774C9JZ2]
+[ATTACH] PDF linked for 774C9JZ2
+[SKIP] duplicate EditThinker: Unlocking Iterative Reasoning for Any Image Editor (arxiv:2512.05965)
+[ADD] LongCat-Image Technical Report → foundation_model｜基础模型 [NC84W7TT]
+[ATTACH] PDF linked for NC84W7TT
+[SKIP] duplicate EditThinker: Unlocking Iterative Reasoning for Any Image Editor (arxiv:2512.05965)
+[SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[SKIP] duplicate PretrainZero: Reinforcement Active Pretraining (arxiv:2512.03442)
+[SKIP] duplicate DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling (arxiv:2512.03000)
+[TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[SCORE] tag=dexterous_hand total=0 selected=0
+[TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[SCORE] tag=humanoid_robot total=8 selected=3
+[COL] ensured collection 'humanoid_robot｜类人机器人' → B652AA82
+[ADD] Breaking ECDSA with Electromagnetic Side-Channel Attacks: Challenges and Practic → humanoid_robot｜类人机器人 [A3H4GBIX]
+[ATTACH] PDF linked for A3H4GBIX
+[ADD] Optimizing LLMs Using Quantization for Mobile Execution → humanoid_robot｜类人机器人 [6MUFS2VJ]
+[ATTACH] PDF linked for 6MUFS2VJ
+[ADD] JEEVHITAA -- An End-to-End HCAI System to Support Collective Care → humanoid_robot｜类人机器人 [2V8R9WEM]
+[ATTACH] PDF linked for 2V8R9WEM
+[TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[SCORE] tag=quadruped_robot total=0 selected=0
+[TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[SCORE] tag=robotic_arm total=0 selected=0
+[TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[HF] reinforcement_learning matched 43 trending papers.
+[SCORE] tag=reinforcement_learning total=93 selected=10
+[COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[ADD] An Adaptive Multi-Layered Honeynet Architecture for Threat Behavior Analysis via → reinforcement_learning｜强化学习 [RSI2JK3V]
+[ATTACH] PDF linked for RSI2JK3V
+[SKIP] duplicate On the Interplay of Pre-Training, Mid-Training, and RL on Reasoning Language Mod (arxiv:2512.07783v1)
+[SKIP] duplicate RL-MTJail: Reinforcement Learning for Automated Black-Box Multi-Turn Jailbreakin (arxiv:2512.07761v1)
+[ADD] Each Prompt Matters: Scaling Reinforcement Learning Without Wasting Rollouts on  → reinforcement_learning｜强化学习 [5VUSKGSH]
+[ATTACH] PDF linked for 5VUSKGSH
+[ADD] Comparative Analysis and Parametric Tuning of PPO, GRPO, and DAPO for LLM Reason → reinforcement_learning｜强化学习 [M4ECES2M]
+[ATTACH] PDF linked for M4ECES2M
+[ADD] LongCat-Image Technical Report → reinforcement_learning｜强化学习 [BA3V7EXZ]
+[ATTACH] PDF linked for BA3V7EXZ
+[ADD] Enhancing Agentic RL with Progressive Reward Shaping and Value-based Sampling Po → reinforcement_learning｜强化学习 [ZQDFGW2U]
+[ATTACH] PDF linked for ZQDFGW2U
+[ADD] Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcem → reinforcement_learning｜强化学习 [X3E2VHJM]
+[ATTACH] PDF linked for X3E2VHJM
+[ADD] Adaptive Tuning of Parameterized Traffic Controllers via Multi-Agent Reinforceme → reinforcement_learning｜强化学习 [5NQRBJ4N]
+[ATTACH] PDF linked for 5NQRBJ4N
+[ADD] PrivORL: Differentially Private Synthetic Dataset for Offline Reinforcement Lear → reinforcement_learning｜强化学习 [MF387HIB]
+[ATTACH] PDF linked for MF387HIB
+[TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[HF] imitation_learning matched 2 trending papers.
+[HF-OVERRIDE] Added 'From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mech' despite score=0.11
+[SCORE] tag=imitation_learning total=2 selected=2
+[COL] ensured collection 'imitation_learning｜模仿学习' → GMS5HD3W
+[SKIP] duplicate From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mech (arxiv:2512.02580)
+[SKIP] duplicate From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mech (arxiv:2512.02580)
+[TAG] world_model 'world_model｜世界模型' keywords=4
+[HF] world_model matched 2 trending papers.
+[HF-OVERRIDE] Added 'DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling' despite score=0.17
+[SCORE] tag=world_model total=2 selected=2
+[COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[SKIP] duplicate DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling (arxiv:2512.03000)
+[TAG] simulator 'simulator｜仿真平台' keywords=5
+[HF] simulator matched 2 trending papers.
+[SCORE] tag=simulator total=54 selected=10
+[COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[ADD] Fast-feedback protocols for calibration and drift control in quantum computers → simulator｜仿真平台 [RHG63SG8]
+[ATTACH] PDF linked for RHG63SG8
+[ADD] Performance Benchmarking of Tensor Trains for accelerated Quantum-Inspired Homog → simulator｜仿真平台 [FMS4Q99Q]
+[ATTACH] PDF linked for FMS4Q99Q
+[ADD] Strongly driven cavity quantum electrodynamical-optomechanical hybrid system → simulator｜仿真平台 [A55T3QSM]
+[ATTACH] PDF linked for A55T3QSM
+[ADD] The heartbeat of stellar halos: Insights from the stellar halo mass-metallicity  → simulator｜仿真平台 [IKAI4R7Q]
+[ATTACH] PDF linked for IKAI4R7Q
+[ADD] Augmented Neural Ordinary Differential Equations for Power System Identification → simulator｜仿真平台 [KBEI4BXK]
+[ATTACH] PDF linked for KBEI4BXK
+[ADD] A Performance Analyzer for a Public Cloud's ML-Augmented VM Allocator → simulator｜仿真平台 [3DFUV4MH]
+[ATTACH] PDF linked for 3DFUV4MH
+[ADD] Real-time collisions of fractional charges in a trapped-ion Jackiw-Rebbi field t → simulator｜仿真平台 [T7T88T7D]
+[ATTACH] PDF linked for T7T88T7D
+[ADD] Anomalous coarsening and nonlinear diffusion of kinks in an one-dimensional quas → simulator｜仿真平台 [DV3UU5EH]
+[ATTACH] PDF linked for DV3UU5EH
+[ADD] The Ginsparg-Wilson relation and overlap fermions → simulator｜仿真平台 [QDEC7BTR]
+[ATTACH] PDF linked for QDEC7BTR
+[SKIP] duplicate SpatialDreamer: Incentivizing Spatial Reasoning via Active Mental Imagery (arxiv:2512.07733v1)
+[TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[SCORE] tag=motion_planning total=0 selected=0
+[TAG] task_planning 'task_planning｜任务规划' keywords=4
+[SCORE] tag=task_planning total=28 selected=4
+[COL] ensured collection 'task_planning｜任务规划' → IDXJKRDJ
+[ADD] Efficient and Compliant Control Framework for Versatile Human-Humanoid Collabora → task_planning｜任务规划 [76ZZZJX4]
+[ATTACH] PDF linked for 76ZZZJX4
+[ADD] Mimir: Hierarchical Goal-Driven Diffusion with Uncertainty Propagation for End-t → task_planning｜任务规划 [963P2VXH]
+[ATTACH] PDF linked for 963P2VXH
+[ADD] db-LaCAM: Fast and Scalable Multi-Robot Kinodynamic Motion Planning with Discont → task_planning｜任务规划 [765M6S5P]
+[ATTACH] PDF linked for 765M6S5P
+[ADD] Safe Model Predictive Diffusion with Shielding → task_planning｜任务规划 [ZV8NQXU9]
+[ATTACH] PDF linked for ZV8NQXU9
+[TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[SCORE] tag=code_based_task_planning total=0 selected=0
+[TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[SCORE] tag=language_based_task_planning total=0 selected=0
+[TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[SCORE] tag=end_to_end_task_planning total=0 selected=0
+[TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[SCORE] tag=grounded_task_planning total=0 selected=0
+[TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[SCORE] tag=transformer_policy total=1 selected=1
+[COL] ensured collection 'transformer_policy｜Transformer控制策略' → URZGRBAC
+[ADD] Generalized Connes-Kreimer Hopf algebras on decorated rooted forests by weighted → transformer_policy｜Transformer控制策略 [7W4XW98Z]
+[ATTACH] PDF linked for 7W4XW98Z
+[TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[SCORE] tag=diffusion_policy total=0 selected=0
+[TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[SCORE] tag=3d_vision total=0 selected=0
+[TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[SCORE] tag=point_based_action total=0 selected=0
+[TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[SCORE] tag=chain_of_thought total=0 selected=0
+[INFO] Recorded 83 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[INFO] Done. Summary: {"candidates": 83, "added": 83, "skipped": 17, "updated": 0, "hf_candidates": 110, "hf_overrides": 6}

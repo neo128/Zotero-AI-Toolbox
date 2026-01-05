@@ -1,0 +1,241 @@
+[INFO] Started watch. since_hours=24.0 (→ days=7.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2025-12-31
+[HF] weekly fetched=20 from week/2026-W01
+[HF] monthly fetched=50 from month/2025-12
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=112 arXiv=1352 URL=1601 TY=1579
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[HF] embodied_ai matched 1 trending papers.
+[HF-OVERRIDE] Added 'TimeBill: Time-Budgeted Inference for Large Language Models' despite score=0.24
+[SCORE] tag=embodied_ai total=1 selected=1
+[COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[SKIP] duplicate TimeBill: Time-Budgeted Inference for Large Language Models (arxiv:2512.21859)
+[TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[HF] embodied_surveys matched 5 trending papers.
+[SCORE] tag=embodied_surveys total=94 selected=10
+[COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[ADD] Better than squareroot cancellation in number theory → embodied_surveys｜具身智能综述 [8EXUU4V9]
+[ATTACH] PDF linked for 8EXUU4V9
+[ADD] Research Directions in Quantum Computer Cybersecurity → embodied_surveys｜具身智能综述 [B5PTT2CV]
+[ATTACH] PDF linked for B5PTT2CV
+[ADD] Observations of the Fermi bubbles and the Galactic center excess with the DArk M → embodied_surveys｜具身智能综述 [HSV2QAIR]
+[ATTACH] PDF linked for HSV2QAIR
+[ADD] Predicting the detection yields of giant planets and brown dwarfs with CSST astr → embodied_surveys｜具身智能综述 [IV9AE2PG]
+[ATTACH] PDF linked for IV9AE2PG
+[ADD] MAMMOTH-LyC: Investigating the Role of Galaxy Mergers in a Strong Lyman Continuu → embodied_surveys｜具身智能综述 [AKAGMFH5]
+[ATTACH] PDF linked for AKAGMFH5
+[ADD] The Dawn of Agentic EDA: A Survey of Autonomous Digital Chip Design → embodied_surveys｜具身智能综述 [PEEP93CE]
+[ATTACH] PDF linked for PEEP93CE
+[ADD] Incorporating Authority Perception, Economic Status, and Behavioral Response in  → embodied_surveys｜具身智能综述 [CG9BC9BK]
+[ATTACH] PDF linked for CG9BC9BK
+[ADD] The GLASS-JWST Early Release Science Program. V. H$α$ luminosity functions at $z → embodied_surveys｜具身智能综述 [V9PDJZUI]
+[ATTACH] PDF linked for V9PDJZUI
+[ADD] Survey on Lattice Gas Models on 2D Lattices: Critical Behavior of Closed Traject → embodied_surveys｜具身智能综述 [W62BSUEN]
+[ATTACH] PDF linked for W62BSUEN
+[ADD] Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing → embodied_surveys｜具身智能综述 [7N95IKUH]
+[ATTACH] PDF linked for 7N95IKUH
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=0 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[SCORE] tag=teleoperation total=0 selected=0
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[HF] robotic_navigation matched 6 trending papers.
+[HF-OVERRIDE] Added 'Yume-1.5: A Text-Controlled Interactive World Generation Model' despite score=0.29
+[HF-OVERRIDE] Added 'QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage' despite score=0.23
+[SCORE] tag=robotic_navigation total=6 selected=4
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[ADD] Web World Models → robotic_navigation｜机器人导航 [SXS5H93J]
+[ATTACH] PDF linked for SXS5H93J
+[SKIP] duplicate Yume-1.5: A Text-Controlled Interactive World Generation Model (arxiv:2512.22096)
+[SKIP] duplicate Yume-1.5: A Text-Controlled Interactive World Generation Model (arxiv:2512.22096)
+[SKIP] duplicate QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage (arxiv:2512.12967)
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[HF] robotic_manipulation matched 3 trending papers.
+[SCORE] tag=robotic_manipulation total=3 selected=3
+[COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[ADD] Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object → robotic_manipulation｜机器人操作 [5KDCC6QV]
+[ATTACH] PDF linked for 5KDCC6QV
+[ADD] Act2Goal: From World Model To General Goal-conditioned Policy → robotic_manipulation｜机器人操作 [KMDS3N52]
+[ATTACH] PDF linked for KMDS3N52
+[SKIP] duplicate Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object (arxiv:2512.23705)
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[HF] vision_language_model matched 7 trending papers.
+[SCORE] tag=vision_language_model total=83 selected=10
+[COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[ADD] RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion → vision_language_model｜视觉语言模型 [S2W75QP3]
+[ATTACH] PDF linked for S2W75QP3
+[ADD] Same or Not? Enhancing Visual Perception in Vision-Language Models → vision_language_model｜视觉语言模型 [D34WII3P]
+[ATTACH] PDF linked for D34WII3P
+[ADD] VL-RouterBench: A Benchmark for Vision-Language Model Routing → vision_language_model｜视觉语言模型 [NIISV75X]
+[ATTACH] PDF linked for NIISV75X
+[ADD] Toward Trustworthy Agentic AI: A Multimodal Framework for Preventing Prompt Inje → vision_language_model｜视觉语言模型 [VT2RK84Z]
+[ATTACH] PDF linked for VT2RK84Z
+[ADD] SpatialMosaic: A Multiview VLM Dataset for Partial Visibility → vision_language_model｜视觉语言模型 [HPQ9834P]
+[ATTACH] PDF linked for HPQ9834P
+[ADD] ViLaCD-R1: A Vision-Language Framework for Semantic Change Detection in Remote S → vision_language_model｜视觉语言模型 [GAZA4XNK]
+[ATTACH] PDF linked for GAZA4XNK
+[ADD] Multimodal Interpretation of Remote Sensing Images: Dynamic Resolution Input Str → vision_language_model｜视觉语言模型 [FVQ3UUQH]
+[ATTACH] PDF linked for FVQ3UUQH
+[ADD] ProGuard: Towards Proactive Multimodal Safeguard → vision_language_model｜视觉语言模型 [AA3FTG6Z]
+[ATTACH] PDF linked for AA3FTG6Z
+[ADD] Instruction-Following Evaluation of Large Vision-Language Models → vision_language_model｜视觉语言模型 [5U2W9HJZ]
+[ATTACH] PDF linked for 5U2W9HJZ
+[ADD] PathFound: An Agentic Multimodal Model Activating Evidence-seeking Pathological  → vision_language_model｜视觉语言模型 [9KIA5U7M]
+[ATTACH] PDF linked for 9KIA5U7M
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[HF] vision_language_action_model matched 2 trending papers.
+[HF-OVERRIDE] Added 'PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Phys' despite score=0.11
+[SCORE] tag=vision_language_action_model total=20 selected=6
+[COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[ADD] Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models wit → vision_language_action_model｜视觉语言动作模型 [XMES3WSD]
+[ATTACH] PDF linked for XMES3WSD
+[ADD] Detections of Compact Radio Continuum toward Methanol Maser Rings Using the VLA → vision_language_action_model｜视觉语言动作模型 [T4URAGZ6]
+[ATTACH] PDF linked for T4URAGZ6
+[ADD] SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling → vision_language_action_model｜视觉语言动作模型 [SUMR4BMG]
+[ATTACH] PDF linked for SUMR4BMG
+[ADD] Agentic AI-Enhanced Semantic Communications: Foundations, Architecture, and Appl → vision_language_action_model｜视觉语言动作模型 [7XADXUWE]
+[ATTACH] PDF linked for 7XADXUWE
+[ADD] Agentic Physical AI toward a Domain-Specific Foundation Model for Nuclear Reacto → vision_language_action_model｜视觉语言动作模型 [HX9Z7ZUZ]
+[ATTACH] PDF linked for HX9Z7ZUZ
+[SKIP] duplicate PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Phys (arxiv:2512.16793)
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[HF] large_language_model matched 33 trending papers.
+[SCORE] tag=large_language_model total=83 selected=10
+[COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[ADD] Eliciting Behaviors in Multi-Turn Conversations → large_language_model｜大语言模型 [FH2HR8MQ]
+[ATTACH] PDF linked for FH2HR8MQ
+[ADD] Fine-Tuning LLMs with Fine-Grained Human Feedback on Text Spans → large_language_model｜大语言模型 [IXP8ZHBI]
+[ATTACH] PDF linked for IXP8ZHBI
+[SKIP] duplicate Multilingual Hidden Prompt Injection Attacks on LLM-Based Academic Reviewing (arxiv:2512.23684v1)
+[ADD] BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimizati → large_language_model｜大语言模型 [7I5I4Q96]
+[ATTACH] PDF linked for 7I5I4Q96
+[ADD] Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing → large_language_model｜大语言模型 [UQMJHBFJ]
+[ATTACH] PDF linked for UQMJHBFJ
+[ADD] Enhanced Web Payload Classification Using WAMM: An AI-Based Framework for Datase → large_language_model｜大语言模型 [RC7MR29R]
+[ATTACH] PDF linked for RC7MR29R
+[ADD] The Big Three in Marriage Talk: LLM-Assisted Analysis of Moral Ethics and Sentim → large_language_model｜大语言模型 [NCGGWWUQ]
+[ATTACH] PDF linked for NCGGWWUQ
+[ADD] Divergent-Convergent Thinking in Large Language Models for Creative Problem Gene → large_language_model｜大语言模型 [3KD8FGPJ]
+[ATTACH] PDF linked for 3KD8FGPJ
+[ADD] Can AI Recognize Its Own Reflection? Self-Detection Performance of LLMs in Compu → large_language_model｜大语言模型 [E3HCHJJB]
+[ATTACH] PDF linked for E3HCHJJB
+[SKIP] duplicate Instruction-Following Evaluation of Large Vision-Language Models (arxiv:2512.23572v1)
+[TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[HF] foundation_model matched 6 trending papers.
+[HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.28
+[HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.27
+[SCORE] tag=foundation_model total=6 selected=4
+[COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[SCORE] tag=dexterous_hand total=0 selected=0
+[TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[HF] humanoid_robot matched 3 trending papers.
+[HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.28
+[HF-OVERRIDE] Added 'PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Phys' despite score=0.11
+[SCORE] tag=humanoid_robot total=8 selected=3
+[COL] ensured collection 'humanoid_robot｜类人机器人' → B652AA82
+[SKIP] duplicate MAI-UI Technical Report: Real-World Centric Foundation GUI Agents (arxiv:2512.22047)
+[SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[SKIP] duplicate PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Phys (arxiv:2512.16793)
+[TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[SCORE] tag=quadruped_robot total=0 selected=0
+[TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[SCORE] tag=robotic_arm total=0 selected=0
+[TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[HF] reinforcement_learning matched 48 trending papers.
+[HF-OVERRIDE] Added 'InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Vi' despite score=0.30
+[HF-OVERRIDE] Added 'Yume-1.5: A Text-Controlled Interactive World Generation Model' despite score=0.29
+[SCORE] tag=reinforcement_learning total=93 selected=12
+[COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[SKIP] duplicate Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object (arxiv:2512.23705)
+[SKIP] duplicate Yume-1.5: A Text-Controlled Interactive World Generation Model (arxiv:2512.22096)
+[ADD] Robo-Dopamine: General Process Reward Modeling for High-Precision Robotic Manipu → reinforcement_learning｜强化学习 [6GCJEKKR]
+[ATTACH] PDF linked for 6GCJEKKR
+[ADD] Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning → reinforcement_learning｜强化学习 [X9B55NH6]
+[ATTACH] PDF linked for X9B55NH6
+[SKIP] duplicate ProGuard: Towards Proactive Multimodal Safeguard (arxiv:2512.23573v1)
+[ADD] Hierarchical Decision Mamba Meets Agentic AI: A Novel Approach for RAN Slicing i → reinforcement_learning｜强化学习 [296C3S96]
+[ATTACH] PDF linked for 296C3S96
+[ADD] Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Prov → reinforcement_learning｜强化学习 [N72FWWNQ]
+[ATTACH] PDF linked for N72FWWNQ
+[ADD] Replay Failures as Successes: Sample-Efficient Reinforcement Learning for Instru → reinforcement_learning｜强化学习 [72EZ267K]
+[ATTACH] PDF linked for 72EZ267K
+[ADD] MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning → reinforcement_learning｜强化学习 [2945JN5F]
+[ATTACH] PDF linked for 2945JN5F
+[ADD] AGRO-SQL: Agentic Group-Relative Optimization with High-Fidelity Data Synthesis → reinforcement_learning｜强化学习 [A5FZ8JRD]
+[ATTACH] PDF linked for A5FZ8JRD
+[ADD] InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Vi → reinforcement_learning｜强化学习 [N6CINW82]
+[ATTACH] PDF linked for N6CINW82
+[SKIP] duplicate Yume-1.5: A Text-Controlled Interactive World Generation Model (arxiv:2512.22096)
+[TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[SCORE] tag=imitation_learning total=0 selected=0
+[TAG] world_model 'world_model｜世界模型' keywords=4
+[HF] world_model matched 6 trending papers.
+[HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.27
+[HF-OVERRIDE] Added 'Envision: Benchmarking Unified Understanding & Generation for Causal World Proce' despite score=0.19
+[SCORE] tag=world_model total=6 selected=4
+[COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[SKIP] duplicate Act2Goal: From World Model To General Goal-conditioned Policy (arxiv:2512.23541)
+[SKIP] duplicate Web World Models (arxiv:2512.23676)
+[SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[SKIP] duplicate Envision: Benchmarking Unified Understanding & Generation for Causal World Proce (arxiv:2512.01816)
+[TAG] simulator 'simulator｜仿真平台' keywords=5
+[HF] simulator matched 3 trending papers.
+[SCORE] tag=simulator total=55 selected=10
+[COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[ADD] Adaptable Teastore with Energy Consumption Awareness: A Case Study → simulator｜仿真平台 [H962XADH]
+[ATTACH] PDF linked for H962XADH
+[ADD] Compressibility Effects on Leading-Edge Dynamic Stall Criteria at High Reynolds  → simulator｜仿真平台 [I9TR8457]
+[ATTACH] PDF linked for I9TR8457
+[SKIP] duplicate Robo-Dopamine: General Process Reward Modeling for High-Precision Robotic Manipu (arxiv:2512.23703v1)
+[ADD] Rethinking conditioning in polarimetry: a new framework beyond $\ell^2$-based me → simulator｜仿真平台 [KWDXHMFF]
+[ATTACH] PDF linked for KWDXHMFF
+[ADD] Web World Models → simulator｜仿真平台 [3JP5KT2R]
+[ATTACH] PDF linked for 3JP5KT2R
+[ADD] Joint Modeling of Longitudinal and Survival Data: A Bayesian Approach for Predic → simulator｜仿真平台 [N4P7TNJF]
+[ATTACH] PDF linked for N4P7TNJF
+[ADD] Physics-Informed Neural Networks for Device and Circuit Modeling: A Case Study o → simulator｜仿真平台 [6DEPJXIG]
+[ATTACH] PDF linked for 6DEPJXIG
+[ADD] Information is localized in growing network models → simulator｜仿真平台 [SQJDAUKC]
+[ATTACH] PDF linked for SQJDAUKC
+[SKIP] duplicate Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning (arxiv:2512.23617v1)
+[ADD] Predicting random close packing of binary hard-disk mixtures via third-virial-ba → simulator｜仿真平台 [NGHEFBQ8]
+[ATTACH] PDF linked for NGHEFBQ8
+[TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[SCORE] tag=motion_planning total=0 selected=0
+[TAG] task_planning 'task_planning｜任务规划' keywords=4
+[SCORE] tag=task_planning total=10 selected=2
+[COL] ensured collection 'task_planning｜任务规划' → IDXJKRDJ
+[ADD] DriveLaW:Unifying Planning and Video Generation in a Latent Driving World → task_planning｜任务规划 [4XC5HRUG]
+[ATTACH] PDF linked for 4XC5HRUG
+[ADD] SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search → task_planning｜任务规划 [3NXQVS57]
+[ATTACH] PDF linked for 3NXQVS57
+[TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[SCORE] tag=code_based_task_planning total=0 selected=0
+[TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[SCORE] tag=language_based_task_planning total=0 selected=0
+[TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[SCORE] tag=end_to_end_task_planning total=0 selected=0
+[TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[SCORE] tag=grounded_task_planning total=0 selected=0
+[TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[SCORE] tag=transformer_policy total=1 selected=1
+[COL] ensured collection 'transformer_policy｜Transformer控制策略' → URZGRBAC
+[ADD] Elliptical liquid jets in a supersonic cross-flow: Influence of J on atomization → transformer_policy｜Transformer控制策略 [5599QAQQ]
+[ATTACH] PDF linked for 5599QAQQ
+[TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[SCORE] tag=diffusion_policy total=0 selected=0
+[TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[SCORE] tag=3d_vision total=0 selected=0
+[TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[SCORE] tag=point_based_action total=0 selected=0
+[TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[SCORE] tag=chain_of_thought total=0 selected=0
+[INFO] Recorded 55 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[INFO] Done. Summary: {"candidates": 55, "added": 55, "skipped": 25, "updated": 0, "hf_candidates": 123, "hf_overrides": 12}

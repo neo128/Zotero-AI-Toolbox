@@ -1,0 +1,127 @@
+[PIPELINE] → watch: since_hours=24.0 top_k=10 min_score=0.3
+[watch-import] [INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[watch-import-err] Traceback (most recent call last):
+[watch-import-err]   File "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py", line 771, in <module>
+[watch-import] [HF] daily fetched=5 from date/2025-11-21
+[watch-import] [HF] weekly fetched=20 from week/2025-W47
+[watch-import] [HF] monthly fetched=50 from month/2025-11
+[watch-import] [INFO] Building library index for dedupe...
+[watch-import] [INFO] Library index sizes: DOI=76 arXiv=864 URL=1046 TY=1055
+[watch-import] [TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[watch-import] [HF] embodied_ai matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image' despite score=0.08
+[watch-import] [HF-OVERRIDE] Added 'LEGO-Eval: Towards Fine-Grained Evaluation on Synthesizing 3D Embodied
+[watch-import]   Environ' despite score=0.04
+[watch-import] [SCORE] tag=embodied_ai total=3 selected=2
+[watch-import] [COL] ensured collection 'embodied_ai｜具身智能' → X496QMJ5
+[watch-import] [SKIP] duplicate PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image (arxiv:2511.13648)
+[watch-import] [SKIP] duplicate LEGO-Eval: Towards Fine-Grained Evaluation on Synthesizing 3D Embodied
+[watch-import]   Environ (arxiv:2511.03001)
+[watch-import] [TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[watch-import] [SCORE] tag=sim2real total=0 selected=0
+[watch-import] [TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[watch-import] [SCORE] tag=teleoperation total=0 selected=0
+[watch-import] [TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[watch-import] [HF] robotic_navigation matched 5 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'IterResearch: Rethinking Long-Horizon Agents via Markovian State
+[watch-import]   Reconstructio' despite score=0.18
+[watch-import] [HF-OVERRIDE] Added 'π_RL: Online RL Fine-tuning for Flow-based
+[watch-import]   Vision-Language-Action Models' despite score=0.13
+[watch-import] [SCORE] tag=robotic_navigation total=49 selected=4
+[watch-import] [COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[watch-import] [SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+[watch-import]   Reasoning Para (arxiv:2511.04570)
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate IterResearch: Rethinking Long-Horizon Agents via Markovian State
+[watch-import]   Reconstructio (arxiv:2511.07327)
+[watch-import] [SKIP] duplicate π_RL: Online RL Fine-tuning for Flow-based
+[watch-import]   Vision-Language-Action Models (arxiv:2510.25889)
+[watch-import] [TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[watch-import] [HF] robotic_manipulation matched 3 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'ThinkMorph: Emergent Properties in Multimodal Interleaved
+[watch-import]   Chain-of-Thought Rea' despite score=0.21
+[watch-import] [HF-OVERRIDE] Added 'Time-to-Move: Training-Free Motion Controlled Video Generation via Dual-Clock De' despite score=0.11
+[watch-import] [SCORE] tag=robotic_manipulation total=17 selected=3
+[watch-import] [COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate ThinkMorph: Emergent Properties in Multimodal Interleaved
+[watch-import]   Chain-of-Thought Rea (doi:10.48550/arxiv.2510.27492)
+[watch-import] [SKIP] duplicate Time-to-Move: Training-Free Motion Controlled Video Generation via Dual-Clock De (arxiv:2511.08633)
+[watch-import] [TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[watch-import] [SCORE] tag=robotic_grasping total=0 selected=0
+[watch-import] [TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[watch-import] [HF] vision_language_model matched 20 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+[watch-import]   Representatio' despite score=0.29
+[watch-import] [HF-OVERRIDE] Added 'VIDEOP2R: Video Understanding from Perception to Reasoning' despite score=0.28
+[watch-import] [SCORE] tag=vision_language_model total=35 selected=4
+[watch-import] [COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[watch-import] [SKIP] duplicate Thinking with Video: Video Generation as a Promising Multimodal
+[watch-import]   Reasoning Para (arxiv:2511.04570)
+[watch-import] [SKIP] duplicate Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds (arxiv:2511.08892)
+[watch-import] [SKIP] duplicate VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual
+[watch-import]   Representatio (arxiv:2511.02778)
+[watch-import] [SKIP] duplicate VIDEOP2R: Video Understanding from Perception to Reasoning (arxiv:2511.11113)
+[watch-import] [TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[watch-import] [HF] vision_language_action_model matched 4 trending papers.
+[watch-import] [HF-OVERRIDE] Added 'Don't Blind Your VLA: Aligning Visual Representations for OOD
+[watch-import]   Generalization' despite score=0.24
+[watch-import] [HF-OVERRIDE] Added 'π_RL: Online RL Fine-tuning for Flow-based
+[watch-import]   Vision-Language-Action Models' despite score=0.13
+[watch-import] [SCORE] tag=vision_language_action_model total=8 selected=2
+[watch-import] [COL] ensured collection 'vision_language_action_model｜视觉语言动作模型' → QXJMF6GC
+[watch-import] [SKIP] duplicate Don't Blind Your VLA: Aligning Visual Representations for OOD
+[watch-import]   Generalization (doi:10.48550/arxiv.2510.25616)
+[watch-import] [SKIP] duplicate π_RL: Online RL Fine-tuning for Flow-based
+[watch-import]   Vision-Language-Action Models (arxiv:2510.25889)
+[watch-import] [TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[watch-import] [HF] large_language_model matched 32 trending papers.
+[watch-import-err]     main()
+[watch-import-err]   File "/Users/neoone/code/Zotero/scripts/watch_and_import_papers.py", line 627, in main
+[watch-import-err]     meta = fetch_s2_metadata("arXiv", cand.arxiv_id)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/code/Zotero/scripts/utils_sources.py", line 135, in fetch_s2_metadata
+[watch-import-err]     resp = requests.get(url, params=params, timeout=20, headers={"User-Agent": "Zotero-Watch/0.1"})
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/requests/api.py", line 73, in get
+[watch-import-err]     return request("get", url, params=params, **kwargs)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/requests/api.py", line 59, in request
+[watch-import-err]     return session.request(method=method, url=url, **kwargs)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+[watch-import-err]     resp = self.send(prep, **send_kwargs)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+[watch-import-err]     r = adapter.send(request, **kwargs)
+[watch-import-err]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/requests/adapters.py", line 644, in send
+[watch-import-err]     resp = conn.urlopen(
+[watch-import-err]            ^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+[watch-import-err]     response = self._make_request(
+[watch-import-err]                ^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+[watch-import-err]     response = conn.getresponse()
+[watch-import-err]                ^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+[watch-import-err]     httplib_response = super().getresponse()
+[watch-import-err]                        ^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/http/client.py", line 1430, in getresponse
+[watch-import-err]     response.begin()
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/http/client.py", line 331, in begin
+[watch-import-err]     version, status, reason = self._read_status()
+[watch-import-err]                               ^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/http/client.py", line 292, in _read_status
+[watch-import-err]     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+[watch-import-err]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/socket.py", line 720, in readinto
+[watch-import-err]     return self._sock.recv_into(b)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/ssl.py", line 1251, in recv_into
+[watch-import-err]     return self.read(nbytes, buffer)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err]   File "/Users/neoone/miniconda3/lib/python3.12/ssl.py", line 1103, in read
+[watch-import-err]     return self._sslobj.read(len, buffer)
+[watch-import-err]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[watch-import-err] KeyboardInterrupt

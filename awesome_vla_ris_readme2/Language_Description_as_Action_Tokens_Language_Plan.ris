@@ -1,0 +1,171 @@
+TY  - ELEC
+TI  - Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents
+T2  - Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents
+PB  - Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents
+UR  - https://arxiv.org/abs/2201.07207
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - Language Planner
+ER  - 
+
+TY  - ELEC
+TI  - Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language
+T2  - Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language
+PB  - Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language
+UR  - https://arxiv.org/abs/2204.00598
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - Socratic Models
+ER  - 
+
+TY  - ELEC
+TI  - Do As I Can
+T2  - Do As I Can, Not As I Say: Grounding Language in Robotic Affordances
+DA  - Not As I Say: Grounding Language in Robotic Affordances
+PB  - Do As I Can
+UR  - https://arxiv.org/abs/2204.01691
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - SayCan
+ER  - 
+
+TY  - ELEC
+TI  - Inner Monologue: Embodied Reasoning through Planning with Language Models
+T2  - Inner Monologue: Embodied Reasoning through Planning with Language Models
+PB  - Inner Monologue: Embodied Reasoning through Planning with Language Models
+UR  - https://arxiv.org/abs/2207.05608
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - Inner Monologue
+ER  - 
+
+TY  - ELEC
+TI  - PaLM-E: An Embodied Multimodal Language Model
+T2  - PaLM-E: An Embodied Multimodal Language Model
+PB  - PaLM-E: An Embodied Multimodal Language Model
+UR  - https://arxiv.org/abs/2303.03378
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - PaLM-E
+ER  - 
+
+TY  - ELEC
+TI  - EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought
+T2  - EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought
+PB  - EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought
+UR  - https://arxiv.org/abs/2305.15021
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - EmbodiedGPT
+ER  - 
+
+TY  - ELEC
+TI  - DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment
+T2  - DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment
+PB  - DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment
+UR  - https://arxiv.org/abs/2307.00329
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - DoReMi
+ER  - 
+
+TY  - ELEC
+TI  - Look Before You Leap: Unveiling the Power of  GPT-4V in Robotic Vision-Language Planning
+T2  - Look Before You Leap: Unveiling the Power of  GPT-4V in Robotic Vision-Language Planning
+PB  - Look Before You Leap: Unveiling the Power of  GPT-4V in Robotic Vision-Language Planning
+UR  - https://arxiv.org/abs/2311.17842
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - ViLa
+ER  - 
+
+TY  - ELEC
+TI  - 3D-VLA: A 3D Vision-Language-Action Generative World Model
+T2  - 3D-VLA: A 3D Vision-Language-Action Generative World Model
+PB  - 3D-VLA: A 3D Vision-Language-Action Generative World Model
+UR  - https://arxiv.org/abs/2403.09631
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - 3D-VLA
+ER  - 
+
+TY  - ELEC
+TI  - Bi-VLA: Vision-Language-Action Model-Based System for Bimanual Robotic Dexterous Manipulations
+T2  - Bi-VLA: Vision-Language-Action Model-Based System for Bimanual Robotic Dexterous Manipulations
+PB  - Bi-VLA: Vision-Language-Action Model-Based System for Bimanual Robotic Dexterous Manipulations
+UR  - https://arxiv.org/abs/2405.06039
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - Bi-VLA
+ER  - 
+
+TY  - ELEC
+TI  - RoboMamba: Multimodal State Space Model for Efficient Robot Reasoning and Manipulation
+T2  - RoboMamba: Multimodal State Space Model for Efficient Robot Reasoning and Manipulation
+PB  - RoboMamba: Multimodal State Space Model for Efficient Robot Reasoning and Manipulation
+UR  - https://arxiv.org/abs/2406.04339
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - RoboMamba
+ER  - 
+
+TY  - ELEC
+TI  - ReplanVLM: Replanning Robotic Tasks with Visual Language Models
+T2  - ReplanVLM: Replanning Robotic Tasks with Visual Language Models
+PB  - ReplanVLM: Replanning Robotic Tasks with Visual Language Models
+UR  - https://arxiv.org/abs/2407.21762v1
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - ReplanVLM
+ER  - 
+
+TY  - ELEC
+TI  - BUMBLE: Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulation
+T2  - BUMBLE: Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulation
+PB  - BUMBLE: Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulation
+UR  - https://arxiv.org/abs/2410.06237
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - BUMBLE
+ER  - 
+
+TY  - ELEC
+TI  - Reflective Planning: Vision-Language Models for Multi-Stage Long-Horizon Robotic Manipulation
+T2  - Reflective Planning: Vision-Language Models for Multi-Stage Long-Horizon Robotic Manipulation
+PB  - Reflective Planning: Vision-Language Models for Multi-Stage Long-Horizon Robotic Manipulation
+UR  - https://arxiv.org/abs/2502.16707
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - ReflectVLM
+ER  - 
+
+TY  - ELEC
+TI  - Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models
+T2  - Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models
+PB  - Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models
+UR  - https://arxiv.org/abs/2502.19417
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - Hi Robot
+ER  - 
+
+TY  - ELEC
+TI  - RoboBrain: A Unified Brain Model for Robotic Manipulation from Abstract to Concrete
+T2  - RoboBrain: A Unified Brain Model for Robotic Manipulation from Abstract to Concrete
+PB  - RoboBrain: A Unified Brain Model for Robotic Manipulation from Abstract to Concrete
+UR  - https://arxiv.org/abs/2502.21257
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - RoboBrain
+ER  - 
+
+TY  - ELEC
+TI  - $\pi_{0.5}$*: a Vision-Language-Action Model with Open-World Generalization
+T2  - : a Vision-Language-Action Model with Open-World Generalization
+PB  - : a Vision-Language-Action Model with Open-World Generalization
+UR  - https://arxiv.org/abs/2504.16054
+KW  - Language Description as Action Tokens
+KW  - Language Plan
+KW  - $\pi_{0.5}$
+ER  - 
+

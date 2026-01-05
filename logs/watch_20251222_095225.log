@@ -1,0 +1,143 @@
+[INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2025-12-22
+[HF] weekly fetched=20 from week/2025-W52
+[HF] monthly fetched=50 from month/2025-12
+[INFO] Building library index for dedupe...
+[INFO] Library index sizes: DOI=101 arXiv=1160 URL=1402 TY=1379
+[TAG] embodied_ai 'embodied_ai｜具身智能' keywords=5
+[SCORE] tag=embodied_ai total=0 selected=0
+[TAG] embodied_surveys 'embodied_surveys｜具身智能综述' keywords=9
+[HF] embodied_surveys matched 11 trending papers.
+[HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.27
+[HF-OVERRIDE] Added 'Memory in the Age of AI Agents' despite score=0.27
+[SCORE] tag=embodied_surveys total=11 selected=2
+[COL] ensured collection 'embodied_surveys｜具身智能综述' → DMRQPHFK
+[SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[SKIP] duplicate Memory in the Age of AI Agents (arxiv:2512.13564)
+[TAG] sim2real 'sim2real｜模拟到现实' keywords=5
+[SCORE] tag=sim2real total=0 selected=0
+[TAG] teleoperation 'teleoperation｜遥操作' keywords=5
+[SCORE] tag=teleoperation total=0 selected=0
+[TAG] robotic_navigation 'robotic_navigation｜机器人导航' keywords=5
+[HF] robotic_navigation matched 2 trending papers.
+[HF-OVERRIDE] Added 'QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage' despite score=0.25
+[HF-OVERRIDE] Added 'QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage' despite score=0.24
+[SCORE] tag=robotic_navigation total=2 selected=2
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[SKIP] duplicate QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage (arxiv:2512.12967)
+[SKIP] duplicate QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Manage (arxiv:2512.12967)
+[TAG] robotic_manipulation 'robotic_manipulation｜机器人操作' keywords=5
+[HF] robotic_manipulation matched 2 trending papers.
+[HF-OVERRIDE] Added 'Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin' despite score=0.07
+[HF-OVERRIDE] Added 'REASONEDIT: Towards Reasoning-Enhanced Image Editing Models' despite score=0.04
+[SCORE] tag=robotic_manipulation total=2 selected=2
+[COL] ensured collection 'robotic_manipulation｜机器人操作' → VPMXKEIX
+[SKIP] duplicate Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinkin (arxiv:2512.02395)
+[SKIP] duplicate REASONEDIT: Towards Reasoning-Enhanced Image Editing Models (arxiv:2511.22625)
+[TAG] robotic_grasping 'robotic_grasping｜机器人抓取' keywords=5
+[SCORE] tag=robotic_grasping total=0 selected=0
+[TAG] vision_language_model 'vision_language_model｜视觉语言模型' keywords=5
+[HF] vision_language_model matched 5 trending papers.
+[HF-OVERRIDE] Added 'Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?' despite score=0.14
+[HF-OVERRIDE] Added 'Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?' despite score=0.13
+[SCORE] tag=vision_language_model total=5 selected=3
+[COL] ensured collection 'vision_language_model｜视觉语言模型' → QVF9KXGQ
+[SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[SKIP] duplicate Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans? (arxiv:2512.13281)
+[SKIP] duplicate Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans? (arxiv:2512.13281)
+[TAG] vision_language_action_model 'vision_language_action_model｜视觉语言动作模型' keywords=4
+[SCORE] tag=vision_language_action_model total=0 selected=0
+[TAG] large_language_model 'large_language_model｜大语言模型' keywords=4
+[HF] large_language_model matched 29 trending papers.
+[HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.30
+[HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.29
+[SCORE] tag=large_language_model total=29 selected=5
+[COL] ensured collection 'large_language_model｜大语言模型' → 2M7PTRS5
+[SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[SKIP] duplicate DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle (arxiv:2512.04324)
+[SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[TAG] foundation_model 'foundation_model｜基础模型' keywords=4
+[HF] foundation_model matched 10 trending papers.
+[HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[SCORE] tag=foundation_model total=10 selected=4
+[COL] ensured collection 'foundation_model｜基础模型' → XHCMX3G4
+[SKIP] duplicate Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffu (arxiv:2511.22699)
+[SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[TAG] dexterous_hand 'dexterous_hand｜灵巧机械手' keywords=4
+[SCORE] tag=dexterous_hand total=0 selected=0
+[TAG] humanoid_robot 'humanoid_robot｜类人机器人' keywords=4
+[HF] humanoid_robot matched 2 trending papers.
+[HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.30
+[HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.29
+[SCORE] tag=humanoid_robot total=2 selected=2
+[COL] ensured collection 'humanoid_robot｜类人机器人' → B652AA82
+[SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[TAG] quadruped_robot 'quadruped_robot｜四足机器人' keywords=3
+[SCORE] tag=quadruped_robot total=0 selected=0
+[TAG] robotic_arm 'robotic_arm｜机械臂' keywords=3
+[SCORE] tag=robotic_arm total=0 selected=0
+[TAG] reinforcement_learning 'reinforcement_learning｜强化学习' keywords=4
+[HF] reinforcement_learning matched 46 trending papers.
+[HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.30
+[HF-OVERRIDE] Added 'Step-GUI Technical Report' despite score=0.29
+[SCORE] tag=reinforcement_learning total=46 selected=9
+[COL] ensured collection 'reinforcement_learning｜强化学习' → 8S3SWIMS
+[SKIP] duplicate Qwen3-VL Technical Report (arxiv:2511.21631)
+[SKIP] duplicate DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (arxiv:2512.02556)
+[SKIP] duplicate Kling-Omni Technical Report (arxiv:2512.16776)
+[SKIP] duplicate From Code Foundation Models to Agents and Applications: A Practical Guide to Cod (arxiv:2511.18538)
+[SKIP] duplicate LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling (arxiv:2511.20785)
+[SKIP] duplicate DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle (arxiv:2512.04324)
+[SKIP] duplicate Kling-Omni Technical Report (arxiv:2512.16776)
+[SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[SKIP] duplicate Step-GUI Technical Report (arxiv:2512.15431)
+[TAG] imitation_learning 'imitation_learning｜模仿学习' keywords=5
+[SCORE] tag=imitation_learning total=0 selected=0
+[TAG] world_model 'world_model｜世界模型' keywords=4
+[HF] world_model matched 7 trending papers.
+[HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[SCORE] tag=world_model total=7 selected=2
+[COL] ensured collection 'world_model｜世界模型' → 4R62EWKD
+[SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[TAG] simulator 'simulator｜仿真平台' keywords=5
+[HF] simulator matched 5 trending papers.
+[HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[HF-OVERRIDE] Added 'MMGR: Multi-Modal Generative Reasoning' despite score=0.28
+[SCORE] tag=simulator total=5 selected=4
+[COL] ensured collection 'simulator｜仿真平台' → KNGFHIMG
+[SKIP] duplicate Kling-Omni Technical Report (arxiv:2512.16776)
+[SKIP] duplicate Kling-Omni Technical Report (arxiv:2512.16776)
+[SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[SKIP] duplicate MMGR: Multi-Modal Generative Reasoning (arxiv:2512.14691)
+[TAG] motion_planning 'motion_planning｜运动规划' keywords=4
+[SCORE] tag=motion_planning total=0 selected=0
+[TAG] task_planning 'task_planning｜任务规划' keywords=4
+[SCORE] tag=task_planning total=0 selected=0
+[TAG] code_based_task_planning 'code_based_task_planning｜代码任务规划' keywords=4
+[SCORE] tag=code_based_task_planning total=0 selected=0
+[TAG] language_based_task_planning 'language_based_task_planning｜语言任务规划' keywords=3
+[SCORE] tag=language_based_task_planning total=0 selected=0
+[TAG] end_to_end_task_planning 'end_to_end_task_planning｜端到端任务规划' keywords=3
+[SCORE] tag=end_to_end_task_planning total=0 selected=0
+[TAG] grounded_task_planning 'grounded_task_planning｜具身语义任务规划' keywords=3
+[SCORE] tag=grounded_task_planning total=0 selected=0
+[TAG] transformer_policy 'transformer_policy｜Transformer控制策略' keywords=4
+[SCORE] tag=transformer_policy total=0 selected=0
+[TAG] diffusion_policy 'diffusion_policy｜扩散策略学习' keywords=3
+[SCORE] tag=diffusion_policy total=0 selected=0
+[TAG] 3d_vision '3d_vision｜3D视觉感知' keywords=4
+[SCORE] tag=3d_vision total=0 selected=0
+[TAG] point_based_action 'point_based_action｜基于点的控制' keywords=4
+[SCORE] tag=point_based_action total=0 selected=0
+[TAG] chain_of_thought 'chain_of_thought｜链式推理' keywords=4
+[SCORE] tag=chain_of_thought total=0 selected=0
+[INFO] Recorded 0 new items → /Users/neoone/code/Zotero/.data/new_items_watch.json
+[INFO] Done. Summary: {"candidates": 0, "added": 0, "skipped": 35, "updated": 0, "hf_candidates": 119, "hf_overrides": 20}

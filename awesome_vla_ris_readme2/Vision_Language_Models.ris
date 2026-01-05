@@ -1,0 +1,107 @@
+TY  - ELEC
+TI  - BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
+T2  - BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
+PB  - BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
+UR  - https://arxiv.org/abs/2201.12086
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - BLIP
+ER  - 
+
+TY  - ELEC
+TI  - Flamingo: a Visual Language Model for Few-Shot Learning
+T2  - Flamingo: a Visual Language Model for Few-Shot Learning
+PB  - Flamingo: a Visual Language Model for Few-Shot Learning
+UR  - https://arxiv.org/abs/2204.14198
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - Flamingo
+ER  - 
+
+TY  - ELEC
+TI  - BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models
+T2  - BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models
+PB  - BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models
+UR  - https://arxiv.org/abs/2301.12597
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - BLIP-2
+ER  - 
+
+TY  - ELEC
+TI  - Visual Instruction Tuning
+T2  - Visual Instruction Tuning
+PB  - Visual Instruction Tuning
+UR  - https://arxiv.org/abs/2304.08485
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - LLaVA
+ER  - 
+
+TY  - ELEC
+TI  - Qwen-VL: A Versatile Vision-Language Model for Understanding
+T2  - Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond
+DA  - Localization, Text Reading, and Beyond
+PB  - Qwen-VL: A Versatile Vision-Language Model for Understanding
+UR  - https://arxiv.org/abs/2308.12966
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - Qwen-VL
+ER  - 
+
+TY  - ELEC
+TI  - Improved Baselines with Visual Instruction Tuning
+T2  - Improved Baselines with Visual Instruction Tuning
+PB  - Improved Baselines with Visual Instruction Tuning
+UR  - https://arxiv.org/abs/2310.03744
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - LLaVA 1.5
+ER  - 
+
+TY  - ELEC
+TI  - Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models
+T2  - Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models
+PB  - Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models
+UR  - https://arxiv.org/abs/2402.07865
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - Prismatic
+ER  - 
+
+TY  - ELEC
+TI  - 2024.05. [[📄 Paper](https://arxiv.org/abs/2410.21276)] [[🌍 Website](https://openai.com/index/hello-gpt-4o/)]
+UR  - https://arxiv.org/abs/2410.21276
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - GPT-4o
+ER  - 
+
+TY  - ELEC
+TI  - PaliGemma: A versatile 3B VLM for transfer
+T2  - PaliGemma: A versatile 3B VLM for transfer
+PB  - PaliGemma: A versatile 3B VLM for transfer
+UR  - https://arxiv.org/abs/2407.07726
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - PaliGemma
+ER  - 
+
+TY  - ELEC
+TI  - Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution
+T2  - Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution
+PB  - Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution
+UR  - https://arxiv.org/abs/2409.12191
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - Qwen2-VL
+ER  - 
+
+TY  - ELEC
+TI  - 2025.02. [[📄 Paper](https://arxiv.org/abs/2502.13923)] [[🌍 Website](https://qwenlm.github.io/blog/qwen2.5-vl/)] [[💻 Code](https://github.com/QwenLM/Qwen2.5-VL)] [[🤗 Model](https://huggingface.co/collections/Qwen/qwen25-vl-6795ffac22b334a837c0f9a5)]
+UR  - https://arxiv.org/abs/2502.13923
+KW  - Foundation Models
+KW  - Vision Language Models
+KW  - Qwen2.5-VL
+ER  - 
+

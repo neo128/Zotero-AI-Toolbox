@@ -31,6 +31,7 @@ except ImportError:  # pragma: no cover - optional dependency
 RAW_URL = "https://raw.githubusercontent.com/Panmani/Awesome-VLA/main/README.md"
 DEFAULT_README_PATH = pathlib.Path(__file__).resolve().parents[1] / "Awesome-VLA-main" / "README.md"
 
+H1_RE = re.compile(r"^\s*#\s+(?P<name>.+?)\s*$")
 H2_RE = re.compile(r"^\s*##\s+(?P<name>.+?)\s*$")
 H3_RE = re.compile(r"^\s*###\s+(?P<name>.+?)\s*$")
 BULLET_RE = re.compile(r"^\s*[\*\-]\s+(?P<text>.+)$")
@@ -70,13 +71,24 @@ def clean_heading(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def parse_markdown(md: str) -> List[Dict[str, Optional[str]]]:
+def parse_markdown(
+    md: str,
+    start_section: Optional[str] = COLLECT_FROM_SECTION,
+    collect_all: bool = False,
+    section_level: int = 2,
+    subsection_level: Optional[int] = 3,
+) -> List[Dict[str, Optional[str]]]:
+    if subsection_level and subsection_level <= section_level:
+        raise ValueError("subsection_level must be greater than section_level.")
+
     lines = md.splitlines()
-    collecting = False
-    section: Optional[str] = None
-    subsection: Optional[str] = None
+    collecting = collect_all or start_section is None
+    levels: Dict[int, Optional[str]] = {1: None, 2: None, 3: None}
     items: List[Dict[str, Optional[str]]] = []
     pending_comment: Optional[str] = None
+
+    def matches_start(name: Optional[str]) -> bool:
+        return bool(start_section and name and name.lower() == start_section.lower())
 
     for raw_line in lines:
         line = raw_line.rstrip()
@@ -87,14 +99,21 @@ def parse_markdown(md: str) -> List[Dict[str, Optional[str]]]:
             pending_comment = stripped
             continue
 
+        h1 = H1_RE.match(line)
+        if h1:
+            levels[1] = clean_heading(h1.group("name"))
+            levels[2] = None
+            levels[3] = None
+            if matches_start(levels[1]):
+                collecting = True
+            continue
+
         h2 = H2_RE.match(line)
         if h2:
-            section = clean_heading(h2.group("name"))
-            subsection = None
-            if section.lower() == COLLECT_FROM_SECTION:
+            levels[2] = clean_heading(h2.group("name"))
+            levels[3] = None
+            if matches_start(levels[2]):
                 collecting = True
-            elif collecting:
-                collecting = True  # stay collecting for subsequent sections
             continue
 
         if not collecting:
@@ -102,15 +121,21 @@ def parse_markdown(md: str) -> List[Dict[str, Optional[str]]]:
 
         h3 = H3_RE.match(line)
         if h3:
-            subsection = clean_heading(h3.group("name"))
+            levels[3] = clean_heading(h3.group("name"))
+            if matches_start(levels[3]):
+                collecting = True
             continue
 
         bullet = BULLET_RE.match(line)
+        section = levels.get(section_level)
+        subsection = levels.get(subsection_level)
+        subsubsection = levels.get(subsection_level + 1) if subsection_level else None
         if bullet and section:
             entry = parse_bullet(
                 original_text=bullet.group("text"),
                 section=section,
                 subsection=subsection,
+                subsubsection=subsubsection,
                 meta_hint=pending_comment,
             )
             if entry:
@@ -123,6 +148,7 @@ def parse_bullet(
     original_text: str,
     section: str,
     subsection: Optional[str],
+    subsubsection: Optional[str],
     meta_hint: Optional[str],
 ) -> Optional[Dict[str, Optional[str]]]:
     alias, remainder = extract_alias_and_text(original_text)
@@ -135,10 +161,11 @@ def parse_bullet(
     if not title or not url:
         return None
 
-    category = build_category(section, subsection)
+    category = build_category(section, subsection, subsubsection)
     tags = ["Awesome-VLA", section]
-    if subsection:
-        tags.append(subsection)
+    for part in (subsection, subsubsection):
+        if part:
+            tags.append(part)
     if alias:
         tags.append(alias)
 
@@ -153,6 +180,7 @@ def parse_bullet(
         "category": category,
         "section": section,
         "subsection": subsection,
+        "subsubsection": subsubsection,
         "tags": tags,
         "authors": [],
         "dblp_id": dblp_id,
@@ -166,17 +194,16 @@ def extract_alias_and_text(text: str) -> Tuple[Optional[str], str]:
         end = stripped.find("**", 2)
         if end != -1:
             alias = stripped[2:end].strip()
-            remainder = stripped[end + 2 :].lstrip(":").strip()
+            remainder = stripped[end + 2 :].lstrip(":, ").strip()
             return alias or None, remainder
     return None, stripped
 
 
 def extract_title(text: str) -> Optional[str]:
     match = QUOTE_RE.search(text)
-    if match:
-        return match.group(1).strip()
-    fragment = text.split(",")[0].strip()
-    return fragment or None
+    candidate = match.group(1) if match else text.split(",")[0]
+    cleaned = candidate.strip().strip("*_ ").strip()
+    return cleaned or None
 
 
 def extract_venue_and_year(text: str) -> Tuple[Optional[str], Optional[str], Optional[str], Optional[str]]:
@@ -222,10 +249,9 @@ def extract_arxiv_id(url: Optional[str]) -> Optional[str]:
     return None
 
 
-def build_category(section: str, subsection: Optional[str]) -> str:
-    if subsection:
-        return f"{section} / {subsection}"
-    return section
+def build_category(*parts: Optional[str]) -> str:
+    names = [p for p in parts if p]
+    return " / ".join(names) if names else "General"
 
 
 def dedupe_items(items: List[Dict[str, Optional[str]]]) -> List[Dict[str, Optional[str]]]:
@@ -453,12 +479,42 @@ def main() -> None:
     parser.add_argument("--out", default="./awesome_vla_ris", help="Directory for the generated RIS files.")
     parser.add_argument("--readme-path", default=str(DEFAULT_README_PATH), help="Local README to parse.")
     parser.add_argument("--fetch", action="store_true", help="Fetch README from the official GitHub repo.")
+    parser.add_argument(
+        "--start-section",
+        default=COLLECT_FROM_SECTION,
+        help="Heading (H1/H2/H3) to start collecting from (case-insensitive). Empty to parse from the first heading.",
+    )
+    parser.add_argument(
+        "--collect-all",
+        action="store_true",
+        help="Ignore --start-section and collect from the first heading.",
+    )
+    parser.add_argument(
+        "--section-level",
+        type=int,
+        default=2,
+        help="Heading level to treat as 'section' (1 for '#', 2 for '##', 3 for '###').",
+    )
+    parser.add_argument(
+        "--subsection-level",
+        type=int,
+        default=3,
+        help="Heading level to treat as 'subsection' (set to 0 to disable).",
+    )
     parser.add_argument("--enrich-dblp", action="store_true", help="Use DBLP hints to fetch authors/date metadata.")
     parser.add_argument("--enrich-arxiv", action="store_true", help="Use arXiv API for entries without DBLP metadata.")
     args = parser.parse_args()
 
     md = load_readme(fetch=args.fetch, path=pathlib.Path(args.readme_path))
-    items = parse_markdown(md)
+    subsection_level = args.subsection_level if args.subsection_level > 0 else None
+    start_section = args.start_section or None
+    items = parse_markdown(
+        md,
+        start_section=start_section,
+        collect_all=args.collect_all,
+        section_level=args.section_level,
+        subsection_level=subsection_level,
+    )
     if not items:
         raise SystemExit("No entries parsed; README structure may have changed.")
 

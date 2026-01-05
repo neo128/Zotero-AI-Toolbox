@@ -1,0 +1,286 @@
+TY  - ELEC
+TI  - Attention is All You Need
+T2  - Attention is All You Need
+PB  - Attention is All You Need
+UR  - https://arxiv.org/abs/1706.03762
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Transformer
+ER  - 
+
+TY  - ELEC
+TI  - Universal sentence encoder
+T2  - Universal sentence encoder
+PB  - Universal sentence encoder
+UR  - https://arxiv.org/abs/1803.11175
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - USE
+ER  - 
+
+TY  - ELEC
+TI  - Improving language understanding by generative pre-training
+T2  - Improving language understanding by generative pre-training
+PB  - Improving language understanding by generative pre-training
+UR  - https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - GPT-1
+ER  - 
+
+TY  - ELEC
+TI  - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+T2  - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+PB  - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+UR  - https://arxiv.org/abs/1810.04805
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - BERT
+ER  - 
+
+TY  - ELEC
+TI  - Language Models are Unsupervised Multitask Learners
+T2  - Language Models are Unsupervised Multitask Learners
+PB  - Language Models are Unsupervised Multitask Learners
+UR  - https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - GPT-2
+ER  - 
+
+TY  - ELEC
+TI  - Multilingual universal sentence encoder for semantic retrieval
+T2  - Multilingual universal sentence encoder for semantic retrieval
+PB  - Multilingual universal sentence encoder for semantic retrieval
+UR  - https://arxiv.org/abs/1907.04307
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - MUSE
+ER  - 
+
+TY  - ELEC
+TI  - Exploring the limits of transfer learning with a unified text-to-text transformer
+T2  - Exploring the limits of transfer learning with a unified text-to-text transformer
+PB  - Exploring the limits of transfer learning with a unified text-to-text transformer
+UR  - https://www.jmlr.org/papers/volume21/20-074/20-074.pdf
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - T5
+ER  - 
+
+TY  - ELEC
+TI  - Language Models are Few-Shot Learners
+T2  - Language Models are Few-Shot Learners
+PB  - Language Models are Few-Shot Learners
+UR  - https://arxiv.org/abs/2005.14165
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - GPT-3
+ER  - 
+
+TY  - ELEC
+TI  - Training language models to follow instructions with human feedback
+T2  - Training language models to follow instructions with human feedback
+PB  - Training language models to follow instructions with human feedback
+UR  - https://arxiv.org/abs/2203.02155
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - InstructGPT
+ER  - 
+
+TY  - ELEC
+TI  - Training Compute-Optimal Large Language Models
+T2  - Training Compute-Optimal Large Language Models
+PB  - Training Compute-Optimal Large Language Models
+UR  - https://arxiv.org/abs/2203.15556
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Chinchilla
+ER  - 
+
+TY  - ELEC
+TI  - 2022.11. [[🌍 Website](https://openai.com/index/chatgpt/?utm_source=chatgpt.com)]
+UR  - https://openai.com/index/chatgpt/?utm_source=chatgpt.com
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - ChatGPT
+ER  - 
+
+TY  - ELEC
+TI  - LLaMA: Open and Efficient Foundation Language Models
+T2  - LLaMA: Open and Efficient Foundation Language Models
+PB  - LLaMA: Open and Efficient Foundation Language Models
+UR  - https://arxiv.org/abs/2302.13971
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - LLaMA
+ER  - 
+
+TY  - ELEC
+TI  - 2023.03. [[📄 Paper](https://arxiv.org/abs/2303.08774)] [[🌍 Website](https://openai.com/index/gpt-4-research/)]
+UR  - https://arxiv.org/abs/2303.08774
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - GPT-4
+ER  - 
+
+TY  - ELEC
+TI  - 2023.03. [[🌍 Website](https://www.anthropic.com/news/introducing-claude)]
+UR  - https://www.anthropic.com/news/introducing-claude
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Claude
+ER  - 
+
+TY  - ELEC
+TI  - Llama 2: Open Foundation and Fine-Tuned Chat Models
+T2  - Llama 2: Open Foundation and Fine-Tuned Chat Models
+PB  - Llama 2: Open Foundation and Fine-Tuned Chat Models
+UR  - https://arxiv.org/abs/2307.09288
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Llama 2
+ER  - 
+
+TY  - ELEC
+TI  - 2023.07. [[🌍 Website](https://www.anthropic.com/news/claude-2)]
+UR  - https://www.anthropic.com/news/claude-2
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Claude 2
+ER  - 
+
+TY  - ELEC
+TI  - Mistral 7B
+T2  - Mistral 7B
+PB  - Mistral 7B
+UR  - https://arxiv.org/abs/2310.06825
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Mistral
+ER  - 
+
+TY  - ELEC
+TI  - Mamba: Linear-Time Sequence Modeling with Selective State Spaces
+T2  - Mamba: Linear-Time Sequence Modeling with Selective State Spaces
+PB  - Mamba: Linear-Time Sequence Modeling with Selective State Spaces
+UR  - https://arxiv.org/abs/2312.00752
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Mamba
+ER  - 
+
+TY  - ELEC
+TI  - Mixtral of Experts
+T2  - Mixtral of Experts
+PB  - Mixtral of Experts
+UR  - https://arxiv.org/abs/2401.04088
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Mixtral
+ER  - 
+
+TY  - ELEC
+TI  - Gemma: Open Models Based on Gemini Research and Technology
+T2  - Gemma: Open Models Based on Gemini Research and Technology
+PB  - Gemma: Open Models Based on Gemini Research and Technology
+UR  - https://arxiv.org/abs/2403.08295
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Gemma
+ER  - 
+
+TY  - ELEC
+TI  - 2024.03. [[🌍 Website](https://www.anthropic.com/news/claude-3-family)]
+UR  - https://www.anthropic.com/news/claude-3-family
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Claude 3
+ER  - 
+
+TY  - ELEC
+TI  - The Llama 3 Herd of Models
+T2  - The Llama 3 Herd of Models
+PB  - The Llama 3 Herd of Models
+UR  - https://arxiv.org/abs/2407.21783
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Llama 3
+ER  - 
+
+TY  - ELEC
+TI  - Gemma 2: Improving Open Language Models at a Practical Size
+T2  - Gemma 2: Improving Open Language Models at a Practical Size
+PB  - Gemma 2: Improving Open Language Models at a Practical Size
+UR  - https://arxiv.org/abs/2408.00118
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Gemma 2
+ER  - 
+
+TY  - ELEC
+TI  - 2024.12. [[🌍 Website](https://openai.com/o1/)]
+UR  - https://openai.com/o1/
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - OpenAI o1
+ER  - 
+
+TY  - ELEC
+TI  - 2025.01. [[🌍 Website](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/)]
+UR  - https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Gemini 2.0 Flash
+ER  - 
+
+TY  - ELEC
+TI  - DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
+T2  - DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
+PB  - DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
+UR  - https://arxiv.org/abs/2501.12948
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - DeepSeek-R1
+ER  - 
+
+TY  - ELEC
+TI  - 2025.02. [[🌍 Website](https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/)]
+UR  - https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Gemini 2.0 Pro
+ER  - 
+
+TY  - ELEC
+TI  - 2025.03. [[🌍 Website](https://deepmind.google/models/gemini/pro/)]
+UR  - https://deepmind.google/models/gemini/pro/
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Gemini 2.5 Pro
+ER  - 
+
+TY  - ELEC
+TI  - 2025.03. [[📄 Paper](https://arxiv.org/abs/2503.19786)] [[🌍 Website](https://deepmind.google/models/gemma/gemma-3/)]
+UR  - https://arxiv.org/abs/2503.19786
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Gemma 3
+ER  - 
+
+TY  - ELEC
+TI  - 2025.04. [[🌍 Website](https://deepmind.google/models/gemini/flash/)]
+UR  - https://deepmind.google/models/gemini/flash/
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Gemini 2.5 Flash
+ER  - 
+
+TY  - ELEC
+TI  - 2024.05. [[🌍 Website](https://www.anthropic.com/news/claude-4)]
+UR  - https://www.anthropic.com/news/claude-4
+KW  - Foundation Models
+KW  - Language Foundation Models
+KW  - Claude 4
+ER  - 
+
