@@ -162,6 +162,25 @@ Key flags:
   - Skips files that already exist in the Drive folder unless `--overwrite` is set.
   - `--limit` caps the number of parent items per collection (0 = unlimited). `--dry-run` shows the intended plan without touching Drive.
 
+### export_zotero_pdfs_to_local.py
+- Exports the Zotero collection tree to local folders, naming each PDF as `title.pdf`. If the target file already exists, it is skipped by default.
+- Default output is `exports/zotero_pdfs` under the repo root; override with `--output-dir` or `ZOTERO_PDF_EXPORT_DIR`.
+- Example:
+  ```bash
+  python scripts/export_zotero_pdfs_to_local.py --collection-name "Embodied AI"
+  ```
+- Dry-run example:
+  ```bash
+  python scripts/export_zotero_pdfs_to_local.py \
+    --collection-name "Embodied AI" \
+    --output-dir ~/ZoteroExports \
+    --dry-run
+  ```
+- Notes:
+  - Defaults to all top-level collections; use `--collection` or `--collection-name` to export a subtree, and `--no-recursive` to stay on the current level only.
+  - Reads local attachments from `ZOTERO_STORAGE_DIR` (imported_file / linked_file / imported_url). If only a `linked_url` exists, the script downloads it before copying.
+  - Use `--overwrite` to replace existing files.
+
 ### sync_zotero_to_notion.py
 - Syncs Zotero items to a Notion database with strict column-name mapping and optional Doubao extraction. Key flags:
   - `--collection-name/--collection` (with `--recursive`), `--tag`, `--since-days`, `--limit`, `--tag-file`, `--skip-untitled`, `--dry-run`, `--debug`.
@@ -190,6 +209,7 @@ Key flags:
 - `scripts/summarize_zotero_with_doubao.py` — batch summaries → Notes (Markdown)
 - `scripts/fetch_missing_pdfs.py` — auto-download/link PDFs for recent items
 - `scripts/export_zotero_pdfs_to_gdrive.py` — mirror collections to Google Drive and upload PDFs
+- `scripts/export_zotero_pdfs_to_local.py` — mirror collections to local folders and save PDFs by title
 - `scripts/merge_zotero_duplicates.py` — merge duplicates safely
 - `scripts/list_zotero_collections.py` — print collection tree (markdown/text)
 - `scripts/enrich_zotero_abstracts.py` — fill missing abstracts

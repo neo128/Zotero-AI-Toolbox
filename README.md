@@ -16,6 +16,7 @@ English version & updates: see [`README_EN.md`](README_EN.md).
 | `scripts/list_zotero_collections.py` | 枚举 Zotero Collection 及其树结构，可选列出子项。 |
 | `scripts/import_ris_folder.py` | 遍历文件夹中所有 RIS 文件并批量导入 Zotero。 |
 | `scripts/export_zotero_pdfs_to_gdrive.py` | 按照 Zotero Collection 树，将条目的 PDF 上传到 Google Drive 并复刻层级。 |
+| `scripts/export_zotero_pdfs_to_local.py` | 按照 Zotero Collection/SubCollection 层级将 PDF 导出到本地目录（文件名为论文标题）。 |
 | `scripts/import_embodied_ai_to_zotero.py` | 解析 Embodied_AI_Paper_List README，生成 RIS 或直接创建条目。 |
 | `scripts/awesome_vla_to_ris.py` | 解析 Awesome-VLA README，按分类生成 RIS/调用 API。 |
 | `scripts/delete_collection_notes.py` | 清理指定集合下的 Notes。 |
@@ -499,6 +500,30 @@ python scripts/export_zotero_pdfs_to_gdrive.py \
 - 支持 `--dry-run` 观察将创建哪些文件夹/文件。
 
 必备环境变量：`ZOTERO_USER_ID`, `ZOTERO_API_KEY`，另可通过 `GOOGLE_DRIVE_ROOT_FOLDER` / `GOOGLE_SERVICE_ACCOUNT_FILE` / `GOOGLE_APPLICATION_CREDENTIALS` 预设目标与凭据。
+
+## export_zotero_pdfs_to_local.py
+
+将 Zotero 全库（或指定子集合）按 Collection/SubCollection 层级导出到本地目录，论文以 `title.pdf` 命名；如果目标位置已存在同名文件则跳过。默认输出到仓库内 `exports/zotero_pdfs/`，可通过 `--output-dir` 或 `ZOTERO_PDF_EXPORT_DIR` 覆盖。
+
+示例：导出 “Embodied AI” 集合及其子集合到默认目录：
+
+```bash
+python scripts/export_zotero_pdfs_to_local.py --collection-name "Embodied AI"
+```
+
+示例：指定输出目录并仅预览：
+
+```bash
+python scripts/export_zotero_pdfs_to_local.py \
+  --collection-name "Embodied AI" \
+  --output-dir ~/ZoteroExports \
+  --dry-run
+```
+
+脚本要点：
+- 默认遍历所有顶层集合；可用 `--collection`（key）或 `--collection-name` 只导出某个子树，`--no-recursive` 可仅同步当前层。
+- 使用 `ZOTERO_STORAGE_DIR` 下的本地附件（`imported_file` / `linked_file` / `imported_url`）；若仅有 `linked_url`，会尝试下载后再复制到导出目录。
+- 目标位置存在同名文件时会跳过，可用 `--overwrite` 强制覆盖。
 
 ## sync_zotero_to_notion.py
 
