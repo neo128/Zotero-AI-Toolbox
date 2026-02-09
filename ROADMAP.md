@@ -33,6 +33,13 @@ This roadmap highlights near-term priorities to improve PaperPilot's reliability
 - [x] Add smoke checks for docs command snippets
 - [x] Add dependency update automation
 
+## Milestone 5: Community and Adoption (In Progress)
+
+- [x] Add support routing and question intake (`SUPPORT.md` + issue template)
+- [x] Add first-time contributor welcome automation
+- [ ] Publish a curated `good first issues` set with acceptance criteria
+- [ ] Document triage SLA and maintainer response policy
+
 ## Success Metrics
 
 - Weekly repository activity with at least one meaningful update

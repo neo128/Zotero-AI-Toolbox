@@ -43,4 +43,6 @@ python -m unittest discover -s tests -p "test_*.py" -v
 
 - Use the Bug Report template for defects.
 - Use the Feature Request template for improvements.
+- Use the Usage Question template for setup/workflow help.
 - Include exact command lines, logs, and environment details when possible.
+- See `SUPPORT.md` for channel routing guidance.

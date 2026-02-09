@@ -1,0 +1,42 @@
+name: Usage question
+description: Ask a setup or workflow question
+title: "[Question] "
+labels:
+  - question
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+      description: Describe your intended workflow and expected outcome.
+      placeholder: I want to ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What did you try?
+      description: Include exact commands and key parameters.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Relevant output/log snippets
+      description: Paste the shortest logs that show the issue.
+      render: shell
+
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: e.g. 3.11.9
+
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: e.g. macOS / Ubuntu / Windows

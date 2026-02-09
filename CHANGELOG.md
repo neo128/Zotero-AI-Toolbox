@@ -33,6 +33,10 @@ All notable changes to this project are documented in this file.
   - `tests/test_docs_commands.py` (README command snippet smoke checks)
   - `tests/test_merge_dedupe_logic.py` + fixtures (dedupe grouping/child merge logic)
   - `tests/test_enrich_abstract_logic.py` + fixtures (abstract enrichment fallback/rate-limit path)
+- Community onboarding improvements:
+  - `SUPPORT.md`
+  - `ISSUE_TEMPLATE/question.yml`
+  - `workflows/first_interaction.yml`
 
 ### Changed
 - Setup instructions now use `pip install -r requirements.txt` for consistency.

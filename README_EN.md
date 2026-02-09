@@ -41,6 +41,7 @@ For full workflow examples and script-level details, continue below.
 
 Project governance docs:
 - Contributing: [`CONTRIBUTING.md`](CONTRIBUTING.md)
+- Support: [`SUPPORT.md`](SUPPORT.md)
 - Code of Conduct: [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
 - Security policy: [`SECURITY.md`](SECURITY.md)
 - Roadmap: [`ROADMAP.md`](ROADMAP.md)

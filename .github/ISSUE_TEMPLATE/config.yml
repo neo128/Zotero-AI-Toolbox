@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Usage support
+    url: https://github.com/neo128/PaperPilot/blob/main/SUPPORT.md
+    about: Start here for setup and workflow support guidance.
   - name: Security issue
     url: https://github.com/neo128/PaperPilot/security/advisories/new
     about: Please report security vulnerabilities privately.

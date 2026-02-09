@@ -1,0 +1,28 @@
+name: First Interaction
+
+on:
+  issues:
+    types:
+      - opened
+  pull_request_target:
+    types:
+      - opened
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome first-time contributors
+        uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            Thanks for opening your first issue in PaperPilot.
+            Please include exact commands, environment details, and short log snippets so we can reproduce quickly.
+          pr-message: |
+            Thanks for your first pull request to PaperPilot.
+            Please ensure docs/tests are updated when behavior changes and include validation commands in the PR body.

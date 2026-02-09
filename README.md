@@ -43,6 +43,7 @@ scripts/ai_toolbox_pipeline.sh --help
 
 社区与维护文档：
 - 贡献指南：[`CONTRIBUTING.md`](CONTRIBUTING.md)
+- 支持渠道：[`SUPPORT.md`](SUPPORT.md)
 - 行为准则：[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
 - 安全策略：[`SECURITY.md`](SECURITY.md)
 - 路线图：[`ROADMAP.md`](ROADMAP.md)
