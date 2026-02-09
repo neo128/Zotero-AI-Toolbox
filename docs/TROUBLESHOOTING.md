@@ -106,5 +106,5 @@ When unsure, run a safe baseline:
 
 ```bash
 make ci
-bash scripts/demo_quickstart.sh
+python scripts/langchain_pipeline.py --help
 ```

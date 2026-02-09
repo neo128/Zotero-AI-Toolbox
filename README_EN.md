@@ -39,16 +39,6 @@ scripts/ai_toolbox_pipeline.sh --help
 
 For full workflow examples and script-level details, continue below.
 
-## Demo
-
-![PaperPilot Demo Preview](docs/assets/paperpilot-demo.svg)
-
-- One-command demo script: `bash scripts/demo_quickstart.sh`
-- GIF recording guide: [`docs/DEMO.md`](docs/DEMO.md)
-- VHS tape file: [`docs/demo/demo.tape`](docs/demo/demo.tape)
-- GIF generation command: `bash docs/demo/generate_demo_gif.sh`
-- Target artifact: `docs/assets/paperpilot-demo.gif` (generate via VHS and replace preview)
-
 Project governance docs:
 - Contributing: [`CONTRIBUTING.md`](CONTRIBUTING.md)
 - Code of Conduct: [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
@@ -90,7 +80,7 @@ The following snippet is from a real run log (`logs/watch_20260120_163223.log`):
 - Release process: use semantic tags (`v0.x.y`) with key changes and migration notes.
 - Near-term roadmap:
   - Add more granular offline tests (argument parsing, scoring, dedupe logic).
-  - Add visual demo assets (GIF/screenshots) and a troubleshooting FAQ map.
+  - Add more practical documentation samples and a troubleshooting FAQ map.
   - Provide minimal config templates for two paths: Zotero-only and Zotero+Notion.
 
 ## Setup

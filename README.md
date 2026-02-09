@@ -41,16 +41,6 @@ scripts/ai_toolbox_pipeline.sh --help
 
 想看完整流程、参数细节和每个脚本的能力，请继续阅读下方文档。
 
-## 演示（Demo）
-
-![PaperPilot Demo Preview](docs/assets/paperpilot-demo.svg)
-
-- 一键演示脚本：`bash scripts/demo_quickstart.sh`
-- GIF 录制指南：[`docs/DEMO.md`](docs/DEMO.md)
-- VHS 录制脚本：[`docs/demo/demo.tape`](docs/demo/demo.tape)
-- GIF 生成命令：`bash docs/demo/generate_demo_gif.sh`
-- 目标产物：`docs/assets/paperpilot-demo.gif`（可用 VHS 生成并替换预览图）
-
 社区与维护文档：
 - 贡献指南：[`CONTRIBUTING.md`](CONTRIBUTING.md)
 - 行为准则：[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
@@ -92,7 +82,7 @@ make ci        # check + test
 - 版本发布：建议使用语义化版本（`v0.x.y`），每次发布附带关键改动和迁移说明。
 - 下一阶段（短期）：
   - 增加更细粒度的离线单元测试（参数解析、打分与去重逻辑）。
-  - 增加文档 Demo 资源（GIF/截图）和常见问题排障图谱。
+  - 增加文档示例资源和常见问题排障图谱。
   - 提供最小化配置模板（按“仅 Zotero / Zotero+Notion”两条路径）。
 
 ## 代码文件速览

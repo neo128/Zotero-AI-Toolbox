@@ -14,7 +14,7 @@ install:
 
 check:
 	$(PYTHON) -m compileall scripts paperflow tests
-	bash -n scripts/ai_toolbox_pipeline.sh scripts/demo_quickstart.sh docs/demo/generate_demo_gif.sh
+	bash -n scripts/ai_toolbox_pipeline.sh
 	$(PYTHON) scripts/list_zotero_collections.py --help >/dev/null
 	$(PYTHON) scripts/merge_zotero_duplicates.py --help >/dev/null
 	$(PYTHON) scripts/watch_and_import_papers.py --help >/dev/null

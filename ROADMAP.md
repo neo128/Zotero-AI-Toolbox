@@ -20,8 +20,6 @@ This roadmap highlights near-term priorities to improve PaperPilot's reliability
 
 ## Milestone 3: Showcase and Growth (Planned)
 
-- [x] Add demo entry in top README (with script + recording guide)
-- [ ] Add 20-40s real demo GIF to top README
 - [x] Add before/after examples for:
   - watch-import
   - dedupe

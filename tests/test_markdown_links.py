@@ -28,7 +28,6 @@ class MarkdownLinkTest(unittest.TestCase):
             ROOT / "README_EN.md",
             ROOT / "CONTRIBUTING.md",
             ROOT / "ROADMAP.md",
-            ROOT / "docs" / "DEMO.md",
             ROOT / "docs" / "USE_CASES.md",
             ROOT / "docs" / "BEFORE_AFTER.md",
             ROOT / "docs" / "TROUBLESHOOTING.md",
