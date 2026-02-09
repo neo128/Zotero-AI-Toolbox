@@ -23,6 +23,9 @@ All notable changes to this project are documented in this file.
   - `tests/test_markdown_links.py`
 - Before/after benchmark examples:
   - `docs/BEFORE_AFTER.md`
+- Additional test coverage:
+  - `tests/test_watch_logic.py` (argument parsing + score behavior)
+  - `tests/test_docs_commands.py` (README command snippet smoke checks)
 
 ### Changed
 - Setup instructions now use `pip install -r requirements.txt` for consistency.
