@@ -5,6 +5,11 @@ All notable changes to this project are documented in this file.
 ## [Unreleased]
 
 ### Added
+- No notable changes yet.
+
+## [0.2.0] - 2026-02-09
+
+### Added
 - GitHub community health files: license, contributing guide, code of conduct, security policy.
 - Issue and pull request templates under `.github/`.
 - CI workflow with syntax checks, CLI smoke checks, and unit tests.
@@ -39,5 +44,6 @@ All notable changes to this project are documented in this file.
 - Initial public baseline for PaperPilot automation scripts.
 - End-to-end CLI pipeline around Zotero ingestion, dedupe, summarization, and sync.
 
-[Unreleased]: https://github.com/neo128/PaperPilot/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/neo128/PaperPilot/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/neo128/PaperPilot/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/neo128/PaperPilot/releases/tag/v0.1.0

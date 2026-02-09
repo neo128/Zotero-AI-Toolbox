@@ -18,7 +18,7 @@ This roadmap highlights near-term priorities to improve PaperPilot's reliability
   - Zotero + Notion
 - [x] Add a compact troubleshooting matrix by error pattern
 
-## Milestone 3: Showcase and Growth (Planned)
+## Milestone 3: Showcase and Growth (Done)
 
 - [x] Add before/after examples for:
   - watch-import
