@@ -29,7 +29,7 @@ This roadmap highlights near-term priorities to improve PaperPilot's reliability
 ## Milestone 4: Reliability and Coverage (Planned)
 
 - [x] Add unit tests for argument parsing and scoring logic
-- [ ] Add fixture-based tests for dedupe and metadata enrichment
+- [x] Add fixture-based tests for dedupe and metadata enrichment
 - [x] Add smoke checks for docs command snippets
 - [x] Add dependency update automation
 

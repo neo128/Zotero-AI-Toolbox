@@ -1,0 +1,62 @@
+{
+  "doi_case": {
+    "DOI": "https://doi.org/10.1000/xyz",
+    "url": "https://example.com/paper#section",
+    "title": "A Great Paper",
+    "year": "2024"
+  },
+  "url_case": {
+    "url": "https://example.com/path/to/paper/#anchor",
+    "title": "Fallback URL",
+    "year": "2023"
+  },
+  "title_case": {
+    "title": "Neural Policy for Mobile Robot",
+    "date": "2022-05-01"
+  },
+  "existing_children": [
+    {
+      "key": "N1",
+      "data": {
+        "itemType": "note",
+        "note": "<p>hello   world</p>"
+      }
+    },
+    {
+      "key": "A1",
+      "data": {
+        "itemType": "attachment",
+        "filename": "paper.pdf",
+        "contentType": "application/pdf",
+        "linkMode": "linked_file"
+      }
+    }
+  ],
+  "incoming_children": [
+    {
+      "key": "N2",
+      "data": {
+        "itemType": "note",
+        "note": "<p>hello world</p>"
+      }
+    },
+    {
+      "key": "A2",
+      "data": {
+        "itemType": "attachment",
+        "filename": "paper.pdf",
+        "contentType": "application/pdf",
+        "linkMode": "linked_file"
+      }
+    },
+    {
+      "key": "A3",
+      "data": {
+        "itemType": "attachment",
+        "filename": "appendix.pdf",
+        "contentType": "application/pdf",
+        "linkMode": "linked_file"
+      }
+    }
+  ]
+}

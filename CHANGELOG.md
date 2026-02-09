@@ -26,6 +26,8 @@ All notable changes to this project are documented in this file.
 - Additional test coverage:
   - `tests/test_watch_logic.py` (argument parsing + score behavior)
   - `tests/test_docs_commands.py` (README command snippet smoke checks)
+  - `tests/test_merge_dedupe_logic.py` + fixtures (dedupe grouping/child merge logic)
+  - `tests/test_enrich_abstract_logic.py` + fixtures (abstract enrichment fallback/rate-limit path)
 
 ### Changed
 - Setup instructions now use `pip install -r requirements.txt` for consistency.
