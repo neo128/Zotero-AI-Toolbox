@@ -54,15 +54,31 @@ except ImportError as exc:  # pragma: no cover - dependency hint
 
 
 class ZoteroAPI:
-    def __init__(self, user_id: str, api_key: str) -> None:
+    def __init__(self, user_id: str, api_key: str, use_env_proxy: bool = True) -> None:
         self.base = f"https://api.zotero.org/users/{user_id}"
         self.session = requests.Session()
+        self.session.trust_env = use_env_proxy
+        if not use_env_proxy:
+            self.session.proxies = {}
+        self._proxy_disabled = not use_env_proxy
         self.session.headers.update(
             {
                 "Zotero-API-Key": api_key,
                 "User-Agent": "Zotero-Doubao-Summary/0.1",
             }
         )
+
+    def _request(self, method: str, url: str, **kwargs) -> requests.Response:
+        try:
+            return self.session.request(method, url, **kwargs)
+        except requests.exceptions.ProxyError:
+            if self._proxy_disabled:
+                raise
+            self._proxy_disabled = True
+            self.session.trust_env = False
+            self.session.proxies = {}
+            print("[WARN] Proxy error detected; retrying Zotero request without proxy.")
+            return self.session.request(method, url, **kwargs)
 
     def iter_items(
         self,
@@ -86,7 +102,7 @@ class ZoteroAPI:
         yielded = 0
         remaining = limit if (isinstance(limit, int) and limit > 0) else None
         while url:
-            resp = self.session.get(url, params=params)
+            resp = self._request("get", url, params=params)
             resp.raise_for_status()
             data = resp.json()
             for item in data:
@@ -98,12 +114,13 @@ class ZoteroAPI:
             params = None  # already encoded in Link
 
     def fetch_item(self, item_key: str) -> Dict[str, Any]:
-        resp = self.session.get(f"{self.base}/items/{item_key}", params={"format": "json", "include": "data"})
+        resp = self._request("get", f"{self.base}/items/{item_key}", params={"format": "json", "include": "data"})
         resp.raise_for_status()
         return resp.json()["data"]
 
     def fetch_children(self, parent_key: str) -> List[Dict[str, Any]]:
-        resp = self.session.get(
+        resp = self._request(
+            "get",
             f"{self.base}/items/{parent_key}/children",
             params={"format": "json", "include": "data", "limit": 50},
         )
@@ -119,7 +136,7 @@ class ZoteroAPI:
                 "tags": [{"tag": t} for t in (tags or [])],
             }
         ]
-        resp = self.session.post(f"{self.base}/items", json=payload)
+        resp = self._request("post", f"{self.base}/items", json=payload)
         resp.raise_for_status()
 
     def list_collections(self) -> Dict[str, Dict[str, Optional[str]]]:

@@ -30,6 +30,7 @@ import datetime as dt
 import json
 import os
 import re
+from urllib.parse import urlparse
 import sys
 import time
 from pathlib import Path
@@ -378,6 +379,33 @@ def _sanitize_text(s: str) -> str:
     return s
 
 
+def _trim_select_name(value: str, max_len: int = 100) -> str:
+    text = _sanitize_text(value).strip()
+    if not text:
+        return ""
+    return text[:max_len]
+
+
+def _normalize_url(value: str) -> Optional[str]:
+    if not value:
+        return None
+    raw = value.strip()
+    if not raw:
+        return None
+    lowered = raw.lower()
+    if lowered.startswith("doi:"):
+        raw = raw.split(":", 1)[1].strip()
+    if raw.startswith("10.") and "://" not in raw:
+        raw = f"https://doi.org/{raw}"
+    try:
+        parsed = urlparse(raw)
+    except Exception:
+        return None
+    if not parsed.scheme or not parsed.netloc:
+        return None
+    return raw
+
+
 def extract_ai_notes_text(zot: ZoteroAPI, item: Dict[str, Any]) -> str:
     data = item.get("data", {})
     text = ""
@@ -468,16 +496,18 @@ def _set_prop_rich_text(props: Dict[str, Any], meta: Dict[str, str], value: str)
 
 
 def _set_prop_list(props: Dict[str, Any], meta: Dict[str, str], values: List[str]) -> None:
-    if not values:
+    cleaned = [_trim_select_name(v) for v in values if v]
+    cleaned = [v for v in cleaned if v]
+    if not cleaned:
         return
     name = meta["name"]
     typ = meta["type"]
     if typ == "multi_select":
-        props[name] = {"multi_select": [{"name": v} for v in values if v]}
+        props[name] = {"multi_select": [{"name": v} for v in cleaned]}
     elif typ == "select":
-        props[name] = {"select": {"name": values[0]}}
+        props[name] = {"select": {"name": cleaned[0]}}
     elif typ == "rich_text":
-        props[name] = {"rich_text": [{"text": {"content": ", ".join(values)[:1999]}}]}
+        props[name] = {"rich_text": [{"text": {"content": ", ".join(cleaned)[:1999]}}]}
 
 def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], labels: List[str], unpaywall_email: Optional[str], zot: ZoteroAPI) -> Dict[str, Any]:
     data = item.get("data", {})
@@ -526,7 +556,7 @@ def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], la
     props: Dict[str, Any] = {}
 
     def set_title(prop: str, value: str) -> None:
-        props[prop] = {"title": [{"text": {"content": value}}]}
+        props[prop] = {"title": [{"text": {"content": _sanitize_text(value)[:1999]}}]}
 
     def set_rich_text(prop: str, value: str) -> None:
         if value is None:
@@ -535,14 +565,21 @@ def make_properties(item: Dict[str, Any], mapping: Dict[str, Dict[str, str]], la
         props[prop] = {"rich_text": [{"text": {"content": value[:1999]}}]}
 
     def set_multi_select(prop: str, values: List[str]) -> None:
-        props[prop] = {"multi_select": [{"name": v} for v in values if v]}
+        cleaned = [_trim_select_name(v) for v in values if v]
+        cleaned = [v for v in cleaned if v]
+        if not cleaned:
+            return
+        props[prop] = {"multi_select": [{"name": v} for v in cleaned]}
 
     def set_number(prop: str, value: Optional[int]) -> None:
-        props[prop] = {"number": value if value is not None else None}
+        if value is None:
+            return
+        props[prop] = {"number": value}
 
     def set_url(prop: str, value: Optional[str]) -> None:
-        if value:
-            props[prop] = {"url": value}
+        normalized = _normalize_url(value or "")
+        if normalized:
+            props[prop] = {"url": normalized}
 
     # required: title
     set_title(mapping["title"]["name"], title)

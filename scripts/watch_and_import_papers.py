@@ -63,9 +63,13 @@ def parse_next_link(link_header: Optional[str]) -> Optional[str]:
 
 
 class ZoteroAPI:
-    def __init__(self, user_id: str, api_key: str) -> None:
+    def __init__(self, user_id: str, api_key: str, use_env_proxy: bool = True) -> None:
         self.base = f"https://api.zotero.org/users/{user_id}"
         self.session = requests.Session()
+        self.session.trust_env = use_env_proxy
+        if not use_env_proxy:
+            self.session.proxies = {}
+        self._proxy_disabled = not use_env_proxy
         self.session.headers.update(
             {
                 "Zotero-API-Key": api_key,
@@ -73,11 +77,23 @@ class ZoteroAPI:
             }
         )
 
+    def _request(self, method: str, url: str, **kwargs) -> requests.Response:
+        try:
+            return self.session.request(method, url, **kwargs)
+        except requests.exceptions.ProxyError:
+            if self._proxy_disabled:
+                raise
+            self._proxy_disabled = True
+            self.session.trust_env = False
+            self.session.proxies = {}
+            print("[WARN] Proxy error detected; retrying Zotero request without proxy.")
+            return self.session.request(method, url, **kwargs)
+
     def iter_top_items(self) -> Iterable[Dict[str, Any]]:
         url = f"{self.base}/items/top"
         params = {"format": "json", "include": "data", "limit": 100}
         while url:
-            resp = self.session.get(url, params=params)
+            resp = self._request("get", url, params=params)
             resp.raise_for_status()
             for entry in resp.json():
                 yield entry
@@ -85,7 +101,8 @@ class ZoteroAPI:
             params = None
 
     def list_collections(self) -> Dict[str, Dict[str, Optional[str]]]:
-        resp = self.session.get(
+        resp = self._request(
+            "get",
             f"{self.base}/collections",
             params={"limit": 200, "format": "json", "include": "data"},
         )
@@ -102,14 +119,14 @@ class ZoteroAPI:
             if cname == name or (cname and cname.lower() == name.lower()):
                 return info["key"]
         payload = [{"name": name}]
-        resp = self.session.post(f"{self.base}/collections", json=payload)
+        resp = self._request("post", f"{self.base}/collections", json=payload)
         resp.raise_for_status()
         # Location header contains keys; but simpler: re-list
         collections = self.list_collections()
         return collections[name]["key"]
 
     def create_items(self, items: List[Dict[str, Any]]) -> List[str]:
-        resp = self.session.post(f"{self.base}/items", json=items)
+        resp = self._request("post", f"{self.base}/items", json=items)
         resp.raise_for_status()
         # Parse Zotero batch response. Typical shape:
         # {
@@ -150,12 +167,12 @@ class ZoteroAPI:
                 "url": url,
             }
         ]
-        resp = self.session.post(f"{self.base}/items", json=payload)
+        resp = self._request("post", f"{self.base}/items", json=payload)
         resp.raise_for_status()
 
     def update_item(self, entry: Dict[str, Any], new_data: Dict[str, Any]) -> None:
         headers = {"If-Unmodified-Since-Version": str(entry.get("version"))}
-        resp = self.session.put(f"{self.base}/items/{entry['key']}", json=new_data, headers=headers)
+        resp = self._request("put", f"{self.base}/items/{entry['key']}", json=new_data, headers=headers)
         resp.raise_for_status()
 
 
