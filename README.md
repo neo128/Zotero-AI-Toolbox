@@ -1,8 +1,99 @@
 # PaperPilot
 
-PaperPilot 提供一整套与 Zotero 集成的 AI 自动化工具链，用于追踪热门论文、批量导入/去重、补全摘要与 PDF、生成 AI 笔记，并同步到 Notion 等下游系统。
+[![Stars](https://img.shields.io/github/stars/neo128/PaperPilot?style=flat-square)](https://github.com/neo128/PaperPilot/stargazers)
+[![License](https://img.shields.io/github/license/neo128/PaperPilot?style=flat-square)](./LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![CI](https://img.shields.io/github/actions/workflow/status/neo128/PaperPilot/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/neo128/PaperPilot/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/neo128/PaperPilot?style=flat-square)](https://github.com/neo128/PaperPilot/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/neo128/PaperPilot?style=flat-square)](https://github.com/neo128/PaperPilot/commits/main)
+
+PaperPilot 是一套与 Zotero 深度集成的 AI 自动化工具链，用于追踪热门论文、批量导入/去重、补全摘要与 PDF、生成 AI 笔记，并同步到 Notion 等下游系统。
 
 English version & updates: see [`README_EN.md`](README_EN.md).
+
+## 这个项目解决什么问题
+
+- 自动追踪并导入高价值新论文，减少手工检索成本。
+- 自动补全 PDF 与摘要，提升后续阅读和同步质量。
+- 自动去重、整理与同步，保持 Zotero 库长期干净可用。
+- 用统一 CLI 串联全流程，支持 dry-run 先预览再执行。
+
+## 60 秒快速体验
+
+```bash
+# 1) 建议使用虚拟环境
+python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+# 2) 安装依赖
+pip install -r requirements.txt
+
+# 3) 准备环境变量（脚本会自动读取 .env）
+cp -n .env.example .env 2>/dev/null || true
+
+# 或按场景快速初始化：
+# cp -n .env.zotero.example .env
+# cp -n .env.zotero_notion.example .env
+
+# 4) 先做无副作用检查（不写入）
+python scripts/langchain_pipeline.py --help
+scripts/ai_toolbox_pipeline.sh --help
+```
+
+想看完整流程、参数细节和每个脚本的能力，请继续阅读下方文档。
+
+## 演示（Demo）
+
+![PaperPilot Demo Preview](docs/assets/paperpilot-demo.svg)
+
+- 一键演示脚本：`bash scripts/demo_quickstart.sh`
+- GIF 录制指南：[`docs/DEMO.md`](docs/DEMO.md)
+- VHS 录制脚本：[`docs/demo/demo.tape`](docs/demo/demo.tape)
+- GIF 生成命令：`bash docs/demo/generate_demo_gif.sh`
+- 目标产物：`docs/assets/paperpilot-demo.gif`（可用 VHS 生成并替换预览图）
+
+社区与维护文档：
+- 贡献指南：[`CONTRIBUTING.md`](CONTRIBUTING.md)
+- 行为准则：[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
+- 安全策略：[`SECURITY.md`](SECURITY.md)
+- 路线图：[`ROADMAP.md`](ROADMAP.md)
+- 版本日志：[`CHANGELOG.md`](CHANGELOG.md)
+- 引用信息：[`CITATION.cff`](CITATION.cff)
+- 场景示例：[`docs/USE_CASES.md`](docs/USE_CASES.md)
+- 前后对比：[`docs/BEFORE_AFTER.md`](docs/BEFORE_AFTER.md)
+- 故障排查：[`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md)
+- 环境模板：[`.env.zotero.example`](.env.zotero.example)、[`.env.zotero_notion.example`](.env.zotero_notion.example)
+
+开发者快捷命令：
+
+```bash
+make install   # 安装依赖
+make check     # 语法 + CLI 烟雾检查
+make test      # 运行单元测试
+make ci        # check + test
+```
+
+## 示例输出（真实运行）
+
+以下片段来自一次真实运行日志（`logs/watch_20260120_163223.log`）：
+
+```text
+[INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2026-01-20
+[HF] weekly fetched=20 from week/2026-W04
+[HF] monthly fetched=50 from month/2026-01
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[ADD] Your Group-Relative Advantage Is Biased → robotic_navigation｜机器人导航 [SDIGMFBS]
+[ATTACH] PDF linked for SDIGMFBS
+```
+
+## 发布与路线图
+
+- 变更记录：[`CHANGELOG.md`](CHANGELOG.md)
+- 版本发布：建议使用语义化版本（`v0.x.y`），每次发布附带关键改动和迁移说明。
+- 下一阶段（短期）：
+  - 增加更细粒度的离线单元测试（参数解析、打分与去重逻辑）。
+  - 增加文档 Demo 资源（GIF/截图）和常见问题排障图谱。
+  - 提供最小化配置模板（按“仅 Zotero / Zotero+Notion”两条路径）。
 
 ## 代码文件速览
 
@@ -41,8 +132,8 @@ English version & updates: see [`README_EN.md`](README_EN.md).
 # 1) 建议使用虚拟环境
 python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-# 2) 安装依赖（markdown 为可选但推荐，用于本地渲染 Markdown → HTML）
-pip install requests pypdf openai markdown google-api-python-client
+# 2) 安装依赖
+pip install -r requirements.txt
 
 # 3) 环境变量：复制 `.env.example` 为 `.env` 并填入密钥（Python 脚本会自动加载，无需 source）
 cp -n .env.example .env 2>/dev/null || true

@@ -1,6 +1,97 @@
 # PaperPilot (English)
 
-PaperPilot is a suite of AI-powered helper scripts that integrate with Zotero for importing, parsing, summarizing, deduplicating, and syncing research papers (focused on Embodied AI / Robotics but generally useful).
+[![Stars](https://img.shields.io/github/stars/neo128/PaperPilot?style=flat-square)](https://github.com/neo128/PaperPilot/stargazers)
+[![License](https://img.shields.io/github/license/neo128/PaperPilot?style=flat-square)](./LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![CI](https://img.shields.io/github/actions/workflow/status/neo128/PaperPilot/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/neo128/PaperPilot/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/neo128/PaperPilot?style=flat-square)](https://github.com/neo128/PaperPilot/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/neo128/PaperPilot?style=flat-square)](https://github.com/neo128/PaperPilot/commits/main)
+
+PaperPilot is an AI-powered automation toolkit around Zotero for discovering new papers, importing and deduplicating entries, filling missing PDFs/abstracts, generating AI notes, and syncing to downstream systems like Notion.
+
+## What This Project Solves
+
+- Reduce manual paper discovery and ingestion work.
+- Keep Zotero clean with automated dedupe and metadata completion.
+- Turn PDFs into structured AI notes for fast review.
+- Run end-to-end workflows with one CLI pipeline and safe dry-runs.
+
+## 60-Second Quick Start
+
+```bash
+# 1) Virtual env (recommended)
+python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+# 2) Install dependencies
+pip install -r requirements.txt
+
+# 3) Prepare environment variables (.env is auto-loaded by scripts)
+cp -n .env.example .env 2>/dev/null || true
+
+# Or initialize from profile presets:
+# cp -n .env.zotero.example .env
+# cp -n .env.zotero_notion.example .env
+
+# 4) Run non-destructive checks first
+python scripts/langchain_pipeline.py --help
+scripts/ai_toolbox_pipeline.sh --help
+```
+
+For full workflow examples and script-level details, continue below.
+
+## Demo
+
+![PaperPilot Demo Preview](docs/assets/paperpilot-demo.svg)
+
+- One-command demo script: `bash scripts/demo_quickstart.sh`
+- GIF recording guide: [`docs/DEMO.md`](docs/DEMO.md)
+- VHS tape file: [`docs/demo/demo.tape`](docs/demo/demo.tape)
+- GIF generation command: `bash docs/demo/generate_demo_gif.sh`
+- Target artifact: `docs/assets/paperpilot-demo.gif` (generate via VHS and replace preview)
+
+Project governance docs:
+- Contributing: [`CONTRIBUTING.md`](CONTRIBUTING.md)
+- Code of Conduct: [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
+- Security policy: [`SECURITY.md`](SECURITY.md)
+- Roadmap: [`ROADMAP.md`](ROADMAP.md)
+- Changelog: [`CHANGELOG.md`](CHANGELOG.md)
+- Citation: [`CITATION.cff`](CITATION.cff)
+- Use cases: [`docs/USE_CASES.md`](docs/USE_CASES.md)
+- Before/after: [`docs/BEFORE_AFTER.md`](docs/BEFORE_AFTER.md)
+- Troubleshooting: [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md)
+- Env templates: [`.env.zotero.example`](.env.zotero.example), [`.env.zotero_notion.example`](.env.zotero_notion.example)
+
+Developer shortcuts:
+
+```bash
+make install   # Install dependencies
+make check     # Syntax + CLI smoke checks
+make test      # Unit tests
+make ci        # check + test
+```
+
+## Real Output Snapshot
+
+The following snippet is from a real run log (`logs/watch_20260120_163223.log`):
+
+```text
+[INFO] Started watch. since_hours=24.0 (→ days=1.00) top_k=10 min_score=0.3
+[HF] daily fetched=5 from date/2026-01-20
+[HF] weekly fetched=20 from week/2026-W04
+[HF] monthly fetched=50 from month/2026-01
+[COL] ensured collection 'robotic_navigation｜机器人导航' → MCGEU54N
+[ADD] Your Group-Relative Advantage Is Biased → robotic_navigation｜机器人导航 [SDIGMFBS]
+[ATTACH] PDF linked for SDIGMFBS
+```
+
+## Releases and Roadmap
+
+- Change history: [`CHANGELOG.md`](CHANGELOG.md)
+- Release process: use semantic tags (`v0.x.y`) with key changes and migration notes.
+- Near-term roadmap:
+  - Add more granular offline tests (argument parsing, scoring, dedupe logic).
+  - Add visual demo assets (GIF/screenshots) and a troubleshooting FAQ map.
+  - Provide minimal config templates for two paths: Zotero-only and Zotero+Notion.
 
 ## Setup
 
@@ -8,8 +99,8 @@ PaperPilot is a suite of AI-powered helper scripts that integrate with Zotero fo
 # 1) Virtual env (recommended)
 python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-# 2) Install deps (markdown is optional but improves local HTML rendering)
-pip install requests pypdf openai markdown google-api-python-client
+# 2) Install dependencies
+pip install -r requirements.txt
 
 # 3) Environment: copy `.env.example` to `.env` and fill values
 cp -n .env.example .env 2>/dev/null || true

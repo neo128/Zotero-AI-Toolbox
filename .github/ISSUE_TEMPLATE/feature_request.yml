@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest an enhancement for PaperPilot
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What workflow pain are you hitting?
+      placeholder: It is hard to ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the expected behavior and CLI/API changes.
+      placeholder: Add a flag `--...` that ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What else did you try?
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Sample commands, links, screenshots, or references.

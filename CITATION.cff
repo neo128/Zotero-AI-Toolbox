@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use PaperPilot in your workflow or research, please cite this repository."
+title: "PaperPilot"
+type: software
+version: 0.1.0
+date-released: 2026-02-09
+license: MIT
+url: "https://github.com/neo128/PaperPilot"
+repository-code: "https://github.com/neo128/PaperPilot"
+authors:
+  - family-names: "neo128"

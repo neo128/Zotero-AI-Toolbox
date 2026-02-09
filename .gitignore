@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 *.pyo
+.pytest_cache/
 .venv/
 .env
 .DS_Store
@@ -12,8 +13,15 @@ __pycache__/
 
 # Outputs
 awesome_vla_ris/
+awesome_vla_ris_readme2/
 zotero_import/
 summaries/
+logs/
+reports/
+exports/
 
 # Local env
 exp
+.data/
+Awesome-VLA-main/
+Embodied_AI_Paper_List-main/
