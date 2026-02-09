@@ -46,4 +46,4 @@ All notable changes to this project are documented in this file.
 
 [Unreleased]: https://github.com/neo128/PaperPilot/compare/v0.2.0...HEAD
 [0.2.0]: https://github.com/neo128/PaperPilot/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/neo128/PaperPilot/releases/tag/v0.1.0
+[0.1.0]: https://github.com/neo128/PaperPilot/tree/v0.1.0
