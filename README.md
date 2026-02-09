@@ -47,6 +47,7 @@ scripts/ai_toolbox_pipeline.sh --help
 - 安全策略：[`SECURITY.md`](SECURITY.md)
 - 路线图：[`ROADMAP.md`](ROADMAP.md)
 - 版本日志：[`CHANGELOG.md`](CHANGELOG.md)
+- 发布指南：[`docs/RELEASE.md`](docs/RELEASE.md)
 - 引用信息：[`CITATION.cff`](CITATION.cff)
 - 场景示例：[`docs/USE_CASES.md`](docs/USE_CASES.md)
 - 前后对比：[`docs/BEFORE_AFTER.md`](docs/BEFORE_AFTER.md)

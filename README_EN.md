@@ -45,6 +45,7 @@ Project governance docs:
 - Security policy: [`SECURITY.md`](SECURITY.md)
 - Roadmap: [`ROADMAP.md`](ROADMAP.md)
 - Changelog: [`CHANGELOG.md`](CHANGELOG.md)
+- Release guide: [`docs/RELEASE.md`](docs/RELEASE.md)
 - Citation: [`CITATION.cff`](CITATION.cff)
 - Use cases: [`docs/USE_CASES.md`](docs/USE_CASES.md)
 - Before/after: [`docs/BEFORE_AFTER.md`](docs/BEFORE_AFTER.md)

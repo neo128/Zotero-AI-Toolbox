@@ -24,7 +24,7 @@ This roadmap highlights near-term priorities to improve PaperPilot's reliability
   - watch-import
   - dedupe
   - summarize
-- [ ] Publish regular release notes (`v0.x.y`) with migration hints
+- [x] Publish regular release notes (`v0.x.y`) with migration hints
 
 ## Milestone 4: Reliability and Coverage (Planned)
 

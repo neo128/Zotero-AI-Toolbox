@@ -30,6 +30,7 @@ class MarkdownLinkTest(unittest.TestCase):
             ROOT / "ROADMAP.md",
             ROOT / "docs" / "USE_CASES.md",
             ROOT / "docs" / "BEFORE_AFTER.md",
+            ROOT / "docs" / "RELEASE.md",
             ROOT / "docs" / "TROUBLESHOOTING.md",
         ]
         for md in files:

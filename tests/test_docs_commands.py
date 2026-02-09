@@ -40,6 +40,13 @@ class DocsCommandSmokeTest(unittest.TestCase):
         self._run([PYTHON, "scripts/langchain_pipeline.py", "--help"])
         self._run(["bash", "scripts/ai_toolbox_pipeline.sh", "--help"])
 
+    def test_release_guide_snippets_exist(self) -> None:
+        release_doc = ROOT / "docs" / "RELEASE.md"
+        self.assertTrue(release_doc.exists(), msg=f"Missing file: {release_doc}")
+        self._assert_contains(release_doc, "make ci")
+        self._assert_contains(release_doc, "git tag v0.1.1")
+        self._assert_contains(release_doc, "git push origin v0.1.1")
+
 
 if __name__ == "__main__":
     unittest.main()

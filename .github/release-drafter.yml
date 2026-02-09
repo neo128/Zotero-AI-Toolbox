@@ -1,0 +1,49 @@
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+change-template: "- $TITLE (#$NUMBER) @$AUTHOR"
+no-changes-template: "- No user-facing changes."
+
+categories:
+  - title: "Features"
+    labels:
+      - "enhancement"
+      - "feature"
+  - title: "Fixes"
+    labels:
+      - "bug"
+      - "fix"
+  - title: "Documentation"
+    labels:
+      - "docs"
+  - title: "Maintenance"
+    labels:
+      - "dependencies"
+      - "chore"
+      - "test"
+
+version-resolver:
+  major:
+    labels:
+      - "major"
+  minor:
+    labels:
+      - "minor"
+  patch:
+    labels:
+      - "patch"
+  default: patch
+
+template: |
+  ## Summary
+  $CHANGES
+
+  ## Migration Notes
+  - Breaking changes: None.
+  - Environment/config changes: None.
+  - Recommended upgrade path:
+    1. `git pull`
+    2. `pip install -r requirements.txt`
+    3. `make ci`
+
+  ## Changelog
+  Curated details: https://github.com/neo128/PaperPilot/blob/main/CHANGELOG.md
