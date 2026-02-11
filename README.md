@@ -53,6 +53,8 @@ scripts/ai_toolbox_pipeline.sh --help
 - 场景示例：[`docs/USE_CASES.md`](docs/USE_CASES.md)
 - 前后对比：[`docs/BEFORE_AFTER.md`](docs/BEFORE_AFTER.md)
 - 故障排查：[`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md)
+- 新手任务：[`docs/GOOD_FIRST_ISSUES.md`](docs/GOOD_FIRST_ISSUES.md)
+- 分流策略：[`docs/TRIAGE_POLICY.md`](docs/TRIAGE_POLICY.md)
 - 环境模板：[`.env.zotero.example`](.env.zotero.example)、[`.env.zotero_notion.example`](.env.zotero_notion.example)
 
 开发者快捷命令：
@@ -83,9 +85,9 @@ make ci        # check + test
 - 变更记录：[`CHANGELOG.md`](CHANGELOG.md)
 - 版本发布：建议使用语义化版本（`v0.x.y`），每次发布附带关键改动和迁移说明。
 - 下一阶段（短期）：
-  - 增加更细粒度的离线单元测试（参数解析、打分与去重逻辑）。
-  - 增加文档示例资源和常见问题排障图谱。
-  - 提供最小化配置模板（按“仅 Zotero / Zotero+Notion”两条路径）。
+  - 提升导出/同步脚本的离线测试覆盖率（路径与边界条件）。
+  - 基于 `docs/TRIAGE_POLICY.md` 持续优化 issue 处理时效。
+  - 按月发布一次社区导向变更摘要，方便新贡献者跟进。
 
 ## 代码文件速览
 

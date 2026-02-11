@@ -9,7 +9,7 @@ This roadmap highlights near-term priorities to improve PaperPilot's reliability
 - [x] Issue/PR templates and release workflow
 - [x] Changelog baseline and dual-language README improvements
 
-## Milestone 2: Developer Experience (In Progress)
+## Milestone 2: Developer Experience (Done)
 
 - [x] Add local `Makefile` commands (`install`, `check`, `test`, `ci`)
 - [x] Add minimal unit tests for CLI availability
@@ -26,19 +26,25 @@ This roadmap highlights near-term priorities to improve PaperPilot's reliability
   - summarize
 - [x] Publish regular release notes (`v0.x.y`) with migration hints
 
-## Milestone 4: Reliability and Coverage (Planned)
+## Milestone 4: Reliability and Coverage (Done)
 
 - [x] Add unit tests for argument parsing and scoring logic
 - [x] Add fixture-based tests for dedupe and metadata enrichment
 - [x] Add smoke checks for docs command snippets
 - [x] Add dependency update automation
 
-## Milestone 5: Community and Adoption (In Progress)
+## Milestone 5: Community and Adoption (Done)
 
 - [x] Add support routing and question intake (`SUPPORT.md` + issue template)
 - [x] Add first-time contributor welcome automation
-- [ ] Publish a curated `good first issues` set with acceptance criteria
-- [ ] Document triage SLA and maintainer response policy
+- [x] Publish a curated `good first issues` set with acceptance criteria
+- [x] Document triage SLA and maintainer response policy
+
+## Milestone 6: Product Signal and Reach (Planned)
+
+- [ ] Expand offline test coverage for export/sync edge cases
+- [ ] Publish monthly highlights with user-facing deltas
+- [ ] Track issue first-response and newcomer conversion metrics
 
 ## Success Metrics
 

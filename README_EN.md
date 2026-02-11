@@ -51,6 +51,8 @@ Project governance docs:
 - Use cases: [`docs/USE_CASES.md`](docs/USE_CASES.md)
 - Before/after: [`docs/BEFORE_AFTER.md`](docs/BEFORE_AFTER.md)
 - Troubleshooting: [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md)
+- Good first issues: [`docs/GOOD_FIRST_ISSUES.md`](docs/GOOD_FIRST_ISSUES.md)
+- Triage policy: [`docs/TRIAGE_POLICY.md`](docs/TRIAGE_POLICY.md)
 - Env templates: [`.env.zotero.example`](.env.zotero.example), [`.env.zotero_notion.example`](.env.zotero_notion.example)
 
 Developer shortcuts:
@@ -81,9 +83,9 @@ The following snippet is from a real run log (`logs/watch_20260120_163223.log`):
 - Change history: [`CHANGELOG.md`](CHANGELOG.md)
 - Release process: use semantic tags (`v0.x.y`) with key changes and migration notes.
 - Near-term roadmap:
-  - Add more granular offline tests (argument parsing, scoring, dedupe logic).
-  - Add more practical documentation samples and a troubleshooting FAQ map.
-  - Provide minimal config templates for two paths: Zotero-only and Zotero+Notion.
+  - Increase offline coverage for export/sync edge cases.
+  - Improve issue response speed under the triage SLA.
+  - Publish monthly community-facing release highlights.
 
 ## Setup
 

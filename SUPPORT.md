@@ -46,3 +46,8 @@ make ci
 ```
 
 and then try a minimal dry-run command related to your workflow.
+
+## 6) New Contributor Entry
+
+- Starter tasks: see `docs/GOOD_FIRST_ISSUES.md`.
+- Triage and response expectations: see `docs/TRIAGE_POLICY.md`.

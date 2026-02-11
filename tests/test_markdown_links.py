@@ -33,6 +33,8 @@ class MarkdownLinkTest(unittest.TestCase):
             ROOT / "docs" / "BEFORE_AFTER.md",
             ROOT / "docs" / "RELEASE.md",
             ROOT / "docs" / "TROUBLESHOOTING.md",
+            ROOT / "docs" / "GOOD_FIRST_ISSUES.md",
+            ROOT / "docs" / "TRIAGE_POLICY.md",
         ]
         for md in files:
             self.assertTrue(md.exists(), msg=f"Missing markdown file: {md}")

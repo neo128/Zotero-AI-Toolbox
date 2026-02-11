@@ -5,7 +5,18 @@ All notable changes to this project are documented in this file.
 ## [Unreleased]
 
 ### Added
-- No notable changes yet.
+- New contributor onboarding docs:
+  - `docs/GOOD_FIRST_ISSUES.md`
+  - `docs/TRIAGE_POLICY.md`
+
+### Changed
+- Linked onboarding and triage docs from:
+  - `README.md`
+  - `README_EN.md`
+  - `CONTRIBUTING.md`
+  - `SUPPORT.md`
+  - `.github/ISSUE_TEMPLATE/config.yml`
+- Marked community/adoption roadmap tasks as complete in `ROADMAP.md`.
 
 ## [0.2.0] - 2026-02-09
 

@@ -46,3 +46,8 @@ python -m unittest discover -s tests -p "test_*.py" -v
 - Use the Usage Question template for setup/workflow help.
 - Include exact command lines, logs, and environment details when possible.
 - See `SUPPORT.md` for channel routing guidance.
+
+## New Contributor Scope
+
+- Start with `docs/GOOD_FIRST_ISSUES.md` for beginner-friendly tasks.
+- Follow `docs/TRIAGE_POLICY.md` for SLA and lifecycle expectations.
